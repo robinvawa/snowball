@@ -1,0 +1,5 @@
+- [Estrategia de distribuidores de Quantum Makers](quantum-makers-distributor-strategy.md) — los canales que le copian son capa de sourcing, no amenaza; medir por outlier, nunca por views absolutas.
+- [Herramienta ytsnowball](ytsnowball-tool.md) — descubre distribuidores de YouTube por snowball sobre las atribuciones `@creador` de los títulos.
+- [Escala y verdad de referencia de Quantum Makers](quantum-makers-scale.md) — 18,7M subs; su propio historial predice 3x mejor que las señales de distribuidores, cuyo mejor predictor resultó ser contaminación.
+- [Punto ciego del snowball](ytsnowball-blind-spot.md) — los distribuidores que no acreditan al creador son invisibles al método; hace falta búsqueda por frase de proyecto.
+- [Views siempre a perpetuidad](views-siempre-perpetuidad.md) — norma del usuario: al comparar vídeos o canales, nunca usar views crudas.

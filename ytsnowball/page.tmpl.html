@@ -1,0 +1,640 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mapa de distribuidores — Quantum Makers</title>
+<style>__CSS__</style>
+
+<header class="top"><div class="wrap">
+  <p class="eyebrow">Content sourcing · YouTube · __DATE__</p>
+  <h1>Mapa del ecosistema de distribuidores</h1>
+  <p class="sub">Canales que reeditan el mismo source material que Quantum Makers,
+  encontrados por snowball sobre las atribuciones <code>by @creador</code> que
+  ellos mismos ponen en sus títulos. Partimos de 13 canales conocidos.</p>
+  <div class="stats">
+    <div class="stat"><span class="n">__N_MINA__</span><span class="l">Creadores ya probados OK</span></div>
+    <div class="stat"><span class="n">__N_DIST__</span><span class="l">Distribuidores</span></div>
+    <div class="stat hot"><span class="n">+__N_NEW__</span><span class="l">Nuevos para vosotros</span></div>
+    <div class="stat"><span class="n">__SUBS__</span><span class="l">Subs combinados</span></div>
+    <div class="stat hot"><span class="n">__N_UNEXP__</span><span class="l">Creadores sin explorar</span></div>
+    <div class="stat warn"><span class="n">__N_BRAND2__</span><span class="l">Imitan vuestra marca</span></div>
+  </div>
+  <nav class="tabs" role="tablist">
+    <button data-tab="tab-prio" aria-selected="true">Prioridad de sourcing</button>
+    <button data-tab="tab-videos" aria-selected="false">Vídeos a evaluar</button>
+    <button data-tab="tab-dist" aria-selected="false">Distribuidores</button>
+    <button data-tab="tab-pool" aria-selected="false">Odds por creador</button>
+    <button data-tab="tab-vs" aria-selected="false">Ellos vs nosotros</button>
+    <button data-tab="tab-brand" aria-selected="false">Alerta de marca</button>
+  </nav>
+</div></header>
+
+<main class="wrap">
+
+<section id="tab-prio">
+  <h2>Prioridad de sourcing <span class="count rowcount"></span></h2>
+  <p class="lede">Los 574 vídeos de Quantum Makers son la única verdad de
+  referencia que hay aquí: mismo nivel de producción, misma audiencia, mismo
+  canal. Cruzándolos con el pool de distribuidores, cada creador cae en una de
+  tres situaciones muy distintas.</p>
+  <p class="lede"><b>Ya os funcionó</b> — hicisteis un vídeo suyo y fue outlier.
+  Medido sobre vuestro propio catálogo: cuando el primer vídeo de un creador os
+  funcionó, el <b>58 %</b> de las veces hubo otro acierto después; cuando no
+  funcionó, solo el <b>27 %</b>. Su catálogo es lo más rentable que podéis minar.
+  <b>Ya probado, no despegó</b> — deprioritzar. <b>Sin explorar</b> — los
+  distribuidores los han cubierto y vosotros no; aquí es donde está el
+  descubrimiento, aunque el orden dentro del grupo es poco fiable por sí solo. Para ese grupo la probabilidad sale de un modelo entrenado
+  con vuestras propias etiquetas, que añade algo que no teníamos: el
+  <b>tamaño del canal del propio creador</b>. AUC validado cruzado <b>__AUC__</b> en
+  vídeos recientes (__AUCALL__ sobre todo el histórico); 0,50 sería azar.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador">
+    <span class="seglabel">Situación</span>
+    <div class="seg" data-group="st" role="group" aria-label="Filtrar por situación">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="probado_ok" aria-pressed="false">Ya os funcionó</button>
+      <button data-seg="sin_explorar" aria-pressed="false">Sin explorar</button>
+      <button data-seg="probado_flojo" aria-pressed="false">No despegó</button>
+    </div>
+    <div class="seg" data-group="sz" role="group" aria-label="Filtrar por techo">
+      <button data-seg="all" aria-pressed="true">Todo techo</button>
+      <button data-seg="big" aria-pressed="false">Techo 1M+</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tQ">
+    <thead><tr>
+      <th data-k="t">Creador fuente</th>
+      <th>Situación</th>
+      <th data-k="p" class="num" data-dir="desc">P(siguiente acierto)</th>
+      <th data-k="qo" class="num">Vuestro outlier</th>
+      <th data-k="qv" class="num">Vuestro alcance</th>
+      <th data-k="qn" class="num">Vídeos vuestros</th>
+      <th data-k="cs" class="num">Subs creador</th>
+      <th data-k="cv" class="num">Views/vídeo suyo</th>
+      <th data-k="dr" class="num">Techo distrib.</th>
+    </tr></thead><tbody id="bQ"></tbody>
+  </table></div>
+</section>
+
+<section id="tab-videos" hidden>
+  <h2>Vídeos a evaluar <span class="count rowcount"></span></h2>
+  <p class="lede">Entran __N_IN__ de __N_ALL__ vídeos largos, por dos vías. La primera
+  es la <b>atribución</b>: acreditar a un creador en el título o la descripción.
+  La segunda es la <b>forma del título</b>, porque muchos D1/DV reales no
+  acreditan a nadie y aun así se reconocen — un sujeto en singular haciendo una
+  construcción, normalmente con marca de proceso («Start to Finish», «in 90
+  Days»). Un recopilatorio se lee distinto: una cifra, un objeto en plural y una
+  frase de gancho. Los __N_OUT__ descartados no cumplen ninguna de las dos. Los shorts no aparecen aquí porque <b>no entran en la base
+  de datos</b>: cualquier vídeo de menos de 3 minutos se descarta al cosechar, antes
+  de calcular nada. <b>Interés</b> combina cuatro señales: cuánto
+  supera el vídeo la línea base de su propio canal, su alcance proyectado a
+  perpetuidad, cuántos distribuidores distintos han ganado con ese mismo creador
+  fuente, y el engagement. Ordena por la columna que quieras.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar título, canal o creador…" aria-label="Buscar vídeo">
+    <span class="seglabel">Filtro</span>
+    <div class="seg" data-group="scope" role="group" aria-label="Filtrar por atribución">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="in" aria-pressed="false">Solo crédito en título</button>
+    </div>
+    <div class="seg" data-group="conf" role="group" aria-label="Filtrar por fiabilidad">
+      <button data-seg="all" aria-pressed="true">Toda edad</button>
+      <button data-seg="alta" aria-pressed="false">90+ días</button>
+      <button data-seg="fresh" aria-pressed="false">Últimos 60 días</button>
+    </div>
+    <div class="seg" data-group="cons" role="group" aria-label="Filtrar por consenso">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="multi" aria-pressed="false">Validado en 3+ canales</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tV">
+    <thead><tr>
+      <th data-k="t">Vídeo</th>
+      <th data-k="sk" class="num" data-dir="desc">Interés</th>
+      <th data-k="vw" class="num">Views</th>
+      <th data-k="pv" class="num">Perpetuidad</th>
+      <th data-k="po" class="num">Outlier</th>
+      <th data-k="xw" class="num">Consenso</th>
+      <th data-k="ag" class="num">Edad</th>
+      <th>Fiabilidad</th>
+    </tr></thead><tbody id="bV"></tbody>
+  </table></div>
+</section>
+
+<section id="tab-dist" hidden>
+  <h2>Distribuidores <span class="count rowcount"></span></h2>
+  <p class="lede">Ordenados por número de creadores fuente que cubren — la señal
+  más fiable de que el canal opera con vuestro mismo pool. <b>Atribución</b> es
+  el porcentaje de sus vídeos que acreditan a un creador en el título.</p>
+  <p class="lede">Todas las cifras salen del <b>catálogo completo de cada canal</b>,
+  con los Shorts fuera (3.929 excluidos, detectados de verdad y no solo por
+  duración) y contando únicamente los vídeos largos <b>que caen en vuestro
+  espacio de contenido</b>. Un canal sin ni uno de esos no aparece aquí: cinco
+  quedaron fuera, dos por publicar solo Shorts y tres porque ninguno de sus
+  vídeos largos es del nicho. <b>Vídeos largos</b> muestra debajo cuántos shorts se han quitado; un
+  <code>+</code> indica que el catálogo supera los 400 y está truncado.
+  <b>Fuentes</b> ya no viene del snowball sino de lo que el canal publica de
+  verdad, y por eso sube tanto en algunos casos. <b>Atribución</b> es sobre todo
+  el catálogo, con el porcentaje reciente debajo para ver quién ha cambiado de
+  práctica.</p>
+  <p class="lede"><b>Cuidado con los de «formato corto».</b> Dos canales
+  —TK Maker y Betelhem Tech— publican clips de exactamente 3 minutos, justo sobre
+  el umbral de corte. Eso les parte el catálogo en dos: a TK Maker se le excluyen
+  43 vídeos de 150-179 s que son el mismo formato que los 24 de 180 s que sí
+  entran, y los excluidos tienen incluso más views. Sus cifras salen de esa mitad
+  arbitraria, así que no son comparables con el resto. Para referencia, la
+  duración mediana es de 13 minutos o más en 109 de los 138 canales, y de 27
+  minutos en los vuestros.</p>
+  <p class="lede">Las dos columnas de views son <b>a perpetuidad</b>, nunca crudas:
+  comparar views sin proyectar castiga a quien publicó hace poco. Y son
+  <b>medianas, no medias</b>: las views por vídeo son una distribución de cola
+  pesada, y en el 59 % de estos canales la media va 2 o más veces por encima de la
+  mediana porque un único vídeo viral se la lleva. La mediana describe el vídeo
+  típico, que es lo que interesa. <b>Últimos 3 meses</b> se colorea en verde si va
+  por encima de la mediana histórica del canal y en rojo si por debajo, así que
+  señala de un vistazo quién crece y quién cae. Ese tramo empieza a los 21 días:
+  por debajo, la proyección multiplica por 5-20 y sería extrapolación, no medida.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar canal o handle…" aria-label="Buscar distribuidor">
+    <div class="seg" data-group="size" role="group" aria-label="Filtrar por tamaño">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="big" aria-pressed="false">100k+ subs</button>
+      <button data-seg="mid" aria-pressed="false">10k–100k</button>
+      <button data-seg="new" aria-pressed="false">Solo nuevos</button>
+    </div>
+    <div class="seg" data-group="fmt" role="group" aria-label="Filtrar por formato">
+      <button data-seg="all" aria-pressed="true">Todo formato</button>
+      <button data-seg="long" aria-pressed="false">Solo formato largo</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tD">
+    <thead><tr>
+      <th data-k="t">Canal</th><th data-k="s" class="num">Subs</th>
+      <th data-k="v" class="num">Vídeos de nuestro espacio</th>
+      <th data-k="dur" class="num">Duración típica</th>
+      <th data-k="a" class="num">Perpetuidad típica</th>
+      <th data-k="r90" class="num">Reciente (12-150 d)</th>
+      <th data-k="c" class="num" data-dir="desc">Fuentes</th>
+      <th data-k="r">Atribución</th><th>Estado</th>
+    </tr></thead><tbody id="bD"></tbody>
+  </table></div>
+</section>
+
+<section id="tab-pool" hidden>
+  <h2>Odds por creador <span class="count rowcount"></span></h2>
+  <p class="lede">Como solo hace falta <em>un</em> proyecto top por creador, esto
+  puntúa <b>su mejor demostración, no su media</b>: los vídeos flojos nunca restan,
+  solo dejan de sumar. Un creador con un pico enorme y cinco fracasos ya ha
+  demostrado que el proyecto existe.</p>
+  <p class="lede"><b>Fuerza</b> mide esa mejor demostración exigiendo las dos
+  cosas a la vez — que superara la línea base de su canal <em>y</em> que llegara a
+  gente de verdad. Es el percentil menor de ambas, así que un x400 que alcanzó 800
+  personas no puntúa: ahí el mérito es del azar sobre una base minúscula, no del
+  material. <b>Confirmaciones</b> son los otros distribuidores que también lo
+  petaron con ese creador; cada una elimina el 40 % de la duda restante.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador fuente">
+    <span class="seglabel">Evidencia</span>
+    <div class="seg" data-group="ev" role="group" aria-label="Filtrar por evidencia">
+      <button data-seg="all" aria-pressed="true">Toda</button>
+      <button data-seg="firme" aria-pressed="false">Confirmada por 2+ canales</button>
+      <button data-seg="med" aria-pressed="false">Media o mejor</button>
+    </div>
+    <div class="seg" data-group="reach" role="group" aria-label="Filtrar por alcance">
+      <button data-seg="all" aria-pressed="true">Todo alcance</button>
+      <button data-seg="big" aria-pressed="false">Demostrado con 1M+</button>
+    </div>
+    <div class="seg" data-group="odds" role="group" aria-label="Filtrar por odds">
+      <button data-seg="all" aria-pressed="true">Todas las odds</button>
+      <button data-seg="hi" aria-pressed="false">90 %+</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tP">
+    <thead><tr>
+      <th data-k="t">Creador fuente</th>
+      <th data-k="od" class="num" data-dir="desc">Odds proyecto top</th>
+      <th data-k="fz" class="num">Fuerza</th>
+      <th data-k="cf" class="num">Confirm.</th>
+      <th data-k="ol" class="num">Outlier</th>
+      <th data-k="rc" class="num">Alcance</th>
+      <th data-k="cs">Demostrado en</th>
+      <th>Evidencia</th>
+    </tr></thead><tbody id="bP"></tbody>
+  </table></div>
+</section>
+
+<section id="tab-vs" hidden>
+  <h2>El ecosistema frente a Quantum Makers</h2>
+  <p class="lede">Los 140 distribuidores juntos, comparados con vuestro canal.
+  Todo sobre los mismos criterios: vídeos de más de 3 minutos, dentro de vuestro
+  espacio de contenido, y con las views <b>siempre proyectadas a perpetuidad</b>
+  para que la comparación no dependa de cuándo publicó cada uno.</p>
+
+  <h3 class="sub-h">Escala</h3>
+  <div class="vs" id="vsTable"></div>
+  <p class="lede">La comparación de medianas es la que cuenta: vuestro vídeo
+  típico proyecta <b id="ratioViews"></b> veces lo que el suyo. Sumados los 140
+  canales no llegan a una décima parte de vuestro total, y eso publicando cinco
+  veces más vídeos.</p>
+
+  <h3 class="sub-h">Solapamiento de creadores fuente</h3>
+  <div class="split">
+    <div class="only-them"><span class="n" id="onlyThem"></span>
+      <span class="l">Solo ellos — vuestro hueco por explorar</span></div>
+    <div><span class="n" id="shared"></span>
+      <span class="l">Compartidos</span></div>
+    <div class="only-us"><span class="n" id="onlyUs"></span>
+      <span class="l">Solo vosotros — vuestro terreno propio</span></div>
+  </div>
+  <p class="lede">Ellos tocan el <b id="ovOurs"></b> % de vuestros creadores;
+  vosotros habéis tocado el <b id="ovTheirs"></b> % de los suyos. La asimetría es
+  la oportunidad: hay mucho más pool suyo sin explorar por vosotros que al revés.</p>
+
+  <h3 class="sub-h">Radar o espejo</h3>
+  <p class="lede">Sobre los creadores que ambos habéis cubierto, cuántas veces
+  publicaron <b>antes</b> que vosotros y cuántas <b>después</b>. Un canal que solo
+  publica después es un espejo: no puede enseñaros nada que ya no supierais.
+  En el conjunto del ecosistema son <b id="leadTot"></b> veces antes frente a
+  <b id="followTot"></b> después — el <b id="followPct"></b> % del tiempo os siguen.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar canal…" aria-label="Buscar canal">
+    <div class="seg" data-group="rk" role="group" aria-label="Filtrar por rol">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="scout" aria-pressed="false">Han llegado antes</button>
+      <button data-seg="mirror" aria-pressed="false">Solo os siguen</button>
+      <button data-seg="indep" aria-pressed="false">50 %+ exclusivos</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tR">
+    <thead><tr>
+      <th data-k="t">Canal</th>
+      <th data-k="s" class="num">Subs</th>
+      <th data-k="n" class="num">Creadores</th>
+      <th data-k="ov" class="num">Solapan con vosotros</th>
+      <th data-k="x" class="num" data-dir="desc">Exclusivos suyos</th>
+      <th data-k="ld" class="num">Antes que vosotros</th>
+      <th data-k="fw" class="num">Después</th>
+      <th data-k="lag" class="num">Días de retraso</th>
+    </tr></thead><tbody id="bR"></tbody>
+  </table></div>
+
+  <h3 class="sub-h">El hueco: creadores que ellos cubren mucho y vosotros nunca</h3>
+  <p class="lede">Ordenados por cuántos distribuidores distintos los han hecho.
+  Que <b id="nGap"></b> creadores hayan pasado por 3 o más canales sin que vosotros
+  los toquéis es la lista de sourcing más directa que sale de todo esto.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador">
+    <div class="seg" data-group="gz" role="group" aria-label="Filtrar por alcance">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="big" aria-pressed="false">Pico 1M+</button>
+      <button data-seg="hot" aria-pressed="false">5+ distribuidores</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tG">
+    <thead><tr>
+      <th data-k="t">Creador fuente</th>
+      <th data-k="d" class="num" data-dir="desc">Distribuidores</th>
+      <th data-k="r" class="num">Mejor alcance</th>
+      <th data-k="o" class="num">Mejor outlier</th>
+      <th data-k="s" class="num">Subs del creador</th>
+      <th data-k="ls" class="num">Último visto</th>
+    </tr></thead><tbody id="bG"></tbody>
+  </table></div>
+
+  <h3 class="sub-h">Mix temático</h3>
+  <p class="lede">Reparto de temáticas en sus vídeos frente a los vuestros. Las
+  diferencias marcan dónde el ecosistema está sobreindexado respecto a vosotros.</p>
+  <div class="tbl"><table id="tT">
+    <thead><tr>
+      <th data-k="topic">Temática</th>
+      <th data-k="them" class="num" data-dir="desc">Ellos %</th>
+      <th data-k="us" class="num">Vosotros %</th>
+      <th data-k="gap" class="num">Diferencia</th>
+    </tr></thead><tbody id="bT"></tbody>
+  </table></div>
+
+  <h3 class="sub-h">Nombres que imitan el vuestro</h3>
+  <p class="lede"><b id="nBrand"></b> canales del ecosistema llevan un nombre
+  construido sobre el vuestro. El detector exige el componente distintivo
+  («quantum», o una variante a una letra de distancia como <i>Quantam</i>);
+  «maker» a secas es vocabulario genérico del nicho y no cuenta.</p>
+  <div class="alert"><ul id="brandList"></ul></div>
+</section>
+
+<section id="tab-brand" hidden>
+  <h2>Alerta de marca</h2>
+  <p class="lede"><b>__N_BRAND2__</b> canales distribuidores operan con nombres
+  construidos sobre el vuestro. <b>Quantum Markers TV</b> y <b>Quantam Tech HD</b>
+  son typosquats directos — una letra de diferencia. Además, <b>__N_OURS__
+  distribuidores acreditan a @QuantumMakers</b> en sus títulos: no solo comparten
+  vuestro pool de raw, están reeditando material vuestro.</p>
+  <div class="alert">
+    <h3>Nombres derivados de Quantum Makers</h3>
+    <p>Ninguno es vuestro. El detector exige el componente distintivo
+    («quantum», o una variante a una letra); «maker» a secas es vocabulario
+    genérico del nicho y no cuenta. Relevante para confusión de marca y para
+    reclamaciones de tipo trademark si os interesa esa vía.</p>
+    <ul id="brandList2"></ul>
+  </div>
+</section>
+
+<details class="method">
+  <summary>Método, fórmulas y límites de estos datos</summary>
+  <div class="body">
+    <p><b>Cómo se encontraron los canales.</b></p>
+    <ol>
+      <li>Se resolvieron los 13 canales de tu lista. Tres handles no existían
+      (<code>Makerium</code>, <code>World Tech</code>, <code>WildCraft Builds</code>
+      apuntaban a canales vacíos o ajenos); el snowball recuperó los reales.</li>
+      <li>De cada canal se extraen sus últimos 50 vídeos y, de los títulos, las
+      atribuciones <code>@creador</code>. El 57 % de los títulos acredita al
+      creador original, lo que identifica el source material sin matching difuso.</li>
+      <li>Cada creador se busca en YouTube; todo canal que publica un vídeo
+      acreditándolo y no es el creador mismo entra como candidato.</li>
+      <li>Se confirma como distribuidor si cubre 2+ creadores del pool, o si más
+      del 30 % de sus propios títulos usan el patrón de atribución.</li>
+    </ol>
+
+    <p><b>Views a perpetuidad.</b> Un vídeo de un mes y otro de tres años no son
+    comparables en views. La curva de maduración estima qué fracción de sus views
+    de por vida lleva acumuladas un vídeo de <code>d</code> días, y dividiendo se
+    proyecta el total:</p>
+    <div class="formula">z = ((d+1) / 290,9357027) ^ 0,672538774
+zH = (1279 / 290,9357027) ^ 0,672538774
+madurez(d) = (z / (1+z)) / (zH / (1+zH))
+perpetuidad = views / madurez(d)</div>
+    <p>La curva satura a los 1.278 días: 25 % de las views al mes, 43 % a los
+    3 meses, 74 % al año, 89 % a los 2 años. Por eso un vídeo muy nuevo recibe un
+    multiplicador enorme (x34 el primer día), y la columna <b>Fiabilidad</b>
+    marca en rojo los de menos de 21 días — su proyección es una extrapolación
+    agresiva, no un dato. El score de interés amortigua esos casos.</p>
+
+    <p><b>Las cuatro señales del score de interés.</b></p>
+    <ul>
+      <li><b>Outlier de perpetuidad (34 %)</b> — views proyectadas del vídeo
+      dividido por la mediana proyectada de su propio canal. Neutraliza a la vez
+      el tamaño del canal y la edad del vídeo.</li>
+      <li><b>Alcance proyectado (28 %)</b> — las views a perpetuidad en absoluto,
+      porque un x10 sobre una base minúscula importa menos que uno sobre una
+      grande.</li>
+      <li><b>Consenso entre distribuidores (28 %)</b> — de todos los canales que
+      cubrieron ese mismo creador fuente, cuántos superaron su propia línea base.
+      Es la señal más difícil de falsear: si 5 canales distintos ganan con el
+      mismo proyecto, el mérito es del proyecto, no del canal.</li>
+      <li><b>Engagement (10 %)</b> — ratio de likes sobre views.</li>
+    </ul>
+    <p>Cada señal entra como percentil dentro del conjunto, así que el score es
+    una posición relativa de 0 a 100, no una predicción de views.</p>
+
+    <p><b>Lo que dicen vuestros propios datos.</b> Se descargó el catálogo
+    completo de Quantum Makers (574 vídeos en scope, 93 % con creador acreditado,
+    mediana de 3,0 M de views a perpetuidad) y se cruzó con el pool de
+    distribuidores. Es la única verdad de referencia disponible, y obliga a
+    matizar bastante el resto del panel.</p>
+    <ul>
+      <li><b>Vuestro historial predice, y bastante.</b> En los 82 creadores de los
+      que habéis publicado 2 o más vídeos: si el primero fue outlier, el 58 % de
+      las veces hubo otro acierto después; si no lo fue, solo el 27 %. Un factor
+      de 2,1. Ranquear por creador tiene sentido, y vuestro propio track record es
+      con diferencia el mejor predictor que existe aquí.</li>
+      <li><b>Las señales de los distribuidores predicen poco.</b> Contra vuestro
+      resultado real, correlacionan r ≈ 0,25 — un 6 % de la varianza explicada.</li>
+      <li><b>Y una parte de eso era espejismo.</b> El mejor predictor aparente era
+      el número de distribuidores que cubren a un creador (AUC 0,673), pero en el
+      88 % de los casos solapados <em>vosotros publicasteis primero</em>: los
+      distribuidores se apilan sobre lo que ya os funcionó. Contando solo las
+      coberturas <em>anteriores</em> a vuestro vídeo, el AUC cae a <b>0,510</b>,
+      que es azar exacto. Con la salvedad de que solo 22 creadores tienen
+      cobertura previa, así que esto no demuestra que la señal no sirva: demuestra
+      que no hay evidencia de que sirva, y que la que parecía fuerte era
+      contaminación.</li>
+    </ul>
+    <p>Consecuencia práctica: los distribuidores valen sobre todo como
+    <em>cobertura</em> — encuentran creadores que no conocéis — no como
+    <em>predicción</em>. Por eso la pestaña de prioridad ordena primero por
+    situación respecto a vuestro canal y solo después por señal de distribuidor,
+    y por eso el orden dentro del grupo «sin explorar» hay que leerlo como una
+    lista de candidatos, no como un ranking fiable.</p>
+
+    <p><b>Odds de que un creador tenga un proyecto top.</b> El objetivo cambia el
+    modelo: como basta con <em>un</em> proyecto top por creador, lo que importa es
+    su mejor demostración, no su nivel medio. Un creador con un pico enorme y
+    cinco fracasos ha demostrado que el proyecto existe, y promediarlo sería
+    borrar justo el dato que buscamos. Por eso las lecturas flojas nunca restan:
+    solo dejan de sumar.</p>
+    <div class="formula">fuerza(lectura) = min( percentil del outlier , percentil del alcance )
+fuerza(creador) = la mejor de sus lecturas
+odds = 1 - (1 - fuerza) x 0,6 ^ (nº de confirmaciones)</div>
+    <p>El <code>min</code> de los dos percentiles es el ajuste por tamaño de canal.
+    Una lectura solo cuenta como fuerte si supera la línea base de su canal
+    <em>y</em> llega a gente de verdad: un x400 que alcanzó 800 personas es un
+    artefacto de una mediana minúscula e inestable, mientras que un x5 que alcanzó
+    3,5 millones es un resultado real. Con este criterio, creadores como
+    <code>@ProcessK</code> (pico x137 pero solo 3.981 views proyectadas) caen por
+    debajo del 50 %.</p>
+    <p>Ese ajuste está medido, no supuesto. La dispersión interna del log-outlier
+    resulta ser plana entre tamaños de canal (~0,67–0,80 de desviación en todos
+    los tramos), así que normalizar por volatilidad no habría servido de nada. Lo
+    que sí separa a los canales es su valor predictivo: una lectura de un canal de
+    menos de 10k subs correlaciona <b>0,030</b> con el resto de lecturas de ese
+    mismo creador, frente a <b>0,120</b> en los de 10k–100k. El alcance es la
+    variable que arrastra esa credibilidad, y por eso es el alcance lo que se
+    exige.</p>
+    <p>Cada <b>confirmación</b> — otro distribuidor que también lo petó con ese
+    creador — elimina el 40 % de la duda que quede. La columna <b>Evidencia</b>
+    avisa de lo contrario: <em>débil</em> significa que todo se apoya en una única
+    lectura sin confirmar, así que trátalo como pista y no como hecho.</p>
+
+    <p><b>Filtrado de contenido ajeno.</b> Se descarta solo con señal negativa
+    fuerte y sin evidencia a favor: compilaciones tipo listicle, rondas de
+    gadgets e inventos, celebrities, procesos de fábrica y memes. Un vídeo que
+    acredita a un creador fuente nunca se descarta por estos motivos.</p>
+    <p><b>Los shorts no se filtran: no existen.</b> Cualquier vídeo de menos de 3
+    minutos se descarta en la cosecha, antes de que se calcule ninguna métrica.
+    Esto importa más de lo que parece, porque la mediana de cada canal es la base
+    contra la que se mide todo outlier, y los shorts la hundían: en 47 de los 140
+    canales la mediana estaba deprimida, y en el peor caso —<code>Gear Tech
+    HD</code>— pasaba de 158.126 reales a 66.234, inflando cada uno de sus
+    outliers por un factor de 2,4.
+    El vocabulario de detección es multilingüe (inglés, español, francés,
+    portugués, vietnamita, ruso, turco, indonesio y alemán) porque parte del
+    material relevante no está en inglés. Los casos ambiguos quedan como
+    <em>dudosos</em> y se ven con el filtro «+ dudosos», nunca ocultos del todo.</p>
+
+    <p><b>Límites.</b> Se agotó la cuota diaria de búsqueda de la API tras 63
+    creadores de los 687 detectados, así que la lista de canales es un suelo, no
+    un techo. De cada canal se leen sus 50 vídeos más recientes, de modo que el
+    catálogo antiguo de los canales grandes queda fuera. Los canales que solo
+    acreditan en la descripción están infrarrepresentados. Las cifras de
+    suscriptores las redondea YouTube.</p>
+  </div>
+</details>
+
+<p class="foot">YouTube Data API v3 · 63 búsquedas de creador · __N_VIDS__ vídeos
+en scope de __N_DIST__ canales · datos de __DATE__</p>
+</main>
+
+<script>
+const V=__VJSON__, D=__DJSON__, P=__PJSON__, Q=__QJSON__;
+const C=__CJSON__, G=__GJSON__, R=__RJSON__, T=__TJSON__;
+__JS__
+const YT='https://www.youtube.com/watch?v=';
+const colsV=[
+  r=>'<td class="name"><a href="'+YT+r.id+'" target="_blank" rel="noopener">'+r.t+'</a>'
+     +'<span class="h">'+r.ch+(r.cr?' &nbsp;·&nbsp; @'+r.cr:'')+'</span></td>',
+  r=>'<td class="num"><span class="score"><span class="track"><i style="width:'+r.sk+'%"></i></span>'+r.sk.toFixed(0)+'</span></td>',
+  r=>'<td class="num">'+kfmt(r.vw)+'</td>',
+  r=>'<td class="num" style="color:var(--accent);font-weight:600">'+kfmt(r.pv)+'</td>',
+  r=>'<td class="num" style="color:'+(r.po>=5?'var(--signal)':'inherit')+'">x'+(r.po>=100?Math.round(r.po):r.po.toFixed(1))+'</td>',
+  r=>'<td class="num">'+(r.xd?('<b>'+r.xw+'</b>/'+r.xd):'—')+'</td>',
+  r=>'<td class="num">'+r.ag+' d</td>',
+  r=>'<td><span class="chip '+r.cf+'">'+r.cf+'</span>'+(r.cr?'':' <span class="chip unsure">solo desc.</span>')+'</td>',
+];
+const colsD=[
+  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">'+r.t+'</a><span class="h">'+(r.h||'')+'</span></td>',
+  r=>'<td class="num">'+fmt(r.s)+'</td>',
+  r=>'<td class="num">'+fmt(r.v)+(r.cap?'+':'')+'<span class="h">'+(r.part?'solo muestra':('de '+r.vlong+' largos · -'+r.sh+' shorts'))+'</span></td>',
+  r=>'<td class="num">'+(r.dur?Math.floor(r.dur/60)+'m'+String(r.dur%60).padStart(2,'0'):'—')
+     +(r.dur&&r.dur<=240?'<span class="h" style="color:var(--alert)">formato corto</span>':'')+'</td>',
+  r=>'<td class="num">'+kfmt(r.a)+'</td>',
+  r=>'<td class="num">'+(r.r90==null?'<span style="color:var(--ink-3)">sin publicar</span>'
+     :'<span style="color:'+(r.n90<3?'var(--ink-3)':(r.r90>r.a*1.2?'var(--good)':r.r90<r.a*0.8?'var(--alert)':'inherit'))+';font-weight:'+(r.n90<3?'400':'600')+'">'+kfmt(r.r90)+'</span>'
+     +'<span class="h"'+(r.n90<3?' style="color:var(--alert)"':'')+'>'+r.n90+(r.n90===1?' vídeo — sin fiabilidad':(r.n90<3?' vídeos — poco fiable':' vídeos'))+'</span>')+'</td>',
+  r=>'<td class="num">'+r.c+'</td>',
+  r=>'<td><span class="bar'+(r.r>=0.6?' hi':'')+'"><i style="width:'+Math.round(r.r*100)+'%"></i></span><span class="mono" style="font-size:11.5px">'+Math.round(r.r*100)+'%</span><span class="h">'+Math.round(r.rr*100)+'% reciente</span></td>',
+  r=>'<td>'+(r.seed?'<span class="chip seed">ya conocido</span>':'')+(r.brand?' <span class="chip brand">imita marca</span>':'')+'</td>',
+];
+const colsP=[
+  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
+     +'<span class="h">mejor: <a href="'+YT+r.bv+'" target="_blank" rel="noopener">'+r.bt.slice(0,64)+'</a></span></td>',
+  r=>'<td class="num"><span class="score"><span class="track"><i style="width:'+Math.round(r.od*100)+'%"></i></span>'+Math.round(r.od*100)+'%</span></td>',
+  r=>'<td class="num" style="color:'+(r.fz>=0.6?'var(--good)':r.fz<0.4?'var(--ink-3)':'inherit')+';font-weight:'+(r.fz>=0.6?'650':'400')+'">p'+Math.round(r.fz*100)+'</td>',
+  r=>'<td class="num">'+(r.cf?('<b>'+r.cf+'</b> de '+(r.d-1)):'0 de '+(r.d-1))+'</td>',
+  r=>'<td class="num" style="color:'+(r.ol>=12?'var(--signal)':'inherit')+'">x'+(r.ol>=100?Math.round(r.ol):r.ol.toFixed(1))+'</td>',
+  r=>'<td class="num">'+kfmt(r.rc)+'</td>',
+  r=>'<td style="font-size:12.5px">'+r.ch.slice(0,22)+'<span class="h">'+kfmt(r.cs)+' subs</span></td>',
+  r=>'<td><span class="chip '+({firme:'alta',media:'media'}[r.ev]||'baja')+'">'+r.ev+'</span></td>',
+];
+wire('tV','bV',V,colsV,(r,s)=>{
+  if(s.q && !(r.t+' '+r.ch+' '+r.cr).toLowerCase().includes(s.q)) return false;
+  if(s.seg.scope==='in' && !r.cr) return false;
+  if(s.seg.conf==='alta' && r.ag<90) return false;
+  if(s.seg.conf==='fresh' && r.ag>60) return false;
+  if(s.seg.cons==='multi' && r.xw<3) return false;
+  return true;
+},'sk');
+
+const STATUS={probado_ok:['Ya os funcionó','alta'],probado_flojo:['No despegó','baja'],sin_explorar:['Sin explorar','media']};
+const colsQ=[
+  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
+     +'<span class="h">'+(r.qi?'vuestro: <a href="'+YT+r.qi+'" target="_blank" rel="noopener">'+r.qt.slice(0,58)+'</a>'
+       :(r.di?'distrib.: <a href="'+YT+r.di+'" target="_blank" rel="noopener">'+r.dt.slice(0,58)+'</a>':''))+'</span></td>',
+  r=>'<td><span class="chip '+STATUS[r.st][1]+'">'+STATUS[r.st][0]+'</span></td>',
+  r=>'<td class="num"><span class="score"><span class="track"><i style="width:'+Math.round(r.p*100)+'%"></i></span>'+Math.round(r.p*100)+'%</span></td>',
+  r=>'<td class="num" style="color:'+(r.qo>=2?'var(--good)':'inherit')+';font-weight:'+(r.qo>=2?'650':'400')+'">'+(r.qn?'x'+r.qo.toFixed(1):'—')+'</td>',
+  r=>'<td class="num">'+(r.qn?kfmt(r.qv):'—')+'</td>',
+  r=>'<td class="num">'+(r.qn||'—')+'</td>',
+  r=>'<td class="num" style="color:'+(r.cs>=1000000?'var(--good)':'inherit')+'">'+(r.cs?kfmt(r.cs):'—')+'</td>',
+  r=>'<td class="num">'+(r.cv?kfmt(r.cv):'—')+'</td>',
+  r=>'<td class="num">'+(r.dr?kfmt(r.dr):'—')+'</td>',
+];
+wire('tQ','bQ',Q,colsQ,(r,s)=>{
+  if(s.q && !(r.t+' '+(r.qt||'')+' '+(r.dt||'')).toLowerCase().includes(s.q)) return false;
+  if(s.seg.st!=='all' && r.st!==s.seg.st) return false;
+  if(s.seg.sz==='big' && Math.max(r.qv||0,r.dr||0)<1000000) return false;
+  return true;
+},'p');
+
+// ---- Ellos vs nosotros ----
+(function(){
+  const rows=[
+    ['Vídeos analizados', C.d_videos, C.q_videos, kfmt],
+    ['Views a perpetuidad, suma', C.d_views, C.q_views, kfmt],
+    ['Perpetuidad del vídeo típico', C.d_median_views, C.q_median_views, kfmt],
+    ['Duración típica', C.d_median_dur, C.q_median_dur, s=>Math.floor(s/60)+'m'+String(s%60).padStart(2,'0')],
+    ['Creadores fuente', C.d_creators, C.q_creators, kfmt],
+  ];
+  let h='<div class="row"><div class="head">Los 140 distribuidores</div>'
+       +'<div class="lbl"></div><div class="head us">Quantum Makers</div></div>';
+  for(const [lbl,them,us,fmt] of rows){
+    const mx=Math.max(them,us)||1;
+    h+='<div class="row">'
+      +'<div class="side them">'+fmt(them)+'<span class="meter"><i style="width:'+(100*them/mx)+'%"></i></span></div>'
+      +'<div class="lbl">'+lbl+'</div>'
+      +'<div class="side us"><span class="meter"><i style="width:'+(100*us/mx)+'%"></i></span>'+fmt(us)+'</div>'
+      +'</div>';
+  }
+  document.getElementById('vsTable').innerHTML=h;
+  const set=(id,val)=>{const e=document.getElementById(id); if(e) e.textContent=val;};
+  set('ratioViews', Math.round(C.q_median_views/Math.max(1,C.d_median_views)).toLocaleString('es-ES'));
+  set('onlyThem', C.only_theirs); set('shared', C.shared_creators); set('onlyUs', C.only_ours);
+  set('ovOurs', C.overlap_of_ours); set('ovTheirs', C.overlap_of_theirs);
+  set('leadTot', C.total_lead); set('followTot', C.total_follow);
+  set('followPct', Math.round(100*C.total_follow/(C.total_lead+C.total_follow)));
+  set('nGap', G.filter(g=>g.d>=3).length);
+  const brands=R.filter(r=>r.bs>=0.5).sort((a,b)=>b.bs-a.bs||b.s-a.s);
+  set('nBrand', brands.length);
+  const brandHtml=brands.map(r=>
+    '<li><a href="'+r.u+'" target="_blank" rel="noopener">'+r.t+'</a>'
+    +'<span class="mono" style="color:var(--ink-3);font-size:12.5px">'+(r.h||'')+'</span>'
+    +'<span class="mono" style="margin-left:auto">'+kfmt(r.s)+' subs · similitud '+r.bs.toFixed(2)+'</span>'
+    +'<span class="h" style="flex-basis:100%">coincide en: '+r.bt.join(', ')+'</span></li>').join('');
+  document.getElementById('brandList').innerHTML=brandHtml;
+  document.getElementById('brandList2').innerHTML=brandHtml;
+})();
+const colsR=[
+  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">'+r.t+'</a><span class="h">'+(r.h||'')+'</span></td>',
+  r=>'<td class="num">'+kfmt(r.s)+'</td>',
+  r=>'<td class="num">'+r.n+'</td>',
+  r=>'<td class="num">'+r.ov+'%</td>',
+  r=>'<td class="num" style="color:'+(r.x>=10?'var(--signal)':'inherit')+'">'+r.x+'</td>',
+  r=>'<td class="num" style="color:'+(r.ld?'var(--good)':'var(--ink-3)')+';font-weight:'+(r.ld?'650':'400')+'">'+(r.ld||'—')+'</td>',
+  r=>'<td class="num">'+(r.fw||'—')+'</td>',
+  r=>'<td class="num">'+(r.lag==null?'—':r.lag+' d')+'</td>',
+];
+wire('tR','bR',R,colsR,(r,s)=>{
+  if(s.q && !(r.t+' '+(r.h||'')).toLowerCase().includes(s.q)) return false;
+  if(s.seg.rk==='scout') return r.ld>0;
+  if(s.seg.rk==='mirror') return r.ld===0 && r.fw>0;
+  if(s.seg.rk==='indep') return r.n>0 && (100-r.ov)>=50;
+  return true;
+},'x');
+const colsG=[
+  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
+     +'<span class="h">mejor: <a href="'+YT+r.bv+'" target="_blank" rel="noopener">'+r.bt.slice(0,60)+'</a></span></td>',
+  r=>'<td class="num"><b>'+r.d+'</b></td>',
+  r=>'<td class="num" style="color:var(--accent);font-weight:600">'+kfmt(r.r)+'</td>',
+  r=>'<td class="num" style="color:'+(r.o>=12?'var(--signal)':'inherit')+'">x'+(r.o>=100?Math.round(r.o):r.o.toFixed(1))+'</td>',
+  r=>'<td class="num">'+(r.s==null?'?':kfmt(r.s))+'</td>',
+  r=>'<td class="num" style="font-size:12px">'+r.ls+'</td>',
+];
+wire('tG','bG',G,colsG,(r,s)=>{
+  if(s.q && !(r.t+' '+r.bt).toLowerCase().includes(s.q)) return false;
+  if(s.seg.gz==='big') return r.r>=1000000;
+  if(s.seg.gz==='hot') return r.d>=5;
+  return true;
+},'d');
+const colsT=[
+  r=>'<td class="name">'+r.topic.replace(/_/g,' ')+'</td>',
+  r=>'<td class="num">'+r.them.toFixed(1)+'%</td>',
+  r=>'<td class="num">'+r.us.toFixed(1)+'%</td>',
+  r=>'<td class="num" style="color:'+(r.gap>=3?'var(--signal)':r.gap<=-3?'var(--accent)':'var(--ink-3)')+';font-weight:'+(Math.abs(r.gap)>=3?'650':'400')+'">'+(r.gap>0?'+':'')+r.gap.toFixed(1)+'</td>',
+];
+wire('tT','bT',T,colsT,()=>true,'them');
+wire('tD','bD',D,colsD,(r,s)=>{
+  if(s.q && !(r.t+' '+(r.h||'')).toLowerCase().includes(s.q)) return false;
+  if(s.seg.size==='big') return r.s>=100000;
+  if(s.seg.size==='mid') return r.s>=10000 && r.s<100000;
+  if(s.seg.fmt==='long' && r.dur && r.dur<=240) return false;
+  if(s.seg.size==='big') return r.s>=100000;
+  if(s.seg.size==='mid') return r.s>=10000 && r.s<100000;
+  if(s.seg.size==='new') return !r.seed;
+  return true;
+},'c');
+wire('tP','bP',P,colsP,(r,s)=>{
+  if(s.q && !(r.t+' '+r.bt).toLowerCase().includes(s.q)) return false;
+  if(s.seg.ev==='firme' && r.ev!=='firme') return false;
+  if(s.seg.ev==='med' && r.ev==='débil') return false;
+  if(s.seg.reach==='big' && r.rc<1000000) return false;
+  if(s.seg.odds==='hi' && r.od<0.9) return false;
+  return true;
+},'od');
+</script>

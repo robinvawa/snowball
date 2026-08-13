@@ -1,0 +1,11 @@
+# La API key nunca se sube
+.env
+
+__pycache__/
+
+# Caché de respuestas de la API: 64 MB y se regenera sola
+data/cache/
+
+# Derivados: los reconstruye metrics.py a partir de full_videos.json
+data/scored_videos.json
+data/quota.json
