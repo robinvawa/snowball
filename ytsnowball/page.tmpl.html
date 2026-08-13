@@ -18,61 +18,15 @@
     <div class="stat warn"><span class="n">__N_BRAND2__</span><span class="l">Imitan vuestra marca</span></div>
   </div>
   <nav class="tabs" role="tablist">
-    <button data-tab="tab-prio" aria-selected="true">Prioridad de sourcing</button>
+    <button data-tab="tab-pool" aria-selected="true">Odds por creador</button>
     <button data-tab="tab-videos" aria-selected="false">Vídeos a evaluar</button>
     <button data-tab="tab-dist" aria-selected="false">Distribuidores</button>
-    <button data-tab="tab-pool" aria-selected="false">Odds por creador</button>
     <button data-tab="tab-vs" aria-selected="false">Ellos vs nosotros</button>
     <button data-tab="tab-brand" aria-selected="false">Alerta de marca</button>
   </nav>
 </div></header>
 
 <main class="wrap">
-
-<section id="tab-prio">
-  <h2>Prioridad de sourcing <span class="count rowcount"></span></h2>
-  <p class="lede">Los 574 vídeos de Quantum Makers son la única verdad de
-  referencia que hay aquí: mismo nivel de producción, misma audiencia, mismo
-  canal. Cruzándolos con el pool de distribuidores, cada creador cae en una de
-  tres situaciones muy distintas.</p>
-  <p class="lede"><b>Ya os funcionó</b> — hicisteis un vídeo suyo y fue outlier.
-  Medido sobre vuestro propio catálogo: cuando el primer vídeo de un creador os
-  funcionó, el <b>58 %</b> de las veces hubo otro acierto después; cuando no
-  funcionó, solo el <b>27 %</b>. Su catálogo es lo más rentable que podéis minar.
-  <b>Ya probado, no despegó</b> — deprioritzar. <b>Sin explorar</b> — los
-  distribuidores los han cubierto y vosotros no; aquí es donde está el
-  descubrimiento, aunque el orden dentro del grupo es poco fiable por sí solo. Para ese grupo la probabilidad sale de un modelo entrenado
-  con vuestras propias etiquetas, que añade algo que no teníamos: el
-  <b>tamaño del canal del propio creador</b>. AUC validado cruzado <b>__AUC__</b> en
-  vídeos recientes (__AUCALL__ sobre todo el histórico); 0,50 sería azar.</p>
-  <div class="controls">
-    <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador">
-    <span class="seglabel">Situación</span>
-    <div class="seg" data-group="st" role="group" aria-label="Filtrar por situación">
-      <button data-seg="all" aria-pressed="true">Todos</button>
-      <button data-seg="probado_ok" aria-pressed="false">Ya os funcionó</button>
-      <button data-seg="sin_explorar" aria-pressed="false">Sin explorar</button>
-      <button data-seg="probado_flojo" aria-pressed="false">No despegó</button>
-    </div>
-    <div class="seg" data-group="sz" role="group" aria-label="Filtrar por techo">
-      <button data-seg="all" aria-pressed="true">Todo techo</button>
-      <button data-seg="big" aria-pressed="false">Techo 1M+</button>
-    </div>
-  </div>
-  <div class="tbl"><table id="tQ">
-    <thead><tr>
-      <th data-k="t">Creador fuente</th>
-      <th>Situación</th>
-      <th data-k="p" class="num" data-dir="desc">P(siguiente acierto)</th>
-      <th data-k="qo" class="num">Vuestro outlier</th>
-      <th data-k="qv" class="num">Vuestro alcance</th>
-      <th data-k="qn" class="num">Vídeos vuestros</th>
-      <th data-k="cs" class="num">Subs creador</th>
-      <th data-k="cv" class="num">Views/vídeo suyo</th>
-      <th data-k="dr" class="num">Techo distrib.</th>
-    </tr></thead><tbody id="bQ"></tbody>
-  </table></div>
-</section>
 
 <section id="tab-videos" hidden>
   <h2>Vídeos a evaluar <span class="count rowcount"></span></h2>
@@ -178,7 +132,7 @@
   </table></div>
 </section>
 
-<section id="tab-pool" hidden>
+<section id="tab-pool">
   <h2>Odds por creador <span class="count rowcount"></span></h2>
   <p class="lede">Como solo hace falta <em>un</em> proyecto top por creador, esto
   puntúa <b>su mejor demostración, no su media</b>: los vídeos flojos nunca restan,
@@ -409,10 +363,16 @@ perpetuidad = views / madurez(d)</div>
     </ul>
     <p>Consecuencia práctica: los distribuidores valen sobre todo como
     <em>cobertura</em> — encuentran creadores que no conocéis — no como
-    <em>predicción</em>. Por eso la pestaña de prioridad ordena primero por
-    situación respecto a vuestro canal y solo después por señal de distribuidor,
-    y por eso el orden dentro del grupo «sin explorar» hay que leerlo como una
-    lista de candidatos, no como un ranking fiable.</p>
+    <em>predicción</em>. Hubo una pestaña de «prioridad de sourcing» que intentaba
+    predecir a partir de vuestro propio historial, repartiendo a los creadores en
+    tres cajones (ya os funcionó / no despegó / sin explorar) y ordenando por la
+    tasa base de cada cajón. Se ha retirado: esas tasas —58 % y 27 %— son ciertas
+    para el <em>grupo</em>, pero se aplicaban idénticas a cada miembro, así que 117
+    creadores compartían exactamente la misma probabilidad y 244 otra. El orden
+    real lo decidía el cajón, no el creador, y eso enterraba evidencia buena: un
+    creador con odds del 100 % y un pico de 6,7M caía al puesto 547 por un único
+    intento vuestro de x1,59. Un histórico propio flojo no es prueba de que el
+    creador no valga.</p>
 
     <p><b>Odds de que un creador tenga un proyecto top.</b> El objetivo cambia el
     modelo: como basta con <em>un</em> proyecto top por creador, lo que importa es
@@ -473,7 +433,7 @@ en scope de __N_DIST__ canales · datos de __DATE__</p>
 </main>
 
 <script>
-const V=__VJSON__, D=__DJSON__, P=__PJSON__, Q=__QJSON__;
+const V=__VJSON__, D=__DJSON__, P=__PJSON__;
 const C=__CJSON__, G=__GJSON__, R=__RJSON__, T=__TJSON__;
 __JS__
 const YT='https://www.youtube.com/watch?v=';
@@ -521,27 +481,6 @@ wire('tV','bV',V,colsV,(r,s)=>{
   if(s.seg.cons==='multi' && r.xw<3) return false;
   return true;
 },'sk');
-
-const STATUS={probado_ok:['Ya os funcionó','alta'],probado_flojo:['No despegó','baja'],sin_explorar:['Sin explorar','media']};
-const colsQ=[
-  r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
-     +'<span class="h">'+(r.qi?'vuestro: <a href="'+YT+r.qi+'" target="_blank" rel="noopener">'+r.qt.slice(0,58)+'</a>'
-       :(r.di?'distrib.: <a href="'+YT+r.di+'" target="_blank" rel="noopener">'+r.dt.slice(0,58)+'</a>':''))+'</span></td>',
-  r=>'<td><span class="chip '+STATUS[r.st][1]+'">'+STATUS[r.st][0]+'</span></td>',
-  r=>'<td class="num"><span class="score"><span class="track"><i style="width:'+Math.round(r.p*100)+'%"></i></span>'+Math.round(r.p*100)+'%</span></td>',
-  r=>'<td class="num" style="color:'+(r.qo>=2?'var(--good)':'inherit')+';font-weight:'+(r.qo>=2?'650':'400')+'">'+(r.qn?'x'+r.qo.toFixed(1):'—')+'</td>',
-  r=>'<td class="num">'+(r.qn?kfmt(r.qv):'—')+'</td>',
-  r=>'<td class="num">'+(r.qn||'—')+'</td>',
-  r=>'<td class="num" style="color:'+(r.cs>=1000000?'var(--good)':'inherit')+'">'+(r.cs?kfmt(r.cs):'—')+'</td>',
-  r=>'<td class="num">'+(r.cv?kfmt(r.cv):'—')+'</td>',
-  r=>'<td class="num">'+(r.dr?kfmt(r.dr):'—')+'</td>',
-];
-wire('tQ','bQ',Q,colsQ,(r,s)=>{
-  if(s.q && !(r.t+' '+(r.qt||'')+' '+(r.dt||'')).toLowerCase().includes(s.q)) return false;
-  if(s.seg.st!=='all' && r.st!==s.seg.st) return false;
-  if(s.seg.sz==='big' && Math.max(r.qv||0,r.dr||0)<1000000) return false;
-  return true;
-},'p');
 
 // ---- Ellos vs nosotros ----
 (function(){

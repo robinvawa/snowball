@@ -4519,18 +4519,6 @@
    "last_seen": "2024-12-20"
   },
   {
-   "creator": "CampfireStories-d3t",
-   "url": "https://www.youtube.com/@CampfireStories-d3t",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 11,
-   "best_outlier": 0.2,
-   "best_title": "This Man Carved a Hidden Home Inside a Colossal Forest Tree! by  @CampfireStories-d3t \u200b",
-   "best_video": "AlxtRwrdKho",
-   "creator_subs": null,
-   "last_seen": "2026-03-03"
-  },
-  {
    "creator": "RenovationProcess",
    "url": "https://www.youtube.com/@RenovationProcess",
    "distributors": 2,
@@ -4541,6 +4529,18 @@
    "best_video": "q_fJPsg6ixM",
    "creator_subs": 212000,
    "last_seen": "2026-08-09"
+  },
+  {
+   "creator": "CampfireStories-d3t",
+   "url": "https://www.youtube.com/@CampfireStories-d3t",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 11,
+   "best_outlier": 0.2,
+   "best_title": "This Man Carved a Hidden Home Inside a Colossal Forest Tree! by  @CampfireStories-d3t \u200b",
+   "best_video": "AlxtRwrdKho",
+   "creator_subs": null,
+   "last_seen": "2026-03-03"
   },
   {
    "creator": "havgs1701",
@@ -7735,18 +7735,6 @@
    "last_seen": "2024-09-20"
   },
   {
-   "creator": "AllProcessX",
-   "url": "https://www.youtube.com/@AllProcessX",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 324,
-   "best_outlier": 0.4,
-   "best_title": "Professional Chair Manufacturing Process | Craftsmanship at Its Best | Step by Step by @AllProcessX",
-   "best_video": "YZ5lQjm0Nt0",
-   "creator_subs": null,
-   "last_seen": "2025-04-27"
-  },
-  {
    "creator": "ARIA",
    "url": "https://www.youtube.com/@ARIA",
    "distributors": 1,
@@ -7755,6 +7743,18 @@
    "best_outlier": 1.0,
    "best_title": "The Man Built Incredible DIY Shelter Under the Giant Stone: | Start To Finish By @ARIA BUSHCRAFT",
    "best_video": "hzIYgiEz5bA",
+   "creator_subs": null,
+   "last_seen": "2025-04-27"
+  },
+  {
+   "creator": "AllProcessX",
+   "url": "https://www.youtube.com/@AllProcessX",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 324,
+   "best_outlier": 0.4,
+   "best_title": "Professional Chair Manufacturing Process | Craftsmanship at Its Best | Step by Step by @AllProcessX",
+   "best_video": "YZ5lQjm0Nt0",
    "creator_subs": null,
    "last_seen": "2025-04-27"
   },
@@ -8131,6 +8131,18 @@
    "last_seen": "2026-08-05"
   },
   {
+   "creator": "life.uncontained",
+   "url": "https://www.youtube.com/@life.uncontained",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 64,
+   "best_outlier": 1.3,
+   "best_title": "Pria ini membangun rumah dari kontainer dan di bantu oleh istrinya By @life.uncontained",
+   "best_video": "oWhjYK4VYvs",
+   "creator_subs": 1540000,
+   "last_seen": "2024-11-13"
+  },
+  {
    "creator": "DrewBuildsStuff",
    "url": "https://www.youtube.com/@DrewBuildsStuff",
    "distributors": 1,
@@ -8153,18 +8165,6 @@
    "best_video": "zmCHBKgJGeg",
    "creator_subs": 22100,
    "last_seen": "2025-09-11"
-  },
-  {
-   "creator": "life.uncontained",
-   "url": "https://www.youtube.com/@life.uncontained",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 64,
-   "best_outlier": 1.3,
-   "best_title": "Pria ini membangun rumah dari kontainer dan di bantu oleh istrinya By @life.uncontained",
-   "best_video": "oWhjYK4VYvs",
-   "creator_subs": 1540000,
-   "last_seen": "2024-11-13"
   },
   {
    "creator": "PureSkillOfficial",
@@ -8383,18 +8383,6 @@
    "last_seen": "2026-08-11"
   },
   {
-   "creator": "TheRestorer",
-   "url": "https://www.youtube.com/@TheRestorer",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 33,
-   "best_outlier": 0.4,
-   "best_title": "Cleaning Old Knives in an Incredible Way! \ud83d\udd2a | @TheRestorer",
-   "best_video": "9wZsCdV3iLc",
-   "creator_subs": 363000,
-   "last_seen": "2025-07-21"
-  },
-  {
    "creator": "ConstructiiInDetaliu",
    "url": "https://www.youtube.com/@ConstructiiInDetaliu",
    "distributors": 1,
@@ -8407,6 +8395,18 @@
    "last_seen": "2026-07-15"
   },
   {
+   "creator": "TheRestorer",
+   "url": "https://www.youtube.com/@TheRestorer",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 33,
+   "best_outlier": 0.4,
+   "best_title": "Cleaning Old Knives in an Incredible Way! \ud83d\udd2a | @TheRestorer",
+   "best_video": "9wZsCdV3iLc",
+   "creator_subs": 363000,
+   "last_seen": "2025-07-21"
+  },
+  {
    "creator": "Clean",
    "url": "https://www.youtube.com/@Clean",
    "distributors": 1,
@@ -8417,6 +8417,18 @@
    "best_video": "MIldt_GMZVg",
    "creator_subs": null,
    "last_seen": "2026-04-16"
+  },
+  {
+   "creator": "Axes",
+   "url": "https://www.youtube.com/@Axes",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 30,
+   "best_outlier": 2.1,
+   "best_title": "Renovating a 100-Year-Old House into the Perfect Forest Home | by @Axes: Garage",
+   "best_video": "4u-rLFFmTog",
+   "creator_subs": null,
+   "last_seen": "2024-11-09"
   },
   {
    "creator": "alexbushcraftmy",
@@ -8441,18 +8453,6 @@
    "best_video": "dLIMjQ2rnmQ",
    "creator_subs": 27300,
    "last_seen": "2026-04-09"
-  },
-  {
-   "creator": "Axes",
-   "url": "https://www.youtube.com/@Axes",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 30,
-   "best_outlier": 2.1,
-   "best_title": "Renovating a 100-Year-Old House into the Perfect Forest Home | by @Axes: Garage",
-   "best_video": "4u-rLFFmTog",
-   "creator_subs": null,
-   "last_seen": "2024-11-09"
   },
   {
    "creator": "Tran-Chien",
@@ -8587,6 +8587,18 @@
    "last_seen": "2025-02-28"
   },
   {
+   "creator": "AmbitionStrikes1.On.T.elegram",
+   "url": "https://www.youtube.com/@AmbitionStrikes1.On.T.elegram",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 20,
+   "best_outlier": 1.4,
+   "best_title": "Turning a Cold Steel Box Into a Custom Floating Home | by @AmbitionStrikes1.On.T.elegram",
+   "best_video": "Hvm0_TlBrsI",
+   "creator_subs": 0,
+   "last_seen": "2026-07-14"
+  },
+  {
    "creator": "ATHOSOutdoorProspector",
    "url": "https://www.youtube.com/@ATHOSOutdoorProspector",
    "distributors": 1,
@@ -8609,18 +8621,6 @@
    "best_video": "7ZS86STM3X0",
    "creator_subs": 24,
    "last_seen": "2025-03-23"
-  },
-  {
-   "creator": "AmbitionStrikes1.On.T.elegram",
-   "url": "https://www.youtube.com/@AmbitionStrikes1.On.T.elegram",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 20,
-   "best_outlier": 1.4,
-   "best_title": "Turning a Cold Steel Box Into a Custom Floating Home | by @AmbitionStrikes1.On.T.elegram",
-   "best_video": "Hvm0_TlBrsI",
-   "creator_subs": 0,
-   "last_seen": "2026-07-14"
   },
   {
    "creator": "Tri\u1ec7u_Phong_tv",
@@ -8719,18 +8719,6 @@
    "last_seen": "2024-11-18"
   },
   {
-   "creator": "TAOutdoors",
-   "url": "https://www.youtube.com/@TAOutdoors",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 13,
-   "best_outlier": 1.6,
-   "best_title": "Building a Rustic Medieval Shelter  10 Day Bushcraft Cabin @TAOutdoors",
-   "best_video": "Bl_tdjuzZLw",
-   "creator_subs": 2490000,
-   "last_seen": "2025-02-13"
-  },
-  {
    "creator": "ArtSport",
    "url": "https://www.youtube.com/@ArtSport",
    "distributors": 1,
@@ -8741,6 +8729,18 @@
    "best_video": "YNna5zNK2gg",
    "creator_subs": 5380,
    "last_seen": "2024-12-16"
+  },
+  {
+   "creator": "TAOutdoors",
+   "url": "https://www.youtube.com/@TAOutdoors",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 13,
+   "best_outlier": 1.6,
+   "best_title": "Building a Rustic Medieval Shelter  10 Day Bushcraft Cabin @TAOutdoors",
+   "best_video": "Bl_tdjuzZLw",
+   "creator_subs": 2490000,
+   "last_seen": "2025-02-13"
   },
   {
    "creator": "alaskacabinadventures",
@@ -8755,16 +8755,16 @@
    "last_seen": "2026-06-17"
   },
   {
-   "creator": "GordeevaHike",
-   "url": "https://www.youtube.com/@GordeevaHike",
+   "creator": "UnderwoodHomes",
+   "url": "https://www.youtube.com/@UnderwoodHomes",
    "distributors": 1,
    "videos": 1,
    "best_reach": 11,
-   "best_outlier": 1.4,
-   "best_title": "Solo Woman Builds a Survival Hut in the Wilderness @GordeevaHike",
-   "best_video": "bpkba7tOOqo",
-   "creator_subs": 121000,
-   "last_seen": "2025-02-15"
+   "best_outlier": 0.4,
+   "best_title": "Man Builds a Luxury Villa in the Wilderness in 18 Months! | From Start to Finish by @UnderwoodHomes",
+   "best_video": "MpIn8ciloB0",
+   "creator_subs": 5350,
+   "last_seen": "2026-05-04"
   },
   {
    "creator": "TheMaineWoods",
@@ -8779,6 +8779,18 @@
    "last_seen": "2026-07-26"
   },
   {
+   "creator": "GordeevaHike",
+   "url": "https://www.youtube.com/@GordeevaHike",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 11,
+   "best_outlier": 1.4,
+   "best_title": "Solo Woman Builds a Survival Hut in the Wilderness @GordeevaHike",
+   "best_video": "bpkba7tOOqo",
+   "creator_subs": 121000,
+   "last_seen": "2025-02-15"
+  },
+  {
    "creator": "FarisandLisa",
    "url": "https://www.youtube.com/@FarisandLisa",
    "distributors": 1,
@@ -8791,28 +8803,16 @@
    "last_seen": "2025-12-11"
   },
   {
-   "creator": "UnderwoodHomes",
-   "url": "https://www.youtube.com/@UnderwoodHomes",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 11,
-   "best_outlier": 0.4,
-   "best_title": "Man Builds a Luxury Villa in the Wilderness in 18 Months! | From Start to Finish by @UnderwoodHomes",
-   "best_video": "MpIn8ciloB0",
-   "creator_subs": 5350,
-   "last_seen": "2026-05-04"
-  },
-  {
-   "creator": "RAMY",
-   "url": "https://www.youtube.com/@RAMY",
+   "creator": "Life-in-Wild1",
+   "url": "https://www.youtube.com/@Life-in-Wild1",
    "distributors": 1,
    "videos": 1,
    "best_reach": 9,
    "best_outlier": 0.6,
-   "best_title": "A380M Model Mastery: Four Engines, Carbon Fiber, and Next-Level Craftsmanship by @RAMY RC",
-   "best_video": "Ufy_s0meeQI",
-   "creator_subs": null,
-   "last_seen": "2024-11-01"
+   "best_title": "Surviving and Building a Secret Cabin in the Woods | by @Life-in-Wild1",
+   "best_video": "z9J4YR3fMUI",
+   "creator_subs": 602000,
+   "last_seen": "2026-06-17"
   },
   {
    "creator": "Bushradical",
@@ -8839,16 +8839,16 @@
    "last_seen": "2026-06-20"
   },
   {
-   "creator": "Life-in-Wild1",
-   "url": "https://www.youtube.com/@Life-in-Wild1",
+   "creator": "RAMY",
+   "url": "https://www.youtube.com/@RAMY",
    "distributors": 1,
    "videos": 1,
    "best_reach": 9,
    "best_outlier": 0.6,
-   "best_title": "Surviving and Building a Secret Cabin in the Woods | by @Life-in-Wild1",
-   "best_video": "z9J4YR3fMUI",
-   "creator_subs": 602000,
-   "last_seen": "2026-06-17"
+   "best_title": "A380M Model Mastery: Four Engines, Carbon Fiber, and Next-Level Craftsmanship by @RAMY RC",
+   "best_video": "Ufy_s0meeQI",
+   "creator_subs": null,
+   "last_seen": "2024-11-01"
   },
   {
    "creator": "yangsurvival",
@@ -8911,18 +8911,6 @@
    "last_seen": "2026-06-18"
   },
   {
-   "creator": "tianliang8818",
-   "url": "https://www.youtube.com/@tianliang8818",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2,
-   "best_outlier": 0.1,
-   "best_title": "Crafting a Spaceship: A Luxurious DIY Marvel | By @tianliang8818",
-   "best_video": "8_JY2rHjbOg",
-   "creator_subs": null,
-   "last_seen": "2024-11-12"
-  },
-  {
    "creator": "MattJordanWoodturning",
    "url": "https://www.youtube.com/@MattJordanWoodturning",
    "distributors": 1,
@@ -8935,6 +8923,18 @@
    "last_seen": "2025-02-26"
   },
   {
+   "creator": "tianliang8818",
+   "url": "https://www.youtube.com/@tianliang8818",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 2,
+   "best_outlier": 0.1,
+   "best_title": "Crafting a Spaceship: A Luxurious DIY Marvel | By @tianliang8818",
+   "best_video": "8_JY2rHjbOg",
+   "creator_subs": null,
+   "last_seen": "2024-11-12"
+  },
+  {
    "creator": "ForestHermit",
    "url": "https://www.youtube.com/@ForestHermit",
    "distributors": 1,
@@ -8945,30 +8945,6 @@
    "best_video": "DRawEYqjPYQ",
    "creator_subs": 72600,
    "last_seen": "2025-02-27"
-  },
-  {
-   "creator": "Primitivesurvivalcraft",
-   "url": "https://www.youtube.com/@Primitivesurvivalcraft",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 0,
-   "best_outlier": 0.0,
-   "best_title": "Carving a Permanent Cliff House From Solid Red Clay | by @Primitivesurvivalcraft",
-   "best_video": "xi-dT-CHrVI",
-   "creator_subs": 17600,
-   "last_seen": "2026-08-04"
-  },
-  {
-   "creator": "thanhtrieutv6231",
-   "url": "https://www.youtube.com/@thanhtrieutv6231",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 0,
-   "best_outlier": 0.0,
-   "best_title": "3 Years Alone: Building an Off-Grid Jungle Cabin & Hydropower | by @thanhtrieutv6231",
-   "best_video": "7OjLnOnx2NI",
-   "creator_subs": 876000,
-   "last_seen": "2026-07-22"
   },
   {
    "creator": "StudPack",
@@ -8995,6 +8971,18 @@
    "last_seen": "2026-07-30"
   },
   {
+   "creator": "thanhtrieutv6231",
+   "url": "https://www.youtube.com/@thanhtrieutv6231",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "3 Years Alone: Building an Off-Grid Jungle Cabin & Hydropower | by @thanhtrieutv6231",
+   "best_video": "7OjLnOnx2NI",
+   "creator_subs": 876000,
+   "last_seen": "2026-07-22"
+  },
+  {
    "creator": "MOUNTAINLIFESTYLE",
    "url": "https://www.youtube.com/@MOUNTAINLIFESTYLE",
    "distributors": 1,
@@ -9005,6 +8993,18 @@
    "best_video": "qZiswhSePeQ",
    "creator_subs": 967,
    "last_seen": "2026-06-24"
+  },
+  {
+   "creator": "Primitivesurvivalcraft",
+   "url": "https://www.youtube.com/@Primitivesurvivalcraft",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Carving a Permanent Cliff House From Solid Red Clay | by @Primitivesurvivalcraft",
+   "best_video": "xi-dT-CHrVI",
+   "creator_subs": 17600,
+   "last_seen": "2026-08-04"
   }
  ],
  "topics": [

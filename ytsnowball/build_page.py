@@ -442,21 +442,11 @@ def main():
 
     import model as creator_model
     creator_model.build()
-    mdl = json.load(open(os.path.join(HERE, "data", "creator_model.json")))
     cch = json.load(open(os.path.join(HERE, "data", "creator_channels.json")))
     cmp = compare.build()
-    prio, (qb0, qb1, qbase) = qm_merge.build()
-    q_json = json.dumps([{
-        "t": r["creator"], "u": r["url"], "st": r["status"], "p": r["p_next"],
-        "qn": r["qm_videos"], "qo": r["qm_best_outlier"], "qv": r["qm_best_views"],
-        "qt": r["qm_best_title"], "qi": r["qm_best_video"], "ql": r["qm_last"],
-        "d": r["distributors"], "do": r["dist_best_outlier"],
-        "dr": r["dist_best_reach"], "dt": r["dist_best_title"],
-        "di": r["dist_best_video"], "dc": r["dist_best_channel"],
-        "cs": (cch.get(r["key"]) or {}).get("subs", 0),
-        "cv": round((cch.get(r["key"]) or {}).get("views", 0)
-                    / max(1, (cch.get(r["key"]) or {}).get("videos", 1))),
-    } for r in prio], ensure_ascii=False)
+    # La pestaña de prioridad se retiro (ordenaba por tasa base de grupo, no por
+    # creador), pero qm_merge sigue corriendo: alimenta las dos cifras de cabecera.
+    prio, _ = qm_merge.build()
     n_mina = sum(1 for r in prio if r["status"] == "probado_ok")
     n_new = sum(1 for r in prio if r["status"] == "sin_explorar")
 
@@ -490,7 +480,6 @@ def main():
             .replace("__N_IN__", f"{len(in_scope):,}".replace(",", "."))
             .replace("__N_LIFT__", str(n_lift))
             .replace("__STRONGPCT__", "%.0f" % (100 * creator_odds.STRONG))
-            .replace("__QJSON__", q_json)
             .replace("__N_MINA__", str(n_mina))
             .replace("__N_UNEXP__", str(n_new))
             .replace("__CJSON__", json.dumps(cmp["agg"], ensure_ascii=False))
@@ -512,8 +501,6 @@ def main():
                                           if g["distributors"] >= 3)))
             .replace("__N_BRAND2__", str(sum(1 for c in cmp["channels"]
                                              if c["brand_sim"] >= 0.5)))
-            .replace("__AUC__", "%.2f" % (mdl["cv_auc_recent"] or 0))
-            .replace("__AUCALL__", "%.2f" % (mdl["cv_auc"] or 0))
             .replace("__DATE__", today.strftime("%d/%m/%Y")))
 
     os.makedirs(OUT, exist_ok=True)
