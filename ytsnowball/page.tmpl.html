@@ -19,6 +19,7 @@
   </div>
   <nav class="tabs" role="tablist">
     <button data-tab="tab-pool" aria-selected="true">Ranking de creadores</button>
+    <button data-tab="tab-recent" aria-selected="false">Destacado reciente</button>
     <button data-tab="tab-videos" aria-selected="false">Vídeos a evaluar</button>
     <button data-tab="tab-dist" aria-selected="false">Distribuidores</button>
     <button data-tab="tab-vs" aria-selected="false">Ellos vs nosotros</button>
@@ -27,6 +28,46 @@
 </div></header>
 
 <main class="wrap">
+
+<section id="tab-recent" hidden>
+  <h2>Destacado reciente <span class="count rowcount"></span></h2>
+  <p class="lede">Vídeos <b>publicados en las últimas 8 semanas</b> que van por
+  encima de la línea base de su canal, ordenados por outlier. Es la ventana de
+  descubrimiento: lo que está despuntando ahora, antes de que el ranking
+  histórico lo recoja. <b>Nuevo en el pool</b> marca a los creadores cuya primera
+  cobertura por un distribuidor cae dentro de la ventana — material que el
+  ecosistema acaba de encontrar.</p>
+  <p class="lede">Cuidado con la columna de fiabilidad: por debajo de 21 días la
+  proyección a perpetuidad multiplica por 5-20 y es extrapolación, no medida. Un
+  outlier joven enorme es una pista fuerte, pero la cifra exacta aún baila.</p>
+  <div class="controls">
+    <input type="search" placeholder="Buscar título, canal o creador…" aria-label="Buscar reciente">
+    <div class="seg" data-group="win" role="group" aria-label="Filtrar por ventana">
+      <button data-seg="all" aria-pressed="true">8 semanas</button>
+      <button data-seg="m1" aria-pressed="false">Último mes</button>
+      <button data-seg="w2" aria-pressed="false">Últimas 2 semanas</button>
+    </div>
+    <div class="seg" data-group="nw" role="group" aria-label="Filtrar por novedad">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="new" aria-pressed="false">Nuevos en el pool</button>
+    </div>
+    <div class="seg" data-group="rel" role="group" aria-label="Filtrar por fiabilidad">
+      <button data-seg="all" aria-pressed="true">Toda edad</button>
+      <button data-seg="ok" aria-pressed="false">21+ días (proyección fiable)</button>
+    </div>
+  </div>
+  <div class="tbl"><table id="tN">
+    <thead><tr>
+      <th data-k="t">Vídeo</th>
+      <th data-k="po" class="num" data-dir="desc">Outlier</th>
+      <th data-k="vw" class="num">Views ya</th>
+      <th data-k="pv" class="num">Perpetuidad</th>
+      <th data-k="ag" class="num">Edad</th>
+      <th data-k="cr">Creador fuente</th>
+      <th>Señales</th>
+    </tr></thead><tbody id="bN"></tbody>
+  </table></div>
+</section>
 
 <section id="tab-videos" hidden>
   <h2>Vídeos a evaluar <span class="count rowcount"></span></h2>
@@ -448,7 +489,7 @@ en scope de __N_DIST__ canales · datos de __DATE__</p>
 </main>
 
 <script>
-const V=__VJSON__, D=__DJSON__, P=__PJSON__;
+const V=__VJSON__, D=__DJSON__, P=__PJSON__, N=__NJSON__;
 const C=__CJSON__, G=__GJSON__, R=__RJSON__, T=__TJSON__;
 __JS__
 const YT='https://www.youtube.com/watch?v=';
@@ -583,6 +624,24 @@ wire('tD','bD',D,colsD,(r,s)=>{
   if(s.seg.size==='new') return !r.seed;
   return true;
 },'c');
+const colsN=[
+  r=>'<td class="name"><a href="'+YT+r.id+'" target="_blank" rel="noopener">'+r.t.slice(0,72)+'</a>'
+     +'<span class="h">'+r.ch.slice(0,32)+'</span></td>',
+  r=>'<td class="num" style="color:'+(r.po>=8?'var(--signal)':'inherit')+';font-weight:'+(r.po>=8?'650':'400')+'">x'+(r.po>=100?Math.round(r.po):r.po.toFixed(1))+'</td>',
+  r=>'<td class="num">'+kfmt(r.vw)+'</td>',
+  r=>'<td class="num">'+kfmt(r.pv)+(r.ag<21?'<span class="h" style="color:var(--alert)">proyección x'+(r.pv/Math.max(r.vw,1)).toFixed(0)+' — inestable</span>':'')+'</td>',
+  r=>'<td class="num">'+r.ag+' d</td>',
+  r=>'<td>'+(r.cr?'<a href="https://www.youtube.com/@'+r.cr+'" target="_blank" rel="noopener">@'+r.cr.slice(0,20)+'</a>':'<span class="h">sin crédito</span>')+'</td>',
+  r=>'<td>'+(r.nw?'<span class="chip alta">nuevo en el pool</span>':'')+(r.xw>=2?' <span class="chip media">'+r.xw+' canales</span>':'')+'</td>',
+];
+wire('tN','bN',N,colsN,(r,s)=>{
+  if(s.q && !(r.t+' '+r.ch+' '+(r.cr||'')).toLowerCase().includes(s.q)) return false;
+  if(s.seg.win==='m1' && r.ag>30) return false;
+  if(s.seg.win==='w2' && r.ag>14) return false;
+  if(s.seg.nw==='new' && !r.nw) return false;
+  if(s.seg.rel==='ok' && r.ag<21) return false;
+  return true;
+},'po');
 wire('tP','bP',P,colsP,(r,s)=>{
   if(s.q && !(r.t+' '+r.bt).toLowerCase().includes(s.q)) return false;
   if(s.seg.ev==='firme' && r.ev!=='firme') return false;

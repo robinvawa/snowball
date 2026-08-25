@@ -430,6 +430,34 @@ def main():
         "brand": r["brand_lookalike"],
     } for r in dist], ensure_ascii=False)
 
+    # Destacado reciente: en-scope, publicado en las ultimas 8 semanas.
+    # "Nuevo en el pool" = la primera cobertura del creador en TODO el dataset
+    # cae dentro de la ventana.
+    RECENT_D = 56
+    first_seen = {}
+    for v in vids:
+        for h in v.get("source_handles_title") or []:
+            k = metrics.norm(h)
+            if k and (k not in first_seen or v["published"] < first_seen[k]):
+                first_seen[k] = v["published"]
+    recent = [v for v in vids
+              if v["scope"] != "out" and v["age_days"] <= RECENT_D
+              and v["perp_outlier"] >= 1.5]
+    def _is_new(v):
+        for h in v.get("source_handles_title") or []:
+            k = metrics.norm(h)
+            if k and first_seen.get(k) == v["published"]:
+                return True
+        return False
+    n_json = json.dumps([{
+        "id": v["video_id"], "t": v["title"], "ch": v["channel_title"],
+        "cr": (v.get("source_handles_title") or [""])[0],
+        "vw": v["views"], "pv": v["perpetuity_views"],
+        "po": v["perp_outlier"], "ag": v["age_days"],
+        "xw": v["xd_winners"], "nw": _is_new(v),
+    } for v in sorted(recent, key=lambda v: -v["perp_outlier"])],
+        ensure_ascii=False)
+
     odds = creator_odds.build()
     p_json = json.dumps([{
         "t": c["creator"], "u": c["url"], "od": c["odds_top"],
@@ -467,6 +495,7 @@ def main():
             .replace("__VJSON__", v_json)
             .replace("__DJSON__", d_json)
             .replace("__PJSON__", p_json)
+            .replace("__NJSON__", n_json)
             .replace("__LOOKS__", looks_html)
             .replace("__N_DIST__", str(len(dist)))
             .replace("__N_NEW__", str(new_n))
