@@ -40,6 +40,16 @@ La clave solo se necesita para **ampliar** el mapa (buscar creadores nuevos o
 refrescar catálogos). `data/cache/` no se versiona porque son 64 MB y se
 reconstruye sola.
 
+Para refrescar todos los datos contra la API (views nuevas, vídeos nuevos):
+
+```bash
+python3 refresh.py   # ~600 unidades de las 10.000 diarias; sirve para uso semanal
+```
+
+Antes de descargar guarda el estado actual en `data/views_prev.json`, y la
+pestaña «Desde el último refresh» del dashboard mide el crecimiento de cada
+vídeo entre ese snapshot y el nuevo — views contadas, sin proyección.
+
 ## Uso completo
 
 ```bash

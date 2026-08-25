@@ -353,6 +353,8 @@ def main():
         "ag": v["age_days"], "cf": v["confidence"], "sc": v["scope"],
         "sr": v["scope_reason"], "xw": v["xd_winners"], "xd": v["xd_distributors"],
         "sk": v["interest"], "cr": (v["source_handles_title"] or [""])[0],
+        "ex": (round(v["perpetuity_views"] * (1 - 1 / v["perp_outlier"]))
+               if v["perp_outlier"] > 1 else 0),
     } for v in vids if v["scope"] != "out"], ensure_ascii=False)
 
     # Per-distributor perpetuity averages. "Views" always means projected
@@ -461,6 +463,42 @@ def main():
                       * (1 - 1 / v["perp_outlier"]))],
         ensure_ascii=False)
 
+    # Movimiento entre refrescos: views ganadas desde el snapshot anterior.
+    # Misma logica que el ranking, pero sobre crecimiento MEDIDO, no proyectado:
+    # de las views nuevas de cada video se resta la mediana de views nuevas de
+    # su canal en la misma ventana (lo que gana ahi un video "normal").
+    delta_rows, delta_date = [], None
+    prev_p = os.path.join(HERE, "data", "views_prev.json")
+    if os.path.exists(prev_p):
+        snap = json.load(open(prev_p))
+        prevv, delta_date = snap["views"], snap["date"]
+        by_ch_dv = {}
+        cand = []
+        for v in vids:
+            vid = v["video_id"]
+            if vid in prevv:
+                dv, nw2 = max(0, v["views"] - prevv[vid]), False
+            elif v["published"][:10] >= delta_date:
+                dv, nw2 = v["views"], True   # subido tras el snapshot
+            else:
+                continue                     # recuperado viejo: delta no medible
+            by_ch_dv.setdefault(v["channel_id"], []).append(dv)
+            cand.append((dv, nw2, v))
+        med_dv = {c: statistics.median(x) for c, x in by_ch_dv.items()}
+        for dv, nw2, v in cand:
+            ad = max(0, dv - med_dv.get(v["channel_id"], 0))
+            if v["scope"] == "out" or (ad < 1000 and not nw2):
+                continue
+            delta_rows.append({
+                "id": v["video_id"], "t": v["title"], "ch": v["channel_title"],
+                "cr": (v.get("source_handles_title") or [""])[0],
+                "dv": dv, "ad": round(ad), "vw": v["views"],
+                "po": v["perp_outlier"], "ag": v["age_days"], "nw": nw2,
+            })
+        delta_rows.sort(key=lambda r: -r["ad"])
+        delta_rows = delta_rows[:600]
+    dl_json = json.dumps(delta_rows, ensure_ascii=False)
+
     odds = creator_odds.build()
     p_json = json.dumps([{
         "t": c["creator"], "u": c["url"], "od": c["odds_top"],
@@ -499,6 +537,8 @@ def main():
             .replace("__DJSON__", d_json)
             .replace("__PJSON__", p_json)
             .replace("__NJSON__", n_json)
+            .replace("__DLJSON__", dl_json)
+            .replace("__DLDATE__", delta_date or "—")
             .replace("__LOOKS__", looks_html)
             .replace("__N_DIST__", str(len(dist)))
             .replace("__N_NEW__", str(new_n))
