@@ -18,7 +18,7 @@
     <div class="stat warn"><span class="n">__N_BRAND2__</span><span class="l">Imitan vuestra marca</span></div>
   </div>
   <nav class="tabs" role="tablist">
-    <button data-tab="tab-pool" aria-selected="true">Odds por creador</button>
+    <button data-tab="tab-pool" aria-selected="true">Ranking de creadores</button>
     <button data-tab="tab-videos" aria-selected="false">Vídeos a evaluar</button>
     <button data-tab="tab-dist" aria-selected="false">Distribuidores</button>
     <button data-tab="tab-vs" aria-selected="false">Ellos vs nosotros</button>
@@ -133,17 +133,20 @@
 </section>
 
 <section id="tab-pool">
-  <h2>Odds por creador <span class="count rowcount"></span></h2>
-  <p class="lede">Como solo hace falta <em>un</em> proyecto top por creador, esto
-  puntúa <b>su mejor demostración, no su media</b>: los vídeos flojos nunca restan,
-  solo dejan de sumar. Un creador con un pico enorme y cinco fracasos ya ha
-  demostrado que el proyecto existe.</p>
-  <p class="lede"><b>Fuerza</b> mide esa mejor demostración exigiendo las dos
-  cosas a la vez — que superara la línea base de su canal <em>y</em> que llegara a
-  gente de verdad. Es el percentil menor de ambas, así que un x400 que alcanzó 800
-  personas no puntúa: ahí el mérito es del azar sobre una base minúscula, no del
-  material. <b>Confirmaciones</b> son los otros distribuidores que también lo
-  petaron con ese creador; cada una elimina el 40 % de la duda restante.</p>
+  <h2>Ranking de creadores <span class="count rowcount"></span></h2>
+  <p class="lede">El ranking está en <b>views atribuibles al material</b>: de cada
+  distribuidor se toma lo que su mejor vídeo del creador movió <em>por encima de la
+  línea base de ese canal</em> (views a perpetuidad menos la mediana del canal), y
+  se suma. Un vídeo que no despegó aporta cero — que no funcione puede ser por mil
+  razones y nunca resta; cuando funciona, siempre es señal. Así 8M demuestra más
+  que 2,6M, un 4M + 2M en dos canales vale como un 7M en uno solo, y un x400 en un
+  canal minúsculo pesa poco por aritmética: sus views atribuibles <em>son</em>
+  pocas.</p>
+  <p class="lede"><b>Mayor éxito</b> dice qué parte del total la puso una sola
+  demostración: 95 % es un pelotazo aislado, 35 % es material que rinde en muchos
+  canales a la vez. <b>Confirmaciones</b> son los otros distribuidores con una
+  lectura fuerte del mismo creador. <b>Odds v1</b> conserva la puntuación
+  probabilística anterior para comparar los dos órdenes.</p>
   <div class="controls">
     <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador fuente">
     <span class="seglabel">Evidencia</span>
@@ -157,18 +160,18 @@
       <button data-seg="big" aria-pressed="false">Demostrado con 1M+</button>
     </div>
     <div class="seg" data-group="odds" role="group" aria-label="Filtrar por odds">
-      <button data-seg="all" aria-pressed="true">Todas las odds</button>
-      <button data-seg="hi" aria-pressed="false">90 %+</button>
+      <button data-seg="all" aria-pressed="true">Todas las odds v1</button>
+      <button data-seg="hi" aria-pressed="false">Odds v1 90 %+</button>
     </div>
   </div>
   <div class="tbl"><table id="tP">
     <thead><tr>
       <th data-k="t">Creador fuente</th>
-      <th data-k="od" class="num" data-dir="desc">Odds proyecto top</th>
-      <th data-k="fz" class="num">Fuerza</th>
+      <th data-k="sc" class="num" data-dir="desc">Views atribuibles</th>
+      <th data-k="bx" class="num">Mayor éxito</th>
       <th data-k="cf" class="num">Confirm.</th>
       <th data-k="ol" class="num">Outlier</th>
-      <th data-k="rc" class="num">Alcance</th>
+      <th data-k="od" class="num">Odds v1</th>
       <th data-k="cs">Demostrado en</th>
       <th>Evidencia</th>
     </tr></thead><tbody id="bP"></tbody>
@@ -374,15 +377,27 @@ perpetuidad = views / madurez(d)</div>
     intento vuestro de x1,59. Un histórico propio flojo no es prueba de que el
     creador no valga.</p>
 
-    <p><b>Odds de que un creador tenga un proyecto top.</b> El objetivo cambia el
+    <p><b>Ranking de creadores en views atribuibles.</b> El objetivo condiciona el
     modelo: como basta con <em>un</em> proyecto top por creador, lo que importa es
-    su mejor demostración, no su nivel medio. Un creador con un pico enorme y
-    cinco fracasos ha demostrado que el proyecto existe, y promediarlo sería
-    borrar justo el dato que buscamos. Por eso las lecturas flojas nunca restan:
-    solo dejan de sumar.</p>
+    lo que su material ha demostrado, no su nivel medio. Un creador con un pico
+    enorme y cinco fracasos ha demostrado que el proyecto existe, y promediarlo
+    sería borrar justo el dato que buscamos. Por eso las lecturas flojas nunca
+    restan: solo dejan de sumar.</p>
+    <div class="formula">atribuible(lectura) = views a perpetuidad - mediana del canal   (mínimo 0)
+ranking(creador) = suma de la mejor lectura en cada distribuidor</div>
+    <p>La resta de la mediana separa lo que puso el canal de lo que puso el
+    material: es la parte de las views que la línea base del canal no explica.
+    Al estar en views y no en probabilidad, 8M demuestra más que 2,6M — la
+    versión anterior, en percentiles, daba el mismo 98,6 % a una demostración de
+    8,6M que a una de 270k, y saturaba con 55 creadores por encima del 95 %. Y el
+    ajuste por tamaño de canal sale gratis: un x445 en un canal que llegó a 3.557
+    personas aporta 3.500 views atribuibles, porque eso es literalmente todo lo
+    que ese vídeo movió.</p>
+    <p><b>La v1, que se conserva como columna</b>, puntuaba en percentiles con
+    esta fórmula, y sigue siendo útil como segunda opinión:</p>
     <div class="formula">fuerza(lectura) = min( percentil del outlier , percentil del alcance )
 fuerza(creador) = la mejor de sus lecturas
-odds = 1 - (1 - fuerza) x 0,6 ^ (nº de confirmaciones)</div>
+odds v1 = 1 - (1 - fuerza) x 0,6 ^ (nº de confirmaciones)</div>
     <p>El <code>min</code> de los dos percentiles es el ajuste por tamaño de canal.
     Una lectura solo cuenta como fuerte si supera la línea base de su canal
     <em>y</em> llega a gente de verdad: un x400 que alcanzó 800 personas es un
@@ -465,11 +480,11 @@ const colsD=[
 const colsP=[
   r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
      +'<span class="h">mejor: <a href="'+YT+r.bv+'" target="_blank" rel="noopener">'+r.bt.slice(0,64)+'</a></span></td>',
-  r=>'<td class="num"><span class="score"><span class="track"><i style="width:'+Math.round(r.od*100)+'%"></i></span>'+Math.round(r.od*100)+'%</span></td>',
-  r=>'<td class="num" style="color:'+(r.fz>=0.6?'var(--good)':r.fz<0.4?'var(--ink-3)':'inherit')+';font-weight:'+(r.fz>=0.6?'650':'400')+'">p'+Math.round(r.fz*100)+'</td>',
+  r=>'<td class="num" style="font-weight:650">'+kfmt(r.sc)+'</td>',
+  r=>'<td class="num">'+kfmt(r.bx)+'<span class="h">'+Math.round(100*r.bx/Math.max(r.sc,1))+'% del total</span></td>',
   r=>'<td class="num">'+(r.cf?('<b>'+r.cf+'</b> de '+(r.d-1)):'0 de '+(r.d-1))+'</td>',
   r=>'<td class="num" style="color:'+(r.ol>=12?'var(--signal)':'inherit')+'">x'+(r.ol>=100?Math.round(r.ol):r.ol.toFixed(1))+'</td>',
-  r=>'<td class="num">'+kfmt(r.rc)+'</td>',
+  r=>'<td class="num" style="color:var(--ink-3)">'+Math.round(r.od*100)+'%</td>',
   r=>'<td style="font-size:12.5px">'+r.ch.slice(0,22)+'<span class="h">'+kfmt(r.cs)+' subs</span></td>',
   r=>'<td><span class="chip '+({firme:'alta',media:'media'}[r.ev]||'baja')+'">'+r.ev+'</span></td>',
 ];
@@ -575,5 +590,5 @@ wire('tP','bP',P,colsP,(r,s)=>{
   if(s.seg.reach==='big' && r.rc<1000000) return false;
   if(s.seg.odds==='hi' && r.od<0.9) return false;
   return true;
-},'od');
+},'sc');
 </script>

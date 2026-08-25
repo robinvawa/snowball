@@ -433,6 +433,7 @@ def main():
     odds = creator_odds.build()
     p_json = json.dumps([{
         "t": c["creator"], "u": c["url"], "od": c["odds_top"],
+        "sc": c["attr_views"], "bx": c["best_excess"],
         "fz": c["best_strength"], "cf": c["confirmations"],
         "d": c["distributors"], "ol": c["best_outlier"], "rc": c["best_reach"],
         "ch": c["best_channel"], "cs": c["best_channel_subs"],

@@ -20,6 +20,20 @@ Two design decisions drive this, both learned the hard way:
    — readings from sub-10k channels correlate 0.030 with the rest of that
    creator's readings, versus 0.120 for 10k-100k channels. Reach is the variable
    that carries that credibility, so reach is what we gate on.
+
+3. THE RANKING IS IN VIEWS, NOT IN PROBABILITY (v2, 25 ago 2026). Percentile
+   odds saturate exactly where resolution matters: an 8.6M demonstration and a
+   270k one both landed on 98.6%. The score is now the sum, over distributors,
+   of the views each reading moved ABOVE its channel's own baseline:
+
+       excess = perpetuity_views - channel_median = views * (1 - 1/outlier)
+
+   A reading below its channel median contributes 0 — failure is never
+   evidence against the material, it only fails to add. This keeps every
+   property the odds had (one hit is enough, independent distributors stack,
+   tiny-channel x400s stay small because 3.5k views minus baseline IS small)
+   while making 8M worth more than 2.6M, which a probability cannot express.
+   The old odds are still computed and shown as a secondary column.
 """
 import collections
 import json
@@ -100,7 +114,15 @@ def build():
         # that did not hit are simply ignored — they never push the score down.
         odds = 1.0 - (1.0 - s_max) * (DOUBT_DECAY ** len(confirms))
 
+        # v2: views atribuibles al material, por encima de la mediana del canal.
+        exc = [t[1]["perpetuity_views"] * (1.0 - 1.0 / t[1]["perp_outlier"])
+               if t[1]["perp_outlier"] > 1 else 0.0 for t in items]
+        attr = sum(exc)
+
         recs.append({
+            "attr_views": round(attr),
+            "best_excess": round(max(exc)),
+            "contributors": sum(1 for e in exc if e > 0),
             "key": k, "creator": label[k],
             "url": "https://www.youtube.com/@%s" % label[k],
             "distributors": len(items),
@@ -127,7 +149,7 @@ def build():
     # re-edit us. It belongs in the brand alert, not in a sourcing shortlist.
     recs = [r for r in recs if r["key"] != "quantummakers"]
 
-    recs.sort(key=lambda r: (-r["odds_top"], -r["best_reach"]))
+    recs.sort(key=lambda r: (-r["attr_views"], -r["best_reach"]))
     json.dump({"params": {"strong": STRONG, "doubt_decay": DOUBT_DECAY},
                "creators": recs},
               open(os.path.join(DATA, "creator_odds.json"), "w"), indent=1)
@@ -137,24 +159,15 @@ def build():
 if __name__ == "__main__":
     recs = build()
     print("Creadores puntuados: %d" % len(recs))
-    for lo, hi in ((.9, 1.01), (.75, .9), (.6, .75), (.4, .6), (0, .4)):
-        print("  odds %2.0f-%3.0f%%: %3d" % (100 * lo, 100 * hi,
-              sum(1 for r in recs if lo <= r["odds_top"] < hi)))
+    for lo, hi in ((5e6, 1e12), (1e6, 5e6), (2.5e5, 1e6), (0, 2.5e5)):
+        print("  atribuible %4s-%4s: %3d" % (
+            "%dk" % (lo / 1e3) if lo < 1e6 else "%dM" % (lo / 1e6),
+            "%dk" % (hi / 1e3) if hi < 1e6 else ("%dM" % (hi / 1e6) if hi < 1e11 else "+"),
+            sum(1 for r in recs if lo <= r["attr_views"] < hi)))
     print()
-    print("%-24s %5s %6s %5s %8s %10s %-7s %s" %
-          ("CREADOR", "ODDS", "fuerza", "conf", "outlier", "alcance",
-           "evid", "mejor proyecto"))
+    print("%-24s %12s %12s %5s %5s  %s" %
+          ("CREADOR", "ATRIBUIBLE", "mayor exito", "dist+", "conf", "mejor proyecto"))
     for r in recs[:18]:
-        print("%-24s %4.0f%% %6.2f %4d %8s %10s %-7s %s" % (
-            r["creator"][:24], 100 * r["odds_top"], r["best_strength"],
-            r["confirmations"], "x%.0f" % r["best_outlier"],
-            f"{r['best_reach']:,}", r["evidence"], r["best_title"][:34]))
-
-    print()
-    print("--- comprobación: creadores de 1 pico enorme + fracasos ---")
-    solo = [r for r in recs if r["distributors"] >= 5 and r["confirmations"] == 0
-            and r["best_strength"] >= 0.75]
-    for r in solo[:6]:
-        print("  %-22s odds %2.0f%%  1 de %d lecturas fuerte, resto flojas, x%.0f / %s views"
-              % (r["creator"][:22], 100 * r["odds_top"], r["distributors"],
-                 r["best_outlier"], f"{r['best_reach']:,}"))
+        print("%-24s %12s %12s %5d %5d  %s" % (
+            r["creator"][:24], f"{r['attr_views']:,}", f"{r['best_excess']:,}",
+            r["contributors"], r["confirmations"], r["best_title"][:38]))
