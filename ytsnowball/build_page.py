@@ -454,8 +454,11 @@ def main():
         "cr": (v.get("source_handles_title") or [""])[0],
         "vw": v["views"], "pv": v["perpetuity_views"],
         "po": v["perp_outlier"], "ag": v["age_days"],
+        "ex": round(v["perpetuity_views"] * (1 - 1 / v["perp_outlier"])),
         "xw": v["xd_winners"], "nw": _is_new(v),
-    } for v in sorted(recent, key=lambda v: -v["perp_outlier"])],
+    } for v in sorted(recent,
+                      key=lambda v: -v["perpetuity_views"]
+                      * (1 - 1 / v["perp_outlier"]))],
         ensure_ascii=False)
 
     odds = creator_odds.build()
