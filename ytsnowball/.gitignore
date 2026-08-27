@@ -9,3 +9,7 @@ data/cache/
 # Derivados: los reconstruye metrics.py a partir de full_videos.json
 data/scored_videos.json
 data/quota.json
+
+# Export crudo de HubSpot: 20 MB y contiene datos de contacto — no se sube.
+# El derivado data/qfm_status.json (solo handle + estado) si se versiona.
+data/hubspot_all.csv

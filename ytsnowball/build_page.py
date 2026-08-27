@@ -435,6 +435,17 @@ def main():
     # Destacado reciente: en-scope, publicado en las ultimas 8 semanas.
     # "Nuevo en el pool" = la primera cobertura del creador en TODO el dataset
     # cae dentro de la ventana.
+    # Estado con Q for Media (cruce de HubSpot): decora creadores y videos.
+    import qfm
+    qfm_st = qfm.build()
+
+    def _qs(key):
+        v = qfm_st.get(key)
+        if not v:
+            return {}
+        return {"qs": v["bucket"], "qr": v["status"],
+                "qa": v["match"] == "aprox", "qg": v["granted"]}
+
     RECENT_D = 56
     first_seen = {}
     for v in vids:
@@ -451,14 +462,15 @@ def main():
             if k and first_seen.get(k) == v["published"]:
                 return True
         return False
-    n_json = json.dumps([{
+    n_json = json.dumps([dict({
         "id": v["video_id"], "t": v["title"], "ch": v["channel_title"],
         "cr": (v.get("source_handles_title") or [""])[0],
         "vw": v["views"], "pv": v["perpetuity_views"],
         "po": v["perp_outlier"], "ag": v["age_days"],
         "ex": round(v["perpetuity_views"] * (1 - 1 / v["perp_outlier"])),
         "xw": v["xd_winners"], "nw": _is_new(v),
-    } for v in sorted(recent,
+    }, **_qs(metrics.norm((v.get("source_handles_title") or [""])[0])))
+        for v in sorted(recent,
                       key=lambda v: -v["perpetuity_views"]
                       * (1 - 1 / v["perp_outlier"]))],
         ensure_ascii=False)
@@ -489,25 +501,25 @@ def main():
             ad = max(0, dv - med_dv.get(v["channel_id"], 0))
             if v["scope"] == "out" or (ad < 1000 and not nw2):
                 continue
-            delta_rows.append({
+            delta_rows.append(dict({
                 "id": v["video_id"], "t": v["title"], "ch": v["channel_title"],
                 "cr": (v.get("source_handles_title") or [""])[0],
                 "dv": dv, "ad": round(ad), "vw": v["views"],
                 "po": v["perp_outlier"], "ag": v["age_days"], "nw": nw2,
-            })
+            }, **_qs(metrics.norm((v.get("source_handles_title") or [""])[0]))))
         delta_rows.sort(key=lambda r: -r["ad"])
         delta_rows = delta_rows[:600]
     dl_json = json.dumps(delta_rows, ensure_ascii=False)
 
     odds = creator_odds.build()
-    p_json = json.dumps([{
+    p_json = json.dumps([dict({
         "t": c["creator"], "u": c["url"], "od": c["odds_top"],
         "sc": c["attr_views"], "bx": c["best_excess"],
         "fz": c["best_strength"], "cf": c["confirmations"],
         "d": c["distributors"], "ol": c["best_outlier"], "rc": c["best_reach"],
         "ch": c["best_channel"], "cs": c["best_channel_subs"],
         "ev": c["evidence"], "bt": c["best_title"], "bv": c["best_video"],
-    } for c in odds], ensure_ascii=False)
+    }, **_qs(c["key"])) for c in odds], ensure_ascii=False)
     n_lift = sum(1 for c in odds if c["odds_top"] >= 0.9)
 
     import model as creator_model

@@ -233,6 +233,14 @@
   canales a la vez. <b>Confirmaciones</b> son los otros distribuidores con una
   lectura fuerte del mismo creador. <b>Odds v1</b> conserva la puntuación
   probabilística anterior para comparar los dos órdenes.</p>
+  <p class="lede"><b>Q for Media</b> es el estado del creador en vuestro CRM
+  (export de HubSpot): <b>licencia</b> concedida, <b>rechazado</b>, <b>en
+  curso</b> (contactado o en conversación), <b>sin respuesta</b>, <b>por
+  contactar</b>, o <b>fuera de radar</b> si no está en la base de datos. El
+  símbolo ≈ marca los cruzados por nombre en vez de por canal exacto —
+  fiables, pero verifica antes de actuar. El filtro «Fuera de radar» sobre los
+  primeros puestos es la cola de outreach: material demostrado que nadie ha
+  tocado aún.</p>
   <div class="controls">
     <input type="search" placeholder="Buscar creador…" aria-label="Buscar creador fuente">
     <span class="seglabel">Evidencia</span>
@@ -249,11 +257,20 @@
       <button data-seg="all" aria-pressed="true">Todas las odds v1</button>
       <button data-seg="hi" aria-pressed="false">Odds v1 90 %+</button>
     </div>
+    <span class="seglabel">Q for Media</span>
+    <div class="seg" data-group="qf" role="group" aria-label="Filtrar por estado con Q for Media">
+      <button data-seg="all" aria-pressed="true">Todos</button>
+      <button data-seg="lic" aria-pressed="false">Con licencia</button>
+      <button data-seg="pend" aria-pressed="false">En curso / sin cerrar</button>
+      <button data-seg="radar" aria-pressed="false">Fuera de radar</button>
+      <button data-seg="rech" aria-pressed="false">Rechazado</button>
+    </div>
   </div>
   <div class="tbl"><table id="tP">
     <thead><tr>
       <th data-k="t">Creador fuente</th>
       <th data-k="sc" class="num" data-dir="desc">Views atribuibles</th>
+      <th data-k="qs">Q for Media</th>
       <th data-k="bx" class="num">Mayor éxito</th>
       <th data-k="cf" class="num">Confirm.</th>
       <th data-k="ol" class="num">Outlier</th>
@@ -564,10 +581,17 @@ const colsD=[
   r=>'<td><span class="bar'+(r.r>=0.6?' hi':'')+'"><i style="width:'+Math.round(r.r*100)+'%"></i></span><span class="mono" style="font-size:11.5px">'+Math.round(r.r*100)+'%</span><span class="h">'+Math.round(r.rr*100)+'% reciente</span></td>',
   r=>'<td>'+(r.seed?'<span class="chip seed">ya conocido</span>':'')+(r.brand?' <span class="chip brand">imita marca</span>':'')+'</td>',
 ];
+const QCHIP={licencia:'alta',rechazado:'baja','en curso':'media','sin respuesta':'media','por contactar':'media','fair use':'media','en bd':'media'};
+function qcell(r){
+  if(!r.qs) return '<td><span class="h">fuera de radar</span></td>';
+  return '<td><span class="chip '+(QCHIP[r.qs]||'media')+'">'+r.qs+(r.qa?' ≈':'')+'</span>'
+    +'<span class="h">'+(r.qs==='licencia'&&r.qg?('desde '+r.qg):r.qr)+'</span></td>';
+}
 const colsP=[
   r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">@'+r.t+'</a>'
      +'<span class="h">mejor: <a href="'+YT+r.bv+'" target="_blank" rel="noopener">'+r.bt.slice(0,64)+'</a></span></td>',
   r=>'<td class="num" style="font-weight:650">'+kfmt(r.sc)+'</td>',
+  qcell,
   r=>'<td class="num">'+kfmt(r.bx)+'<span class="h">'+Math.round(100*r.bx/Math.max(r.sc,1))+'% del total</span></td>',
   r=>'<td class="num">'+(r.cf?('<b>'+r.cf+'</b> de '+(r.d-1)):'0 de '+(r.d-1))+'</td>',
   r=>'<td class="num" style="color:'+(r.ol>=12?'var(--signal)':'inherit')+'">x'+(r.ol>=100?Math.round(r.ol):r.ol.toFixed(1))+'</td>',
@@ -678,7 +702,8 @@ const colsN=[
   r=>'<td class="num">'+kfmt(r.vw)+'</td>',
   r=>'<td class="num">'+kfmt(r.pv)+(r.ag<21?'<span class="h" style="color:var(--alert)">proyección x'+(r.pv/Math.max(r.vw,1)).toFixed(0)+' — inestable</span>':'')+'</td>',
   r=>'<td class="num">'+r.ag+' d</td>',
-  r=>'<td>'+(r.cr?'<a href="https://www.youtube.com/@'+r.cr+'" target="_blank" rel="noopener">@'+r.cr.slice(0,20)+'</a>':'<span class="h">sin crédito</span>')+'</td>',
+  r=>'<td>'+(r.cr?'<a href="https://www.youtube.com/@'+r.cr+'" target="_blank" rel="noopener">@'+r.cr.slice(0,20)+'</a>':'<span class="h">sin crédito</span>')
+     +(r.qs?' <span class="chip '+(QCHIP[r.qs]||'media')+'">'+r.qs+'</span>':'')+'</td>',
   r=>'<td>'+(r.nw?'<span class="chip alta">nuevo en el pool</span>':'')+(r.xw>=2?' <span class="chip media">'+r.xw+' canales</span>':'')+'</td>',
 ];
 wire('tN','bN',N,colsN,(r,s)=>{
@@ -697,7 +722,8 @@ const colsL=[
   r=>'<td class="num">'+kfmt(r.vw)+'</td>',
   r=>'<td class="num" style="color:'+(r.po>=8?'var(--signal)':'inherit')+'">x'+(r.po>=100?Math.round(r.po):r.po.toFixed(1))+'</td>',
   r=>'<td class="num">'+r.ag+' d</td>',
-  r=>'<td>'+(r.cr?'<a href="https://www.youtube.com/@'+r.cr+'" target="_blank" rel="noopener">@'+r.cr.slice(0,20)+'</a>':'<span class="h">sin crédito</span>')+'</td>',
+  r=>'<td>'+(r.cr?'<a href="https://www.youtube.com/@'+r.cr+'" target="_blank" rel="noopener">@'+r.cr.slice(0,20)+'</a>':'<span class="h">sin crédito</span>')
+     +(r.qs?' <span class="chip '+(QCHIP[r.qs]||'media')+'">'+r.qs+'</span>':'')+'</td>',
   r=>'<td>'+(r.nw?'<span class="chip alta">nuevo</span>':'<span class="chip media">previo</span>')+'</td>',
 ];
 wire('tL','bL',L,colsL,(r,s)=>{
@@ -714,6 +740,10 @@ wire('tP','bP',P,colsP,(r,s)=>{
   if(s.seg.ev==='med' && r.ev==='débil') return false;
   if(s.seg.reach==='big' && r.rc<1000000) return false;
   if(s.seg.odds==='hi' && r.od<0.9) return false;
+  if(s.seg.qf==='lic' && r.qs!=='licencia') return false;
+  if(s.seg.qf==='pend' && !(r.qs && r.qs!=='licencia' && r.qs!=='rechazado')) return false;
+  if(s.seg.qf==='radar' && r.qs) return false;
+  if(s.seg.qf==='rech' && r.qs!=='rechazado') return false;
   return true;
 },'sc');
 </script>
