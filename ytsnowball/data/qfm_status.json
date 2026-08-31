@@ -109,6 +109,16 @@
   "records": 1,
   "match": "cid"
  },
+ "aerovironment": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "AEROVIRONMENT",
+  "records": 1,
+  "match": "aprox"
+ },
  "aircreteharry": {
   "status": "Granted",
   "bucket": "licencia",
@@ -469,6 +479,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "bastinggmbh": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "BAST-ING GMBH",
+  "records": 1,
+  "match": "aprox"
+ },
  "bdcleanup": {
   "status": "Granted",
   "bucket": "licencia",
@@ -669,6 +689,16 @@
   "records": 1,
   "match": "cid"
  },
+ "bostondynamics": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "BOSTON DYNAMICS",
+  "records": 1,
+  "match": "aprox"
+ },
  "bourbonmoth": {
   "status": "Unresponsive",
   "bucket": "sin respuesta",
@@ -759,6 +789,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "bugigarage": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Bug I Garage",
+  "records": 1,
+  "match": "aprox"
+ },
  "buildersblueprint": {
   "status": "Granted",
   "bucket": "licencia",
@@ -836,6 +876,16 @@
   "granted": "2026-03-26",
   "decline_reason": "",
   "hs_name": "Bushcraft and Nature",
+  "records": 1,
+  "match": "aprox"
+ },
+ "bushcraftandwildcamping": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Bushcraft and Wild Camping",
   "records": 1,
   "match": "aprox"
  },
@@ -968,6 +1018,16 @@
   "hs_name": "MR. TIGER'S CAVE HOUSE(虎哥石壁凿豪宅)",
   "records": 1,
   "match": "cid"
+ },
+ "charlyaubert": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "charly aubert",
+  "records": 1,
+  "match": "aprox"
  },
  "chateaudutheil": {
   "status": "Granted",
@@ -1439,6 +1499,16 @@
   "records": 1,
   "match": "cid"
  },
+ "drpepperovsky": {
+  "status": "Declined",
+  "bucket": "rechazado",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "Other",
+  "hs_name": "Dr.Pepperovsky",
+  "records": 1,
+  "match": "aprox"
+ },
  "dungbushcraftdq4cu": {
   "status": "Unresponsive",
   "bucket": "sin respuesta",
@@ -1559,6 +1629,16 @@
   "records": 1,
   "match": "cid"
  },
+ "eshcaft": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Eshcaft",
+  "records": 1,
+  "match": "aprox"
+ },
  "europeanhomesteading": {
   "status": "En BD sin estado",
   "bucket": "en bd",
@@ -1589,6 +1669,16 @@
   "records": 1,
   "match": "cid"
  },
+ "expandfurniture": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "EXPAND FURNITURE",
+  "records": 1,
+  "match": "aprox"
+ },
  "fabricatusueno": {
   "status": "Granted",
   "bucket": "licencia",
@@ -1616,6 +1706,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "Farm Girl Daily",
+  "records": 1,
+  "match": "aprox"
+ },
+ "feldergrouptv": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "FELDER-GROUP TV",
   "records": 1,
   "match": "aprox"
  },
@@ -1666,6 +1766,16 @@
   "granted": "2025-10-21",
   "decline_reason": "",
   "hs_name": "푸드킹덤 Food Kingdom",
+  "records": 1,
+  "match": "aprox"
+ },
+ "foodytrip": {
+  "status": "Unresponsive",
+  "bucket": "sin respuesta",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "FoodyTrip 푸디트립",
   "records": 1,
   "match": "aprox"
  },
@@ -1756,6 +1866,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "Frengen Engineering",
+  "records": 1,
+  "match": "aprox"
+ },
+ "furtherfabrication": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "L",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "FURTHER FABRICATION",
   "records": 1,
   "match": "aprox"
  },
@@ -1928,6 +2048,16 @@
   "hs_name": "HENNYBUTABI",
   "records": 1,
   "match": "cid"
+ },
+ "hiddencreekcabin": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Hidden Creek Cabin",
+  "records": 1,
+  "match": "aprox"
  },
  "himalayanhoney": {
   "status": "Granted",
@@ -2196,6 +2326,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "Jonas Olsen Woodcraft",
+  "records": 1,
+  "match": "aprox"
+ },
+ "jtengineering": {
+  "status": "Unresponsive",
+  "bucket": "sin respuesta",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "J.T.Engineering",
   "records": 1,
   "match": "aprox"
  },
@@ -2889,6 +3029,16 @@
   "records": 1,
   "match": "cid"
  },
+ "maddyandzach": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Maddy and Zach",
+  "records": 1,
+  "match": "aprox"
+ },
  "madeinpolandchannel": {
   "status": "Granted",
   "bucket": "licencia",
@@ -2918,6 +3068,26 @@
   "hs_name": "MAKETOOLS",
   "records": 1,
   "match": "cid"
+ },
+ "mammutmaschinenbaugesmbh": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "MAMMUT MASCHINENBAU GES.M.B.H",
+  "records": 1,
+  "match": "aprox"
+ },
+ "manta5": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "MANTA5",
+  "records": 1,
+  "match": "aprox"
  },
  "marcip": {
   "status": "Granted",
@@ -3149,6 +3319,16 @@
   "records": 2,
   "match": "cid"
  },
+ "misainthewild": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "M",
+  "granted": "2025-09-04",
+  "decline_reason": "",
+  "hs_name": "Misa in the WILD",
+  "records": 1,
+  "match": "aprox"
+ },
  "mkprojectdoboku": {
   "status": "Granted",
   "bucket": "licencia",
@@ -3268,6 +3448,16 @@
   "hs_name": "MOTORIZING",
   "records": 1,
   "match": "cid"
+ },
+ "mountainlifes": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "MOUNTAIN LIFES",
+  "records": 1,
+  "match": "aprox"
  },
  "mrbuildit": {
   "status": "Granted",
@@ -3659,6 +3849,16 @@
   "records": 1,
   "match": "cid"
  },
+ "odform": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "OD_FORM",
+  "records": 1,
+  "match": "aprox"
+ },
  "ododiy": {
   "status": "Granted",
   "bucket": "licencia",
@@ -3849,6 +4049,16 @@
   "records": 1,
   "match": "cid"
  },
+ "patoghcamping": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Patogh Camping",
+  "records": 1,
+  "match": "aprox"
+ },
  "patricktlee": {
   "status": "Granted",
   "bucket": "licencia",
@@ -4019,6 +4229,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "putch8": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "PUTCH8",
+  "records": 1,
+  "match": "aprox"
+ },
  "quickcuts": {
   "status": "Granted",
   "bucket": "licencia",
@@ -4126,6 +4346,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "Red Rust Restoration",
+  "records": 1,
+  "match": "aprox"
+ },
+ "reekontools": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "REEKON TOOLS",
   "records": 1,
   "match": "aprox"
  },
@@ -4259,6 +4489,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "restoringo": {
+  "status": "To Contact",
+  "bucket": "por contactar",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "RESTORINGO",
+  "records": 1,
+  "match": "aprox"
+ },
  "rinaandmichael": {
   "status": "Contacted",
   "bucket": "en curso",
@@ -4359,6 +4599,16 @@
   "records": 1,
   "match": "cid"
  },
+ "rubitools": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "RUBI TOOLS",
+  "records": 1,
+  "match": "aprox"
+ },
  "ruinenrozes3939": {
   "status": "Granted",
   "bucket": "licencia",
@@ -4388,6 +4638,16 @@
   "hs_name": "RV19",
   "records": 1,
   "match": "cid"
+ },
+ "ryobitoolsusa": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "RYOBI TOOLS USA",
+  "records": 1,
+  "match": "aprox"
  },
  "sailinggoodbadandugly": {
   "status": "Granted",
@@ -4529,6 +4789,16 @@
   "records": 1,
   "match": "cid"
  },
+ "sherdecor": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "SHERDECOR",
+  "records": 1,
+  "match": "aprox"
+ },
  "shevabushcraft": {
   "status": "Unresponsive",
   "bucket": "sin respuesta",
@@ -4558,6 +4828,16 @@
   "hs_name": "SHOP NATION",
   "records": 1,
   "match": "cid"
+ },
+ "shotslife": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "L",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "SHOTS LIFE",
+  "records": 1,
+  "match": "aprox"
  },
  "shoyanjapanesecarpenter": {
   "status": "Granted",
@@ -4648,6 +4928,36 @@
   "hs_name": "SMOOTH GEFIXT",
   "records": 1,
   "match": "cid"
+ },
+ "snowinglanmoneyboxhouse": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "SNOWING LAN -MONEYBOXHOUSE",
+  "records": 1,
+  "match": "aprox"
+ },
+ "sojournbuilds": {
+  "status": "Unresponsive",
+  "bucket": "sin respuesta",
+  "score": "L",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "SOJOURN BUILDS",
+  "records": 1,
+  "match": "aprox"
+ },
+ "solarcontainer": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "SOLARCONTAINER",
+  "records": 1,
+  "match": "aprox"
  },
  "specialideas": {
   "status": "Granted",
@@ -4768,6 +5078,16 @@
   "hs_name": "БЮДЖЕТНЫЙ ВАРИАНТ",
   "records": 1,
   "match": "cid"
+ },
+ "telyatnik": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "TELYATNIK",
+  "records": 1,
+  "match": "aprox"
  },
  "tetuchannel": {
   "status": "Granted",
@@ -5009,6 +5329,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "thinkoutsidethecontainer": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "THINK OUTSIDE THE CONTAINER",
+  "records": 1,
+  "match": "aprox"
+ },
  "thinkwilderness": {
   "status": "Granted",
   "bucket": "licencia",
@@ -5089,6 +5419,16 @@
   "records": 1,
   "match": "cid"
  },
+ "tiuliu17yearold": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "L",
+  "granted": "2026-05-01",
+  "decline_reason": "",
+  "hs_name": "Tiểu Liễu - 17 year old",
+  "records": 1,
+  "match": "aprox"
+ },
  "tkcl": {
   "status": "Granted",
   "bucket": "licencia",
@@ -5168,6 +5508,16 @@
   "hs_name": "RAZBORGRUZ - LOADED TRUCKS",
   "records": 1,
   "match": "cid"
+ },
+ "trucksurfhotel": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "TRUCK SURF HOTEL",
+  "records": 1,
+  "match": "aprox"
  },
  "turnthistothat": {
   "status": "Granted",
@@ -5529,6 +5879,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "withpcglobal": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "S",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "WITH PC GLOBAL",
+  "records": 1,
+  "match": "aprox"
+ },
  "wolfpupfab": {
   "status": "Declined",
   "bucket": "rechazado",
@@ -5786,6 +6146,16 @@
   "granted": "2026-04-02",
   "decline_reason": "",
   "hs_name": "ZEL worksジルワークス",
+  "records": 1,
+  "match": "aprox"
+ },
+ "zippo": {
+  "status": "Fair Use",
+  "bucket": "fair use",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "ZIPPO",
   "records": 1,
   "match": "aprox"
  },
