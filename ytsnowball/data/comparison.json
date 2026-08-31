@@ -1,25 +1,25 @@
 {
  "agg": {
-  "n_distributors": 186,
-  "d_videos": 4607,
+  "n_distributors": 201,
+  "d_videos": 4752,
   "q_videos": 574,
-  "d_views": 1237935625,
+  "d_views": 1244287810,
   "q_views": 4350664161,
-  "d_median_views": 2734,
+  "d_median_views": 2554,
   "q_median_views": 2991012,
-  "d_raw_views": 848951657,
+  "d_raw_views": 850201383,
   "q_raw_views": 3509883498,
-  "d_median_dur": 1228,
+  "d_median_dur": 1242,
   "q_median_dur": 1646,
-  "d_creators": 1186,
+  "d_creators": 1215,
   "q_creators": 364,
-  "shared_creators": 254,
-  "only_theirs": 932,
-  "only_ours": 110,
+  "shared_creators": 255,
+  "only_theirs": 960,
+  "only_ours": 109,
   "overlap_of_ours": 70,
   "overlap_of_theirs": 21,
-  "total_lead": 113,
-  "total_follow": 1355
+  "total_lead": 118,
+  "total_follow": 1395
  },
  "channels": [
   {
@@ -77,6 +77,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCM1AYi7BlMXGlm3mFwO_s1w",
+   "title": "KLIFS TECH",
+   "handle": "@klifstech",
+   "url": "https://www.youtube.com/@klifstech",
+   "subs": 71600,
+   "videos_seen": 202,
+   "creators": 84,
+   "shared": 33,
+   "overlap_pct": 39,
+   "exclusive": 51,
+   "lead": 2,
+   "follow": 34,
+   "lead_pct": 6,
+   "median_lag": 354,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCpCij8uQ8ezE9YavV93o5bQ",
    "title": "Farm Tastic",
    "handle": "@farmtastic97",
@@ -91,24 +109,6 @@
    "follow": 10,
    "lead_pct": 52,
    "median_lag": 281,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
-   "channel_id": "UCM1AYi7BlMXGlm3mFwO_s1w",
-   "title": "KLIFS TECH",
-   "handle": "@klifstech",
-   "url": "https://www.youtube.com/@klifstech",
-   "subs": 71600,
-   "videos_seen": 202,
-   "creators": 82,
-   "shared": 33,
-   "overlap_pct": 40,
-   "exclusive": 49,
-   "lead": 2,
-   "follow": 34,
-   "lead_pct": 6,
-   "median_lag": 354,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -191,14 +191,32 @@
    "url": "https://www.youtube.com/@machinery___timberx",
    "subs": 18000,
    "videos_seen": 91,
-   "creators": 53,
+   "creators": 54,
    "shared": 13,
-   "overlap_pct": 25,
-   "exclusive": 40,
+   "overlap_pct": 24,
+   "exclusive": 41,
    "lead": 0,
    "follow": 13,
    "lead_pct": 0,
    "median_lag": 634,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCR3rfDiOfD1hk0IEdIwusIw",
+   "title": "AKLA GELEN",
+   "handle": "@aklagelen",
+   "url": "https://www.youtube.com/@aklagelen",
+   "subs": 1100000,
+   "videos_seen": 170,
+   "creators": 50,
+   "shared": 8,
+   "overlap_pct": 16,
+   "exclusive": 42,
+   "lead": 0,
+   "follow": 8,
+   "lead_pct": 0,
+   "median_lag": 516,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -217,24 +235,6 @@
    "follow": 15,
    "lead_pct": 0,
    "median_lag": 510,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
-   "channel_id": "UCR3rfDiOfD1hk0IEdIwusIw",
-   "title": "AKLA GELEN",
-   "handle": "@aklagelen",
-   "url": "https://www.youtube.com/@aklagelen",
-   "subs": 1100000,
-   "videos_seen": 170,
-   "creators": 47,
-   "shared": 8,
-   "overlap_pct": 17,
-   "exclusive": 39,
-   "lead": 0,
-   "follow": 8,
-   "lead_pct": 0,
-   "median_lag": 516,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -313,6 +313,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UClMLGQaKa3auSVsq-kx58nQ",
+   "title": "Technology Tech HD",
+   "handle": "@technologytechhd_",
+   "url": "https://www.youtube.com/@technologytechhd_",
+   "subs": 5400,
+   "videos_seen": 126,
+   "creators": 39,
+   "shared": 4,
+   "overlap_pct": 10,
+   "exclusive": 35,
+   "lead": 0,
+   "follow": 6,
+   "lead_pct": 0,
+   "median_lag": 56,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCZDPCrQUP3Z-qqZTyMdBU1Q",
    "title": "22TechZoom",
    "handle": "@22techzoom",
@@ -363,24 +381,6 @@
    "follow": 8,
    "lead_pct": 27,
    "median_lag": 346,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
-   "channel_id": "UClMLGQaKa3auSVsq-kx58nQ",
-   "title": "Technology Tech HD",
-   "handle": "@technologytechhd_",
-   "url": "https://www.youtube.com/@technologytechhd_",
-   "subs": 5400,
-   "videos_seen": 126,
-   "creators": 34,
-   "shared": 4,
-   "overlap_pct": 12,
-   "exclusive": 30,
-   "lead": 0,
-   "follow": 6,
-   "lead_pct": 0,
-   "median_lag": 56,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -968,6 +968,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCod7z6Uc-qJhook80bxco3A",
+   "title": "Limitless Workshop",
+   "handle": "@litasaunders-x3d",
+   "url": "https://www.youtube.com/@litasaunders-x3d",
+   "subs": 1100,
+   "videos_seen": 21,
+   "creators": 20,
+   "shared": 5,
+   "overlap_pct": 25,
+   "exclusive": 15,
+   "lead": 0,
+   "follow": 6,
+   "lead_pct": 0,
+   "median_lag": 402,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCXecRFZYMuaGLSCS4l-NiGw",
    "title": "TechTalks",
    "handle": "@technologietalks",
@@ -1040,6 +1058,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCRnjIZrmC5Iz4HOhob-ftlw",
+   "title": "LOG CABIN TV ",
+   "handle": "@logcabintv1",
+   "url": "https://www.youtube.com/@logcabintv1",
+   "subs": 3450,
+   "videos_seen": 19,
+   "creators": 18,
+   "shared": 7,
+   "overlap_pct": 39,
+   "exclusive": 11,
+   "lead": 0,
+   "follow": 7,
+   "lead_pct": 0,
+   "median_lag": 631,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCvUY4jftqj2jA7pvr1yTpXA",
    "title": "Tech Processing Review",
    "handle": "@techprocessingreview",
@@ -1090,6 +1126,24 @@
    "follow": 8,
    "lead_pct": 20,
    "median_lag": 525,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCOT3pvbt_4V3AldBCAgPnTg",
+   "title": "TechFreezeAdeel",
+   "handle": "@techfreezeadeel",
+   "url": "https://www.youtube.com/@techfreezeadeel",
+   "subs": 10,
+   "videos_seen": 22,
+   "creators": 17,
+   "shared": 3,
+   "overlap_pct": 18,
+   "exclusive": 14,
+   "lead": 1,
+   "follow": 2,
+   "lead_pct": 33,
+   "median_lag": 366,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -1763,24 +1817,6 @@
    "brand_tokens": []
   },
   {
-   "channel_id": "UCvlDQKXr6P4LetTw5VXR34Q",
-   "title": "The Builders World",
-   "handle": "@the-builders-world",
-   "url": "https://www.youtube.com/@the-builders-world",
-   "subs": 1530,
-   "videos_seen": 18,
-   "creators": 12,
-   "shared": 3,
-   "overlap_pct": 25,
-   "exclusive": 9,
-   "lead": 0,
-   "follow": 3,
-   "lead_pct": 0,
-   "median_lag": 204,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
    "channel_id": "UC7DgsC78ZCCaLe4sHFS6y6Q",
    "title": "Epic Makers Gold",
    "handle": "@epicmakers-mm1",
@@ -1795,6 +1831,24 @@
    "follow": 4,
    "lead_pct": 0,
    "median_lag": 806,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCvlDQKXr6P4LetTw5VXR34Q",
+   "title": "The Builders World",
+   "handle": "@the-builders-world",
+   "url": "https://www.youtube.com/@the-builders-world",
+   "subs": 1530,
+   "videos_seen": 18,
+   "creators": 12,
+   "shared": 3,
+   "overlap_pct": 25,
+   "exclusive": 9,
+   "lead": 0,
+   "follow": 3,
+   "lead_pct": 0,
+   "median_lag": 204,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -1925,6 +1979,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UC38waCN1LSlNgmQ8dItdXrQ",
+   "title": "Camille Sparkes",
+   "handle": "@camillesparkes",
+   "url": "https://www.youtube.com/@camillesparkes",
+   "subs": 0,
+   "videos_seen": 11,
+   "creators": 11,
+   "shared": 4,
+   "overlap_pct": 36,
+   "exclusive": 7,
+   "lead": 0,
+   "follow": 4,
+   "lead_pct": 0,
+   "median_lag": 814,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCeJjbwWvhzdlaQXRu2KCPKA",
    "title": "Lynsey Windon",
    "handle": "@lynseywindon",
@@ -1939,24 +2011,6 @@
    "follow": 3,
    "lead_pct": 0,
    "median_lag": 30,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
-   "channel_id": "UCw5dV763lYKUExihKR24qKQ",
-   "title": "Horizon Tech Central",
-   "handle": "@horizontechcentral",
-   "url": "https://www.youtube.com/@horizontechcentral",
-   "subs": 817,
-   "videos_seen": 19,
-   "creators": 10,
-   "shared": 7,
-   "overlap_pct": 70,
-   "exclusive": 3,
-   "lead": 3,
-   "follow": 5,
-   "lead_pct": 38,
-   "median_lag": 222,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -2011,6 +2065,42 @@
    "follow": 5,
    "lead_pct": 0,
    "median_lag": 509,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCxF7fw-O1Xqo6g9cYI5cBmA",
+   "title": "ThatJustTech",
+   "handle": "@thatjusttech",
+   "url": "https://www.youtube.com/@thatjusttech",
+   "subs": 86,
+   "videos_seen": 38,
+   "creators": 10,
+   "shared": 3,
+   "overlap_pct": 30,
+   "exclusive": 7,
+   "lead": 1,
+   "follow": 2,
+   "lead_pct": 33,
+   "median_lag": 199,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCL4_rreXvFbL8x1CGcowM-w",
+   "title": "Shift Builders",
+   "handle": "@shiftbuilders",
+   "url": "https://www.youtube.com/@shiftbuilders",
+   "subs": 0,
+   "videos_seen": 10,
+   "creators": 10,
+   "shared": 2,
+   "overlap_pct": 20,
+   "exclusive": 8,
+   "lead": 0,
+   "follow": 2,
+   "lead_pct": 0,
+   "median_lag": 437,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -2141,6 +2231,60 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCw5dV763lYKUExihKR24qKQ",
+   "title": "Horizon Tech Central",
+   "handle": "@horizontechcentral",
+   "url": "https://www.youtube.com/@horizontechcentral",
+   "subs": 817,
+   "videos_seen": 19,
+   "creators": 9,
+   "shared": 7,
+   "overlap_pct": 78,
+   "exclusive": 2,
+   "lead": 3,
+   "follow": 5,
+   "lead_pct": 38,
+   "median_lag": 222,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UC9EItc9EJf2_Xi46ByH9Lwg",
+   "title": "Struxio Docs",
+   "handle": "@struxiodocs",
+   "url": "https://www.youtube.com/@struxiodocs",
+   "subs": 34,
+   "videos_seen": 11,
+   "creators": 9,
+   "shared": 4,
+   "overlap_pct": 44,
+   "exclusive": 5,
+   "lead": 0,
+   "follow": 5,
+   "lead_pct": 0,
+   "median_lag": 25,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCLCxX7G0yQOwvbqBn-WVyYQ",
+   "title": "The Builder's Journey",
+   "handle": "@josemilsonballoni",
+   "url": "https://www.youtube.com/@josemilsonballoni",
+   "subs": 0,
+   "videos_seen": 9,
+   "creators": 9,
+   "shared": 6,
+   "overlap_pct": 67,
+   "exclusive": 3,
+   "lead": 0,
+   "follow": 6,
+   "lead_pct": 0,
+   "median_lag": 604,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCoTnH7YX1MKrD2dOHkzgAew",
    "title": "BuildRecap TV",
    "handle": "@buildrecaptv",
@@ -2195,24 +2339,6 @@
    "brand_tokens": []
   },
   {
-   "channel_id": "UCxF7fw-O1Xqo6g9cYI5cBmA",
-   "title": "ThatJustTech",
-   "handle": "@thatjusttech",
-   "url": "https://www.youtube.com/@thatjusttech",
-   "subs": 86,
-   "videos_seen": 37,
-   "creators": 9,
-   "shared": 3,
-   "overlap_pct": 33,
-   "exclusive": 6,
-   "lead": 1,
-   "follow": 2,
-   "lead_pct": 33,
-   "median_lag": 199,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
    "channel_id": "UC7NmwnJVMpekkjAAYT9_4ww",
    "title": "Olivia Hunt",
    "handle": "@oliviahunt-n3i",
@@ -2227,6 +2353,24 @@
    "follow": 1,
    "lead_pct": 0,
    "median_lag": 24,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCqmsXddD6U4NS5A0o1cmvtA",
+   "title": "TerraForge Collective",
+   "handle": "@terraforge.collective3472",
+   "url": "https://www.youtube.com/@terraforge.collective3472",
+   "subs": 3,
+   "videos_seen": 9,
+   "creators": 9,
+   "shared": 0,
+   "overlap_pct": 0,
+   "exclusive": 9,
+   "lead": 0,
+   "follow": 0,
+   "lead_pct": 0,
+   "median_lag": null,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -2393,6 +2537,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UC5hd13fVYbH5QtoamoaUGsw",
+   "title": "Zenith Build",
+   "handle": "@zenithbuild.official7987",
+   "url": "https://www.youtube.com/@zenithbuild.official7987",
+   "subs": 1,
+   "videos_seen": 8,
+   "creators": 8,
+   "shared": 2,
+   "overlap_pct": 25,
+   "exclusive": 6,
+   "lead": 0,
+   "follow": 2,
+   "lead_pct": 0,
+   "median_lag": 366,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCJ11H9ZXWQSR16qkEiOXyzw",
    "title": "Build Secrets",
    "handle": "@buildsecrets",
@@ -2461,6 +2623,24 @@
    "follow": 3,
    "lead_pct": 0,
    "median_lag": 799,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCSqqkMyfFQJinOTxLunOhPA",
+   "title": "Crafted Wild",
+   "handle": "@craftedwild-h",
+   "url": "https://www.youtube.com/@craftedwild-h",
+   "subs": 0,
+   "videos_seen": 7,
+   "creators": 7,
+   "shared": 4,
+   "overlap_pct": 57,
+   "exclusive": 3,
+   "lead": 1,
+   "follow": 3,
+   "lead_pct": 25,
+   "median_lag": 409,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -2587,6 +2767,24 @@
    "follow": 2,
    "lead_pct": 0,
    "median_lag": 658,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCYhvQCyxQQAr3PjaoRpODww",
+   "title": "Cabin Makers DIY",
+   "handle": "@cabinmakersdiy",
+   "url": "https://www.youtube.com/@cabinmakersdiy",
+   "subs": 1,
+   "videos_seen": 7,
+   "creators": 6,
+   "shared": 3,
+   "overlap_pct": 50,
+   "exclusive": 3,
+   "lead": 0,
+   "follow": 3,
+   "lead_pct": 0,
+   "median_lag": 176,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -2785,24 +2983,6 @@
    "follow": 2,
    "lead_pct": 0,
    "median_lag": 764,
-   "brand_sim": 0.0,
-   "brand_tokens": []
-  },
-  {
-   "channel_id": "UCVW7vwmbH_m4iP2J68B9XCA",
-   "title": "ProyectoEnAccion",
-   "handle": "@proyectoenaccion",
-   "url": "https://www.youtube.com/@proyectoenaccion",
-   "subs": 60,
-   "videos_seen": 6,
-   "creators": 5,
-   "shared": 3,
-   "overlap_pct": 60,
-   "exclusive": 2,
-   "lead": 1,
-   "follow": 2,
-   "lead_pct": 33,
-   "median_lag": 274,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -3023,6 +3203,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCVW7vwmbH_m4iP2J68B9XCA",
+   "title": "ProyectoEnAccion",
+   "handle": "@proyectoenaccion",
+   "url": "https://www.youtube.com/@proyectoenaccion",
+   "subs": 60,
+   "videos_seen": 6,
+   "creators": 4,
+   "shared": 3,
+   "overlap_pct": 75,
+   "exclusive": 1,
+   "lead": 1,
+   "follow": 2,
+   "lead_pct": 33,
+   "median_lag": 274,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCTLrbUN8W0S4BDruToEtVQA",
    "title": "Woodworking TV",
    "handle": "@woodworkingtv",
@@ -3221,6 +3419,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCFTluRFi_dBVb3wtOcOia8Q",
+   "title": "4k videos",
+   "handle": "@amirbajwa6791",
+   "url": "https://www.youtube.com/@amirbajwa6791",
+   "subs": 69,
+   "videos_seen": 3,
+   "creators": 3,
+   "shared": 1,
+   "overlap_pct": 33,
+   "exclusive": 2,
+   "lead": 1,
+   "follow": 0,
+   "lead_pct": 100,
+   "median_lag": null,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCdHCwJr5-jkJeauTxOKZlUg",
    "title": "ArkitekaYT",
    "handle": "@arkitekayt",
@@ -3235,6 +3451,24 @@
    "follow": 2,
    "lead_pct": 0,
    "median_lag": 370,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
+   "channel_id": "UCMQA_rdkGL5jNGc3Ltj3sww",
+   "title": "ChronoHD",
+   "handle": "@chronohd-e7l",
+   "url": "https://www.youtube.com/@chronohd-e7l",
+   "subs": 13,
+   "videos_seen": 3,
+   "creators": 3,
+   "shared": 2,
+   "overlap_pct": 67,
+   "exclusive": 1,
+   "lead": 2,
+   "follow": 0,
+   "lead_pct": 100,
+   "median_lag": null,
    "brand_sim": 0.0,
    "brand_tokens": []
   },
@@ -3329,6 +3563,24 @@
    "brand_tokens": []
   },
   {
+   "channel_id": "UCw1p0HiQUbN7lZn0dmYISfg",
+   "title": "Punch Forge",
+   "handle": "@punchforge",
+   "url": "https://www.youtube.com/@punchforge",
+   "subs": 508,
+   "videos_seen": 2,
+   "creators": 2,
+   "shared": 0,
+   "overlap_pct": 0,
+   "exclusive": 2,
+   "lead": 0,
+   "follow": 0,
+   "lead_pct": 0,
+   "median_lag": null,
+   "brand_sim": 0.0,
+   "brand_tokens": []
+  },
+  {
    "channel_id": "UCMXIqoBC13dPsA6sXkuQaQQ",
    "title": "Origin Techies",
    "handle": "@origintechies",
@@ -3381,9 +3633,39 @@
    "median_lag": 681,
    "brand_sim": 0.0,
    "brand_tokens": []
+  },
+  {
+   "channel_id": "UCV5UVW9T1r3cqHSRkSnw6_A",
+   "title": "ROYAL TV",
+   "handle": "@royaltv-y4f",
+   "url": "https://www.youtube.com/@royaltv-y4f",
+   "subs": 1,
+   "videos_seen": 2,
+   "creators": 2,
+   "shared": 0,
+   "overlap_pct": 0,
+   "exclusive": 2,
+   "lead": 0,
+   "follow": 0,
+   "lead_pct": 0,
+   "median_lag": null,
+   "brand_sim": 0.0,
+   "brand_tokens": []
   }
  ],
  "gap": [
+  {
+   "creator": "ThisIsMyAlaska",
+   "url": "https://www.youtube.com/@ThisIsMyAlaska",
+   "distributors": 33,
+   "videos": 36,
+   "best_reach": 1092536,
+   "best_outlier": 202.4,
+   "best_title": "How a Man Used 500 Massive Logs to Build a Cabin | Start to Finish by @ThisIsMyAlaska",
+   "best_video": "SC9lwkpUtyQ",
+   "creator_subs": 371000,
+   "last_seen": "2026-08-19"
+  },
   {
    "creator": "lifeanywhere",
    "url": "https://www.youtube.com/@lifeanywhere",
@@ -3395,18 +3677,6 @@
    "best_video": "ngT4BG_7v-8",
    "creator_subs": 46800,
    "last_seen": "2026-08-14"
-  },
-  {
-   "creator": "ThisIsMyAlaska",
-   "url": "https://www.youtube.com/@ThisIsMyAlaska",
-   "distributors": 31,
-   "videos": 34,
-   "best_reach": 1092536,
-   "best_outlier": 202.4,
-   "best_title": "How a Man Used 500 Massive Logs to Build a Cabin | Start to Finish by @ThisIsMyAlaska",
-   "best_video": "SC9lwkpUtyQ",
-   "creator_subs": 371000,
-   "last_seen": "2026-08-17"
   },
   {
    "creator": "GrumpyToadCreations",
@@ -3435,14 +3705,26 @@
   {
    "creator": "ArtSportArtSport",
    "url": "https://www.youtube.com/@ArtSportArtSport",
-   "distributors": 27,
-   "videos": 32,
+   "distributors": 28,
+   "videos": 33,
    "best_reach": 7648773,
    "best_outlier": 4260.0,
    "best_title": "Building Secret Tree House in the Middle of the Forest | Start to Finish by \u202a@ArtSportArtSport",
    "best_video": "WZHIRWYHatw",
    "creator_subs": 212000,
    "last_seen": "2026-08-30"
+  },
+  {
+   "creator": "norusarubushcraft",
+   "url": "https://www.youtube.com/@norusarubushcraft",
+   "distributors": 26,
+   "videos": 29,
+   "best_reach": 1627471,
+   "best_outlier": 22.8,
+   "best_title": "Man Builds Complete Survival Shelter for Winter | Start to Finish Build By @norusarubushcraft",
+   "best_video": "3JNlfRmjkXk",
+   "creator_subs": 470000,
+   "last_seen": "2026-08-22"
   },
   {
    "creator": "ProjectswithChristineJesse",
@@ -3457,22 +3739,10 @@
    "last_seen": "2026-08-23"
   },
   {
-   "creator": "norusarubushcraft",
-   "url": "https://www.youtube.com/@norusarubushcraft",
-   "distributors": 21,
-   "videos": 24,
-   "best_reach": 1627471,
-   "best_outlier": 22.8,
-   "best_title": "Man Builds Complete Survival Shelter for Winter | Start to Finish Build By @norusarubushcraft",
-   "best_video": "3JNlfRmjkXk",
-   "creator_subs": 470000,
-   "last_seen": "2026-08-22"
-  },
-  {
    "creator": "Wolfpupfab",
    "url": "https://www.youtube.com/@Wolfpupfab",
-   "distributors": 19,
-   "videos": 22,
+   "distributors": 20,
+   "videos": 23,
    "best_reach": 6912949,
    "best_outlier": 202.5,
    "best_title": "This man is building a hidden underground shelter beneath his home in just 24 months!",
@@ -3493,6 +3763,18 @@
    "last_seen": "2026-08-24"
   },
   {
+   "creator": "lankhome",
+   "url": "https://www.youtube.com/@lankhome",
+   "distributors": 17,
+   "videos": 19,
+   "best_reach": 1458443,
+   "best_outlier": 352.1,
+   "best_title": "Men Build a Dream A-Frame House With a Pool | Start to Finish by @LankHome",
+   "best_video": "1sbEScunLfA",
+   "creator_subs": 23100,
+   "last_seen": "2026-08-28"
+  },
+  {
    "creator": "NickandMa\u00ebla",
    "url": "https://www.youtube.com/@NickandMa\u00ebla",
    "distributors": 16,
@@ -3505,16 +3787,16 @@
    "last_seen": "2026-08-31"
   },
   {
-   "creator": "lankhome",
-   "url": "https://www.youtube.com/@lankhome",
+   "creator": "mypersonaljournal",
+   "url": "https://www.youtube.com/@mypersonaljournal",
    "distributors": 16,
-   "videos": 18,
-   "best_reach": 1458443,
-   "best_outlier": 352.1,
-   "best_title": "Men Build a Dream A-Frame House With a Pool | Start to Finish by @LankHome",
-   "best_video": "1sbEScunLfA",
-   "creator_subs": 23100,
-   "last_seen": "2026-08-28"
+   "videos": 16,
+   "best_reach": 866294,
+   "best_outlier": 10.4,
+   "best_title": "Man Builds Beautiful Wooden Cabin in the Forest | From Start to Finish by@mypersonaljournal",
+   "best_video": "rdqdDLBYq-k",
+   "creator_subs": 150000,
+   "last_seen": "2026-08-26"
   },
   {
    "creator": "Carpenter_AnXu",
@@ -3529,16 +3811,28 @@
    "last_seen": "2026-07-30"
   },
   {
-   "creator": "mypersonaljournal",
-   "url": "https://www.youtube.com/@mypersonaljournal",
+   "creator": "naturalloghouse",
+   "url": "https://www.youtube.com/@naturalloghouse",
+   "distributors": 15,
+   "videos": 16,
+   "best_reach": 1774695,
+   "best_outlier": 18.7,
+   "best_title": "This GIANT Scandinavian Wooden House Was Built in Just 120 Days | Start to Finish by@naturalloghouse",
+   "best_video": "m8IDRCkF5EA",
+   "creator_subs": 78100,
+   "last_seen": "2026-08-31"
+  },
+  {
+   "creator": "kbuild",
+   "url": "https://www.youtube.com/@kbuild",
    "distributors": 15,
    "videos": 15,
-   "best_reach": 866294,
-   "best_outlier": 10.4,
-   "best_title": "Man Builds Beautiful Wooden Cabin in the Forest | From Start to Finish by@mypersonaljournal",
-   "best_video": "rdqdDLBYq-k",
-   "creator_subs": 150000,
-   "last_seen": "2026-08-26"
+   "best_reach": 763668,
+   "best_outlier": 18.0,
+   "best_title": "From Barren Land to a Stunning $2 Million Luxury Timber Villa | Built in 360 Days By @kbuild",
+   "best_video": "wpr4xxkh-BU",
+   "creator_subs": 66300,
+   "last_seen": "2026-08-29"
   },
   {
    "creator": "WoodsandWondersCabin",
@@ -3565,30 +3859,6 @@
    "last_seen": "2026-08-28"
   },
   {
-   "creator": "naturalloghouse",
-   "url": "https://www.youtube.com/@naturalloghouse",
-   "distributors": 14,
-   "videos": 15,
-   "best_reach": 1774695,
-   "best_outlier": 18.7,
-   "best_title": "This GIANT Scandinavian Wooden House Was Built in Just 120 Days | Start to Finish by@naturalloghouse",
-   "best_video": "m8IDRCkF5EA",
-   "creator_subs": 78100,
-   "last_seen": "2026-08-31"
-  },
-  {
-   "creator": "kbuild",
-   "url": "https://www.youtube.com/@kbuild",
-   "distributors": 14,
-   "videos": 14,
-   "best_reach": 763668,
-   "best_outlier": 18.0,
-   "best_title": "From Barren Land to a Stunning $2 Million Luxury Timber Villa | Built in 360 Days By @kbuild",
-   "best_video": "wpr4xxkh-BU",
-   "creator_subs": 66300,
-   "last_seen": "2026-08-14"
-  },
-  {
    "creator": "ThanhSuperBoat",
    "url": "https://www.youtube.com/@ThanhSuperBoat",
    "distributors": 13,
@@ -3611,6 +3881,18 @@
    "best_video": "UmnZ3iymp_E",
    "creator_subs": 58400,
    "last_seen": "2026-08-25"
+  },
+  {
+   "creator": "MySelfReliance",
+   "url": "https://www.youtube.com/@MySelfReliance",
+   "distributors": 13,
+   "videos": 13,
+   "best_reach": 277209,
+   "best_outlier": 58.7,
+   "best_title": "Couple Spends 2 Years Building a Self-Sufficient Log Cabin in the Wilderness | @MySelfReliance",
+   "best_video": "LVwar_grAeQ",
+   "creator_subs": 2210000,
+   "last_seen": "2026-08-28"
   },
   {
    "creator": "juanxiaoliu",
@@ -3659,18 +3941,6 @@
    "best_video": "5Ze67TNA85g",
    "creator_subs": 34900,
    "last_seen": "2026-07-24"
-  },
-  {
-   "creator": "MySelfReliance",
-   "url": "https://www.youtube.com/@MySelfReliance",
-   "distributors": 11,
-   "videos": 11,
-   "best_reach": 177365,
-   "best_outlier": 31.6,
-   "best_title": "4 Years Alone: A 70-Year-Old Man Builds a Log Cabin in the forest | performed by@MySelfReliance",
-   "best_video": "StwofAoLO5k",
-   "creator_subs": 2210000,
-   "last_seen": "2026-08-28"
   },
   {
    "creator": "enancinar",
@@ -3805,6 +4075,18 @@
    "last_seen": "2026-08-06"
   },
   {
+   "creator": "RCPlayGround",
+   "url": "https://www.youtube.com/@RCPlayGround",
+   "distributors": 8,
+   "videos": 10,
+   "best_reach": 3838974,
+   "best_outlier": 49.0,
+   "best_title": "MAN BUILDS an Insane $2,000 SCANIA RC TRUCK With Real Working Mechanics by @RCPlayGround",
+   "best_video": "_oQtkKafwHc",
+   "creator_subs": 387000,
+   "last_seen": "2026-08-15"
+  },
+  {
    "creator": "loginnature8516",
    "url": "https://www.youtube.com/@loginnature8516",
    "distributors": 8,
@@ -3827,6 +4109,18 @@
    "best_video": "KJ2JmKitz0U",
    "creator_subs": 64000,
    "last_seen": "2026-08-30"
+  },
+  {
+   "creator": "QuantumMakers",
+   "url": "https://www.youtube.com/@QuantumMakers",
+   "distributors": 8,
+   "videos": 30,
+   "best_reach": 888544,
+   "best_outlier": 17.1,
+   "best_title": "From Empty Ground to a Massive Workshop | Start to Finish @RRBuildings @QuantumMakers ",
+   "best_video": "eCh2P3ZPdUs",
+   "creator_subs": null,
+   "last_seen": "2026-08-17"
   },
   {
    "creator": "buildingroots5873",
@@ -3865,6 +4159,18 @@
    "last_seen": "2026-08-23"
   },
   {
+   "creator": "SunfishBudget",
+   "url": "https://www.youtube.com/@SunfishBudget",
+   "distributors": 7,
+   "videos": 7,
+   "best_reach": 1938250,
+   "best_outlier": 45.8,
+   "best_title": "Transforming 6 Old Shipping Containers into a Stunning $400,000 Luxury Home | 180 Days",
+   "best_video": "O98XEprG0cM",
+   "creator_subs": null,
+   "last_seen": "2026-08-27"
+  },
+  {
    "creator": "VillaAroldi",
    "url": "https://www.youtube.com/@VillaAroldi",
    "distributors": 7,
@@ -3877,16 +4183,16 @@
    "last_seen": "2026-06-23"
   },
   {
-   "creator": "QuantumMakers",
-   "url": "https://www.youtube.com/@QuantumMakers",
+   "creator": "LesBricoloveurs",
+   "url": "https://www.youtube.com/@LesBricoloveurs",
    "distributors": 7,
-   "videos": 25,
-   "best_reach": 888544,
-   "best_outlier": 17.1,
-   "best_title": "From Empty Ground to a Massive Workshop | Start to Finish @RRBuildings @QuantumMakers ",
-   "best_video": "eCh2P3ZPdUs",
-   "creator_subs": null,
-   "last_seen": "2026-08-17"
+   "videos": 7,
+   "best_reach": 1751356,
+   "best_outlier": 57.5,
+   "best_title": "Man Transforms Old Farm into Luxury House | Start to Finish by @LesBricoloveurs",
+   "best_video": "kNZYCcfffHw",
+   "creator_subs": 32100,
+   "last_seen": "2026-08-28"
   },
   {
    "creator": "lesnoy_badger1544",
@@ -3901,6 +4207,30 @@
    "last_seen": "2026-08-13"
   },
   {
+   "creator": "SimpleLifeBushcraft",
+   "url": "https://www.youtube.com/@SimpleLifeBushcraft",
+   "distributors": 7,
+   "videos": 8,
+   "best_reach": 26679,
+   "best_outlier": 11.6,
+   "best_title": "365 Days Building a Wooden Mountain Cabin from Summer to Winter",
+   "best_video": "IUaUTEQd82M",
+   "creator_subs": 246000,
+   "last_seen": "2026-08-21"
+  },
+  {
+   "creator": "alex_wildlife",
+   "url": "https://www.youtube.com/@alex_wildlife",
+   "distributors": 7,
+   "videos": 8,
+   "best_reach": 1005,
+   "best_outlier": 1.9,
+   "best_title": "Man builds Underground Forest Cabin Made With NATURAL Logs start to finish by @alex_wildlife",
+   "best_video": "wdjanuWinyo",
+   "creator_subs": 268000,
+   "last_seen": "2026-07-30"
+  },
+  {
    "creator": "homemade_madness",
    "url": "https://www.youtube.com/@homemade_madness",
    "distributors": 6,
@@ -3911,18 +4241,6 @@
    "best_video": "DyHvqNB357U",
    "creator_subs": 251000,
    "last_seen": "2026-08-31"
-  },
-  {
-   "creator": "RCPlayGround",
-   "url": "https://www.youtube.com/@RCPlayGround",
-   "distributors": 6,
-   "videos": 8,
-   "best_reach": 3838974,
-   "best_outlier": 49.0,
-   "best_title": "MAN BUILDS an Insane $2,000 SCANIA RC TRUCK With Real Working Mechanics by @RCPlayGround",
-   "best_video": "_oQtkKafwHc",
-   "creator_subs": 387000,
-   "last_seen": "2026-08-15"
   },
   {
    "creator": "LibraryofConstruction",
@@ -3949,18 +4267,6 @@
    "last_seen": "2026-08-20"
   },
   {
-   "creator": "SunfishBudget",
-   "url": "https://www.youtube.com/@SunfishBudget",
-   "distributors": 6,
-   "videos": 6,
-   "best_reach": 1938250,
-   "best_outlier": 45.8,
-   "best_title": "Transforming 6 Old Shipping Containers into a Stunning $400,000 Luxury Home | 180 Days",
-   "best_video": "O98XEprG0cM",
-   "creator_subs": null,
-   "last_seen": "2026-08-27"
-  },
-  {
    "creator": "FLManGarage",
    "url": "https://www.youtube.com/@FLManGarage",
    "distributors": 6,
@@ -3973,16 +4279,16 @@
    "last_seen": "2026-06-04"
   },
   {
-   "creator": "LesBricoloveurs",
-   "url": "https://www.youtube.com/@LesBricoloveurs",
+   "creator": "Paullivesdifferent",
+   "url": "https://www.youtube.com/@Paullivesdifferent",
    "distributors": 6,
    "videos": 6,
-   "best_reach": 1751356,
-   "best_outlier": 57.5,
-   "best_title": "Man Transforms Old Farm into Luxury House | Start to Finish by @LesBricoloveurs",
-   "best_video": "kNZYCcfffHw",
-   "creator_subs": 32100,
-   "last_seen": "2026-07-19"
+   "best_reach": 1534987,
+   "best_outlier": 3.9,
+   "best_title": "Man Builds Dream Off-Grid House | Start to Finish by @Paullivesdifferent",
+   "best_video": "XoDMeyFPNbI",
+   "creator_subs": 15200,
+   "last_seen": "2026-08-21"
   },
   {
    "creator": "klerobi1",
@@ -4057,6 +4363,18 @@
    "last_seen": "2026-08-08"
   },
   {
+   "creator": "AndrewCamarata",
+   "url": "https://www.youtube.com/@AndrewCamarata",
+   "distributors": 6,
+   "videos": 7,
+   "best_reach": 499544,
+   "best_outlier": 4.0,
+   "best_title": "Man Builds Castle on Mountain Using Shipping Containers | From Start to Finish @AndrewCamarata",
+   "best_video": "5px-Rz5V3aw",
+   "creator_subs": 1520000,
+   "last_seen": "2026-08-31"
+  },
+  {
    "creator": "domegaia",
    "url": "https://www.youtube.com/@domegaia",
    "distributors": 6,
@@ -4105,16 +4423,16 @@
    "last_seen": "2026-06-30"
   },
   {
-   "creator": "SimpleLifeBushcraft",
-   "url": "https://www.youtube.com/@SimpleLifeBushcraft",
+   "creator": "papatechnologies",
+   "url": "https://www.youtube.com/@papatechnologies",
    "distributors": 6,
-   "videos": 7,
-   "best_reach": 26679,
-   "best_outlier": 11.6,
-   "best_title": "365 Days Building a Wooden Mountain Cabin from Summer to Winter",
-   "best_video": "IUaUTEQd82M",
-   "creator_subs": 246000,
-   "last_seen": "2026-08-21"
+   "videos": 8,
+   "best_reach": 44273,
+   "best_outlier": 180.7,
+   "best_title": "Two Men Build a Complete Timber Home From Scratch | by @papatechnologies",
+   "best_video": "B_hPTl73aAQ",
+   "creator_subs": 1140000,
+   "last_seen": "2026-08-15"
   },
   {
    "creator": "RestorationsSkills6886",
@@ -4127,18 +4445,6 @@
    "best_video": "s7n72ObF1Fo",
    "creator_subs": 27600,
    "last_seen": "2026-08-12"
-  },
-  {
-   "creator": "alex_wildlife",
-   "url": "https://www.youtube.com/@alex_wildlife",
-   "distributors": 6,
-   "videos": 7,
-   "best_reach": 1005,
-   "best_outlier": 1.9,
-   "best_title": "Man builds Underground Forest Cabin Made With NATURAL Logs start to finish by @alex_wildlife",
-   "best_video": "wdjanuWinyo",
-   "creator_subs": 268000,
-   "last_seen": "2026-07-30"
   },
   {
    "creator": "septemberflow",
@@ -4187,18 +4493,6 @@
    "best_video": "93ZG4OvvLeo",
    "creator_subs": 15900,
    "last_seen": "2026-06-19"
-  },
-  {
-   "creator": "Paullivesdifferent",
-   "url": "https://www.youtube.com/@Paullivesdifferent",
-   "distributors": 5,
-   "videos": 5,
-   "best_reach": 1534987,
-   "best_outlier": 3.9,
-   "best_title": "Man Builds Dream Off-Grid House | Start to Finish by @Paullivesdifferent",
-   "best_video": "XoDMeyFPNbI",
-   "creator_subs": 15200,
-   "last_seen": "2026-08-21"
   },
   {
    "creator": "woody_allan",
@@ -4261,16 +4555,16 @@
    "last_seen": "2026-08-12"
   },
   {
-   "creator": "AndrewCamarata",
-   "url": "https://www.youtube.com/@AndrewCamarata",
+   "creator": "Exode-R\u00e9novation",
+   "url": "https://www.youtube.com/@Exode-R\u00e9novation",
    "distributors": 5,
-   "videos": 6,
-   "best_reach": 499544,
-   "best_outlier": 4.0,
-   "best_title": "Man Builds Castle on Mountain Using Shipping Containers | From Start to Finish @AndrewCamarata",
-   "best_video": "5px-Rz5V3aw",
-   "creator_subs": 1520000,
-   "last_seen": "2026-08-31"
+   "videos": 5,
+   "best_reach": 225140,
+   "best_outlier": 110.2,
+   "best_title": "Couple Transforms Their Old Attic Into a Stunning Dream Space | Start to Finish @Exode-R\u00e9novation",
+   "best_video": "QH4-7ArlrGU",
+   "creator_subs": 21500,
+   "last_seen": "2026-08-27"
   },
   {
    "creator": "cabinlife4551",
@@ -4297,16 +4591,16 @@
    "last_seen": "2026-08-10"
   },
   {
-   "creator": "papatechnologies",
-   "url": "https://www.youtube.com/@papatechnologies",
+   "creator": "ShevaBushcraft",
+   "url": "https://www.youtube.com/@ShevaBushcraft",
    "distributors": 5,
-   "videos": 7,
-   "best_reach": 44273,
-   "best_outlier": 180.7,
-   "best_title": "Two Men Build a Complete Timber Home From Scratch | by @papatechnologies",
-   "best_video": "B_hPTl73aAQ",
-   "creator_subs": 1140000,
-   "last_seen": "2026-08-15"
+   "videos": 5,
+   "best_reach": 74827,
+   "best_outlier": 5.4,
+   "best_title": "Building an Off-Grid Winter Cabin From the Ground Up | by @ShevaBushcraft",
+   "best_video": "4QaANa8Af64",
+   "creator_subs": 422000,
+   "last_seen": "2026-08-16"
   },
   {
    "creator": "RuralCraftsmanship",
@@ -4333,6 +4627,18 @@
    "last_seen": "2026-08-16"
   },
   {
+   "creator": "backwoodssolitude",
+   "url": "https://www.youtube.com/@backwoodssolitude",
+   "distributors": 5,
+   "videos": 5,
+   "best_reach": 22156,
+   "best_outlier": 3.7,
+   "best_title": "Man Builds a Remote Log Cabin Completely Alone \u2014 Start to Finish by @backwoodssolitude",
+   "best_video": "BgsUwvpaxyA",
+   "creator_subs": null,
+   "last_seen": "2026-08-30"
+  },
+  {
    "creator": "botanik6140",
    "url": "https://www.youtube.com/@botanik6140",
    "distributors": 5,
@@ -4345,16 +4651,28 @@
    "last_seen": "2026-04-02"
   },
   {
-   "creator": "expandfurniture",
-   "url": "https://www.youtube.com/@expandfurniture",
+   "creator": "WildernessSurvivalMan",
+   "url": "https://www.youtube.com/@WildernessSurvivalMan",
    "distributors": 5,
-   "videos": 7,
-   "best_reach": 311,
-   "best_outlier": 17.3,
-   "best_title": "Fantastic  Space Saving Ideas    Smart Furniture",
-   "best_video": "l3yp0BvQUEA",
-   "creator_subs": null,
-   "last_seen": "2024-06-10"
+   "videos": 6,
+   "best_reach": 10166,
+   "best_outlier": 12.0,
+   "best_title": "Man Spends 14 Days Building a Warm Off-Grid Log Cabin for Winter | by @WildernessSurvivalMan",
+   "best_video": "vL1dEgZlepo",
+   "creator_subs": 239000,
+   "last_seen": "2026-08-27"
+  },
+  {
+   "creator": "CarRestorations-USA",
+   "url": "https://www.youtube.com/@CarRestorations-USA",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 5120898,
+   "best_outlier": 77.1,
+   "best_title": "This guy cleans a flood-damaged BMW and turns it into a luxury car! Incredible transformation!",
+   "best_video": "ZWaK7jQqhvA",
+   "creator_subs": 14400,
+   "last_seen": "2026-08-13"
   },
   {
    "creator": "CaseyYoungblood",
@@ -4379,6 +4697,18 @@
    "best_video": "aY23G-Rm4os",
    "creator_subs": 242000,
    "last_seen": "2026-08-10"
+  },
+  {
+   "creator": "ateliermavi",
+   "url": "https://www.youtube.com/@ateliermavi",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 2780714,
+   "best_outlier": 56.2,
+   "best_title": "Couple Transforms an Abandoned Stone House in Italy Into Their Dream Home | by @ateliermavi",
+   "best_video": "qXyfAw3RkU4",
+   "creator_subs": 117000,
+   "last_seen": "2026-08-06"
   },
   {
    "creator": "anvswild",
@@ -4417,6 +4747,30 @@
    "last_seen": "2026-07-10"
   },
   {
+   "creator": "deborahpaullagrange31",
+   "url": "https://www.youtube.com/@deborahpaullagrange31",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 1476958,
+   "best_outlier": 11.5,
+   "best_title": "Couple Spends $3 Million Turning a Barn Into Their Dream Home | by@deborahpaullagrange31",
+   "best_video": "E8yhRQhqQOo",
+   "creator_subs": null,
+   "last_seen": "2026-08-28"
+  },
+  {
+   "creator": "lambinhTuoitre",
+   "url": "https://www.youtube.com/@lambinhTuoitre",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 1314700,
+   "best_outlier": 19.8,
+   "best_title": "This man is building a secret bunker inside a giant tree! From start to finish!",
+   "best_video": "8PRs8W5Sch0",
+   "creator_subs": 60000,
+   "last_seen": "2026-08-17"
+  },
+  {
    "creator": "European_Homesteading",
    "url": "https://www.youtube.com/@European_Homesteading",
    "distributors": 4,
@@ -4439,6 +4793,30 @@
    "best_video": "lS8A__8kIpw",
    "creator_subs": 306000,
    "last_seen": "2026-07-08"
+  },
+  {
+   "creator": "CantContainUs",
+   "url": "https://www.youtube.com/@CantContainUs",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 838293,
+   "best_outlier": 19.8,
+   "best_title": "A Couple Transforms Discarded Shipping Containers into a $200,000 Luxury Container Home | 120 Days",
+   "best_video": "FUQfcMFOa6w",
+   "creator_subs": 108000,
+   "last_seen": "2026-08-23"
+  },
+  {
+   "creator": "OffGridLife",
+   "url": "https://www.youtube.com/@OffGridLife",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 818289,
+   "best_outlier": 4.4,
+   "best_title": "Couple Builds a DIY Brick and Clay Pizza Oven in the Forest | Start to Finish @OffGridLife",
+   "best_video": "w_WLXiYJbKU",
+   "creator_subs": 2540000,
+   "last_seen": "2026-08-10"
   },
   {
    "creator": "andersboisentinyhouse",
@@ -4501,16 +4879,16 @@
    "last_seen": "2026-07-16"
   },
   {
-   "creator": "Exode-R\u00e9novation",
-   "url": "https://www.youtube.com/@Exode-R\u00e9novation",
+   "creator": "Dungfamilylife",
+   "url": "https://www.youtube.com/@Dungfamilylife",
    "distributors": 4,
    "videos": 4,
-   "best_reach": 225140,
-   "best_outlier": 110.2,
-   "best_title": "Couple Transforms Their Old Attic Into a Stunning Dream Space | Start to Finish @Exode-R\u00e9novation",
-   "best_video": "QH4-7ArlrGU",
-   "creator_subs": 21500,
-   "last_seen": "2026-08-27"
+   "best_reach": 129762,
+   "best_outlier": 7.6,
+   "best_title": "This man is building a secret underground bunker that no one will ever find! Underground shelter!",
+   "best_video": "qepmEoDNFRA",
+   "creator_subs": null,
+   "last_seen": "2026-08-16"
   },
   {
    "creator": "KYLESCABIN",
@@ -4573,18 +4951,6 @@
    "last_seen": "2026-05-05"
   },
   {
-   "creator": "backwoodssolitude",
-   "url": "https://www.youtube.com/@backwoodssolitude",
-   "distributors": 4,
-   "videos": 4,
-   "best_reach": 22156,
-   "best_outlier": 3.7,
-   "best_title": "Man Builds a Remote Log Cabin Completely Alone \u2014 Start to Finish by @backwoodssolitude",
-   "best_video": "BgsUwvpaxyA",
-   "creator_subs": null,
-   "last_seen": "2026-08-30"
-  },
-  {
    "creator": "MAXBUSHCKRAFT24",
    "url": "https://www.youtube.com/@MAXBUSHCKRAFT24",
    "distributors": 4,
@@ -4595,6 +4961,18 @@
    "best_video": "s8n1H6QB-DA",
    "creator_subs": 50400,
    "last_seen": "2026-08-10"
+  },
+  {
+   "creator": "MPJournallife",
+   "url": "https://www.youtube.com/@MPJournallife",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 17044,
+   "best_outlier": 1.0,
+   "best_title": "Racing Winter to Build a Timber Cabin & Hand-Carved Interior | by @MPJournallife",
+   "best_video": "qJfR_vV4TUY",
+   "creator_subs": null,
+   "last_seen": "2026-08-16"
   },
   {
    "creator": "DrewBuildsStuff",
@@ -4609,16 +4987,16 @@
    "last_seen": "2026-08-18"
   },
   {
-   "creator": "WildernessSurvivalMan",
-   "url": "https://www.youtube.com/@WildernessSurvivalMan",
+   "creator": "bushcraftandnature",
+   "url": "https://www.youtube.com/@bushcraftandnature",
    "distributors": 4,
-   "videos": 5,
-   "best_reach": 10166,
-   "best_outlier": 12.0,
-   "best_title": "Man Spends 14 Days Building a Warm Off-Grid Log Cabin for Winter | by @WildernessSurvivalMan",
-   "best_video": "vL1dEgZlepo",
-   "creator_subs": 239000,
-   "last_seen": "2026-08-27"
+   "videos": 6,
+   "best_reach": 6720,
+   "best_outlier": 2.9,
+   "best_title": "7 Days Alone: Building a Cliffside House 200ft High | Start to Finish by @bushcraftandnature",
+   "best_video": "I1-Q2a_2tPk",
+   "creator_subs": 23400,
+   "last_seen": "2026-08-28"
   },
   {
    "creator": "survivalinthewild8639",
@@ -4633,6 +5011,18 @@
    "last_seen": "2026-08-21"
   },
   {
+   "creator": "ExpandFurniture",
+   "url": "https://www.youtube.com/@ExpandFurniture",
+   "distributors": 4,
+   "videos": 7,
+   "best_reach": 1360,
+   "best_outlier": 71.6,
+   "best_title": "Fantastic Tiny Apartment Furniture and Space Saving Ideas",
+   "best_video": "JoHlTKusxpw",
+   "creator_subs": null,
+   "last_seen": "2024-01-13"
+  },
+  {
    "creator": "divanstroy",
    "url": "https://www.youtube.com/@divanstroy",
    "distributors": 4,
@@ -4645,12 +5035,24 @@
    "last_seen": "2026-08-18"
   },
   {
+   "creator": "GreenbrierBushcraft-4k",
+   "url": "https://www.youtube.com/@GreenbrierBushcraft-4k",
+   "distributors": 4,
+   "videos": 4,
+   "best_reach": 10,
+   "best_outlier": 1.1,
+   "best_title": "Man Builds a Fully Functional Underground Survival Bunker in 100 Days | by @GreenbrierBushcraft-4k",
+   "best_video": "3GlP_6UKtys",
+   "creator_subs": null,
+   "last_seen": "2026-08-25"
+  },
+  {
    "creator": "keithvogel9820",
    "url": "https://www.youtube.com/@keithvogel9820",
    "distributors": 3,
    "videos": 4,
    "best_reach": 6372885,
-   "best_outlier": 93.6,
+   "best_outlier": 88.7,
    "best_title": "Farmers Use Farming Machines You've Never Seen - Incredible Ingenious Agriculture Inventions \u25b62",
    "best_video": "zFdxU-73yAc",
    "creator_subs": null,
@@ -4667,18 +5069,6 @@
    "best_video": "ZHUeOW9wsr0",
    "creator_subs": 10300,
    "last_seen": "2026-06-11"
-  },
-  {
-   "creator": "CarRestorations-USA",
-   "url": "https://www.youtube.com/@CarRestorations-USA",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 5120898,
-   "best_outlier": 77.1,
-   "best_title": "This guy cleans a flood-damaged BMW and turns it into a luxury car! Incredible transformation!",
-   "best_video": "ZWaK7jQqhvA",
-   "creator_subs": 14400,
-   "last_seen": "2026-07-30"
   },
   {
    "creator": "Gabriel.Leni100",
@@ -4717,18 +5107,6 @@
    "last_seen": "2025-04-07"
   },
   {
-   "creator": "ateliermavi",
-   "url": "https://www.youtube.com/@ateliermavi",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 2780714,
-   "best_outlier": 56.2,
-   "best_title": "Couple Transforms an Abandoned Stone House in Italy Into Their Dream Home | by @ateliermavi",
-   "best_video": "qXyfAw3RkU4",
-   "creator_subs": 117000,
-   "last_seen": "2026-08-06"
-  },
-  {
    "creator": "SteepintheWoods",
    "url": "https://www.youtube.com/@SteepintheWoods",
    "distributors": 3,
@@ -4765,40 +5143,28 @@
    "last_seen": "2025-04-16"
   },
   {
-   "creator": "deborahpaullagrange31",
-   "url": "https://www.youtube.com/@deborahpaullagrange31",
+   "creator": "mbt-bautechnik",
+   "url": "https://www.youtube.com/@mbt-bautechnik",
    "distributors": 3,
-   "videos": 3,
-   "best_reach": 1476958,
-   "best_outlier": 11.5,
-   "best_title": "Couple Spends $3 Million Turning a Barn Into Their Dream Home | by@deborahpaullagrange31",
-   "best_video": "E8yhRQhqQOo",
+   "videos": 7,
+   "best_reach": 1479100,
+   "best_outlier": 3.7,
+   "best_title": "Construction Workers Can't Believe It, Technique Works! - Most Ingenious Construction Technologies",
+   "best_video": "0btgw-sLL20",
    "creator_subs": null,
-   "last_seen": "2026-08-28"
+   "last_seen": "2025-08-12"
   },
   {
-   "creator": "lambinhTuoitre",
-   "url": "https://www.youtube.com/@lambinhTuoitre",
+   "creator": "woodwood1",
+   "url": "https://www.youtube.com/@woodwood1",
    "distributors": 3,
    "videos": 3,
-   "best_reach": 1314700,
-   "best_outlier": 19.8,
-   "best_title": "This man is building a secret bunker inside a giant tree! From start to finish!",
-   "best_video": "8PRs8W5Sch0",
-   "creator_subs": 60000,
-   "last_seen": "2026-08-17"
-  },
-  {
-   "creator": "CantContainUs",
-   "url": "https://www.youtube.com/@CantContainUs",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 838293,
-   "best_outlier": 19.8,
-   "best_title": "A Couple Transforms Discarded Shipping Containers into a $200,000 Luxury Container Home | 120 Days",
-   "best_video": "FUQfcMFOa6w",
-   "creator_subs": 108000,
-   "last_seen": "2026-08-20"
+   "best_reach": 993732,
+   "best_outlier": 34.7,
+   "best_title": "Man Builds Amazing Korean Dream Home | From Start to Finish by @woodwood1",
+   "best_video": "qSHnwNI15xM",
+   "creator_subs": 113000,
+   "last_seen": "2026-08-15"
   },
   {
    "creator": "nialldivers",
@@ -4811,18 +5177,6 @@
    "best_video": "fO96q52EsLU",
    "creator_subs": 1680,
    "last_seen": "2026-08-19"
-  },
-  {
-   "creator": "OffGridLife",
-   "url": "https://www.youtube.com/@OffGridLife",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 701650,
-   "best_outlier": 3.3,
-   "best_title": "Couple spends 3 months building a brick and clay pizza oven by hand | performed by@OffGridLife",
-   "best_video": "_LLvedzxvuw",
-   "creator_subs": 2540000,
-   "last_seen": "2026-08-10"
   },
   {
    "creator": "badgeradventurecaravans1574",
@@ -4885,6 +5239,18 @@
    "last_seen": "2026-06-19"
   },
   {
+   "creator": "BrickworksBuildingProducts",
+   "url": "https://www.youtube.com/@BrickworksBuildingProducts",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 482438,
+   "best_outlier": 1.8,
+   "best_title": "Construction Workers Can't Believe This Technology - Most Ingenious Construction Inventions",
+   "best_video": "GB_zvWK5WwQ",
+   "creator_subs": null,
+   "last_seen": "2024-09-05"
+  },
+  {
    "creator": "BuildingVanLife",
    "url": "https://www.youtube.com/@BuildingVanLife",
    "distributors": 3,
@@ -4933,18 +5299,6 @@
    "last_seen": "2026-07-08"
   },
   {
-   "creator": "Solarcontainer",
-   "url": "https://www.youtube.com/@Solarcontainer",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 322000,
-   "best_outlier": 4.3,
-   "best_title": "You Have Never Seen THIS Mechanism with Unbelievable Capability \u25b612",
-   "best_video": "9EQH8PKycIY",
-   "creator_subs": null,
-   "last_seen": "2024-10-27"
-  },
-  {
    "creator": "Woodsimprovisation",
    "url": "https://www.youtube.com/@Woodsimprovisation",
    "distributors": 3,
@@ -4981,6 +5335,18 @@
    "last_seen": "2026-08-14"
   },
   {
+   "creator": "SurvivalBuilder",
+   "url": "https://www.youtube.com/@SurvivalBuilder",
+   "distributors": 3,
+   "videos": 6,
+   "best_reach": 269420,
+   "best_outlier": 919.5,
+   "best_title": "\"I Built a 50FT Bamboo Treehouse & Pool in the Jungle! (69 Days Transformation)\" @SurvivalBuilder\u200b",
+   "best_video": "VyzplNHvGGc",
+   "creator_subs": 11900000,
+   "last_seen": "2026-08-06"
+  },
+  {
    "creator": "TNCreativeProject",
    "url": "https://www.youtube.com/@TNCreativeProject",
    "distributors": 3,
@@ -5003,6 +5369,18 @@
    "best_video": "p9wYtbpScK4",
    "creator_subs": 32500,
    "last_seen": "2026-08-18"
+  },
+  {
+   "creator": "AmbitionStrikes",
+   "url": "https://www.youtube.com/@AmbitionStrikes",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 191446,
+   "best_outlier": 1.4,
+   "best_title": "Unbelievable! Young Couple Turns a Military Barge Into an Amazing Floating Home in Just 60 Days.",
+   "best_video": "g6HJ_hYCAnU",
+   "creator_subs": 1140000,
+   "last_seen": "2026-08-30"
   },
   {
    "creator": "Ferincishin",
@@ -5029,18 +5407,6 @@
    "last_seen": "2026-08-27"
   },
   {
-   "creator": "Dungfamilylife",
-   "url": "https://www.youtube.com/@Dungfamilylife",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 129762,
-   "best_outlier": 7.6,
-   "best_title": "This man is building a secret underground bunker that no one will ever find! Underground shelter!",
-   "best_video": "qepmEoDNFRA",
-   "creator_subs": null,
-   "last_seen": "2026-07-26"
-  },
-  {
    "creator": "lvlupbuilding",
    "url": "https://www.youtube.com/@lvlupbuilding",
    "distributors": 3,
@@ -5053,16 +5419,16 @@
    "last_seen": "2025-07-02"
   },
   {
-   "creator": "ShevaBushcraft",
-   "url": "https://www.youtube.com/@ShevaBushcraft",
+   "creator": "wsmpedro",
+   "url": "https://www.youtube.com/@wsmpedro",
    "distributors": 3,
    "videos": 3,
-   "best_reach": 37157,
-   "best_outlier": 5.4,
-   "best_title": "The Man Who Built a Stunning Wooden House Alone in the Forest in 120 Days | From Beginning to End",
-   "best_video": "PvKFLFxRP0Q",
-   "creator_subs": 422000,
-   "last_seen": "2026-07-25"
+   "best_reach": 53966,
+   "best_outlier": 11.6,
+   "best_title": "Building a Wilderness Log Cabin & Camouflage Shelter | by @wsmpedro",
+   "best_video": "hLGqzAoDuLk",
+   "creator_subs": null,
+   "last_seen": "2026-08-16"
   },
   {
    "creator": "Elijah-House",
@@ -5089,6 +5455,18 @@
    "last_seen": "2026-07-19"
   },
   {
+   "creator": "Lesnoy_Craft",
+   "url": "https://www.youtube.com/@Lesnoy_Craft",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 19962,
+   "best_outlier": 9.4,
+   "best_title": "He Built a Stone Cabin Alone in the Wilderness Start to Finish | (by @Lesnoy_Craft)",
+   "best_video": "1DHasF9A0iY",
+   "creator_subs": null,
+   "last_seen": "2026-06-25"
+  },
+  {
    "creator": "L\u00fdPh\u00facNhi",
    "url": "https://www.youtube.com/@L\u00fdPh\u00facNhi",
    "distributors": 3,
@@ -5099,18 +5477,6 @@
    "best_video": "cfDDldesnYQ",
    "creator_subs": 25300,
    "last_seen": "2026-04-07"
-  },
-  {
-   "creator": "MPJournallife",
-   "url": "https://www.youtube.com/@MPJournallife",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 17044,
-   "best_outlier": 1.0,
-   "best_title": "Racing Winter to Build a Timber Cabin & Hand-Carved Interior | by @MPJournallife",
-   "best_video": "qJfR_vV4TUY",
-   "creator_subs": null,
-   "last_seen": "2026-08-16"
   },
   {
    "creator": "Hampus_Granstrom",
@@ -5135,18 +5501,6 @@
    "best_video": "4FZLbx9SMoI",
    "creator_subs": null,
    "last_seen": "2025-04-12"
-  },
-  {
-   "creator": "bushcraftandnature",
-   "url": "https://www.youtube.com/@bushcraftandnature",
-   "distributors": 3,
-   "videos": 5,
-   "best_reach": 6720,
-   "best_outlier": 2.9,
-   "best_title": "7 Days Alone: Building a Cliffside House 200ft High | Start to Finish by @bushcraftandnature",
-   "best_video": "I1-Q2a_2tPk",
-   "creator_subs": 23400,
-   "last_seen": "2026-08-22"
   },
   {
    "creator": "ForestHobby_",
@@ -5209,6 +5563,30 @@
    "last_seen": "2026-08-16"
   },
   {
+   "creator": "NguyenduyTon",
+   "url": "https://www.youtube.com/@NguyenduyTon",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 509,
+   "best_outlier": 1.3,
+   "best_title": "Carving an Off-Grid Log Cabin from Raw Forest Timber | Start To Finish by @NguyenduyTon",
+   "best_video": "HioPxPUc3qE",
+   "creator_subs": null,
+   "last_seen": "2026-08-19"
+  },
+  {
+   "creator": "wildcampp",
+   "url": "https://www.youtube.com/@wildcampp",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 208,
+   "best_outlier": 1.3,
+   "best_title": "Day 6 in a Deadly Blizzard: Abandoned Cabin to Deep Snow Camp | by @wildcampp",
+   "best_video": "mKliNMp2NDs",
+   "creator_subs": 119000,
+   "last_seen": "2026-08-23"
+  },
+  {
    "creator": "TheMaineWoods",
    "url": "https://www.youtube.com/@TheMaineWoods",
    "distributors": 3,
@@ -5233,6 +5611,18 @@
    "last_seen": "2026-08-22"
   },
   {
+   "creator": "havgs1701",
+   "url": "https://www.youtube.com/@havgs1701",
+   "distributors": 3,
+   "videos": 3,
+   "best_reach": 77,
+   "best_outlier": 3.6,
+   "best_title": "Man Spends 100 Days Building a Secret Cliffside Mud House from Raw Timber | by @havgs1701",
+   "best_video": "MNA4B8tzChs",
+   "creator_subs": 62400,
+   "last_seen": "2026-08-25"
+  },
+  {
    "creator": "Hadioutdooradventures",
    "url": "https://www.youtube.com/@Hadioutdooradventures",
    "distributors": 3,
@@ -5243,18 +5633,6 @@
    "best_video": "fueLX73QZTQ",
    "creator_subs": 1770,
    "last_seen": "2025-07-21"
-  },
-  {
-   "creator": "GreenbrierBushcraft-4k",
-   "url": "https://www.youtube.com/@GreenbrierBushcraft-4k",
-   "distributors": 3,
-   "videos": 3,
-   "best_reach": 10,
-   "best_outlier": 1.1,
-   "best_title": "Man Builds a Fully Functional Underground Survival Bunker in 100 Days | by @GreenbrierBushcraft-4k",
-   "best_video": "3GlP_6UKtys",
-   "creator_subs": null,
-   "last_seen": "2026-08-25"
   },
   {
    "creator": "TruckSurfHotel",
@@ -5279,6 +5657,18 @@
    "best_video": "ZvDgfTK_3mQ",
    "creator_subs": null,
    "last_seen": "2025-04-28"
+  },
+  {
+   "creator": "LifestyleScreens",
+   "url": "https://www.youtube.com/@LifestyleScreens",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 4486272,
+   "best_outlier": 11.4,
+   "best_title": "People couldn't believe this house, Until they saw the door. - Ingenious Hidden Doors",
+   "best_video": "1zkpaNB8_OM",
+   "creator_subs": null,
+   "last_seen": "2024-08-25"
   },
   {
    "creator": "Restoratorman",
@@ -5365,6 +5755,18 @@
    "last_seen": "2025-08-19"
   },
   {
+   "creator": "nample",
+   "url": "https://www.youtube.com/@nample",
+   "distributors": 2,
+   "videos": 5,
+   "best_reach": 1993124,
+   "best_outlier": 2.3,
+   "best_title": "Ingenious tools that are on another Level \u25b61",
+   "best_video": "SID5vtbTtjc",
+   "creator_subs": null,
+   "last_seen": "2024-02-24"
+  },
+  {
    "creator": "LiuMutou",
    "url": "https://www.youtube.com/@LiuMutou",
    "distributors": 2,
@@ -5387,6 +5789,18 @@
    "best_video": "3hKqk_Gyp_c",
    "creator_subs": 73200,
    "last_seen": "2026-06-30"
+  },
+  {
+   "creator": "syromyatnikov",
+   "url": "https://www.youtube.com/@syromyatnikov",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 1781370,
+   "best_outlier": 4.5,
+   "best_title": "Man Builds a House ALONE 20 Minutes TIMELAPSE | Start to Finish by @syromyatnikov",
+   "best_video": "r5JeyymmYc0",
+   "creator_subs": 22600,
+   "last_seen": "2026-08-09"
   },
   {
    "creator": "rausaufsland",
@@ -5423,6 +5837,18 @@
    "best_video": "NEKDBb8gAZg",
    "creator_subs": 57800,
    "last_seen": "2026-05-29"
+  },
+  {
+   "creator": "Renovacile",
+   "url": "https://www.youtube.com/@Renovacile",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 1259779,
+   "best_outlier": 6.8,
+   "best_title": "Couple spends 3 years renovating an abandoned French house into their dream home | by@Renovacile",
+   "best_video": "9sIAQCmc_ng",
+   "creator_subs": 84300,
+   "last_seen": "2026-08-26"
   },
   {
    "creator": "Rehabit8",
@@ -5485,22 +5911,10 @@
    "last_seen": "2026-08-21"
   },
   {
-   "creator": "woodwood1",
-   "url": "https://www.youtube.com/@woodwood1",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 993732,
-   "best_outlier": 34.7,
-   "best_title": "Man Builds Amazing Korean Dream Home | From Start to Finish by @woodwood1",
-   "best_video": "qSHnwNI15xM",
-   "creator_subs": 113000,
-   "last_seen": "2026-07-10"
-  },
-  {
    "creator": "1BillionTech",
    "url": "https://www.youtube.com/@1BillionTech",
    "distributors": 2,
-   "videos": 8,
+   "videos": 9,
    "best_reach": 980926,
    "best_outlier": 148.7,
    "best_title": "Top 15 Future Aircraft Concepts that will Blow Your Mind",
@@ -5533,6 +5947,18 @@
    "last_seen": "2026-08-05"
   },
   {
+   "creator": "KrisHarbour",
+   "url": "https://www.youtube.com/@KrisHarbour",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 755920,
+   "best_outlier": 5.9,
+   "best_title": "Man Builds an Off-Grid Workshop Using Earthbags | Start to Finish@KrisHarbour",
+   "best_video": "COn_i-niJIM",
+   "creator_subs": 618000,
+   "last_seen": "2026-08-10"
+  },
+  {
    "creator": "user-Vozrozhdenie",
    "url": "https://www.youtube.com/@user-Vozrozhdenie",
    "distributors": 2,
@@ -5555,6 +5981,18 @@
    "best_video": "s_nqa97NgkE",
    "creator_subs": null,
    "last_seen": "2023-11-03"
+  },
+  {
+   "creator": "MisaintheWILD",
+   "url": "https://www.youtube.com/@MisaintheWILD",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 581275,
+   "best_outlier": 8.8,
+   "best_title": "This woman is building a secret house under a 150-year-old tree! From start to finish!",
+   "best_video": "LwYVo7GsVsw",
+   "creator_subs": null,
+   "last_seen": "2026-08-11"
   },
   {
    "creator": "PerkinsBuilderBrothers",
@@ -5677,16 +6115,28 @@
    "last_seen": "2026-07-30"
   },
   {
-   "creator": "SurvivalBuilder",
-   "url": "https://www.youtube.com/@SurvivalBuilder",
+   "creator": "SimonFordman",
+   "url": "https://www.youtube.com/@SimonFordman",
    "distributors": 2,
-   "videos": 5,
-   "best_reach": 269420,
-   "best_outlier": 919.5,
-   "best_title": "\"I Built a 50FT Bamboo Treehouse & Pool in the Jungle! (69 Days Transformation)\" @SurvivalBuilder\u200b",
-   "best_video": "VyzplNHvGGc",
-   "creator_subs": 11900000,
-   "last_seen": "2026-08-06"
+   "videos": 3,
+   "best_reach": 280103,
+   "best_outlier": 21.6,
+   "best_title": "Rescuing a Moss-Covered Boat: Full Engine Rebuild & Deep Cleaning | by @SimonFordman",
+   "best_video": "-mjfS79f4tw",
+   "creator_subs": 541000,
+   "last_seen": "2026-08-22"
+  },
+  {
+   "creator": "FELDERGROUPTV",
+   "url": "https://www.youtube.com/@FELDERGROUPTV",
+   "distributors": 2,
+   "videos": 3,
+   "best_reach": 273892,
+   "best_outlier": 2.5,
+   "best_title": "10 Amazing Wood Work Processes You Must See \u25b61",
+   "best_video": "UkkymG_YI9o",
+   "creator_subs": null,
+   "last_seen": "2024-04-05"
   },
   {
    "creator": "AustralianShedBuilds",
@@ -5761,18 +6211,6 @@
    "last_seen": "2026-07-29"
   },
   {
-   "creator": "AmbitionStrikes",
-   "url": "https://www.youtube.com/@AmbitionStrikes",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 191446,
-   "best_outlier": 1.4,
-   "best_title": "Unbelievable! Young Couple Turns a Military Barge Into an Amazing Floating Home in Just 60 Days.",
-   "best_video": "g6HJ_hYCAnU",
-   "creator_subs": 1140000,
-   "last_seen": "2026-08-30"
-  },
-  {
    "creator": "thetielife",
    "url": "https://www.youtube.com/@thetielife",
    "distributors": 2,
@@ -5843,6 +6281,18 @@
    "best_video": "jdzcUkXOtv0",
    "creator_subs": 124000,
    "last_seen": "2026-07-25"
+  },
+  {
+   "creator": "AndrewBushcraft1",
+   "url": "https://www.youtube.com/@AndrewBushcraft1",
+   "distributors": 2,
+   "videos": 3,
+   "best_reach": 116165,
+   "best_outlier": 6.9,
+   "best_title": "Man Builds a Heavy Log Cabin in the Snow Over 30 Freezing Winter Days | by @AndrewBushcraft1",
+   "best_video": "92uaVLtDICM",
+   "creator_subs": null,
+   "last_seen": "2026-08-22"
   },
   {
    "creator": "RatRodBobBuilds",
@@ -6013,18 +6463,6 @@
    "last_seen": "2025-04-16"
   },
   {
-   "creator": "wsmpedro",
-   "url": "https://www.youtube.com/@wsmpedro",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 53966,
-   "best_outlier": 11.6,
-   "best_title": "Building a Wilderness Log Cabin & Camouflage Shelter | by @wsmpedro",
-   "best_video": "hLGqzAoDuLk",
-   "creator_subs": null,
-   "last_seen": "2026-08-16"
-  },
-  {
    "creator": "DeRusterGarage",
    "url": "https://www.youtube.com/@DeRusterGarage",
    "distributors": 2,
@@ -6071,6 +6509,18 @@
    "best_video": "_wtqqElywEk",
    "creator_subs": null,
    "last_seen": "2024-08-02"
+  },
+  {
+   "creator": "myselfreliance3141",
+   "url": "https://www.youtube.com/@myselfreliance3141",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 36084,
+   "best_outlier": 1.0,
+   "best_title": "1 Year Building an Off-Grid Log Cabin from Scratch | by @myselfreliance3141",
+   "best_video": "ISHzwSAykfk",
+   "creator_subs": null,
+   "last_seen": "2026-07-31"
   },
   {
    "creator": "Mechanical-Hands",
@@ -6131,18 +6581,6 @@
    "best_video": "zWcnB9udgcQ",
    "creator_subs": 1540000,
    "last_seen": "2025-05-07"
-  },
-  {
-   "creator": "Lesnoy_Craft",
-   "url": "https://www.youtube.com/@Lesnoy_Craft",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 19962,
-   "best_outlier": 1.5,
-   "best_title": "He Built a Stone Cabin Alone in the Wilderness Start to Finish | (by @Lesnoy_Craft)",
-   "best_video": "1DHasF9A0iY",
-   "creator_subs": null,
-   "last_seen": "2026-06-25"
   },
   {
    "creator": "kustorez777",
@@ -6299,6 +6737,30 @@
    "best_video": "0RNP0OPGDlQ",
    "creator_subs": 435000,
    "last_seen": "2026-08-14"
+  },
+  {
+   "creator": "ThoaBushcraft97",
+   "url": "https://www.youtube.com/@ThoaBushcraft97",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 9195,
+   "best_outlier": 1.3,
+   "best_title": "Building a Self-Sustaining Farm & Mobile Coop from Scratch | by @ThoaBushcraft97",
+   "best_video": "veAbjpT1J8w",
+   "creator_subs": null,
+   "last_seen": "2026-07-19"
+  },
+  {
+   "creator": "blumer-lehmann",
+   "url": "https://www.youtube.com/@blumer-lehmann",
+   "distributors": 2,
+   "videos": 4,
+   "best_reach": 8395,
+   "best_outlier": 4.2,
+   "best_title": "Incredible Construction Technologies That Have Reached A New Level",
+   "best_video": "EwsQf1f7YMw",
+   "creator_subs": null,
+   "last_seen": "2025-07-27"
   },
   {
    "creator": "DungBushcraft-dq4cu",
@@ -6493,16 +6955,16 @@
    "last_seen": "2026-08-03"
   },
   {
-   "creator": "BoschDIYpowertoolsUK",
-   "url": "https://www.youtube.com/@BoschDIYpowertoolsUK",
+   "creator": "Restoration",
+   "url": "https://www.youtube.com/@Restoration",
    "distributors": 2,
-   "videos": 2,
-   "best_reach": 2810,
-   "best_outlier": 4.8,
-   "best_title": "INCREDIBLE TOOLS THAT ARE ON ANOTHER LEVEL",
-   "best_video": "WbOAzIr39E0",
-   "creator_subs": null,
-   "last_seen": "2024-09-24"
+   "videos": 3,
+   "best_reach": 2697,
+   "best_outlier": 31.7,
+   "best_title": "Abandoned KAWASAKI NSR 50\u2026 Then This Full Restoration Happened | By @Restoration Repair",
+   "best_video": "AFQ-E-Hs0Bs",
+   "creator_subs": 1640000,
+   "last_seen": "2026-04-10"
   },
   {
    "creator": "LESNUE",
@@ -6515,6 +6977,42 @@
    "best_video": "TQo40l8p7ZU",
    "creator_subs": 2650000,
    "last_seen": "2026-06-17"
+  },
+  {
+   "creator": "rescueready4709",
+   "url": "https://www.youtube.com/@rescueready4709",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2550,
+   "best_outlier": 13.4,
+   "best_title": "AMAZING INVENTIONS THAT WILL SAVE YOUR LIFE",
+   "best_video": "GwViLpQfRmc",
+   "creator_subs": null,
+   "last_seen": "2024-06-11"
+  },
+  {
+   "creator": "solatube",
+   "url": "https://www.youtube.com/@solatube",
+   "distributors": 2,
+   "videos": 3,
+   "best_reach": 2530,
+   "best_outlier": 1.3,
+   "best_title": "INGENIOUS INVENTIONS FOR THE ROOF, THAT WILL TAKE YOUR HOME TO ANOTHER LEVEL",
+   "best_video": "2DsDtXBv2ZE",
+   "creator_subs": null,
+   "last_seen": "2025-08-08"
+  },
+  {
+   "creator": "Solarcontainer",
+   "url": "https://www.youtube.com/@Solarcontainer",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2513,
+   "best_outlier": 4.3,
+   "best_title": "INCREDIBLE MECHANISM THAT YOU SHOULD SEE",
+   "best_video": "5cw4qppgkmk",
+   "creator_subs": null,
+   "last_seen": "2024-10-27"
   },
   {
    "creator": "lttivi",
@@ -6553,6 +7051,42 @@
    "last_seen": "2026-07-10"
   },
   {
+   "creator": "DomashMaster",
+   "url": "https://www.youtube.com/@DomashMaster",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2258,
+   "best_outlier": 7.7,
+   "best_title": "Framing a Massive Cabin From Steel Piles to Roof | by @DomashMaster",
+   "best_video": "yQYi54S6TP4",
+   "creator_subs": 1020000,
+   "last_seen": "2026-08-07"
+  },
+  {
+   "creator": "batiplusbrive",
+   "url": "https://www.youtube.com/@batiplusbrive",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2230,
+   "best_outlier": 1.2,
+   "best_title": "Top 30 CONSTRUCTION TIPS AND HACKS That Work Extremely Perfect | BEST OF THE YEAR",
+   "best_video": "Ne8X5tNfIJI",
+   "creator_subs": null,
+   "last_seen": "2023-12-21"
+  },
+  {
+   "creator": "muhammadali77",
+   "url": "https://www.youtube.com/@muhammadali77",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2174,
+   "best_outlier": 1.4,
+   "best_title": "Rusty Scrap Bus Becomes a Million-Dollar Coach | Start to Finish ( by @muhammadali77 )",
+   "best_video": "C4fETdDzLHw",
+   "creator_subs": 35000,
+   "last_seen": "2025-09-16"
+  },
+  {
    "creator": "theturkishviking-bushcraft",
    "url": "https://www.youtube.com/@theturkishviking-bushcraft",
    "distributors": 2,
@@ -6563,6 +7097,18 @@
    "best_video": "RFSNsnUJYk4",
    "creator_subs": null,
    "last_seen": "2026-02-12"
+  },
+  {
+   "creator": "IronmotoUacom",
+   "url": "https://www.youtube.com/@IronmotoUacom",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 2091,
+   "best_outlier": 3.0,
+   "best_title": "Incredible Vehicles That Will Leave You Speechless!",
+   "best_video": "lDZttidmN-w",
+   "creator_subs": null,
+   "last_seen": "2025-02-13"
   },
   {
    "creator": "RaisingVoyagers",
@@ -6623,6 +7169,18 @@
    "best_video": "eBHk5J7ZHdE",
    "creator_subs": null,
    "last_seen": "2025-11-18"
+  },
+  {
+   "creator": "paktech9707",
+   "url": "https://www.youtube.com/@paktech9707",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 1745,
+   "best_outlier": 2.1,
+   "best_title": "Handmade Isuzu Bus Production in Pakistan | Full Process by Professional Skills @paktech9707",
+   "best_video": "XlMi6DnrAWM",
+   "creator_subs": 177000,
+   "last_seen": "2026-06-28"
   },
   {
    "creator": "protegatselfdefense6744",
@@ -6841,6 +7399,18 @@
    "last_seen": "2026-08-07"
   },
   {
+   "creator": "ResourceFurnitureNewYork",
+   "url": "https://www.youtube.com/@ResourceFurnitureNewYork",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 421,
+   "best_outlier": 5.7,
+   "best_title": "Smart Furniture With Amazing Space Saving Design | Modern Homes Ideas",
+   "best_video": "MTCOp3nRR_o",
+   "creator_subs": null,
+   "last_seen": "2024-03-11"
+  },
+  {
    "creator": "ForestHermit",
    "url": "https://www.youtube.com/@ForestHermit",
    "distributors": 2,
@@ -6887,18 +7457,6 @@
    "best_video": "udsgLKZz9M4",
    "creator_subs": 602000,
    "last_seen": "2026-08-04"
-  },
-  {
-   "creator": "wildcampp",
-   "url": "https://www.youtube.com/@wildcampp",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 208,
-   "best_outlier": 0.4,
-   "best_title": "Day 6 in a Deadly Blizzard: Abandoned Cabin to Deep Snow Camp | by @wildcampp",
-   "best_video": "mKliNMp2NDs",
-   "creator_subs": 119000,
-   "last_seen": "2026-07-26"
   },
   {
    "creator": "ChayDenne",
@@ -6997,6 +7555,18 @@
    "last_seen": "2026-08-04"
   },
   {
+   "creator": "luontofurniture",
+   "url": "https://www.youtube.com/@luontofurniture",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 30,
+   "best_outlier": 1.2,
+   "best_title": "Ingenious Furniture That Will Take Your Home To The Next Level \u25b62",
+   "best_video": "sSnTXvpKj2Q",
+   "creator_subs": null,
+   "last_seen": "2023-11-10"
+  },
+  {
    "creator": "PetaVillage",
    "url": "https://www.youtube.com/@PetaVillage",
    "distributors": 2,
@@ -7009,6 +7579,18 @@
    "last_seen": "2024-12-20"
   },
   {
+   "creator": "Bushcraftintheforest88",
+   "url": "https://www.youtube.com/@Bushcraftintheforest88",
+   "distributors": 2,
+   "videos": 2,
+   "best_reach": 11,
+   "best_outlier": 0.5,
+   "best_title": "Building a Dugout Cabin & a Massive Root Ball Hut | by @Bushcraftintheforest88",
+   "best_video": "hedYZKzHdU8",
+   "creator_subs": null,
+   "last_seen": "2026-08-13"
+  },
+  {
    "creator": "CampfireStories-d3t",
    "url": "https://www.youtube.com/@CampfireStories-d3t",
    "distributors": 2,
@@ -7019,18 +7601,6 @@
    "best_video": "AlxtRwrdKho",
    "creator_subs": null,
    "last_seen": "2026-03-03"
-  },
-  {
-   "creator": "havgs1701",
-   "url": "https://www.youtube.com/@havgs1701",
-   "distributors": 2,
-   "videos": 2,
-   "best_reach": 8,
-   "best_outlier": 0.9,
-   "best_title": "A Man Builds His Dream Wilderness Cabin Using Only Logs and Stone | by @havgs1701",
-   "best_video": "x1po8YoEiN0",
-   "creator_subs": 62400,
-   "last_seen": "2026-06-28"
   },
   {
    "creator": "AHeartLikeDavids",
@@ -7081,18 +7651,6 @@
    "last_seen": "2026-05-30"
   },
   {
-   "creator": "nample",
-   "url": "https://www.youtube.com/@nample",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 1993124,
-   "best_outlier": 2.3,
-   "best_title": "Ingenious tools that are on another Level \u25b61",
-   "best_video": "SID5vtbTtjc",
-   "creator_subs": null,
-   "last_seen": "2022-08-21"
-  },
-  {
    "creator": "LadyfieldFarm",
    "url": "https://www.youtube.com/@LadyfieldFarm",
    "distributors": 1,
@@ -7103,18 +7661,6 @@
    "best_video": "D_6bybopndQ",
    "creator_subs": null,
    "last_seen": "2025-07-20"
-  },
-  {
-   "creator": "syromyatnikov",
-   "url": "https://www.youtube.com/@syromyatnikov",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 1781370,
-   "best_outlier": 4.5,
-   "best_title": "Man Builds a House ALONE 20 Minutes TIMELAPSE | Start to Finish by @syromyatnikov",
-   "best_video": "r5JeyymmYc0",
-   "creator_subs": 22600,
-   "last_seen": "2026-02-20"
   },
   {
    "creator": "caobaminh1994",
@@ -7333,18 +7879,6 @@
    "last_seen": "2026-06-13"
   },
   {
-   "creator": "KrisHarbour",
-   "url": "https://www.youtube.com/@KrisHarbour",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 755920,
-   "best_outlier": 5.9,
-   "best_title": "Man Builds an Off-Grid Workshop Using Earthbags | Start to Finish@KrisHarbour",
-   "best_video": "COn_i-niJIM",
-   "creator_subs": 618000,
-   "last_seen": "2026-08-04"
-  },
-  {
    "creator": "chateaudepurnon",
    "url": "https://www.youtube.com/@chateaudepurnon",
    "distributors": 1,
@@ -7487,18 +8021,6 @@
    "best_video": "yP2M8_wtb94",
    "creator_subs": null,
    "last_seen": "2025-04-12"
-  },
-  {
-   "creator": "MisaintheWILD",
-   "url": "https://www.youtube.com/@MisaintheWILD",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 581275,
-   "best_outlier": 8.8,
-   "best_title": "This woman is building a secret house under a 150-year-old tree! From start to finish!",
-   "best_video": "LwYVo7GsVsw",
-   "creator_subs": null,
-   "last_seen": "2026-08-11"
   },
   {
    "creator": "InWildForest",
@@ -7909,18 +8431,6 @@
    "last_seen": "2026-05-09"
   },
   {
-   "creator": "FELDERGROUPTV",
-   "url": "https://www.youtube.com/@FELDERGROUPTV",
-   "distributors": 1,
-   "videos": 2,
-   "best_reach": 273892,
-   "best_outlier": 0.3,
-   "best_title": "10 Amazing Wood Work Processes You Must See \u25b61",
-   "best_video": "UkkymG_YI9o",
-   "creator_subs": null,
-   "last_seen": "2023-10-15"
-  },
-  {
    "creator": "overaasen.no",
    "url": "https://www.youtube.com/@overaasen.no",
    "distributors": 1,
@@ -7967,18 +8477,6 @@
    "best_video": "HTbBumwPnXg",
    "creator_subs": null,
    "last_seen": "2025-04-03"
-  },
-  {
-   "creator": "Renovacile",
-   "url": "https://www.youtube.com/@Renovacile",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 241516,
-   "best_outlier": 1.9,
-   "best_title": "Couple Spends 4 Years Transforming an Old Barn Into a Dream Home | performed by @Renovacile",
-   "best_video": "igwg-yu1eZk",
-   "creator_subs": 84300,
-   "last_seen": "2026-06-17"
   },
   {
    "creator": "Trieuthiduong",
@@ -8387,6 +8885,18 @@
    "best_video": "XZEDwgcn00c",
    "creator_subs": null,
    "last_seen": "2025-05-12"
+  },
+  {
+   "creator": "carlroge",
+   "url": "https://www.youtube.com/@carlroge",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 129368,
+   "best_outlier": 7.7,
+   "best_title": "Man Completely Rebuilds the Roof of a 300-Year-Old Stone and Oak Barn | by @carlroge",
+   "best_video": "lckLSiPmAqQ",
+   "creator_subs": null,
+   "last_seen": "2026-08-28"
   },
   {
    "creator": "atelier.vanwood.campers",
@@ -8845,18 +9355,6 @@
    "last_seen": "2025-05-02"
   },
   {
-   "creator": "AndrewBushcraft1",
-   "url": "https://www.youtube.com/@AndrewBushcraft1",
-   "distributors": 1,
-   "videos": 2,
-   "best_reach": 56288,
-   "best_outlier": 0.8,
-   "best_title": "This man who wants to live in the forest is building his dream house in the mountain!",
-   "best_video": "5JetGTM1tHg",
-   "creator_subs": null,
-   "last_seen": "2025-06-23"
-  },
-  {
    "creator": "knapen-trailers.nl",
    "url": "https://www.youtube.com/@knapen-trailers.nl",
    "distributors": 1,
@@ -9131,18 +9629,6 @@
    "best_video": "RyJtfHRdYFo",
    "creator_subs": null,
    "last_seen": "2024-12-31"
-  },
-  {
-   "creator": "myselfreliance3141",
-   "url": "https://www.youtube.com/@myselfreliance3141",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 36084,
-   "best_outlier": 1.0,
-   "best_title": "1 Year Building an Off-Grid Log Cabin from Scratch | by @myselfreliance3141",
-   "best_video": "ISHzwSAykfk",
-   "creator_subs": null,
-   "last_seen": "2026-07-26"
   },
   {
    "creator": "L\u00fdThanhHi\u1ec1n9599",
@@ -9565,6 +10051,18 @@
    "last_seen": "2025-01-16"
   },
   {
+   "creator": "creativemechanics7549",
+   "url": "https://www.youtube.com/@creativemechanics7549",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 16804,
+   "best_outlier": 1.0,
+   "best_title": "Complete Caterpillar Front Differential Rebuild After Total Failure | by @creativemechanics7549",
+   "best_video": "rRFcpdO-iec",
+   "creator_subs": null,
+   "last_seen": "2026-07-14"
+  },
+  {
    "creator": "donataszulkus5682",
    "url": "https://www.youtube.com/@donataszulkus5682",
    "distributors": 1,
@@ -9901,18 +10399,6 @@
    "last_seen": "2026-05-16"
   },
   {
-   "creator": "blumer-lehmann",
-   "url": "https://www.youtube.com/@blumer-lehmann",
-   "distributors": 1,
-   "videos": 2,
-   "best_reach": 8395,
-   "best_outlier": 4.2,
-   "best_title": "Incredible Construction Technologies That Have Reached A New Level",
-   "best_video": "EwsQf1f7YMw",
-   "creator_subs": null,
-   "last_seen": "2025-07-27"
-  },
-  {
    "creator": "WoodworkingWorld-34",
    "url": "https://www.youtube.com/@WoodworkingWorld-34",
    "distributors": 1,
@@ -10079,6 +10565,18 @@
    "best_video": "8TOjF8L2hE8",
    "creator_subs": null,
    "last_seen": "2024-02-16"
+  },
+  {
+   "creator": "gulbaharkanaryan5193",
+   "url": "https://www.youtube.com/@gulbaharkanaryan5193",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 6178,
+   "best_outlier": 0.4,
+   "best_title": "Unburying a Neglected Yard: Massive Full-Property Cleanup | by @gulbaharkanaryan5193",
+   "best_video": "Cr9IuR3lsXw",
+   "creator_subs": null,
+   "last_seen": "2026-07-10"
   },
   {
    "creator": "LIFE-OUTSIDE",
@@ -10492,7 +10990,7 @@
    "creator": "18WHEELS-FI",
    "url": "https://www.youtube.com/@18WHEELS-FI",
    "distributors": 1,
-   "videos": 1,
+   "videos": 3,
    "best_reach": 3885,
    "best_outlier": 2.0,
    "best_title": "China Has Launched New Generation Transport SHOCKING The US\u25b62",
@@ -10720,7 +11218,7 @@
    "creator": "TYDE.official",
    "url": "https://www.youtube.com/@TYDE.official",
    "distributors": 1,
-   "videos": 1,
+   "videos": 2,
    "best_reach": 3109,
    "best_outlier": 1.6,
    "best_title": "20 WATER VEHICLES YOU WON'T BELIEVE EXIST",
@@ -10897,30 +11395,6 @@
    "last_seen": "2025-03-21"
   },
   {
-   "creator": "mbt-bautechnik",
-   "url": "https://www.youtube.com/@mbt-bautechnik",
-   "distributors": 1,
-   "videos": 2,
-   "best_reach": 2704,
-   "best_outlier": 1.4,
-   "best_title": "Construction Workers Can't Believe This Technique Works - Most Ingenious Construction Technologies\u25b65",
-   "best_video": "aXchZA8FVys",
-   "creator_subs": null,
-   "last_seen": "2024-09-13"
-  },
-  {
-   "creator": "Restoration",
-   "url": "https://www.youtube.com/@Restoration",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2697,
-   "best_outlier": 31.7,
-   "best_title": "Abandoned KAWASAKI NSR 50\u2026 Then This Full Restoration Happened | By @Restoration Repair",
-   "best_video": "AFQ-E-Hs0Bs",
-   "creator_subs": 1640000,
-   "last_seen": "2026-04-10"
-  },
-  {
    "creator": "realmikethakur",
    "url": "https://www.youtube.com/@realmikethakur",
    "distributors": 1,
@@ -10933,16 +11407,16 @@
    "last_seen": "2026-01-01"
   },
   {
-   "creator": "SimonFordman",
-   "url": "https://www.youtube.com/@SimonFordman",
+   "creator": "BoschDIYpowertoolsUK",
+   "url": "https://www.youtube.com/@BoschDIYpowertoolsUK",
    "distributors": 1,
-   "videos": 2,
-   "best_reach": 2683,
-   "best_outlier": 21.6,
-   "best_title": "Man Restores a Sunken Fiberglass Boat After 10 Years of Severe Neglect | by @SimonFordman",
-   "best_video": "7w-T7aYjRNE",
-   "creator_subs": 541000,
-   "last_seen": "2026-08-22"
+   "videos": 1,
+   "best_reach": 2666,
+   "best_outlier": 1.5,
+   "best_title": "TOOLS THAT CAN REALLY SPEED UP WORK",
+   "best_video": "E3TSuOXTZ1s",
+   "creator_subs": null,
+   "last_seen": "2023-12-07"
   },
   {
    "creator": "resqtec1",
@@ -11039,18 +11513,6 @@
    "best_video": "boIO8GuTcjI",
    "creator_subs": null,
    "last_seen": "2024-05-12"
-  },
-  {
-   "creator": "rescueready4709",
-   "url": "https://www.youtube.com/@rescueready4709",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2550,
-   "best_outlier": 1.3,
-   "best_title": "AMAZING INVENTIONS THAT WILL SAVE YOUR LIFE",
-   "best_video": "GwViLpQfRmc",
-   "creator_subs": null,
-   "last_seen": "2024-06-11"
   },
   {
    "creator": "RealSteelFabrications",
@@ -11173,30 +11635,6 @@
    "last_seen": "2025-03-03"
   },
   {
-   "creator": "DomashMaster",
-   "url": "https://www.youtube.com/@DomashMaster",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2247,
-   "best_outlier": 7.7,
-   "best_title": "Building a Budget Frame House in Just 7 Days! (Step-by-Step Process) @DomashMaster",
-   "best_video": "MKrZKEjw8S0",
-   "creator_subs": 1020000,
-   "last_seen": "2026-06-23"
-  },
-  {
-   "creator": "muhammadali77",
-   "url": "https://www.youtube.com/@muhammadali77",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2174,
-   "best_outlier": 0.4,
-   "best_title": "Rusty Scrap Bus Becomes a Million-Dollar Coach | Start to Finish ( by @muhammadali77 )",
-   "best_video": "C4fETdDzLHw",
-   "creator_subs": 35000,
-   "last_seen": "2025-09-16"
-  },
-  {
    "creator": "RUSSIAN.ATV.PLASTUN",
    "url": "https://www.youtube.com/@RUSSIAN.ATV.PLASTUN",
    "distributors": 1,
@@ -11207,18 +11645,6 @@
    "best_video": "HL8thc5Znh0",
    "creator_subs": null,
    "last_seen": "2023-10-18"
-  },
-  {
-   "creator": "IronmotoUacom",
-   "url": "https://www.youtube.com/@IronmotoUacom",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 2091,
-   "best_outlier": 1.1,
-   "best_title": "Incredible Vehicles That Will Leave You Speechless!",
-   "best_video": "lDZttidmN-w",
-   "creator_subs": null,
-   "last_seen": "2025-02-13"
   },
   {
    "creator": "fas-top2867",
@@ -11411,18 +11837,6 @@
    "best_video": "LLNPAOp2Xus",
    "creator_subs": null,
    "last_seen": "2024-11-26"
-  },
-  {
-   "creator": "paktech9707",
-   "url": "https://www.youtube.com/@paktech9707",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 1745,
-   "best_outlier": 2.1,
-   "best_title": "Handmade Isuzu Bus Production in Pakistan | Full Process by Professional Skills @paktech9707",
-   "best_video": "XlMi6DnrAWM",
-   "creator_subs": 177000,
-   "last_seen": "2026-04-27"
   },
   {
    "creator": "ZipTied",
@@ -11759,18 +12173,6 @@
    "best_video": "5Zfy_ZspybE",
    "creator_subs": null,
    "last_seen": "2024-09-04"
-  },
-  {
-   "creator": "solatube",
-   "url": "https://www.youtube.com/@solatube",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 1162,
-   "best_outlier": 0.6,
-   "best_title": "GENIUS ROOF INVENTIONS YOU NEED TO SEE",
-   "best_video": "r_PlM1cwN44",
-   "creator_subs": null,
-   "last_seen": "2025-08-08"
   },
   {
    "creator": "TimKatie",
@@ -12397,18 +12799,6 @@
    "last_seen": "2025-03-07"
   },
   {
-   "creator": "NguyenduyTon",
-   "url": "https://www.youtube.com/@NguyenduyTon",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 509,
-   "best_outlier": 0.1,
-   "best_title": "Carving an Off-Grid Log Cabin from Raw Forest Timber | Start To Finish by @NguyenduyTon",
-   "best_video": "HioPxPUc3qE",
-   "creator_subs": null,
-   "last_seen": "2026-08-14"
-  },
-  {
    "creator": "Bushcraft.en.Solitario",
    "url": "https://www.youtube.com/@Bushcraft.en.Solitario",
    "distributors": 1,
@@ -12589,18 +12979,6 @@
    "last_seen": "2025-05-23"
   },
   {
-   "creator": "ResourceFurnitureNewYork",
-   "url": "https://www.youtube.com/@ResourceFurnitureNewYork",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 421,
-   "best_outlier": 5.7,
-   "best_title": "Smart Furniture With Amazing Space Saving Design | Modern Homes Ideas",
-   "best_video": "MTCOp3nRR_o",
-   "creator_subs": null,
-   "last_seen": "2024-03-11"
-  },
-  {
    "creator": "watermaster.fi",
    "url": "https://www.youtube.com/@watermaster.fi",
    "distributors": 1,
@@ -12685,18 +13063,6 @@
    "last_seen": "2025-10-13"
   },
   {
-   "creator": "Sleeperdude",
-   "url": "https://www.youtube.com/@Sleeperdude",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 341,
-   "best_outlier": 0.7,
-   "best_title": "\u8352\u91ce\u5efa\u9020\uff1a\u7537\u4eba\u5c0630\u5e74\u524d\u7684\u5e9f\u5f03\u9732\u8425\u8f66\uff0c\u7ffb\u65b0\u6210\u8212\u9002\u7684\u9876\u7ea7\u623f\u8f66\uff01by @Sleeperdude",
-   "best_video": "RXMnqmAoq1A",
-   "creator_subs": null,
-   "last_seen": "2025-03-19"
-  },
-  {
    "creator": "CraftCreative-444",
    "url": "https://www.youtube.com/@CraftCreative-444",
    "distributors": 1,
@@ -12707,6 +13073,18 @@
    "best_video": "2c4EP0DUMEc",
    "creator_subs": null,
    "last_seen": "2024-09-20"
+  },
+  {
+   "creator": "Sleeperdude",
+   "url": "https://www.youtube.com/@Sleeperdude",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 341,
+   "best_outlier": 0.7,
+   "best_title": "\u8352\u91ce\u5efa\u9020\uff1a\u7537\u4eba\u5c0630\u5e74\u524d\u7684\u5e9f\u5f03\u9732\u8425\u8f66\uff0c\u7ffb\u65b0\u6210\u8212\u9002\u7684\u9876\u7ea7\u623f\u8f66\uff01by @Sleeperdude",
+   "best_video": "RXMnqmAoq1A",
+   "creator_subs": null,
+   "last_seen": "2025-03-19"
   },
   {
    "creator": "randomskills5773",
@@ -13105,18 +13483,6 @@
    "last_seen": "2026-08-28"
   },
   {
-   "creator": "LifestyleScreens",
-   "url": "https://www.youtube.com/@LifestyleScreens",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 123,
-   "best_outlier": 0.1,
-   "best_title": "OPEN THE GATES! \u27a4 1 - Automatic Sliding Folding Gates and Doors - Ingenious Hidden Doors",
-   "best_video": "zG6Z-AMkhJQ",
-   "creator_subs": null,
-   "last_seen": "2024-08-25"
-  },
-  {
    "creator": "TieuVyBuilding",
    "url": "https://www.youtube.com/@TieuVyBuilding",
    "distributors": 1,
@@ -13211,6 +13577,18 @@
    "best_video": "WgC6vCGJbjM",
    "creator_subs": null,
    "last_seen": "2026-08-06"
+  },
+  {
+   "creator": "BikesandBeards",
+   "url": "https://www.youtube.com/@BikesandBeards",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 101,
+   "best_outlier": 8.8,
+   "best_title": "I BOUGHT the MOST EXPENSIVE V Twin Motorcycle on Amazon!@BikesandBeards",
+   "best_video": "NIjUXw9Dgr0",
+   "creator_subs": null,
+   "last_seen": "2024-10-02"
   },
   {
    "creator": "ryanhawkins",
@@ -13321,16 +13699,16 @@
    "last_seen": "2026-07-26"
   },
   {
-   "creator": "concretecreations.ca",
-   "url": "https://www.youtube.com/@concretecreations.ca",
+   "creator": "RustRestoreGarage",
+   "url": "https://www.youtube.com/@RustRestoreGarage",
    "distributors": 1,
    "videos": 1,
-   "best_reach": 75,
-   "best_outlier": 1.0,
-   "best_title": "Construction Tips And Amazing Tools On Another Level",
-   "best_video": "eYUKeL1NY2s",
+   "best_reach": 76,
+   "best_outlier": 3.5,
+   "best_title": "I Found Cristiano Ronaldo's Abandoned Car in the Forest and Restored It!",
+   "best_video": "kZY791ttUU0",
    "creator_subs": null,
-   "last_seen": "2022-11-22"
+   "last_seen": "2026-06-06"
   },
   {
    "creator": "kandowild",
@@ -13345,6 +13723,18 @@
    "last_seen": "2026-05-23"
   },
   {
+   "creator": "concretecreations.ca",
+   "url": "https://www.youtube.com/@concretecreations.ca",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 75,
+   "best_outlier": 1.0,
+   "best_title": "Construction Tips And Amazing Tools On Another Level",
+   "best_video": "eYUKeL1NY2s",
+   "creator_subs": null,
+   "last_seen": "2022-11-22"
+  },
+  {
    "creator": "mmbridgeco.ltd.3002",
    "url": "https://www.youtube.com/@mmbridgeco.ltd.3002",
    "distributors": 1,
@@ -13355,6 +13745,18 @@
    "best_video": "ozGhYsfPtBg",
    "creator_subs": 3080,
    "last_seen": "2026-07-27"
+  },
+  {
+   "creator": "primitivebuilding7996",
+   "url": "https://www.youtube.com/@primitivebuilding7996",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 68,
+   "best_outlier": 6.8,
+   "best_title": "Building a Giant Earth-Walled Ship & Stone Pool | by @primitivebuilding7996",
+   "best_video": "zh7gs0VBgs0",
+   "creator_subs": null,
+   "last_seen": "2026-08-31"
   },
   {
    "creator": "ZachO_OnTheRoad",
@@ -13381,18 +13783,6 @@
    "last_seen": "2025-09-11"
   },
   {
-   "creator": "Sdealay_sam",
-   "url": "https://www.youtube.com/@Sdealay_sam",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 59,
-   "best_outlier": 1.8,
-   "best_title": "He Is Building an Amazing Earthquake-Resistant House Out of Tires! | By @Sdealay_sam",
-   "best_video": "iUzQJnaMMdo",
-   "creator_subs": null,
-   "last_seen": "2026-08-16"
-  },
-  {
    "creator": "DaveDoesCarpentry",
    "url": "https://www.youtube.com/@DaveDoesCarpentry",
    "distributors": 1,
@@ -13403,6 +13793,18 @@
    "best_video": "CnKFUvACR8k",
    "creator_subs": null,
    "last_seen": "2026-07-17"
+  },
+  {
+   "creator": "Sdealay_sam",
+   "url": "https://www.youtube.com/@Sdealay_sam",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 59,
+   "best_outlier": 1.8,
+   "best_title": "He Is Building an Amazing Earthquake-Resistant House Out of Tires! | By @Sdealay_sam",
+   "best_video": "iUzQJnaMMdo",
+   "creator_subs": null,
+   "last_seen": "2026-08-16"
   },
   {
    "creator": "PrimitiveSurvivalTool",
@@ -13417,28 +13819,16 @@
    "last_seen": "2026-08-29"
   },
   {
-   "creator": "LoftisPartyofSix",
-   "url": "https://www.youtube.com/@LoftisPartyofSix",
+   "creator": "jimmydiresta",
+   "url": "https://www.youtube.com/@jimmydiresta",
    "distributors": 1,
    "videos": 1,
-   "best_reach": 48,
-   "best_outlier": 0.8,
-   "best_title": "Man Builds a Two-Story Villa in the Oshaq Mountains Using Recycled Materials | by @LoftisPartyofSix",
-   "best_video": "07-bTb3-77k",
+   "best_reach": 50,
+   "best_outlier": 6.2,
+   "best_title": "6 Months Crafting a Cedar Strip Rowboat & Canoe | by @jimmydiresta",
+   "best_video": "FMNNCu9LjRM",
    "creator_subs": null,
-   "last_seen": "2026-07-01"
-  },
-  {
-   "creator": "KENAN",
-   "url": "https://www.youtube.com/@KENAN",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 48,
-   "best_outlier": 0.1,
-   "best_title": "From Scrap Bus to Dream House \u2013 A Free Man\u2019s Journey | Start to Finish by @KENAN \u00c7INAR",
-   "best_video": "irC6gAu9vuo",
-   "creator_subs": 113,
-   "last_seen": "2025-10-18"
+   "last_seen": "2026-08-23"
   },
   {
    "creator": "Girl",
@@ -13453,6 +13843,18 @@
    "last_seen": "2026-04-03"
   },
   {
+   "creator": "LoftisPartyofSix",
+   "url": "https://www.youtube.com/@LoftisPartyofSix",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 48,
+   "best_outlier": 0.8,
+   "best_title": "Man Builds a Two-Story Villa in the Oshaq Mountains Using Recycled Materials | by @LoftisPartyofSix",
+   "best_video": "07-bTb3-77k",
+   "creator_subs": null,
+   "last_seen": "2026-07-01"
+  },
+  {
    "creator": "nnkhmisc",
    "url": "https://www.youtube.com/@nnkhmisc",
    "distributors": 1,
@@ -13463,6 +13865,18 @@
    "best_video": "U4muRENSG1s",
    "creator_subs": 37800,
    "last_seen": "2026-05-29"
+  },
+  {
+   "creator": "KENAN",
+   "url": "https://www.youtube.com/@KENAN",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 48,
+   "best_outlier": 0.1,
+   "best_title": "From Scrap Bus to Dream House \u2013 A Free Man\u2019s Journey | Start to Finish by @KENAN \u00c7INAR",
+   "best_video": "irC6gAu9vuo",
+   "creator_subs": 113,
+   "last_seen": "2025-10-18"
   },
   {
    "creator": "AutoFinesseDetailing",
@@ -13501,16 +13915,16 @@
    "last_seen": "2025-09-07"
   },
   {
-   "creator": "batiplusbrive",
-   "url": "https://www.youtube.com/@batiplusbrive",
+   "creator": "MountainGardenRescue",
+   "url": "https://www.youtube.com/@MountainGardenRescue",
    "distributors": 1,
    "videos": 1,
    "best_reach": 42,
-   "best_outlier": 0.6,
-   "best_title": "Satisfying Videos of Workers With Amazing Skills",
-   "best_video": "x571pGC3h3E",
+   "best_outlier": 4.2,
+   "best_title": "Uncovering a Lost Garden for a Healing Sanctuary | by @MountainGardenRescue",
+   "best_video": "BtJOPcQnn0k",
    "creator_subs": null,
-   "last_seen": "2022-11-28"
+   "last_seen": "2026-08-20"
   },
   {
    "creator": "emilyaisling",
@@ -13523,6 +13937,18 @@
    "best_video": "4g0rR-urt24",
    "creator_subs": 74100,
    "last_seen": "2025-07-25"
+  },
+  {
+   "creator": "NovaTruckWashStop",
+   "url": "https://www.youtube.com/@NovaTruckWashStop",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 38,
+   "best_outlier": 0.2,
+   "best_title": "Dirtiest EXCAVATOR Cleaning  |  Excavator Makeover Revealed @NovaTruckWashStop",
+   "best_video": "lCBrG0CjKpg",
+   "creator_subs": null,
+   "last_seen": "2023-12-01"
   },
   {
    "creator": "UCHLb1MIAqT",
@@ -13549,18 +13975,6 @@
    "last_seen": "2026-04-09"
   },
   {
-   "creator": "NovaTruckWashStop",
-   "url": "https://www.youtube.com/@NovaTruckWashStop",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 38,
-   "best_outlier": 0.2,
-   "best_title": "Dirtiest EXCAVATOR Cleaning  |  Excavator Makeover Revealed @NovaTruckWashStop",
-   "best_video": "lCBrG0CjKpg",
-   "creator_subs": null,
-   "last_seen": "2023-12-01"
-  },
-  {
    "creator": "YachtCityLife",
    "url": "https://www.youtube.com/@YachtCityLife",
    "distributors": 1,
@@ -13571,18 +13985,6 @@
    "best_video": "isnJ2iMXyRM",
    "creator_subs": 26400,
    "last_seen": "2026-06-14"
-  },
-  {
-   "creator": "WOODRESINStudio1",
-   "url": "https://www.youtube.com/@WOODRESINStudio1",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 35,
-   "best_outlier": 0.5,
-   "best_title": "Man is cutting wood to make a beach-themed table at sunset using resin art by \u2068@WOODRESINStudio1",
-   "best_video": "PWYBxoAdSXE",
-   "creator_subs": 5960,
-   "last_seen": "2026-08-05"
   },
   {
    "creator": "ChadZuberAdventures",
@@ -13597,16 +13999,28 @@
    "last_seen": "2026-08-16"
   },
   {
-   "creator": "MrBuildit-Block",
-   "url": "https://www.youtube.com/@MrBuildit-Block",
+   "creator": "WOODRESINStudio1",
+   "url": "https://www.youtube.com/@WOODRESINStudio1",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 35,
+   "best_outlier": 0.5,
+   "best_title": "Man is cutting wood to make a beach-themed table at sunset using resin art by \u2068@WOODRESINStudio1",
+   "best_video": "PWYBxoAdSXE",
+   "creator_subs": 5960,
+   "last_seen": "2026-08-05"
+  },
+  {
+   "creator": "OMPETUALANG-zf2yt",
+   "url": "https://www.youtube.com/@OMPETUALANG-zf2yt",
    "distributors": 1,
    "videos": 1,
    "best_reach": 34,
-   "best_outlier": 0.1,
-   "best_title": "This Stunning A-Frame House Is Worth $850,000 | Start to Finish @MrBuildit-Block",
-   "best_video": "MAfXInavqjI",
+   "best_outlier": 0.2,
+   "best_title": "Man Builds a Tree Shelter by the River || Start to Finish by @OMPETUALANG-zf2yt",
+   "best_video": "xaX1oNbA198",
    "creator_subs": null,
-   "last_seen": "2026-08-31"
+   "last_seen": "2025-07-19"
   },
   {
    "creator": "Cottage130",
@@ -13645,40 +14059,16 @@
    "last_seen": "2026-03-16"
   },
   {
-   "creator": "OMPETUALANG-zf2yt",
-   "url": "https://www.youtube.com/@OMPETUALANG-zf2yt",
+   "creator": "MrBuildit-Block",
+   "url": "https://www.youtube.com/@MrBuildit-Block",
    "distributors": 1,
    "videos": 1,
    "best_reach": 34,
-   "best_outlier": 0.2,
-   "best_title": "Man Builds a Tree Shelter by the River || Start to Finish by @OMPETUALANG-zf2yt",
-   "best_video": "xaX1oNbA198",
+   "best_outlier": 0.1,
+   "best_title": "This Stunning A-Frame House Is Worth $850,000 | Start to Finish @MrBuildit-Block",
+   "best_video": "MAfXInavqjI",
    "creator_subs": null,
-   "last_seen": "2025-07-19"
-  },
-  {
-   "creator": "BrickworksBuildingProducts",
-   "url": "https://www.youtube.com/@BrickworksBuildingProducts",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 33,
-   "best_outlier": 1.8,
-   "best_title": "INSIDE EDITION: CONSTRUCTION TECHNOLOGIES THAT ARE RESHAPING THE INDUSTRY",
-   "best_video": "iqq-am48dYU",
-   "creator_subs": null,
-   "last_seen": "2024-08-01"
-  },
-  {
-   "creator": "APhuFamilyLife",
-   "url": "https://www.youtube.com/@APhuFamilyLife",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 32,
-   "best_outlier": 2.1,
-   "best_title": "30 Days Alone: Building My Dream Survival Shelter | by @APhuFamilyLife",
-   "best_video": "iCksV0jpK5I",
-   "creator_subs": null,
-   "last_seen": "2026-06-24"
+   "last_seen": "2026-08-31"
   },
   {
    "creator": "OlikaBushcraft",
@@ -13691,6 +14081,18 @@
    "best_video": "oZOI2ziAZMk",
    "creator_subs": 8890,
    "last_seen": "2026-07-25"
+  },
+  {
+   "creator": "APhuFamilyLife",
+   "url": "https://www.youtube.com/@APhuFamilyLife",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 32,
+   "best_outlier": 2.1,
+   "best_title": "30 Days Alone: Building My Dream Survival Shelter | by @APhuFamilyLife",
+   "best_video": "iCksV0jpK5I",
+   "creator_subs": null,
+   "last_seen": "2026-06-24"
   },
   {
    "creator": "Clean",
@@ -13715,18 +14117,6 @@
    "best_video": "4u-rLFFmTog",
    "creator_subs": null,
    "last_seen": "2024-11-09"
-  },
-  {
-   "creator": "luontofurniture",
-   "url": "https://www.youtube.com/@luontofurniture",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 30,
-   "best_outlier": 0.4,
-   "best_title": "Ingenious Furniture That Will Take Your Home To The Next Level \u25b62",
-   "best_video": "sSnTXvpKj2Q",
-   "creator_subs": null,
-   "last_seen": "2023-08-07"
   },
   {
    "creator": "PenniacWilderness",
@@ -13801,18 +14191,6 @@
    "last_seen": "2025-11-05"
   },
   {
-   "creator": "modustrial",
-   "url": "https://www.youtube.com/@modustrial",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 27,
-   "best_outlier": 0.5,
-   "best_title": "Man Builds Total Concrete DIY 2026 | Start to Finish by @modustrial",
-   "best_video": "5qfuNGkykno",
-   "creator_subs": 996000,
-   "last_seen": "2026-03-23"
-  },
-  {
    "creator": "TechFreezeOfficial",
    "url": "https://www.youtube.com/@TechFreezeOfficial",
    "distributors": 1,
@@ -13823,6 +14201,18 @@
    "best_video": "D1CIfIpiJDg",
    "creator_subs": null,
    "last_seen": "2024-11-17"
+  },
+  {
+   "creator": "modustrial",
+   "url": "https://www.youtube.com/@modustrial",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 27,
+   "best_outlier": 0.5,
+   "best_title": "Man Builds Total Concrete DIY 2026 | Start to Finish by @modustrial",
+   "best_video": "5qfuNGkykno",
+   "creator_subs": 996000,
+   "last_seen": "2026-03-23"
   },
   {
    "creator": "sjbuild_",
@@ -13849,18 +14239,6 @@
    "last_seen": "2024-06-28"
   },
   {
-   "creator": "YouCarTV",
-   "url": "https://www.youtube.com/@YouCarTV",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 24,
-   "best_outlier": 0.3,
-   "best_title": "Honda V10 Engine Disassembly \ud83d\udd25 | Full Tear Down & Inspection @YouCarTV",
-   "best_video": "6ZiQnJwbaz4",
-   "creator_subs": null,
-   "last_seen": "2026-05-18"
-  },
-  {
    "creator": "Tinspaces",
    "url": "https://www.youtube.com/@Tinspaces",
    "distributors": 1,
@@ -13871,18 +14249,6 @@
    "best_video": "zXpCLNsU50Y",
    "creator_subs": 4180,
    "last_seen": "2026-05-20"
-  },
-  {
-   "creator": "pinepins",
-   "url": "https://www.youtube.com/@pinepins",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 24,
-   "best_outlier": 1.6,
-   "best_title": "Building the Perfect Camper Van from a Mercedes Sprinter | by @pinepins",
-   "best_video": "-8f9rfWKW1Q",
-   "creator_subs": null,
-   "last_seen": "2026-07-10"
   },
   {
    "creator": "BlacksmithGirl68",
@@ -13897,16 +14263,28 @@
    "last_seen": "2024-12-09"
   },
   {
-   "creator": "theminiarchitect",
-   "url": "https://www.youtube.com/@theminiarchitect",
+   "creator": "YouCarTV",
+   "url": "https://www.youtube.com/@YouCarTV",
    "distributors": 1,
    "videos": 1,
-   "best_reach": 23,
-   "best_outlier": 1.1,
-   "best_title": "Man Builds Luxury Mansion with Mini Bricks - Start to Finish by @theminiarchitect\ufffc",
-   "best_video": "y7dDXlOQFss",
-   "creator_subs": 122000,
-   "last_seen": "2025-02-28"
+   "best_reach": 24,
+   "best_outlier": 0.3,
+   "best_title": "Honda V10 Engine Disassembly \ud83d\udd25 | Full Tear Down & Inspection @YouCarTV",
+   "best_video": "6ZiQnJwbaz4",
+   "creator_subs": null,
+   "last_seen": "2026-05-18"
+  },
+  {
+   "creator": "pinepins",
+   "url": "https://www.youtube.com/@pinepins",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 24,
+   "best_outlier": 1.6,
+   "best_title": "Building the Perfect Camper Van from a Mercedes Sprinter | by @pinepins",
+   "best_video": "-8f9rfWKW1Q",
+   "creator_subs": null,
+   "last_seen": "2026-07-10"
   },
   {
    "creator": "PuduRobotics",
@@ -13921,6 +14299,18 @@
    "last_seen": "2022-11-24"
   },
   {
+   "creator": "theminiarchitect",
+   "url": "https://www.youtube.com/@theminiarchitect",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 23,
+   "best_outlier": 1.1,
+   "best_title": "Man Builds Luxury Mansion with Mini Bricks - Start to Finish by @theminiarchitect\ufffc",
+   "best_video": "y7dDXlOQFss",
+   "creator_subs": 122000,
+   "last_seen": "2025-02-28"
+  },
+  {
    "creator": "wtcreative",
    "url": "https://www.youtube.com/@wtcreative",
    "distributors": 1,
@@ -13933,16 +14323,16 @@
    "last_seen": "2026-05-19"
   },
   {
-   "creator": "restorationUphone",
-   "url": "https://www.youtube.com/@restorationUphone",
+   "creator": "Quantum",
+   "url": "https://www.youtube.com/@Quantum",
    "distributors": 1,
-   "videos": 1,
-   "best_reach": 21,
-   "best_outlier": 0.2,
-   "best_title": "Restoring a Rusted Mercedes S600 from a Bare Frame | by @restorationUphone",
-   "best_video": "t8Jt0hkLVkY",
-   "creator_subs": 754000,
-   "last_seen": "2026-08-04"
+   "videos": 2,
+   "best_reach": 22,
+   "best_outlier": 1.9,
+   "best_title": "Builds the WORLD'S MOST REALISTIC RC Jet Plane Ever!@Quantum Tech HD",
+   "best_video": "IikUeA5Qv9c",
+   "creator_subs": null,
+   "last_seen": "2024-10-05"
   },
   {
    "creator": "Survival\u0130nTheWild257",
@@ -13957,16 +14347,28 @@
    "last_seen": "2026-08-13"
   },
   {
-   "creator": "ThoaBushcraft97",
-   "url": "https://www.youtube.com/@ThoaBushcraft97",
+   "creator": "restorationUphone",
+   "url": "https://www.youtube.com/@restorationUphone",
    "distributors": 1,
    "videos": 1,
-   "best_reach": 20,
-   "best_outlier": 1.3,
-   "best_title": "She Spent 58 Days Building the Perfect Homestead | by @ThoaBushcraft97",
-   "best_video": "aADYvv7v3GU",
+   "best_reach": 21,
+   "best_outlier": 0.2,
+   "best_title": "Restoring a Rusted Mercedes S600 from a Bare Frame | by @restorationUphone",
+   "best_video": "t8Jt0hkLVkY",
+   "creator_subs": 754000,
+   "last_seen": "2026-08-04"
+  },
+  {
+   "creator": "BuildingA",
+   "url": "https://www.youtube.com/@BuildingA",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 21,
+   "best_outlier": 2.6,
+   "best_title": "Man Spends 100 Days Building a Massive Bamboo and Clay Survival Complex | by @BuildingA",
+   "best_video": "OfQpJIu4hk8",
    "creator_subs": null,
-   "last_seen": "2026-07-19"
+   "last_seen": "2026-08-26"
   },
   {
    "creator": "vrshape",
@@ -13979,6 +14381,42 @@
    "best_video": "Y9xysi0svII",
    "creator_subs": null,
    "last_seen": "2026-04-23"
+  },
+  {
+   "creator": "QuantamTech",
+   "url": "https://www.youtube.com/@QuantamTech",
+   "distributors": 1,
+   "videos": 3,
+   "best_reach": 19,
+   "best_outlier": 0.9,
+   "best_title": "Two Brothers Build Amazing Log Cabin Off Grid From Scratch - by @QuantamTech",
+   "best_video": "7ZS86STM3X0",
+   "creator_subs": 24,
+   "last_seen": "2025-03-23"
+  },
+  {
+   "creator": "BUSHCRAFT72H",
+   "url": "https://www.youtube.com/@BUSHCRAFT72H",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 19,
+   "best_outlier": 0.6,
+   "best_title": "Man Builds a Secret Shelter in a Ravine No Animal Can Reach! | From Start to Finish by @BUSHCRAFT72H",
+   "best_video": "LMlpVTiai34",
+   "creator_subs": 4210,
+   "last_seen": "2026-05-09"
+  },
+  {
+   "creator": "Tri\u1ec7u_Phong_tv",
+   "url": "https://www.youtube.com/@Tri\u1ec7u_Phong_tv",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 19,
+   "best_outlier": 0.5,
+   "best_title": "Young Man Rebuilds A Completely New Bamboo House | From Start To Finish by@Tri\u1ec7u_Phong_tv ",
+   "best_video": "V367qvZH9ZY",
+   "creator_subs": 20600,
+   "last_seen": "2025-11-15"
   },
   {
    "creator": "TanSoLoSurvival",
@@ -14005,30 +14443,6 @@
    "last_seen": "2026-04-05"
   },
   {
-   "creator": "Tri\u1ec7u_Phong_tv",
-   "url": "https://www.youtube.com/@Tri\u1ec7u_Phong_tv",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 19,
-   "best_outlier": 0.5,
-   "best_title": "Young Man Rebuilds A Completely New Bamboo House | From Start To Finish by@Tri\u1ec7u_Phong_tv ",
-   "best_video": "V367qvZH9ZY",
-   "creator_subs": 20600,
-   "last_seen": "2025-11-15"
-  },
-  {
-   "creator": "QuantamTech",
-   "url": "https://www.youtube.com/@QuantamTech",
-   "distributors": 1,
-   "videos": 3,
-   "best_reach": 19,
-   "best_outlier": 0.9,
-   "best_title": "Two Brothers Build Amazing Log Cabin Off Grid From Scratch - by @QuantamTech",
-   "best_video": "7ZS86STM3X0",
-   "creator_subs": 24,
-   "last_seen": "2025-03-23"
-  },
-  {
    "creator": "dingeldiy",
    "url": "https://www.youtube.com/@dingeldiy",
    "distributors": 1,
@@ -14039,18 +14453,6 @@
    "best_video": "lW6rur2J4e4",
    "creator_subs": null,
    "last_seen": "2024-06-06"
-  },
-  {
-   "creator": "BUSHCRAFT72H",
-   "url": "https://www.youtube.com/@BUSHCRAFT72H",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 19,
-   "best_outlier": 0.6,
-   "best_title": "Man Builds a Secret Shelter in a Ravine No Animal Can Reach! | From Start to Finish by @BUSHCRAFT72H",
-   "best_video": "LMlpVTiai34",
-   "creator_subs": 4210,
-   "last_seen": "2026-05-09"
   },
   {
    "creator": "TalentedGirlReview",
@@ -14113,16 +14515,16 @@
    "last_seen": "2026-04-28"
   },
   {
-   "creator": "Crazy",
-   "url": "https://www.youtube.com/@Crazy",
+   "creator": "AsbjornOlsenBergBushcraft",
+   "url": "https://www.youtube.com/@AsbjornOlsenBergBushcraft",
    "distributors": 1,
    "videos": 1,
    "best_reach": 16,
-   "best_outlier": 0.0,
-   "best_title": "Man builds a real life house in the style of Minecraft By@Crazy bushcraft",
-   "best_video": "yfewffB7fJ4",
+   "best_outlier": 0.7,
+   "best_title": "Building an Off-Grid Moss Shelter with Zero Power Tools | by @AsbjornOlsenBergBushcraft",
+   "best_video": "amCGHUGYki4",
    "creator_subs": null,
-   "last_seen": "2025-08-04"
+   "last_seen": "2026-08-22"
   },
   {
    "creator": "AmbitionStrikes1.On.T.elegram",
@@ -14137,6 +14539,30 @@
    "last_seen": "2026-07-14"
   },
   {
+   "creator": "Crazy",
+   "url": "https://www.youtube.com/@Crazy",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 16,
+   "best_outlier": 0.0,
+   "best_title": "Man builds a real life house in the style of Minecraft By@Crazy bushcraft",
+   "best_video": "yfewffB7fJ4",
+   "creator_subs": null,
+   "last_seen": "2025-08-04"
+  },
+  {
+   "creator": "nung-nhettv",
+   "url": "https://www.youtube.com/@nung-nhettv",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 15,
+   "best_outlier": 1.3,
+   "best_title": "Turn a $300 Old Toyota into a Ford Mustang GT 500 sports car@nung-nhettv",
+   "best_video": "TCgFqztp-zk",
+   "creator_subs": null,
+   "last_seen": "2024-10-02"
+  },
+  {
    "creator": "AsbjornOlsenBerg",
    "url": "https://www.youtube.com/@AsbjornOlsenBerg",
    "distributors": 1,
@@ -14147,6 +14573,18 @@
    "best_video": "LA_lh9edaDc",
    "creator_subs": null,
    "last_seen": "2024-12-18"
+  },
+  {
+   "creator": "AISTORYAR-d3c",
+   "url": "https://www.youtube.com/@AISTORYAR-d3c",
+   "distributors": 1,
+   "videos": 2,
+   "best_reach": 14,
+   "best_outlier": 0.6,
+   "best_title": "Cristiano Ronaldo\u2019s Abandoned Ferrari Restoration Story - Full Transformation!",
+   "best_video": "idL4bRx4oeE",
+   "creator_subs": null,
+   "last_seen": "2026-06-08"
   },
   {
    "creator": "StudPack",
@@ -14185,6 +14623,18 @@
    "last_seen": "2026-07-01"
   },
   {
+   "creator": "VictorOff-Grid",
+   "url": "https://www.youtube.com/@VictorOff-Grid",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 13,
+   "best_outlier": 0.4,
+   "best_title": "Winter Survival in a Transparent Dome Tent with a Wood Stove | by @VictorOff-Grid",
+   "best_video": "aYw97ZVsTrY",
+   "creator_subs": null,
+   "last_seen": "2026-08-06"
+  },
+  {
    "creator": "TAOutdoors",
    "url": "https://www.youtube.com/@TAOutdoors",
    "distributors": 1,
@@ -14197,16 +14647,16 @@
    "last_seen": "2025-02-13"
   },
   {
-   "creator": "VictorOff-Grid",
-   "url": "https://www.youtube.com/@VictorOff-Grid",
+   "creator": "ArtSport",
+   "url": "https://www.youtube.com/@ArtSport",
    "distributors": 1,
    "videos": 1,
    "best_reach": 13,
-   "best_outlier": 0.4,
-   "best_title": "Winter Survival in a Transparent Dome Tent with a Wood Stove | by @VictorOff-Grid",
-   "best_video": "aYw97ZVsTrY",
-   "creator_subs": null,
-   "last_seen": "2026-08-06"
+   "best_outlier": 0.9,
+   "best_title": "Building a Stunning A-Frame House on a Riverside Beach | Start To Flish By @ArtSport",
+   "best_video": "YNna5zNK2gg",
+   "creator_subs": 5380,
+   "last_seen": "2024-12-16"
   },
   {
    "creator": "CreativeCraftIdea",
@@ -14221,16 +14671,28 @@
    "last_seen": "2024-11-15"
   },
   {
-   "creator": "ArtSport",
-   "url": "https://www.youtube.com/@ArtSport",
+   "creator": "zonabushcraftrimba",
+   "url": "https://www.youtube.com/@zonabushcraftrimba",
    "distributors": 1,
    "videos": 1,
-   "best_reach": 13,
-   "best_outlier": 0.9,
-   "best_title": "Building a Stunning A-Frame House on a Riverside Beach | Start To Flish By @ArtSport",
-   "best_video": "YNna5zNK2gg",
-   "creator_subs": 5380,
-   "last_seen": "2024-12-16"
+   "best_reach": 12,
+   "best_outlier": 0.1,
+   "best_title": "Building a Secret Shelter Inside Tree Roots \u2014 No Tools, Pure Survival | Start to Finish",
+   "best_video": "wV6L7IyBQqg",
+   "creator_subs": null,
+   "last_seen": "2026-01-03"
+  },
+  {
+   "creator": "lexastroy",
+   "url": "https://www.youtube.com/@lexastroy",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 12,
+   "best_outlier": 0.8,
+   "best_title": "Man Builds Secret Underground BUNKER in his Backyard | by @lexastroy",
+   "best_video": "N6d_nlQRfAE",
+   "creator_subs": null,
+   "last_seen": "2024-06-03"
   },
   {
    "creator": "Fun-Tech-Lab",
@@ -14257,18 +14719,6 @@
    "last_seen": "2026-07-05"
   },
   {
-   "creator": "lexastroy",
-   "url": "https://www.youtube.com/@lexastroy",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 12,
-   "best_outlier": 0.8,
-   "best_title": "Man Builds Secret Underground BUNKER in his Backyard | by @lexastroy",
-   "best_video": "N6d_nlQRfAE",
-   "creator_subs": null,
-   "last_seen": "2024-06-03"
-  },
-  {
    "creator": "bogdan",
    "url": "https://www.youtube.com/@bogdan",
    "distributors": 1,
@@ -14279,30 +14729,6 @@
    "best_video": "HQvRnkaEUcY",
    "creator_subs": null,
    "last_seen": "2026-05-31"
-  },
-  {
-   "creator": "zonabushcraftrimba",
-   "url": "https://www.youtube.com/@zonabushcraftrimba",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 12,
-   "best_outlier": 0.1,
-   "best_title": "Building a Secret Shelter Inside Tree Roots \u2014 No Tools, Pure Survival | Start to Finish",
-   "best_video": "wV6L7IyBQqg",
-   "creator_subs": null,
-   "last_seen": "2026-01-03"
-  },
-  {
-   "creator": "DonVonGun",
-   "url": "https://www.youtube.com/@DonVonGun",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 11,
-   "best_outlier": 1.2,
-   "best_title": "Engineering a Winter-Proof Circular Moss Cabin | by @DonVonGun",
-   "best_video": "QVtIf1nUeck",
-   "creator_subs": null,
-   "last_seen": "2026-08-13"
   },
   {
    "creator": "GordeevaHike",
@@ -14329,16 +14755,40 @@
    "last_seen": "2025-12-11"
   },
   {
-   "creator": "T\u1eebSi\u00eau",
-   "url": "https://www.youtube.com/@T\u1eebSi\u00eau",
+   "creator": "DonVonGun",
+   "url": "https://www.youtube.com/@DonVonGun",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 11,
+   "best_outlier": 1.2,
+   "best_title": "Engineering a Winter-Proof Circular Moss Cabin | by @DonVonGun",
+   "best_video": "QVtIf1nUeck",
+   "creator_subs": null,
+   "last_seen": "2026-08-13"
+  },
+  {
+   "creator": "car",
+   "url": "https://www.youtube.com/@car",
    "distributors": 1,
    "videos": 1,
    "best_reach": 10,
-   "best_outlier": 1.0,
-   "best_title": "Men Repair Massive Wooden Ship Broken in Half   by @T\u1eebSi\u00eau H\u1eaduC\u1ea7nNgh\u1ec1Bi\u1ec3n",
-   "best_video": "7A6dS0myesM",
+   "best_outlier": 0.9,
+   "best_title": "Rolls-Royce CAR FACTORY Bespoke Luxury Unlimited Customizations@car &performance/gommeblog",
+   "best_video": "gwkzm-gfK3I",
    "creator_subs": null,
-   "last_seen": "2026-08-10"
+   "last_seen": "2024-10-12"
+  },
+  {
+   "creator": "Jays_rcgarage",
+   "url": "https://www.youtube.com/@Jays_rcgarage",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 10,
+   "best_outlier": 0.9,
+   "best_title": "FLY LIKE A PRO Top Pilot Reveals RC Helicopter Secrets@Jays_rcgarage",
+   "best_video": "VdiMX2Ju_iA",
+   "creator_subs": null,
+   "last_seen": "2024-09-30"
   },
   {
    "creator": "UnderwoodHomes",
@@ -14353,16 +14803,52 @@
    "last_seen": "2026-05-04"
   },
   {
-   "creator": "RAMY",
-   "url": "https://www.youtube.com/@RAMY",
+   "creator": "exposetechnologyskills",
+   "url": "https://www.youtube.com/@exposetechnologyskills",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 10,
+   "best_outlier": 0.9,
+   "best_title": "Top Engineer Reveals Secrets of Handmade Passenger Bus Factory@exposetechnologyskills",
+   "best_video": "au_J_hdEMvc",
+   "creator_subs": null,
+   "last_seen": "2024-10-07"
+  },
+  {
+   "creator": "T\u1eebSi\u00eau",
+   "url": "https://www.youtube.com/@T\u1eebSi\u00eau",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 10,
+   "best_outlier": 1.0,
+   "best_title": "Men Repair Massive Wooden Ship Broken in Half   by @T\u1eebSi\u00eau H\u1eaduC\u1ea7nNgh\u1ec1Bi\u1ec3n",
+   "best_video": "7A6dS0myesM",
+   "creator_subs": null,
+   "last_seen": "2026-08-10"
+  },
+  {
+   "creator": "McLarenAutomotiveTV",
+   "url": "https://www.youtube.com/@McLarenAutomotiveTV",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 10,
+   "best_outlier": 0.9,
+   "best_title": "Introducing the McLaren W1@McLarenAutomotiveTV",
+   "best_video": "ZAKhtXF2HII",
+   "creator_subs": null,
+   "last_seen": "2024-10-09"
+  },
+  {
+   "creator": "amazingskillsdiscover117",
+   "url": "https://www.youtube.com/@amazingskillsdiscover117",
    "distributors": 1,
    "videos": 1,
    "best_reach": 9,
-   "best_outlier": 0.6,
-   "best_title": "A380M Model Mastery: Four Engines, Carbon Fiber, and Next-Level Craftsmanship by @RAMY RC",
-   "best_video": "Ufy_s0meeQI",
+   "best_outlier": 0.8,
+   "best_title": "Top 3 Essential Emergency Truck Repair Tools Every Truck Driver Needs@amazingskillsdiscover117",
+   "best_video": "o2lo1f3vYdc",
    "creator_subs": null,
-   "last_seen": "2024-11-01"
+   "last_seen": "2024-10-07"
   },
   {
    "creator": "Bushradical",
@@ -14377,6 +14863,18 @@
    "last_seen": "2024-12-14"
   },
   {
+   "creator": "RAMY",
+   "url": "https://www.youtube.com/@RAMY",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 9,
+   "best_outlier": 0.6,
+   "best_title": "A380M Model Mastery: Four Engines, Carbon Fiber, and Next-Level Craftsmanship by @RAMY RC",
+   "best_video": "Ufy_s0meeQI",
+   "creator_subs": null,
+   "last_seen": "2024-11-01"
+  },
+  {
    "creator": "Tran-Nam",
    "url": "https://www.youtube.com/@Tran-Nam",
    "distributors": 1,
@@ -14387,6 +14885,30 @@
    "best_video": "LVsR1GEEUGA",
    "creator_subs": null,
    "last_seen": "2024-06-21"
+  },
+  {
+   "creator": "janinebruce",
+   "url": "https://www.youtube.com/@janinebruce",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 8,
+   "best_outlier": 0.7,
+   "best_title": "Revamp Your Abandoned Corridor into a Serene Oasis in 2024!",
+   "best_video": "xQ6FIMIrmqU",
+   "creator_subs": null,
+   "last_seen": "2025-01-01"
+  },
+  {
+   "creator": "FromEveryWheree",
+   "url": "https://www.youtube.com/@FromEveryWheree",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 8,
+   "best_outlier": 0.8,
+   "best_title": "Bending Wood With Fire: Building a Traditional Boat | by @FromEveryWheree",
+   "best_video": "n534kqMoCqQ",
+   "creator_subs": null,
+   "last_seen": "2026-08-23"
   },
   {
    "creator": "yangsurvival",
@@ -14413,28 +14935,28 @@
    "last_seen": "2023-11-04"
   },
   {
-   "creator": "hivehunterstales",
-   "url": "https://www.youtube.com/@hivehunterstales",
+   "creator": "VintageCarRevival",
+   "url": "https://www.youtube.com/@VintageCarRevival",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 5,
+   "best_outlier": 0.2,
+   "best_title": "This Toyota Land Cruiser VXR Was COMPLETELY Destroyed",
+   "best_video": "QM7e8z2QUHo",
+   "creator_subs": null,
+   "last_seen": "2026-06-05"
+  },
+  {
+   "creator": "TechFreezeAdeel",
+   "url": "https://www.youtube.com/@TechFreezeAdeel",
    "distributors": 1,
    "videos": 1,
    "best_reach": 5,
    "best_outlier": 0.4,
-   "best_title": "Climbing an Ancient Giant to Harvest Wild Forest Honey | by @hivehunterstales",
-   "best_video": "qmaBCG8PM8k",
+   "best_title": "Lamborghini Dreams Come True I Built One From Scratch!@TechFreezeAdeel",
+   "best_video": "_KqnIErnft0",
    "creator_subs": null,
-   "last_seen": "2026-08-12"
-  },
-  {
-   "creator": "Bushcraftintheforest88",
-   "url": "https://www.youtube.com/@Bushcraftintheforest88",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 5,
-   "best_outlier": 0.3,
-   "best_title": "100 Days Building a Subterranean Cabin & Hexagonal Hut | by @Bushcraftintheforest88",
-   "best_video": "iGoS1H7_az0",
-   "creator_subs": null,
-   "last_seen": "2026-08-13"
+   "last_seen": "2024-09-29"
   },
   {
    "creator": "ibuilding7",
@@ -14447,6 +14969,18 @@
    "best_video": "y3u0QC0orGY",
    "creator_subs": 10500,
    "last_seen": "2026-06-18"
+  },
+  {
+   "creator": "hivehunterstales",
+   "url": "https://www.youtube.com/@hivehunterstales",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 5,
+   "best_outlier": 0.4,
+   "best_title": "Climbing an Ancient Giant to Harvest Wild Forest Honey | by @hivehunterstales",
+   "best_video": "qmaBCG8PM8k",
+   "creator_subs": null,
+   "last_seen": "2026-08-12"
   },
   {
    "creator": "amazingthingtechnology1595",
@@ -14473,6 +15007,18 @@
    "last_seen": "2026-07-22"
   },
   {
+   "creator": "YHoeun",
+   "url": "https://www.youtube.com/@YHoeun",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 3,
+   "best_outlier": 0.8,
+   "best_title": "23 days to build a massive hillside timber home | by @YHoeun",
+   "best_video": "ArTWs1lSX9U",
+   "creator_subs": null,
+   "last_seen": "2026-07-17"
+  },
+  {
    "creator": "MattJordanWoodturning",
    "url": "https://www.youtube.com/@MattJordanWoodturning",
    "distributors": 1,
@@ -14497,42 +15043,6 @@
    "last_seen": "2024-11-12"
   },
   {
-   "creator": "MOUNTAINLIFESTYLE",
-   "url": "https://www.youtube.com/@MOUNTAINLIFESTYLE",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 0,
-   "best_outlier": 0.0,
-   "best_title": "30 Days Building a Stunning Wooden House Under a Giant Tree | by @MOUNTAINLIFESTYLE",
-   "best_video": "qZiswhSePeQ",
-   "creator_subs": 967,
-   "last_seen": "2026-06-24"
-  },
-  {
-   "creator": "giahandailylife",
-   "url": "https://www.youtube.com/@giahandailylife",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 0,
-   "best_outlier": 0.0,
-   "best_title": "Solo Building an Elevated Off-Grid Cabin by Hand | by @giahandailylife",
-   "best_video": "he9_4KAmqtQ",
-   "creator_subs": null,
-   "last_seen": "2026-08-19"
-  },
-  {
-   "creator": "Borsch",
-   "url": "https://www.youtube.com/@Borsch",
-   "distributors": 1,
-   "videos": 1,
-   "best_reach": 0,
-   "best_outlier": 0.0,
-   "best_title": "How to Build a Cheap DIY Wooden House Step by Step   by @Borsch TV",
-   "best_video": "_aQh_E1I07A",
-   "creator_subs": null,
-   "last_seen": "2026-07-20"
-  },
-  {
    "creator": "BUSHCRAFTGR",
    "url": "https://www.youtube.com/@BUSHCRAFTGR",
    "distributors": 1,
@@ -14541,6 +15051,18 @@
    "best_outlier": 0.0,
    "best_title": "Handcrafting a Hidden Forest Cabin with a Living Moss Roof | by @BUSHCRAFTGR",
    "best_video": "6WmHlbt-VPg",
+   "creator_subs": null,
+   "last_seen": "2026-08-19"
+  },
+  {
+   "creator": "WSMArabian",
+   "url": "https://www.youtube.com/@WSMArabian",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Building a Mud Bunker and Winter Stone Shelter from Scratch | by @WSMArabian",
+   "best_video": "IBhxK_qBG8Y",
    "creator_subs": null,
    "last_seen": "2026-08-19"
   },
@@ -14567,6 +15089,90 @@
    "best_video": "aetU5iE0Two",
    "creator_subs": null,
    "last_seen": "2026-08-28"
+  },
+  {
+   "creator": "MOUNTAINLIFESTYLE",
+   "url": "https://www.youtube.com/@MOUNTAINLIFESTYLE",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "30 Days Building a Stunning Wooden House Under a Giant Tree | by @MOUNTAINLIFESTYLE",
+   "best_video": "qZiswhSePeQ",
+   "creator_subs": 967,
+   "last_seen": "2026-06-24"
+  },
+  {
+   "creator": "WildNestBuilder",
+   "url": "https://www.youtube.com/@WildNestBuilder",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Man Spends 100 Days Building Hidden Subterranean Bamboo Shelters in Forest | by @WildNestBuilder",
+   "best_video": "w8A1h1P8Iq8",
+   "creator_subs": null,
+   "last_seen": "2026-08-31"
+  },
+  {
+   "creator": "giahandailylife",
+   "url": "https://www.youtube.com/@giahandailylife",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Solo Building an Elevated Off-Grid Cabin by Hand | by @giahandailylife",
+   "best_video": "he9_4KAmqtQ",
+   "creator_subs": null,
+   "last_seen": "2026-08-19"
+  },
+  {
+   "creator": "PolissyaBushcraft.2",
+   "url": "https://www.youtube.com/@PolissyaBushcraft.2",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Building a Dugout Shelter Inside a Giant Hollow Log | by @PolissyaBushcraft.2",
+   "best_video": "ySFctpZA2qY",
+   "creator_subs": null,
+   "last_seen": "2026-07-26"
+  },
+  {
+   "creator": "Borsch",
+   "url": "https://www.youtube.com/@Borsch",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "How to Build a Cheap DIY Wooden House Step by Step   by @Borsch TV",
+   "best_video": "_aQh_E1I07A",
+   "creator_subs": null,
+   "last_seen": "2026-07-20"
+  },
+  {
+   "creator": "Ho\u00e0ng-Th\u1ecb-H\u01b0\u01a1ng",
+   "url": "https://www.youtube.com/@Ho\u00e0ng-Th\u1ecb-H\u01b0\u01a1ng",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "X\u00e2y D\u1ef1ng Nh\u00e0 G\u1ed7 Kh\u1ed5ng L\u1ed3 M\u1ed9t M\u00ecnh Trong R\u1eebng Trong 260 Ng\u00e0y",
+   "best_video": "vX1-RYVInWE",
+   "creator_subs": null,
+   "last_seen": "2026-06-02"
+  },
+  {
+   "creator": "victordustin5833",
+   "url": "https://www.youtube.com/@victordustin5833",
+   "distributors": 1,
+   "videos": 1,
+   "best_reach": 0,
+   "best_outlier": 0.0,
+   "best_title": "Battling Deep Winter to Reclaim a Frozen Off-Grid Cabin | by @victordustin5833",
+   "best_video": "_RyvjKGkU50",
+   "creator_subs": null,
+   "last_seen": "2026-07-30"
   }
  ],
  "topics": [
@@ -14574,47 +15180,47 @@
    "topic": "boat",
    "them": 25.0,
    "us": 26.4,
-   "gap": -1.4
+   "gap": -1.3
   },
   {
    "topic": "machine_build",
-   "them": 15.5,
+   "them": 15.4,
    "us": 16.6,
    "gap": -1.2
   },
   {
    "topic": "restoration",
-   "them": 11.1,
+   "them": 11.2,
    "us": 19.3,
-   "gap": -8.2
+   "gap": -8.1
   },
   {
    "topic": "off_grid",
-   "them": 13.0,
+   "them": 13.1,
    "us": 8.0,
-   "gap": 5.0
+   "gap": 5.1
   },
   {
    "topic": "log_cabin",
-   "them": 11.2,
+   "them": 11.1,
    "us": 5.7,
    "gap": 5.5
   },
   {
    "topic": "truck_van",
-   "them": 6.1,
+   "them": 6.0,
    "us": 8.0,
-   "gap": -1.8
+   "gap": -2.0
   },
   {
    "topic": "concrete_house",
-   "them": 3.8,
+   "them": 3.7,
    "us": 4.1,
-   "gap": -0.3
+   "gap": -0.4
   },
   {
    "topic": "underground_bunker",
-   "them": 3.0,
+   "them": 3.1,
    "us": 3.6,
    "gap": -0.6
   },
@@ -14625,16 +15231,16 @@
    "gap": 0.1
   },
   {
-   "topic": "pool_sauna",
-   "them": 1.3,
-   "us": 1.9,
-   "gap": -0.6
-  },
-  {
    "topic": "shipping_container",
    "them": 1.9,
    "us": 1.2,
    "gap": 0.7
+  },
+  {
+   "topic": "pool_sauna",
+   "them": 1.2,
+   "us": 1.9,
+   "gap": -0.6
   },
   {
    "topic": "treehouse",
@@ -14643,28 +15249,28 @@
    "gap": 1.5
   },
   {
+   "topic": "a_frame",
+   "them": 1.4,
+   "us": 0.5,
+   "gap": 0.8
+  },
+  {
    "topic": "silo_barn",
    "them": 1.0,
    "us": 0.8,
    "gap": 0.2
   },
   {
-   "topic": "a_frame",
-   "them": 1.3,
-   "us": 0.5,
-   "gap": 0.8
-  },
-  {
    "topic": "castle",
-   "them": 0.6,
+   "them": 0.7,
    "us": 0.8,
-   "gap": -0.2
+   "gap": -0.1
   },
   {
    "topic": "school_bus",
-   "them": 0.8,
+   "them": 0.7,
    "us": 0.4,
-   "gap": 0.4
+   "gap": 0.3
   },
   {
    "topic": "water_tank",

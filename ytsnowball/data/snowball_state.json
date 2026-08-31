@@ -1,5 +1,6 @@
 {
  "searched": [
+  "adrianwoodworm",
   "advoko",
   "alexbushcraftmyworld",
   "aloshalynov",
@@ -14,6 +15,7 @@
   "bjornbrenton",
   "bkscreative",
   "bochihut",
+  "bourbonmoth",
   "boxworks1001",
   "bskmetallfinishgmbh",
   "buildersblueprint",
@@ -24,33 +26,42 @@
   "carpenteranxu",
   "carrestorationsusa",
   "caseyyoungblood",
+  "chasingfreedomhomestead",
   "construyendojuntos",
   "dashingaxe",
+  "deborahpaullagrange31",
   "demasilogcabin",
   "denniskoburger",
   "dialtommy",
   "dmitrylukindiy",
+  "electricsupercar",
   "enancinar",
   "europeanhomesteading",
   "everyotherkarl",
   "fabricatusueno",
+  "flmangarage",
   "foxhomeproduction",
   "frengenengineering",
+  "gabeoctane",
   "gablokmaisonkit",
   "gabrielleni100",
+  "grayderci",
   "growinginfrance",
   "grumpytoadcreations",
   "haisupercar",
   "homemademadness",
   "homesteadingdays",
   "jerryrigeverything",
+  "jtengineering",
   "jufri88",
   "julienmalara",
   "kbmorozov",
   "kbuild",
+  "keithvogel9820",
   "korcountrysidelife",
   "korytan",
   "ladyfieldfarm",
+  "lambinhtuoitre",
   "lankhome",
   "lechantierdesmax",
   "lesbricoloveurs",
@@ -67,6 +78,7 @@
   "mattjacobs1",
   "meadowlarkloghomes",
   "menyatudialam",
+  "mikesdreambuilds",
   "mlgkontejneri3283",
   "montanahaven",
   "mrho",
@@ -81,7 +93,11 @@
   "nikospropertyshow",
   "nikrijavec47",
   "normalguydoesitall",
+  "northtoalaska2022",
+  "norusarubushcraft",
   "outbackmike",
+  "paullivesdifferent",
+  "polissyabushcraft",
   "projectswithchristinejesse",
   "ramizinthewild",
   "rausaufsland",
@@ -94,9 +110,12 @@
   "sailinggoodbadandugly",
   "septemberflow",
   "serkanbilgin27",
+  "shredpile",
   "slothconstruction",
+  "steepinthewoods",
   "sukhbirskill",
   "sunfishbudget",
+  "syromyatnikov",
   "tehnolexa",
   "thanhinnt",
   "thanhsuperboat",
@@ -106,8 +125,11 @@
   "thequinta",
   "thisismyalaska",
   "tickcreekranch",
+  "trieuthihoa",
   "truckschannelrazborgruz",
   "trucksurfhotel",
+  "tussik01",
+  "vasyl54",
   "villaaroldi",
   "weandnature",
   "wildgnomos",
@@ -230,7 +252,8 @@
     "bochihut",
     "carpenteranxu",
     "villaaroldi",
-    "boxworks1001"
+    "boxworks1001",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -433,7 +456,11 @@
     "kbmorozov",
     "libraryofconstruction",
     "boxworks1001",
-    "themodernhomeproject"
+    "themodernhomeproject",
+    "adrianwoodworm",
+    "mikesdreambuilds",
+    "steepinthewoods",
+    "flmangarage"
    ],
    "examples": [
     {
@@ -578,7 +605,10 @@
     "caseyyoungblood",
     "gabrielleni100",
     "tickcreekranch",
-    "foxhomeproduction"
+    "foxhomeproduction",
+    "syromyatnikov",
+    "gabeoctane",
+    "paullivesdifferent"
    ],
    "examples": [
     {
@@ -622,7 +652,8 @@
     "alexbushcraftmyworld",
     "mlgkontejneri3283",
     "menyatudialam",
-    "denniskoburger"
+    "denniskoburger",
+    "flmangarage"
    ],
    "examples": [
     {
@@ -798,7 +829,9 @@
     "buildinginnature",
     "wildhammer",
     "thepasturedhomestead",
-    "theoutsidercabin"
+    "theoutsidercabin",
+    "shredpile",
+    "paullivesdifferent"
    ],
    "examples": [
     {
@@ -841,7 +874,8 @@
     "lifeonthemoose",
     "buildinginnature",
     "nickandmala",
-    "serkanbilgin27"
+    "serkanbilgin27",
+    "paullivesdifferent"
    ],
    "examples": [
     {
@@ -935,7 +969,8 @@
     "grumpytoadcreations",
     "carpenteranxu",
     "naturalloghouse",
-    "thepasturedhomestead"
+    "thepasturedhomestead",
+    "shredpile"
    ],
    "examples": [
     {
@@ -963,7 +998,8 @@
     "bushcraftua1",
     "nickandmala",
     "mattjacobs1",
-    "theoutsidercabin"
+    "theoutsidercabin",
+    "shredpile"
    ],
    "examples": [
     {
@@ -1048,7 +1084,10 @@
     "denniskoburger",
     "tickcreekranch",
     "truckschannelrazborgruz",
-    "loginnature8516"
+    "loginnature8516",
+    "mikesdreambuilds",
+    "electricsupercar",
+    "flmangarage"
    ],
    "examples": [
     {
@@ -1101,7 +1140,8 @@
     "grumpytoadcreations",
     "nikrijavec47",
     "nasatchannel",
-    "nickandmaela"
+    "nickandmaela",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
@@ -1178,7 +1218,8 @@
     "weandnature",
     "frengenengineering",
     "rcplayground",
-    "nasatchannel"
+    "nasatchannel",
+    "electricsupercar"
    ],
    "examples": [
     {
@@ -1305,7 +1346,8 @@
    "channel_title": "The Build Maker",
    "creators": [
     "dmitrylukindiy",
-    "worzallabrothers"
+    "worzallabrothers",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -1315,6 +1357,10 @@
     {
      "video_id": "A852nYIzp6s",
      "title": "Man Transforms a 100-Year-Old Tower Into a Stunning Home | Start to Finish by@Worzalla_Brothers"
+    },
+    {
+     "video_id": "hhA1VKgqj0s",
+     "title": "Man Builds Floating House for His Family | Start to Finish by@adrianwoodworm"
     }
    ]
   },
@@ -1457,7 +1503,8 @@
     "worzallabrothers",
     "grumpytoadcreations",
     "naturalloghouse",
-    "mattjacobs1"
+    "mattjacobs1",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -1528,7 +1575,8 @@
     "lesnoycraft8607",
     "thisismyalaska",
     "lifeonthemoose",
-    "nikrijavec47"
+    "nikrijavec47",
+    "trieuthihoa"
    ],
    "examples": [
     {
@@ -1595,7 +1643,8 @@
    "channel_title": "Verdan Forge",
    "creators": [
     "dmitrylukindiy",
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "vasyl54"
    ],
    "examples": [
     {
@@ -1605,6 +1654,10 @@
     {
      "video_id": "h1XRqxJz9y4",
      "title": "Two Men Build a Giant Underground Wooden House | From Start to Finish @lifeinthesiberianforest1"
+    },
+    {
+     "video_id": "7re9L7TfiNE",
+     "title": "Experts Recover a WW2 Tank From a River | Will It Run Again? | by \u202a@Vasyl54\u202c"
     }
    ]
   },
@@ -1616,7 +1669,8 @@
     "bjornbrenton",
     "roughstyle",
     "andrewryanpov",
-    "mattjacobs1"
+    "mattjacobs1",
+    "lambinhtuoitre"
    ],
    "examples": [
     {
@@ -1651,7 +1705,8 @@
     "dmitrylukindiy",
     "lesnoycraft8607",
     "bushcraftua1",
-    "nickandmala"
+    "nickandmala",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -2171,12 +2226,17 @@
   "UCYhvQCyxQQAr3PjaoRpODww": {
    "channel_title": "Cabin Makers DIY",
    "creators": [
-    "wolfpupfab"
+    "wolfpupfab",
+    "paullivesdifferent"
    ],
    "examples": [
     {
      "video_id": "KAqEAeL5Dg8",
      "title": "How This Old House Was Transformed Into a Stunning Mansion | by @Wolfpupfab"
+    },
+    {
+     "video_id": "geKZOaN_LGw",
+     "title": "Man Builds His Dream Off-Grid House | Start to Finish by @Paullivesdifferent"
     }
    ]
   },
@@ -2303,7 +2363,9 @@
     "nasatchannel",
     "ateliermavi",
     "sunfishbudget",
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "deborahpaullagrange31",
+    "shredpile"
    ],
    "examples": [
     {
@@ -2419,7 +2481,9 @@
     "projectswithchristinejesse",
     "bushcraftua1",
     "buildinginnature",
-    "villaaroldi"
+    "villaaroldi",
+    "norusarubushcraft",
+    "paullivesdifferent"
    ],
    "examples": [
     {
@@ -2552,7 +2616,8 @@
     "projectswithchristinejesse",
     "naturalloghouse",
     "mlgkontejneri3283",
-    "themodernhomeproject"
+    "themodernhomeproject",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -2927,7 +2992,8 @@
    "channel_title": "Limitless Builds",
    "creators": [
     "julienmalara",
-    "libraryofconstruction"
+    "libraryofconstruction",
+    "flmangarage"
    ],
    "examples": [
     {
@@ -2937,6 +3003,10 @@
     {
      "video_id": "MWr9wap6ktw",
      "title": "How to Build a Hidden Underground Shelter | Full Construction- @libraryofconstruction"
+    },
+    {
+     "video_id": "Ar-4E6WnqP4",
+     "title": "FULL RESTORATION of this Classic Truck From Rusted Shell to Showstopper - @FLManGarage"
     }
    ]
   },
@@ -2993,7 +3063,8 @@
     "projectswithchristinejesse",
     "everyotherkarl",
     "lifeinthesiberianforest1",
-    "themodernhomeproject"
+    "themodernhomeproject",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -3311,7 +3382,9 @@
     "haisupercar",
     "carrestorationsusa",
     "homemademadness",
-    "ateliermavi"
+    "ateliermavi",
+    "adrianwoodworm",
+    "deborahpaullagrange31"
    ],
    "examples": [
     {
@@ -3413,7 +3486,8 @@
   "UCod7z6Uc-qJhook80bxco3A": {
    "channel_title": "Limitless Workshop",
    "creators": [
-    "bjornbrenton"
+    "bjornbrenton",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -3423,6 +3497,10 @@
     {
      "video_id": "VQI0aYzqAsE",
      "title": "365 Days Alone in the Wild \u2013 Building My Dream Log Cabin With My Loyal Dog | by @bjornbrenton"
+    },
+    {
+     "video_id": "DycUmaJCg2I",
+     "title": "I Built an Incredible Survival Shelter Alone in the Rainforest | by @norusarubushcraft"
     }
    ]
   },
@@ -3445,7 +3523,9 @@
     "montanahaven",
     "grumpytoadcreations",
     "luxonbushcraft",
-    "naturalloghouse"
+    "naturalloghouse",
+    "trieuthihoa",
+    "shredpile"
    ],
    "examples": [
     {
@@ -3621,7 +3701,8 @@
    "creators": [
     "bjornbrenton",
     "mrho",
-    "restorationtools6868"
+    "restorationtools6868",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
@@ -3656,7 +3737,8 @@
     "bjornbrenton",
     "bushcraftua1",
     "mattjacobs1",
-    "artsportartsport"
+    "artsportartsport",
+    "polissyabushcraft"
    ],
    "examples": [
     {
@@ -3740,7 +3822,8 @@
    "creators": [
     "bjornbrenton",
     "bushcraftua1",
-    "wildhammer"
+    "wildhammer",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -3813,7 +3896,8 @@
     "luxonbushcraft",
     "serkanbilgin27",
     "thepasturedhomestead",
-    "foxhomeproduction"
+    "foxhomeproduction",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -3837,7 +3921,8 @@
     "outbackmike",
     "lesnoycraft8607",
     "buildinginnature",
-    "murattuncer"
+    "murattuncer",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
@@ -3980,7 +4065,8 @@
    "creators": [
     "worzallabrothers",
     "outbackmike",
-    "wildhammer"
+    "wildhammer",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -4485,7 +4571,9 @@
     "bushcraftua1",
     "bkscreative",
     "murattuncer",
-    "lechantierdesmax"
+    "lechantierdesmax",
+    "norusarubushcraft",
+    "polissyabushcraft"
    ],
    "examples": [
     {
@@ -4854,12 +4942,17 @@
   "UCMQA_rdkGL5jNGc3Ltj3sww": {
    "channel_title": "ChronoHD",
    "creators": [
-    "mrho"
+    "mrho",
+    "trieuthihoa"
    ],
    "examples": [
     {
      "video_id": "85Y-LTCHMPw",
      "title": "full journey of a man building real UFO boat from start to finish in his home by @Mr_Ho"
+    },
+    {
+     "video_id": "-YK5cx5nhnc",
+     "title": "Pregnant woman Builds INCREDIBLE Floating bamboo House || by@trieuthihoa"
     }
    ]
   },
@@ -5336,7 +5429,10 @@
    "channel_title": "CarTech ",
    "creators": [
     "enancinar",
-    "truckschannelrazborgruz"
+    "truckschannelrazborgruz",
+    "tussik01",
+    "vasyl54",
+    "electricsupercar"
    ],
    "examples": [
     {
@@ -5346,6 +5442,10 @@
     {
      "video_id": "U82m29YL4uA",
      "title": "Man Fully Assembles Mercedes TRUCK ENGINE Perfectly | Start to Finish by @trucks_channel_razborgruz"
+    },
+    {
+     "video_id": "ZvDgfTK_3mQ",
+     "title": "Totally Destroyed BMW Car Repaired by Professional Mechanic | by @tussik01"
     }
    ]
   },
@@ -5427,7 +5527,9 @@
     "septemberflow",
     "boxworks1001",
     "truckschannelrazborgruz",
-    "caobaminh1994"
+    "caobaminh1994",
+    "vasyl54",
+    "flmangarage"
    ],
    "examples": [
     {
@@ -5460,7 +5562,8 @@
    "channel_title": "Mega DIY Projects",
    "creators": [
     "rrbuildings",
-    "restorationtools6868"
+    "restorationtools6868",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -5584,12 +5687,17 @@
   "UCRnjIZrmC5Iz4HOhob-ftlw": {
    "channel_title": "LOG CABIN TV ",
    "creators": [
-    "rrbuildings"
+    "rrbuildings",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
      "video_id": "W-HRNqZbxN4",
      "title": "Man Builds a Massive Factory Workshop in Just 1 Month | from beginning to end@RRBuildings"
+    },
+    {
+     "video_id": "ud-cV9uzaYE",
+     "title": "Couple transforms fire-damaged million-dollar mansion into their dream home | by@mikesdreambuilds"
     }
    ]
   },
@@ -6025,7 +6133,9 @@
    "channel_title": "Rebuild & Transform",
    "creators": [
     "lesnoycraft8607",
-    "restorationtools6868"
+    "restorationtools6868",
+    "norusarubushcraft",
+    "polissyabushcraft"
    ],
    "examples": [
     {
@@ -6035,6 +6145,10 @@
     {
      "video_id": "96pVgdf4yok",
      "title": "One Man Restored a Completely Rusted Road Roller | by @RestorationTools6868"
+    },
+    {
+     "video_id": "Jo9DqrJx-RI",
+     "title": "45 Days Building a Log Cabin Inside a Cave | by @norusarubushcraft"
     }
    ]
   },
@@ -6258,7 +6372,8 @@
    "creators": [
     "fabricatusueno",
     "myoffgridstory",
-    "rcplayground"
+    "rcplayground",
+    "adrianwoodworm"
    ],
    "examples": [
     {
@@ -6365,7 +6480,8 @@
    "channel_title": "Spirit Awake",
    "creators": [
     "bochihut",
-    "menyatudialam"
+    "menyatudialam",
+    "norusarubushcraft"
    ],
    "examples": [
     {
@@ -6375,6 +6491,10 @@
     {
      "video_id": "r8Sp2Hdzm8Q",
      "title": "Two Boys Build 10m Treehouse in a Storm || Start to Finish by \u202a \u2068@menyatudialam"
+    },
+    {
+     "video_id": "jey1HreuFWs",
+     "title": "Man Builds All-Stone Shelter in Rain Forest | Start to Finish By@norusarubushcraft"
     }
    ]
   },
@@ -6477,7 +6597,8 @@
     "naturalloghouse",
     "nickandmaela",
     "loginnature8516",
-    "lechantierdesmax"
+    "lechantierdesmax",
+    "northtoalaska2022"
    ],
    "examples": [
     {
@@ -6521,12 +6642,17 @@
   "UCw1p0HiQUbN7lZn0dmYISfg": {
    "channel_title": "Punch Forge",
    "creators": [
-    "thisismyalaska"
+    "thisismyalaska",
+    "syromyatnikov"
    ],
    "examples": [
     {
      "video_id": "Q2mC2_KTyVY",
      "title": "No Help, No Power \u2014 How an Old Man Built a Cabin Alone in Alaska | Start To End By @ThisIsMyAlaska"
+    },
+    {
+     "video_id": "d1n5BEwznAk",
+     "title": "No Machines. No Help. Just One Man Building a House From Scratch by @syromyatnikov"
     }
    ]
   },
@@ -7109,12 +7235,17 @@
   "UC38waCN1LSlNgmQ8dItdXrQ": {
    "channel_title": "Camille Sparkes",
    "creators": [
-    "dashingaxe"
+    "dashingaxe",
+    "polissyabushcraft"
    ],
    "examples": [
     {
      "video_id": "sLA-Lo-f410",
      "title": "Building a Secret Underground Survival Bunker by Hand | by @DashingAxe"
+    },
+    {
+     "video_id": "ySFctpZA2qY",
+     "title": "Building a Dugout Shelter Inside a Giant Hollow Log | by @PolissyaBushcraft.2"
     }
    ]
   },
@@ -8923,12 +9054,17 @@
   "UCqmsXddD6U4NS5A0o1cmvtA": {
    "channel_title": "TerraForge Collective",
    "creators": [
-    "artsportartsport"
+    "artsportartsport",
+    "norusarubushcraft"
    ],
    "examples": [
     {
      "video_id": "bZYG8LMrXsU",
      "title": "1 Year Building an Off-Grid Log Cabin from Scratch | by @ArtSportArtSport"
+    },
+    {
+     "video_id": "VhnZjTALBmc",
+     "title": "Building a Solo Bushcraft Cliff House Deep in the Jungle | by @norusarubushcraft"
     }
    ]
   },
@@ -8960,7 +9096,8 @@
    "channel_title": "Wild Forest Homes",
    "creators": [
     "artsportartsport",
-    "theoutsidercabin"
+    "theoutsidercabin",
+    "lambinhtuoitre"
    ],
    "examples": [
     {
@@ -8970,6 +9107,10 @@
     {
      "video_id": "HwvkssuR9UA",
      "title": "Man Spends 2 Years Finishing a Legacy Log Cabin After Father&#39;s Passing | by @TheOutsiderCabin"
+    },
+    {
+     "video_id": "uNdTJUCTEaM",
+     "title": "Digging a Secret Underground Bunker in a Rainstorm | by @lambinhTuoitre"
     }
    ]
   },
@@ -9035,7 +9176,8 @@
    "channel_title": "The Silent Builder",
    "creators": [
     "artsportartsport",
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
@@ -9442,7 +9584,8 @@
   "UC9EItc9EJf2_Xi46ByH9Lwg": {
    "channel_title": "Struxio Docs",
    "creators": [
-    "restorationtools6868"
+    "restorationtools6868",
+    "lambinhtuoitre"
    ],
    "examples": [
     {
@@ -9968,12 +10111,17 @@
   "UCLCxX7G0yQOwvbqBn-WVyYQ": {
    "channel_title": "The Builder's Journey",
    "creators": [
-    "carrestorationsusa"
+    "carrestorationsusa",
+    "mikesdreambuilds"
    ],
    "examples": [
     {
      "video_id": "HIYs171Wh34",
      "title": "30-Year Jungle Rescue: Complete Toyota Restoration | by @CarRestorations-USA"
+    },
+    {
+     "video_id": "tXLdB4iir_8",
+     "title": "Rebuilding a Destroyed $1.5M Mansion From the Ashes | by @mikesdreambuilds"
     }
    ]
   },
@@ -10378,12 +10526,17 @@
   "UCV5UVW9T1r3cqHSRkSnw6_A": {
    "channel_title": "ROYAL TV",
    "creators": [
-    "sunfishbudget"
+    "sunfishbudget",
+    "deborahpaullagrange31"
    ],
    "examples": [
     {
      "video_id": "MZ0PY7FtLnM",
      "title": "They Started With Empty Containers\u2026 Then Built This 400.6 m\u00b2 Dream Home| by @SunfishBudget"
+    },
+    {
+     "video_id": "GR_16R386qA",
+     "title": "They Bought an Old Barn!Then Spent $3 Million Creating Their Dream Home!by@deborahpaullagrange31"
     }
    ]
   },
@@ -10763,12 +10916,17 @@
   "UC5hd13fVYbH5QtoamoaUGsw": {
    "channel_title": "Zenith Build",
    "creators": [
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "norusarubushcraft"
    ],
    "examples": [
     {
      "video_id": "v18At2c_ZC4",
      "title": "Building a Siberian Log Cabin from Raw Timber | by @lifeinthesiberianforest1"
+    },
+    {
+     "video_id": "XkpSFeOv4c4",
+     "title": "Shelters Built From a Dead Stump and a Rock Cave | by @norusarubushcraft"
     }
    ]
   },
@@ -10835,12 +10993,17 @@
   "UCL4_rreXvFbL8x1CGcowM-w": {
    "channel_title": "Shift Builders",
    "creators": [
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "norusarubushcraft"
    ],
    "examples": [
     {
      "video_id": "DymY3b-c4Mk",
      "title": "Hand-Building an Off-Grid Log Cabin Before the Snow | by @lifeinthesiberianforest1"
+    },
+    {
+     "video_id": "ywiQdzsU-oo",
+     "title": "Forging a Mud Brick Homestead &amp; Water Wheel From Scratch | by @norusarubushcraft"
     }
    ]
   },
@@ -11820,12 +11983,17 @@
   "UCOT3pvbt_4V3AldBCAgPnTg": {
    "channel_title": "TechFreezeAdeel",
    "creators": [
-    "lechantierdesmax"
+    "lechantierdesmax",
+    "adrianwoodworm"
    ],
    "examples": [
     {
      "video_id": "07OrXqIsUes",
      "title": "Couple Builds Modern Dream Cabin With Their Own Hands | Start to Finish by @LeChantierdesMax"
+    },
+    {
+     "video_id": "IG5F6cYHkVU",
+     "title": "Man Builds Amazing Houseboat for Family  Start to Finish Build by @adrianwoodworm"
     }
    ]
   },
@@ -11930,6 +12098,1256 @@
     {
      "video_id": "rjqh8WSc1VY",
      "title": "70 DAYS | Man Builds Hyperrealistic RC Warship at Scale | OPV 1800 Military Replica by @jufri_88"
+    }
+   ]
+  },
+  "UC6H07z6zAwbHRl4Lbl0GSsw": {
+   "channel_title": "TechZone",
+   "creators": [
+    "tussik01"
+   ],
+   "examples": [
+    {
+     "video_id": "GZCcwzkno5k",
+     "title": "FERRARI RESTORATION AFTER A TOTAL ACCIDENT BY @TUSSIK01"
+    }
+   ]
+  },
+  "UCU5qRU76r63bHYwPOmwlaaQ": {
+   "channel_title": "luiz andre",
+   "creators": [
+    "tussik01"
+   ],
+   "examples": [
+    {
+     "video_id": "M3_QywGguD0",
+     "title": "@tussik01"
+    }
+   ]
+  },
+  "UCSwTblmsLVn_3OmEXrM6cJg": {
+   "channel_title": "Chris",
+   "creators": [
+    "tussik01"
+   ],
+   "examples": [
+    {
+     "video_id": "0HFVSOk7d-g",
+     "title": "Always learning great content @tussik01"
+    },
+    {
+     "video_id": "u0ZGKx-eoCA",
+     "title": "Appreciate it learning from @tussik01  keep doing good work"
+    }
+   ]
+  },
+  "UCgIAHlcNFCKGvoNtxC7xFkQ": {
+   "channel_title": "CengizelifSari Sari",
+   "creators": [
+    "grayderci"
+   ],
+   "examples": [
+    {
+     "video_id": "kQth40T4FsM",
+     "title": "grayderci zaza cengo"
+    }
+   ]
+  },
+  "UCMMawPK42-jEv6QY_GrLEEg": {
+   "channel_title": "GREYDER MEHMET",
+   "creators": [
+    "grayderci"
+   ],
+   "examples": [
+    {
+     "video_id": "aJhMmzs8hVg",
+     "title": "Cat D7G Bulldozer, the Creature That Tears Mountains, Cannot Be Stopped #bulldozer \u200b@Grayderci"
+    }
+   ]
+  },
+  "UCzuxcFIAruFKHUmWzhadl_A": {
+   "channel_title": "\u0130\u015f Makinalar\u0131 Hilmi usta",
+   "creators": [
+    "grayderci"
+   ],
+   "examples": [
+    {
+     "video_id": "vrG6K28664g",
+     "title": "fenomen grayderci \u015fovu"
+    }
+   ]
+  },
+  "UCIX6sF_oMjew5iK--m0Tnhw": {
+   "channel_title": "giresun gen\u00e7",
+   "creators": [
+    "grayderci"
+   ],
+   "examples": [
+    {
+     "video_id": "sGbKWGbdRss",
+     "title": "Sanata de\u011fer veren Grayderci seni alk\u0131\u015fl\u0131yoruz..."
+    }
+   ]
+  },
+  "UCFTluRFi_dBVb3wtOcOia8Q": {
+   "channel_title": "4k videos",
+   "creators": [
+    "adrianwoodworm",
+    "flmangarage"
+   ],
+   "examples": [
+    {
+     "video_id": "ZiAexzvgUrI",
+     "title": "From Start to Finish: Man Crafts Incredible Houseboat for His Family | @AdrianWoodworm"
+    },
+    {
+     "video_id": "nZDrx5Dic0Q",
+     "title": "Complete Restoration of a V8 Chevrolet C10: From Ruined to Revived | @FLManGarage || OldToNewcar"
+    }
+   ]
+  },
+  "UCREePtGz_e0lU4aDBGkLsuw": {
+   "channel_title": "Buildverse ",
+   "creators": [
+    "mikesdreambuilds"
+   ],
+   "examples": [
+    {
+     "video_id": "kdaNCB0-uVw",
+     "title": "Family Buys $1.5M Burned Mansion and Turns it into Dream Home | by @mikesdreambuilds"
+    }
+   ]
+  },
+  "UC0lpKrX7ZqiSh05TmWykFag": {
+   "channel_title": "Tu\u1ea5n Anh \u0110\u00e2y",
+   "creators": [
+    "mikesdreambuilds"
+   ],
+   "examples": [
+    {
+     "video_id": "_sgMS1CVRVU",
+     "title": "This man bought a burnt-down villa to transform it into a luxury home ! By @mikesdreambuilds ."
+    }
+   ]
+  },
+  "UCvOElRnMoCntGZiqv3zjsEw": {
+   "channel_title": "Maker's Forge",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "6rOSGfvtHDA",
+     "title": "Zero-Waste Cabin Built From Scratch with Reclaimed Marble | by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCdTol2QbhA552Irlbt_-qWQ": {
+   "channel_title": " Bushcraft Smart ",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "_45RMuEdxqI",
+     "title": "150 Days Building Giant Tree Shelters &amp; Finding Wild Food by @norusarubushcraft\u200b"
+    },
+    {
+     "video_id": "NeQFhuTUZr4",
+     "title": "From an Empty Rock Hollow to a Cozy Survival Home | Full Build by @norusarubushcraft"
+    },
+    {
+     "video_id": "Wb7cZmxt6xo",
+     "title": "Turning a Rock Cave Into a Cozy Shelter | Foraging &amp; Cooking by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCQVR90SxJ0FfqI_MAvQcOfA": {
+   "channel_title": "Crafted World Max",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "vc3VLlmUHyw",
+     "title": "1 Year Building a Stone Cabin Estate from Scratch | by @norusarubushcraft"
+    }
+   ]
+  },
+  "UC_AGvzWb066ylfb2fET4sRA": {
+   "channel_title": "Bushcraft in the wilds",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "VTKBK3CrJL0",
+     "title": "I Turned a Giant Rock Into a Hidden Jungle Home @norusarubushcraft"
+    }
+   ]
+  },
+  "UCNZeMQvXHyX3jdhgQHLLCuA": {
+   "channel_title": "NatureGo \u2013 Hidden Paradise Whisper",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "rLmTpIKu85Y",
+     "title": "Building a Permanent Off-Grid Shelter in a Rock Overhang | by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCoxKc-zLlvkLEJk6Znj2lmw": {
+   "channel_title": "Wild Survival Shelter",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "WmWQ8yaypwY",
+     "title": "Alone Building a Survival Treehouse on a Massive Ancient Tree @norusarubushcraft"
+    },
+    {
+     "video_id": "7RH263RMYO4",
+     "title": "I Built an Amazing Primitive Villa Beside a Waterfall @norusarubushcraft"
+    }
+   ]
+  },
+  "UCckPCrWMCBRVs3GIPbJXN2A": {
+   "channel_title": "Wild Shelter",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "snJlEVMTQTg",
+     "title": "How I Chiseled a Giant Rock Into a Warm Survival Shelter in 7 Days @norusarubushcraft"
+    }
+   ]
+  },
+  "UCaV4qXYhdAjGKmZIC86iB_g": {
+   "channel_title": "Wild Shelter Ideas",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "IUDKH0xsdpU",
+     "title": "How He Chiseled a Giant Rock and Built a Warm Bushcraft Shelter in 7 Days by @norusarubushcraft"
+    },
+    {
+     "video_id": "rPNttaIvCtA",
+     "title": "He Built a Warm Shelter Beneath a Giant Rock | Fish Traps &amp; Cooking by @norusarubushcraft"
+    },
+    {
+     "video_id": "vIB4o9PGIKo",
+     "title": "Built a Warm Cave Shelter | Snakehead Fishing, Water Filtering &amp; Cooking by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCJU8vceD0Zt8Xfi-EKpDPfA": {
+   "channel_title": "Wildcraft Collective",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "TRzFGtFOWH8",
+     "title": "Building an Off-Grid Compound on a Forest Boulder | by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCSqqkMyfFQJinOTxLunOhPA": {
+   "channel_title": "Crafted Wild",
+   "creators": [
+    "norusarubushcraft",
+    "polissyabushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "hUdTj0KEasY",
+     "title": "Building a Hidden Forest Shelter Inside a Giant Tree \ud83c\udf32 | @norusarubushcraft"
+    },
+    {
+     "video_id": "piUEPMLxVc0",
+     "title": "Building a Hidden Shelter Under Oak Roots | @PolissyaBushcraft"
+    }
+   ]
+  },
+  "UCO041wp3QnvJonHBm86_7yQ": {
+   "channel_title": "Living Ideas",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "oVn7o9qIaYU",
+     "title": "Man Alone Builds a Log Cabin | Incredible Forest Survival Skills by@norusarubushcraft"
+    }
+   ]
+  },
+  "UCKmtOHCVB9OvQKWegrnhvcA": {
+   "channel_title": "Rustic Nomad",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "KFUs3rsxaqM",
+     "title": "He Built a Secret Survival Shelter Inside a Tree Trunk with a Clay Fireplace by @norusarubushcraft"
+    },
+    {
+     "video_id": "_tpU0R9mCe4",
+     "title": "A Man Spent 30 Days Building a Survival Shelter Beneath a Giant Rock by @norusarubushcraft"
+    },
+    {
+     "video_id": "jmWcbEfMSLA",
+     "title": "90 Days of Solo Forest Survival | Building Shelters and Finding Food by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCeriYp4hb2_AnToatd1YgrQ": {
+   "channel_title": "Anhtum Makers",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "KwqT0dz8Kzg",
+     "title": "Building a Secret Shelter Inside a Giant Tree Trunk | From Start to Finish by @norusarubushcraft"
+    }
+   ]
+  },
+  "UCuRNRicuZ_SX1eOoA9MlaPg": {
+   "channel_title": "S.O.S Review",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "rvWtznfTvqY",
+     "title": "I Built a $0 House Using ONLY Trash./ @norusarubushcraft"
+    }
+   ]
+  },
+  "UCoA6dp_1rbnYPOl2ylW2e2A": {
+   "channel_title": "Flowing Five",
+   "creators": [
+    "norusarubushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "mq2SStf4apc",
+     "title": "Perfect House Build For Solo Camping On A Fallen Tree Trunk by @norusarubushcraft | Solo Bushcraft"
+    }
+   ]
+  },
+  "UCXZyVc8j9vPj-ZW5a4bZt1A": {
+   "channel_title": "Edin Motorsport",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "pklRFJbq5Zs",
+     "title": "Can you? \ud83d\udc40#LotusTheory1 #SupercarConcept #ElectricSupercar #PerformanceInnovation#LuxuryAutomobiles"
+    }
+   ]
+  },
+  "UCvy7ERUyEZcgUN0GXwWyHog": {
+   "channel_title": "Post Oak Motor Cars",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "F49nBA3XBgg",
+     "title": "New 1000+HP Karma Kaveya from Karma Houston. #supercoupe #electricsupercar #supercars247"
+    }
+   ]
+  },
+  "UC8rMwhXPG4xLeKdIvVRnDnw": {
+   "channel_title": "The Future Car",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "nfqx1oLIDOo",
+     "title": "#Supercar2025 #NextGenSupercars #ElectricSupercar #SupercarSound #SpeedBeast"
+    },
+    {
+     "video_id": "xoUZLJt58YQ",
+     "title": "#Supercar2025 #NextGenSupercars #ElectricSupercar #SupercarSound #SpeedBeast #LuxuryOnWheels"
+    },
+    {
+     "video_id": "Gcer7ewKCk4",
+     "title": "#Supercar2025 #NextGenSupercars #ElectricSupercar #SupercarSound #SpeedBeast #LuxuryOnWheels"
+    }
+   ]
+  },
+  "UCcvH2uydzM0NLSKbugJVNaQ": {
+   "channel_title": "King of The Wild Tv",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "qr-ns6pHu2o",
+     "title": "#JaguarElectricGT #TeslaRoadsterKiller #PorscheTaycan #ElectricSupercar #FutureCars #JaguarEV"
+    }
+   ]
+  },
+  "UCl3Si81A92uuioy12OnQ3XA": {
+   "channel_title": "Motors Marvel",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "ku-gr2wbWE0",
+     "title": "Hot or Not.? #futurecars #electricsupercar"
+    }
+   ]
+  },
+  "UCuhP2b_ZqwEfedC_LgfJvHw": {
+   "channel_title": "TURBO CAFE",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "8ugIb3EBaQc",
+     "title": "\u2060The 600HP Super EV by @ElectricSuperCar"
+    }
+   ]
+  },
+  "UCtGxbZfY9vXNAgULkkGNpuw": {
+   "channel_title": "EV Powered",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "gEg5Qq5IT7Y",
+     "title": "The NIO EP9 at Bicester Heritage! \u26a1\ufe0f #electriccars #shorts #Electricsupercar"
+    }
+   ]
+  },
+  "UCd-5KubVHRSSXKnxE4zI5tg": {
+   "channel_title": "semanba",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "Ri6A-PzJEmo",
+     "title": "\u2728 Make an entrance, command attention. #electricsupercar #xpeng #ev #electricvehicle #electriccar"
+    }
+   ]
+  },
+  "UCtFGKzEHIopi6H1Gx0pO7xA": {
+   "channel_title": "Multi Graph",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "GCiFppl1AhI",
+     "title": "The Future of Driving is Here#SupercarLaunch#ConceptCar#ElectricSupercar #FutureOfDriving#CarReveal"
+    }
+   ]
+  },
+  "UC6UV57mSRq8y8x3IG7ssS0Q": {
+   "channel_title": "REV. MANDATE EXPLORIFY",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "_zO1ENfLteQ",
+     "title": "Lotus Evija An All Electric #LotusEvija#ElectricSupercar"
+    }
+   ]
+  },
+  "UC3xyOQWvFCHZrBCc8Wj3pxQ": {
+   "channel_title": "Colin Smith",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "j7K6LpSBXXc",
+     "title": "#zeekr001 FR #electricsupercar amazing specs at#ces2024 #zeekr #electiccar #supercars"
+    }
+   ]
+  },
+  "UCvzVcK4K__iO1Zr_EGD4WBQ": {
+   "channel_title": "Japan MotorZone \u2013 \ud83c\uddef\ud83c\uddf5",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "eASljHfjFnc",
+     "title": "&quot;New BYD U9 2025\u2013Faster Than a Lamborghini?&quot;#BYDU9 #ElectricSupercar #BYDCar #Hypercar #Supercar2026"
+    }
+   ]
+  },
+  "UCSoU4UMZLGHmi6SmfKd26Qw": {
+   "channel_title": "Supercar City",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "flv_yVoDmhc",
+     "title": "\u26a1\u26a1#lotus #lotusemira #Supercar #electricsupercar"
+    }
+   ]
+  },
+  "UC6vHQ0i8V7UZ6qERViFAAZA": {
+   "channel_title": "General Facts",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "lmjiO3AXiWA",
+     "title": "#YangwangU9 #FastestCar2025 #BYD #ElectricSupercar #carlovers"
+    }
+   ]
+  },
+  "UCD-0MarJ-HRlzyWJffXQR3A": {
+   "channel_title": "Drift and Swift",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "Bo1ISpGMB7A",
+     "title": "my comfort zone \u2764#PorscheTaycanTurboGT#TaycanTurboGT#2025Taycan#ElectricSupercar#PorscheEV"
+    }
+   ]
+  },
+  "UCj00jtDlESDu3_T4kwcxECA": {
+   "channel_title": "AUTO APEX",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "3aHE2pCrjVQ",
+     "title": "Super Cars #electricsupercar #automobile #autoapex #luxury #mercedesamgsl"
+    },
+    {
+     "video_id": "KS8uLTAmttE",
+     "title": "BMW i7 M70 xDrive in a deep Tanzanite Blue metallic #electricsupercar #autoapex #luxury #viral"
+    },
+    {
+     "video_id": "F8OphhA2EK0",
+     "title": "2025 Cadillac CT5-V First Derive Reviews #autoapex #electricsupercar #luxury"
+    }
+   ]
+  },
+  "UCRSzpEVkkZI-q3dw3bQETiw": {
+   "channel_title": "LuxuryHub",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "SEan8crWPKo",
+     "title": "Design and Aesthetics:The Stunning Look of the BYD U9!#shorts #BYDU9 #ElectricSupercar #FutureCars"
+    }
+   ]
+  },
+  "UCmW1W5QYH-XGyt1aCk-WkFQ": {
+   "channel_title": "Velvet Moto.Official ",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "Czpw6uYWCY4",
+     "title": "YangwangU9\ud83d\udd25\ud83c\udfce #ElectricSupercar\ud83d\ude80 #FuturePerformance #BYD\ud83d\ude80 #PowerAndPrecision #LuxurySpeed"
+    }
+   ]
+  },
+  "UCHZ6s7gom2H2G5NwYl6ZU7Q": {
+   "channel_title": "Automotive Fever ",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "amOToA_vKBY",
+     "title": "Electric F1 experimental working prototypes 2024 \ud83d\udd25#f1 #f1shorts #f16 #electriccar #electricsupercar"
+    },
+    {
+     "video_id": "2cT94dkLo8M",
+     "title": "Mercedes Benz EQS 580 feels like inside ufo  #mercedes #eqs580 #electricsupercar #car #dash #shorts"
+    },
+    {
+     "video_id": "c4eaXKfqstk",
+     "title": "Mercedes Benz EQS 580 urgent breaking 60 to 0 #mercedes #eqs580 #electricsupercar #car #dash #shorts"
+    }
+   ]
+  },
+  "UCAbI59X3NI6g6K-gojRJEeQ": {
+   "channel_title": "Luxury Cars",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "txNcnBTNkB8",
+     "title": "#YangwangU9\ud83d\udd25\ud83d\ude80 #BYD\ud83c\udfce #ElectricSupercar #FutureOfSpeed #LuxuryPerformance #EVPower"
+    }
+   ]
+  },
+  "UCDG6PvzISk56VxRP8t7fmHw": {
+   "channel_title": "Hassan Shazada",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "aWzNL6mUe1A",
+     "title": "Yangwang U9 Xtreme 308 MPH #YangwangU9Xtreme#FastestCarInTheWorld#ElectricSupercar#YangwangU9#BYD"
+    }
+   ]
+  },
+  "UCRPvCt3Rs-Yg884xxqpOvcQ": {
+   "channel_title": "Factsphere",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "vS_8TP9RA-I",
+     "title": "#BYD #YangwangU9 #ElectricSupercar #DiSusX #AutomotiveInnovation #JumpingCar #ElectricVehicles"
+    }
+   ]
+  },
+  "UCmGFcDlg5oh3EGEMe4C1YJg": {
+   "channel_title": "UTAK S\u00b7K ",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "Kot2Cs1IDgE",
+     "title": "Unveiling the MG EXE Concept Car \u2013 A Futuristic Electric Supercar#MGEXE #ElectricSupercar#Innovation"
+    }
+   ]
+  },
+  "UCSYJ9_jQK-WinXGFkjTYrZg": {
+   "channel_title": "VIRAL TV",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "MdCxAT7Zgiw",
+     "title": "#automobile #performancecars #teslafan #electricsupercar #electricvehicle #autotech #vehicleshowcase"
+    }
+   ]
+  },
+  "UCcxMRShTHhJeFNLKSCLPldQ": {
+   "channel_title": "Moter Mania",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "9GlyGmtTdZY",
+     "title": "Yangwang U9 \u2013 The Electric Supercar Changing the Game"
+    }
+   ]
+  },
+  "UCl6nbIpQASDJIGqDgqzMhIw": {
+   "channel_title": "Bun\u2615",
+   "creators": [
+    "electricsupercar"
+   ],
+   "examples": [
+    {
+     "video_id": "w25GTC3HiJE",
+     "title": "Yangwang U9 Xtreme: The King of Electric Hypercars. #shorts #ElectricSupercar #FastestCar"
+    }
+   ]
+  },
+  "UCsTXpHMKbryPTcTkNbdG2kA": {
+   "channel_title": "Maxim Schiller",
+   "creators": [
+    "syromyatnikov"
+   ],
+   "examples": [
+    {
+     "video_id": "2XGDwbkxZBU",
+     "title": "\u0420\u0422\u041c\u0421-\u041a &quot;\u0411\u041e\u0420\u0418\u0421 \u0421\u042b\u0420\u041e\u041c\u042f\u0422\u041d\u0418\u041a\u041e\u0412&quot; \u041a-2184 / Trawler - &quot;BORIS SYROMYATNIKOV&quot;"
+    }
+   ]
+  },
+  "UCjWO1RZAM8idmRGXfC_9arQ": {
+   "channel_title": "Imbert - D\u00e9veloppement Ing\u00e9nierie",
+   "creators": [
+    "syromyatnikov"
+   ],
+   "examples": [
+    {
+     "video_id": "NLXbECu_bBw",
+     "title": "Cosmonauts P. Vinogradov and A. Syromyatnikov discover the Cosmos MIR collection, @ Reunion Island"
+    }
+   ]
+  },
+  "UCvlFBRoQkJ3x9M0CpRX_jjg": {
+   "channel_title": "\u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0413\u0435\u043d\u043d\u0430\u0434\u0456\u0439\u043e\u0432\u0438\u0447 \u0421\u0438\u0440\u043e\u043c\u02bc\u044f\u0442\u043d\u0438\u043a\u043e\u0432",
+   "creators": [
+    "syromyatnikov"
+   ],
+   "examples": [
+    {
+     "video_id": "1l-tJEBxi-E",
+     "title": "Live piano music Alex Syromyatnikov"
+    }
+   ]
+  },
+  "UC7M_dsXjOIsLHI1zNLuqRwQ": {
+   "channel_title": "Benjamin-roct",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "J52AEV7wwhM",
+     "title": "Visite d&#39;une grange r\u00e9nov\u00e9e en maison spectaculaire ! @deborahpaullagrange31"
+    }
+   ]
+  },
+  "UCyGSgRMzNv-bvOgp87MFFLA": {
+   "channel_title": "FAMILY RENOV",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "5-hP1cjAD5M",
+     "title": "Ce couple a transform\u00e9 une grange en &quot;paradis sur Terre&quot; @deborahpaullagrange31"
+    }
+   ]
+  },
+  "UCmx7cvkVCo266f2G1QsTdTQ": {
+   "channel_title": "Tech Industry",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "pJ7Yxmszado",
+     "title": "600 DAYS TIMELAPSE RENOVATION IN 37 MINUTES by@deborahpaullagrange31"
+    }
+   ]
+  },
+  "UCzPhdj79g7juASC1BjTayXg": {
+   "channel_title": "Les Jumelles de la Mine de Fer ",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "7Z90F_LoS6E",
+     "title": "DIY Porte-B\u00fbches pour @deborahpaullagrange31 \ud83e\udeb5 #diy"
+    }
+   ]
+  },
+  "UCoHOBRsm5qWoP86CYietEnA": {
+   "channel_title": "Marty et Christelle // LE PETIT MANOIR 1892",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "ad4nzgPfGmw",
+     "title": "ON TRANSFORME LE VIEUX PIGEONNIER EN G\u00ceTE partie 8 (chantiers crois\u00e9s @deborahpaullagrange31) -EP23-"
+    }
+   ]
+  },
+  "UC1CnXrgRKcdVQvgImukhZNQ": {
+   "channel_title": "ALLANF-Cars",
+   "creators": [
+    "deborahpaullagrange31"
+   ],
+   "examples": [
+    {
+     "video_id": "aRdt_-zWbIw",
+     "title": "Porsche gt4 rs enfin fini !!! \u2705 un an apr\u00e8s @benjroyer passage de @deborahpaullagrange31 avec sa M4 "
+    }
+   ]
+  },
+  "UCSkH-o9Kv87Fbm0YFYSFaxg": {
+   "channel_title": "Modern Craftsman",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "IV-efGtpbsI",
+     "title": "@Bourbonmoth  Shares how he got into woodworking"
+    },
+    {
+     "video_id": "-ecVJ5P81lk",
+     "title": "Always keep it real. @Bourbonmoth"
+    },
+    {
+     "video_id": "Zz0bRJ8ghgw",
+     "title": "What happiness means to you. @Bourbonmoth"
+    }
+   ]
+  },
+  "UC1huLoSZYxH0f3-Lh4uXBMg": {
+   "channel_title": "Creative Culture Podcast",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "A_qAFyF-So8",
+     "title": "Jason @Bourbonmoth and his love of epoxy"
+    }
+   ]
+  },
+  "UC3qzX6Nt-dtX922E6Eg_g3Q": {
+   "channel_title": "Call Me Mabie",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "8dPLufiCaPw",
+     "title": "Who is Bourbon Moth? Woodworking as a Job"
+    }
+   ]
+  },
+  "UCW3fiU8qsBuJhSl2jkuGy0w": {
+   "channel_title": "Festool USA",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "_prtEgX579o",
+     "title": "Festool Shop Talk: Episode 6 Jason Hibbs @Bourbonmoth"
+    }
+   ]
+  },
+  "UCtov9h5IB3elqpke6-lk6Ag": {
+   "channel_title": "Keillo Wood",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "Hj12Pz-oh9g",
+     "title": "I built Bourbonmoth Outdoor Patio Chairs || Mistakes were made"
+    }
+   ]
+  },
+  "UCxwQSNmzSGeNTPMqf6R9_9Q": {
+   "channel_title": "artlust",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "6tmkpWun174",
+     "title": "Bourbon Moth: Woodworking as Art"
+    }
+   ]
+  },
+  "UCbTMPp5eIyEt2pFJcMLrUDA": {
+   "channel_title": "TotalBoat",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "DErTn2Ti_ng",
+     "title": "Bourbon Moth | TotalBoat Tips with Hibbs: Thixo Open Time"
+    }
+   ]
+  },
+  "UCut7_DrKUhvqpzJc24jfS_g": {
+   "channel_title": "Jeff Does What",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "cUe6VBTh41w",
+     "title": "@Bourbonmoth Bourbon Blade Unboxing"
+    }
+   ]
+  },
+  "UCG-wVgZjmhhxovw9NVAE_mQ": {
+   "channel_title": "Keillo Puuty\u00f6t",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "8r1qXXAQDBY",
+     "title": "Ostin Bourbonmoth &amp; KM-Toolsin Sirkkelijigin || Unboxing, kasaus, laatikon rakentaminen"
+    }
+   ]
+  },
+  "UCHOTn1KaLwvVYS1vn3I8Jtw": {
+   "channel_title": "J.D.C. Contracting, LLC",
+   "creators": [
+    "bourbonmoth"
+   ],
+   "examples": [
+    {
+     "video_id": "rZkeYZX1C_w",
+     "title": "Built in bookcase. #bourbonmoth"
+    }
+   ]
+  },
+  "UCZBg_vERVLSg8r1b5EuW9KA": {
+   "channel_title": "Genesis Makers",
+   "creators": [
+    "polissyabushcraft"
+   ],
+   "examples": [
+    {
+     "video_id": "_DTF02fsq0E",
+     "title": "Invisible Underground Shelter Built Inside a Giant Root | by @PolissyaBushcraft"
+    }
+   ]
+  },
+  "UCZfx0BpQPijysAQLcAB8G_w": {
+   "channel_title": "Scroll with israfil ",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "Yzss6cSflDc",
+     "title": "Man Build a Hidden Forest Shelter | Start to Finish by @lambinhTuoitre"
+    }
+   ]
+  },
+  "UCBBrQ0rpIofWh3YXPhlnqhA": {
+   "channel_title": "Mr.Survival ",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "EY3GgNGQ4Nk",
+     "title": "The man built a shelter in a large cave |  @lambinhTuoitre"
+    },
+    {
+     "video_id": "FfMP3Ecn4ps",
+     "title": "I carved a large cave to make a shelter for survival _@lambinhTuoitre"
+    },
+    {
+     "video_id": "DzplllLNXDk",
+     "title": "DIY Underground Survival Shelter | Handcrafted from Scratch @lambinhTuoitre"
+    }
+   ]
+  },
+  "UCXzl0viZVVVcrqDnN8MdVWQ": {
+   "channel_title": "Leo Stone \u2014 The Wild One",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "iHaqchNyZIY",
+     "title": "Man Transforms 1 Giant Jungle Tree Into an Epic Wooden Survival Shelter | by @lambinhTuoitre"
+    }
+   ]
+  },
+  "UCY-4nCOuY1CrQWuJiW9HKhg": {
+   "channel_title": "TH\u1ea2O SINGLE MOM ",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "d-Ry04c5ObI",
+     "title": "#bunker #bushcraft @lambinhTuoitre"
+    }
+   ]
+  },
+  "UCvxl5hIkphI6-WHK4WtUAAg": {
+   "channel_title": "Bushacrft life",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "Qv-FkTGL3Dg",
+     "title": "#bushcraft #building @lambinhTuoitre"
+    },
+    {
+     "video_id": "Zo7OWUQqcqQ",
+     "title": "#bunker #bushcraft #survival @lambinhTuoitre"
+    },
+    {
+     "video_id": "Cjb_vIfcsNo",
+     "title": "@lambinhTuoitre bunker \ud83d\udca5 building shelter bunker"
+    }
+   ]
+  },
+  "UCyliS5CUFVb0-je59wFr59w": {
+   "channel_title": " @ Mr Survival",
+   "creators": [
+    "lambinhtuoitre"
+   ],
+   "examples": [
+    {
+     "video_id": "utNs66B6Z6k",
+     "title": "@SurvivalBuilder @lambinhTuoitre @camping@bushcraftskills23#shorts #subscribe"
+    }
+   ]
+  },
+  "UCqFXDRpruXMPdA3Qow__oxg": {
+   "channel_title": "Tri\u1ec7u Th\u1ecb Hoa ",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "6Mk_v8r3u58",
+     "title": "Beautiful girl following ancient customs, creating electricity grid for her homeland #TrieuThiHoa"
+    },
+    {
+     "video_id": "whde5Lw-fCA",
+     "title": "Two CEOs Return - Going to the Country Market and Fixing a House for a Lonely Old Lady #trieuthihoa"
+    },
+    {
+     "video_id": "C5kdzDd3GLU",
+     "title": "Young girl saves abandoned birds, completes mini villa in 5 days | #trieuthihoa #dailylife"
+    }
+   ]
+  },
+  "UCub-eVql6-f70k_44vTNnBQ": {
+   "channel_title": "WILDRU",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "Xunnhg7IdJ8",
+     "title": "Pregnant woman and husband build a 2-story floating home for their family | By @trieuthihoa"
+    }
+   ]
+  },
+  "UCb2n4MMkVJqCr88MzFiqAVg": {
+   "channel_title": "Primitive Relaxing",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "514lcX-UE64",
+     "title": "Woman Left Civilization to Build Floating Self-Sustaining Island | Start to Finish by@Trieuthihoa"
+    }
+   ]
+  },
+  "UCGqtlBUWrNnlmlfjx8S_YMQ": {
+   "channel_title": "Shelter Television",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "ZsqxgAXjc0I",
+     "title": "girl cast her net and caught a lot of fish by@trieuthihoa #survival #fishcatching "
+    },
+    {
+     "video_id": "ckRWyWGiFwk",
+     "title": " Girl Who Built Her Dream House Alone The Journey of Building a Farm by@trieuthihoa"
+    },
+    {
+     "video_id": "GrSdy5RKYlY",
+     "title": "Building a grass-brushed iron railing for the resort - Girl builds a new house by the @trieuthihoa"
+    }
+   ]
+  },
+  "UChOEzq6s947ugc2fz6tO99Q": {
+   "channel_title": "Dollar Discipline",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "vOBgW8MdSAU",
+     "title": "Transforming a Raw Hillside into a Steel &amp; Concrete Shelter | by @trieuthihoa"
+    }
+   ]
+  },
+  "UCY5m5JAHcv1yo3hQsdaJ1Gg": {
+   "channel_title": "ho\u00e0",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "iT6t9HKZjcM",
+     "title": "trieuthihoa 670417"
+    },
+    {
+     "video_id": "-KRFIZHHiBk",
+     "title": "htddkcn trieuthihoa 670417 bai1 bang truyen tao"
+    },
+    {
+     "video_id": "ABBD7WNXAk4",
+     "title": "trieuthihoa 670417 bai 3"
+    }
+   ]
+  },
+  "UCRK-aYDUWgaPkRUblkQf5pQ": {
+   "channel_title": "Nam Tech HD",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "mOKH5u4SH1Q",
+     "title": "Girl transforms barren land into a lake farm in 30 days | From beginning to end @trieuthihoa"
+    }
+   ]
+  },
+  "UCNbswA5lh9Tr6ryu1eGpIsQ": {
+   "channel_title": "WildShelter",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "dS2ezriMfTg",
+     "title": "She Builds an Incredible Two-Story Floating House in 120 Days | Start to Finish @trieuthihoa"
+    }
+   ]
+  },
+  "UCFy-s3dnI8GIWojBI2Ax5dA": {
+   "channel_title": "TU\u1ea4N ANH FAMILY",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "osBOLZQ_2mM",
+     "title": "I Built a Beautiful Garden from Nothing  Living in Harmony with Nature By @trieuthihoa"
+    },
+    {
+     "video_id": "ShVv3DFefE4",
+     "title": "TMELAPSE 365 Days about living alone and building a floating house on the river By @trieuthihoa ."
+    },
+    {
+     "video_id": "e1hXLzs1USc",
+     "title": "Building a Wooden House Alone on a Mountain Hillside - Off Grid Life in Nature By @trieuthihoa"
+    }
+   ]
+  },
+  "UCVrpLWtx6thxWXCNE6zFh1Q": {
+   "channel_title": "Raw Build",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "yhysxbDXcJQ",
+     "title": "Pregnant girl faces a massive flood! She and husband turn a drum into a lake house | by @trieuthihoa"
+    }
+   ]
+  },
+  "UCMC7odU6YwrvElKB7v_mTJQ": {
+   "channel_title": "Primitive YummyCooking",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "0YlQ11tovKY",
+     "title": "CEO Left Civilization to Build a Floating Self-Sustaining Island | Start to Finish by @Trieuthihoa"
+    }
+   ]
+  },
+  "UCPpeSS8cRNSeTzByItIr9Kw": {
+   "channel_title": "Modern People",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "KpBLeiO45Og",
+     "title": "Talented woman builds a SEA-Crossing BOAT from steel and cement in 169 days | By @trieuthihoa"
+    }
+   ]
+  },
+  "UCXAsIg0zVoNd-UQpZydzvpg": {
+   "channel_title": "BSP Channel",
+   "creators": [
+    "trieuthihoa"
+   ],
+   "examples": [
+    {
+     "video_id": "RIKA67QSvcY",
+     "title": "120 days girl builds giant wooden house, turns empty land | Start to Finish @trieuthihoa"
+    }
+   ]
+  },
+  "UCGituS1N8z4pkRy9OolfrYw": {
+   "channel_title": "Jake Rosenfeld",
+   "creators": [
+    "shredpile"
+   ],
+   "examples": [
+    {
+     "video_id": "bYOTAchQ3x4",
+     "title": "Man Builds Amazing MODERN House Alone | Start To Finish @ShredPile"
+    }
+   ]
+  },
+  "UCnCO9Nhq0TGRzj4J9Xn6WWA": {
+   "channel_title": " MIN MAKER TV",
+   "creators": [
+    "gabeoctane"
+   ],
+   "examples": [
+    {
+     "video_id": "nQggvolxwkA",
+     "title": "He Built His DREAM CABIN with Free Pallets | Start to Finish by @Gabe_Octane"
+    }
+   ]
+  },
+  "UCSPnr1h1s74X7wssZLrNN_Q": {
+   "channel_title": "    NEKOVEX",
+   "creators": [
+    "flmangarage"
+   ],
+   "examples": [
+    {
+     "video_id": "gMM1ZT4MFRw",
+     "title": "Complete 1950 Ford Shoebox Restoration | Full Classic Car Rebuild | ASMR No Talking @FLManGarage"
+    }
+   ]
+  },
+  "UCKyn7-vWCTmDhcIgl6nEylg": {
+   "channel_title": "Florida Man Garage",
+   "creators": [
+    "flmangarage"
+   ],
+   "examples": [
+    {
+     "video_id": "cfa2d4Cn4Ak",
+     "title": "1966 C10 on a Tahoe frame full build on YouTube No rush to sell 28k OBO email flmangarage@gmail.com"
     }
    ]
   }

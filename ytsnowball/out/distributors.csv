@@ -1,78 +1,84 @@
 title,handle,url,subs,videos,avg_views,median_views,creators_covered,attribution_rate,country,published,tier,is_seed,brand_lookalike,channel_id
-TechFreeze,@techfreezeofficial,https://www.youtube.com/@techfreezeofficial,3230000,252,1293410,734338.0,42,0.96,KE,2012-01-29,A,True,False,UCUi4aspUAMcEG5ZEdnOrBQg
-Makerium,@makeriumofficial,https://www.youtube.com/@makeriumofficial,325000,71,1036293,445372.0,37,1.0,,2025-01-09,A,False,False,UCTSGKTjnm1f7mQmUoJCYFsA
+TechFreeze,@techfreezeofficial,https://www.youtube.com/@techfreezeofficial,3230000,252,1293410,734338.0,45,0.96,KE,2012-01-29,A,True,False,UCUi4aspUAMcEG5ZEdnOrBQg
+Makerium,@makeriumofficial,https://www.youtube.com/@makeriumofficial,325000,71,1036293,445372.0,41,1.0,,2025-01-09,A,False,False,UCTSGKTjnm1f7mQmUoJCYFsA
+BRAIN TIME VT,@braintimetv-i7i,https://www.youtube.com/@braintimetv-i7i,39100,105,111661,95467.0,28,0.98,US,2025-10-19,A,True,False,UCRqbbA-AsfoNJVtZGVJzaUg
 TTI Build Stories ,@ttienglish,https://www.youtube.com/@ttienglish,1800000,565,940038,3163.0,26,0.96,US,2015-05-24,A,False,False,UCmeBJBLXcXamuPWl-0t5S4w
-BRAIN TIME VT,@braintimetv-i7i,https://www.youtube.com/@braintimetv-i7i,39100,105,111661,95467.0,26,0.98,US,2025-10-19,A,True,False,UCRqbbA-AsfoNJVtZGVJzaUg
-KLIFS TECH,@klifstech,https://www.youtube.com/@klifstech,71600,482,34303,3903.5,25,0.66,US,2021-07-24,A,False,False,UCM1AYi7BlMXGlm3mFwO_s1w
-AKLA GELEN,@aklagelen,https://www.youtube.com/@aklagelen,1100000,196,984460,439031.0,17,0.78,US,2016-11-12,A,True,False,UCR3rfDiOfD1hk0IEdIwusIw
-Build Maker,@buildmakerofficial,https://www.youtube.com/@buildmakerofficial,46800,32,479110,91337.5,16,0.91,,2025-07-31,A,False,False,UCpRlEtkPsCIeKiYzovDcw2Q
+KLIFS TECH,@klifstech,https://www.youtube.com/@klifstech,71600,482,34303,3903.5,26,0.66,US,2021-07-24,A,False,False,UCM1AYi7BlMXGlm3mFwO_s1w
+AKLA GELEN,@aklagelen,https://www.youtube.com/@aklagelen,1100000,196,984460,439031.0,20,0.78,US,2016-11-12,A,True,False,UCR3rfDiOfD1hk0IEdIwusIw
+Build Maker,@buildmakerofficial,https://www.youtube.com/@buildmakerofficial,46800,32,479110,91337.5,18,0.91,,2025-07-31,A,False,False,UCpRlEtkPsCIeKiYzovDcw2Q
 WildCraft Builds,@wildcraftbuildsofficial,https://www.youtube.com/@wildcraftbuildsofficial,17400,38,87090,8572.0,15,0.66,US,2020-10-28,A,False,False,UClDaJ8_Bt76DV1pX9AQT4KQ
 Construcciones Salvajes,@construccionessalvajes,https://www.youtube.com/@construccionessalvajes,3650,31,18458,1086.0,15,0.93,ES,2025-12-02,A,False,False,UCqQZwIRzVmyjwNx7NS1QsxQ
 22TechZoom,@22techzoom,https://www.youtube.com/@22techzoom,97900,276,121050,2392.5,14,0.43,AE,2022-11-26,A,True,False,UCZDPCrQUP3Z-qqZTyMdBU1Q
+CabinCraft,@cabincraft-g7l,https://www.youtube.com/@cabincraft-g7l,6430,37,89828,15932.0,13,1.0,US,2026-04-25,A,False,False,UCZzO1oOuuX_6KZjq6xYIw_g
 99Techspot,@99techspot58,https://www.youtube.com/@99techspot58,101000,325,68753,7638.0,12,0.36,AE,2022-07-19,A,False,False,UC6J5mYhVIIvmuPE96g0JhDw
 Quantum Build Studio,@quantumbuildstudio,https://www.youtube.com/@quantumbuildstudio,18500,59,82261,4708,12,0.79,US,2025-05-17,A,False,True,UCEyX6-d8pFnqo31naWirgEg
-CabinCraft,@cabincraft-g7l,https://www.youtube.com/@cabincraft-g7l,6430,37,89828,15932.0,12,1.0,US,2026-04-25,A,False,False,UCZzO1oOuuX_6KZjq6xYIw_g
 Maker World,@makerworld-official,https://www.youtube.com/@makerworld-official,21300,47,163851,42124.0,11,0.87,,2025-09-22,A,True,False,UCAEDJDDqa-zIdLF42IAGdxQ
 Techglobal ,@techglobal10,https://www.youtube.com/@techglobal10,1380,134,2434,265.5,11,0.24,US,2025-05-09,A,False,False,UC3oGBDnn5Ykq0vzmJM-xOsA
+Q Makers,@qmakersstudio,https://www.youtube.com/@qmakersstudio,74,28,553,73.0,11,0.79,KR,2020-01-11,A,False,True,UCIcrk1mdMveuwhZB7cY1RkQ
+Lord Gizmo,@lordgizmo,https://www.youtube.com/@lordgizmo,507000,761,268901,16000.0,10,0.46,IE,2019-01-21,A,True,False,UCtNqDwpTHxhT4b0VIZ680Tw
 Smart Fox,@smartfoxamazing,https://www.youtube.com/@smartfoxamazing,85200,114,216814,4500,10,0.8,,2023-11-02,A,False,False,UCyQXx9LyvFYCgt71eqdEPjQ
-Q Makers,@qmakersstudio,https://www.youtube.com/@qmakersstudio,74,28,553,73.0,10,0.79,KR,2020-01-11,A,False,True,UCIcrk1mdMveuwhZB7cY1RkQ
-Lord Gizmo,@lordgizmo,https://www.youtube.com/@lordgizmo,507000,761,268901,16000.0,9,0.46,IE,2019-01-21,A,True,False,UCtNqDwpTHxhT4b0VIZ680Tw
-FuturisticTech,@futuristictechh,https://www.youtube.com/@futuristictechh,74500,840,28235,525.5,9,0.26,US,2023-07-01,A,False,False,UCrq8njNr92EBuA4KXJX3OiQ
-Quantum Builders,@justquantumbuilders,https://www.youtube.com/@justquantumbuilders,8730,34,50841,7287,9,0.86,ES,2018-06-15,A,False,True,UCZBg7QQt-eyOWKZm81sOcRw
-Pro Build Master,@probuildmaster-d3r2v,https://www.youtube.com/@probuildmaster-d3r2v,5280,36,21312,1986.5,9,0.63,US,2026-02-09,A,False,False,UCvc646TE81_c7mGHxBXwRrg
+FuturisticTech,@futuristictechh,https://www.youtube.com/@futuristictechh,74500,840,28235,525.5,10,0.26,US,2023-07-01,A,False,False,UCrq8njNr92EBuA4KXJX3OiQ
+Life Rhythm TV,@liferhythmtv,https://www.youtube.com/@liferhythmtv,10200,31,76310,15619,10,0.97,,2026-03-28,A,False,False,UCtwZFBGLkcjJhpR7OC6bZPw
+Quantum Builders,@justquantumbuilders,https://www.youtube.com/@justquantumbuilders,8730,34,50841,7287,10,0.86,ES,2018-06-15,A,False,True,UCZBg7QQt-eyOWKZm81sOcRw
+Pro Build Master,@probuildmaster-d3r2v,https://www.youtube.com/@probuildmaster-d3r2v,5280,36,21312,1986.5,10,0.63,US,2026-02-09,A,False,False,UCvc646TE81_c7mGHxBXwRrg
+HITECH,@hitech22-m2u,https://www.youtube.com/@hitech22-m2u,207,31,1507,83,10,0.74,CA,2025-10-25,A,False,False,UCFHG4aDDFXYtPOqX9TIORsw
+Makers TV,@makersvt,https://www.youtube.com/@makersvt,8050,28,91375,60844.0,9,0.96,,2023-09-12,A,False,False,UCuasWfU-0UElH2NhE0WE3yA
 Renovation Rescue HD,@renovationrescuehd,https://www.youtube.com/@renovationrescuehd,1310,34,443,32.0,9,0.91,US,2025-11-26,A,False,False,UCrhZmjez_XLtF--5TYxG2cw
-Life Rhythm TV,@liferhythmtv,https://www.youtube.com/@liferhythmtv,10200,31,76310,15619,8,0.97,,2026-03-28,A,False,False,UCtwZFBGLkcjJhpR7OC6bZPw
-Makers TV,@makersvt,https://www.youtube.com/@makersvt,8050,28,91375,60844.0,8,0.96,,2023-09-12,A,False,False,UCuasWfU-0UElH2NhE0WE3yA
+Gear Tech HD,@geartechhd,https://www.youtube.com/@geartechhd,476000,535,231939,28111,8,0.22,US,2019-07-04,A,False,False,UC3EnRkFH1foTeapIY6ixijQ
+World Build,@worldbuild668,https://www.youtube.com/@worldbuild668,43500,27,428712,93104,8,0.52,VN,2024-02-27,A,False,False,UCQYetX_9k4Sl-r-HOLVvKnA
+Off-Grid Paradise,@off-grid-paradise,https://www.youtube.com/@off-grid-paradise,3560,12,57946,25346.0,8,1.0,US,2026-04-11,A,False,False,UCWQVN5Q_kb9W2dl_aFigbJA
 TechTalks,@technologietalks,https://www.youtube.com/@technologietalks,1230,526,441,11.0,8,0.16,US,2024-09-24,A,False,False,UCXecRFZYMuaGLSCS4l-NiGw
 KORIX TECH,@korixtech,https://www.youtube.com/@korixtech,829,31,159,13,8,0.81,TR,2026-03-22,A,False,False,UCSLiM_Gh5nfyDhFYGwdG2Qg
 Cabin Maker,@cabinmaker-qq,https://www.youtube.com/@cabinmaker-qq,770,18,6175,2877.5,8,0.89,US,2025-08-15,A,False,False,UCSwsVggYgOy-XLDAYlZjc2A
-HITECH,@hitech22-m2u,https://www.youtube.com/@hitech22-m2u,207,31,1507,83,8,0.74,CA,2025-10-25,A,False,False,UCFHG4aDDFXYtPOqX9TIORsw
-World Build,@worldbuild668,https://www.youtube.com/@worldbuild668,43500,27,428712,93104,7,0.52,VN,2024-02-27,A,False,False,UCQYetX_9k4Sl-r-HOLVvKnA
+Maker World Studio,@makerworldstudio,https://www.youtube.com/@makerworldstudio,487,32,4091,49,8,0.79,US,2026-02-15,A,False,False,UCZqGixeDUeClt1mYAbuwAFw
+Innovative Tech World,@innovativetechworld668,https://www.youtube.com/@innovativetechworld668,42600,190,53508,28136.0,7,0.36,VN,2023-02-14,A,False,False,UCtl0Uvp569dHqjZGYwiVj_g
 Betelhem Tech,@betelhemtech100,https://www.youtube.com/@betelhemtech100,29300,112,308936,0,7,0,,2008-12-10,A,False,False,UClP6MqOgde5KYIvIrN7sk-Q
-Off-Grid Paradise,@off-grid-paradise,https://www.youtube.com/@off-grid-paradise,3560,12,57946,25346.0,7,1.0,US,2026-04-11,A,False,False,UCWQVN5Q_kb9W2dl_aFigbJA
 Rebuilding HD,@rebuilding-w2n,https://www.youtube.com/@rebuilding-w2n,2420,38,7199,618,7,0.62,GB,2024-04-21,A,False,False,UCKu8mjL-cH_U2qXL1ScCa_A
 TECHNOLOGY KBG,@technologykbg,https://www.youtube.com/@technologykbg,982,43,2503,569,7,0.28,US,2025-10-09,A,False,False,UCxebVAh_U_l4c4jya_nbQ9A
 RV-88,@rv-88-s4v,https://www.youtube.com/@rv-88-s4v,496,14,40,18.5,7,1.0,VN,2021-08-24,A,False,False,UCwVTxTaPEYCVchJcDos_E-Q
-Maker World Studio,@makerworldstudio,https://www.youtube.com/@makerworldstudio,487,32,4091,49,7,0.79,US,2026-02-15,A,False,False,UCZqGixeDUeClt1mYAbuwAFw
 BUILDCRAFT WORLD DIY,@buildcraftworlddiy,https://www.youtube.com/@buildcraftworlddiy,204,15,1271,18,7,1.0,US,2016-09-07,A,False,False,UCA8tOWniAp7GLfT2Dujbyig
+Creative Workshop DIY HD,@creativeworkshopdiyhd,https://www.youtube.com/@creativeworkshopdiyhd,51,29,49,11.0,7,0.67,US,2024-09-11,A,False,False,UC0nYRdce270PweyoQpsa_QQ
+Hidden Cabin ,@hiddencabin-0,https://www.youtube.com/@hiddencabin-0,49,40,591,16.5,7,1.0,US,2026-01-02,A,False,False,UCV4OB3ZNPID6XuXqq7OBueA
 The Building Zone,@thebuildingzone,https://www.youtube.com/@thebuildingzone,9,19,27,25.5,7,0.78,,2024-10-01,A,False,False,UCZ4c07X_g6-QzRp26DPnxgA
-Gear Tech HD,@geartechhd,https://www.youtube.com/@geartechhd,476000,535,231939,28111,6,0.22,US,2019-07-04,A,False,False,UC3EnRkFH1foTeapIY6ixijQ
 Techno Fusion HD,@technofusionhd,https://www.youtube.com/@technofusionhd,53200,96,265546,1256.5,6,0.46,US,2016-08-11,A,False,False,UCtm7ZpwnAoFlk9G1dP-Fm_g
+MrS,@mrs.66,https://www.youtube.com/@mrs.66,19300,29,189316,68165,6,0.79,,2024-07-01,A,False,False,UCf0att6yowhX9x_0pXL2yMQ
 Rustic Roots Build,@rusticrootsbuild,https://www.youtube.com/@rusticrootsbuild,13800,44,40187,4808.0,6,0.4,US,2024-05-23,A,False,False,UCulNoCax-WC3wyipqhn6LBg
 SmartTechZone,@thesmarttechzone,https://www.youtube.com/@thesmarttechzone,7340,720,1578,448.0,6,0.0,CA,2017-03-03,A,False,False,UCqy48Vriplt6HWIrfckvBAA
 The Makers HD,@themakershd1,https://www.youtube.com/@themakershd1,4900,56,4062,82.5,6,0.62,US,2025-10-17,A,False,False,UCwNYgUJv194IcOJp-rOE-cQ
 City Tech,@bestproductcity,https://www.youtube.com/@bestproductcity,3550,351,1403,111.0,6,0.0,US,2016-12-19,A,False,False,UCY_K-C0VSZicMqPsKimvNsw
 MAKERS HD,@makershd-o9d,https://www.youtube.com/@makershd-o9d,3410,21,37774,7920,6,0.95,,2026-06-12,A,True,False,UCMcfKSXMZeEihPcvmpwKWPA
 Namtum Makers,@namtummakers,https://www.youtube.com/@namtummakers,1060,22,9388,1540.5,6,0.91,VN,2026-05-01,A,False,False,UCOQ9Hls4jzHlfy_2kCzYRrg
+Cortexa TV,@wolborg,https://www.youtube.com/@wolborg,476,14,17,19,6,0.82,US,2021-08-04,A,False,False,UCG0zt_TGZUSAqLYUrl0G03g
 The Maker World,@themakerworldofficial,https://www.youtube.com/@themakerworldofficial,78,17,1016,10,6,0.93,,2015-03-24,A,False,False,UCDrmFPhhkH1oSNSRITPU2CQ
-Creative Workshop DIY HD,@creativeworkshopdiyhd,https://www.youtube.com/@creativeworkshopdiyhd,51,29,49,11.0,6,0.67,US,2024-09-11,A,False,False,UC0nYRdce270PweyoQpsa_QQ
 Technology & Innovations,@nickys-g4u,https://www.youtube.com/@nickys-g4u,4,9,16,14,6,0.67,US,2025-09-05,A,False,False,UCYJc7iQOpz0M6BuTyDeADFg
-Innovative Tech World,@innovativetechworld668,https://www.youtube.com/@innovativetechworld668,42600,190,53508,28136.0,5,0.36,VN,2023-02-14,A,False,False,UCtl0Uvp569dHqjZGYwiVj_g
+ULTIMATE BUILD LAD DIY,@ultimatebuildlabdiy,https://www.youtube.com/@ultimatebuildlabdiy,2,10,9,9.0,6,1.0,,2025-10-07,A,False,False,UCzXS3uhqgxEIwQ_Y2aNHkwA
+CarTech ,@cartechus,https://www.youtube.com/@cartechus,193000,180,390897,3234.5,5,0.06,PL,2023-10-03,A,False,False,UCoMli7zprI0dgqwndqxK9ng
 Farm Tastic,@farmtastic97,https://www.youtube.com/@farmtastic97,24600,275,19580,128.5,5,0.18,US,2008-09-21,A,False,False,UCpCij8uQ8ezE9YavV93o5bQ
-MrS,@mrs.66,https://www.youtube.com/@mrs.66,19300,29,189316,68165,5,0.79,,2024-07-01,A,False,False,UCf0att6yowhX9x_0pXL2yMQ
+SwiftBuild,@swiftbuild,https://www.youtube.com/@swiftbuild,4000,24,49397,1093.0,5,0.71,,2024-10-23,A,False,False,UCPwJeJxgpcV_wbd5ffgGdFQ
 WoodCraft Empire,@woodcraftempireofficial,https://www.youtube.com/@woodcraftempireofficial,1840,21,3196,410.0,5,0.94,US,2026-04-04,A,False,False,UC0M_-T7qwlx2mYBZKZ4l_NQ
-Cortexa TV,@wolborg,https://www.youtube.com/@wolborg,476,14,17,19,5,0.82,US,2021-08-04,A,False,False,UCG0zt_TGZUSAqLYUrl0G03g
+H2 EcoTech,@h2ecotech,https://www.youtube.com/@h2ecotech,184,79,763,6,5,0.93,ES,2024-09-30,A,False,False,UCMb7lnu6VKQfLuHIicpLs6g
 Quantum Markers TV,@quantummarkerstv,https://www.youtube.com/@quantummarkerstv,82,13,841,125,5,1.0,US,2026-07-16,A,False,True,UCdlPgTd5rxCVibznZ3Bephg
 Buildora,@buildora_officials,https://www.youtube.com/@buildora_officials,59,10,2012,2036.5,5,1.0,GB,2026-06-21,A,False,False,UCN_-ihYXjZHSJeDEeDFb6jg
-Hidden Cabin ,@hiddencabin-0,https://www.youtube.com/@hiddencabin-0,49,40,591,16.5,5,1.0,US,2026-01-02,A,False,False,UCV4OB3ZNPID6XuXqq7OBueA
-ULTIMATE BUILD LAD DIY,@ultimatebuildlabdiy,https://www.youtube.com/@ultimatebuildlabdiy,2,10,9,9.0,5,1.0,,2025-10-07,A,False,False,UCzXS3uhqgxEIwQ_Y2aNHkwA
 Machine stage,@machinestage,https://www.youtube.com/@machinestage,2790000,196,2292412,63808.5,4,0.24,US,2019-05-22,A,True,False,UC2jAy9LJLQdInPDML4BYwzA
 NollyKing Tv,@nollykinggh,https://www.youtube.com/@nollykinggh,60300,2311,3858,519.0,4,0.0,NG,2019-02-23,A,False,False,UCKFJs4J7myMi91XU3krnxHA
 TK Maker,@tkmaker_us,https://www.youtube.com/@tkmaker_us,36900,122,372246,0,4,0,US,2010-09-23,A,False,False,UCqXhrI1YTgaT0Cat09U7yuA
 10 Royal Tech,@10royaltech,https://www.youtube.com/@10royaltech,24800,317,23438,315,4,0.12,PK,2023-09-18,A,False,False,UCkYI93JQTy4YnbJgk0d545w
 ASMR Restore,@defenselight,https://www.youtube.com/@defenselight,11400,71,75814,9511.5,4,0.12,US,2024-01-01,A,False,False,UC7-Gq_gpZeY8AfK0mu_65MQ
 Technology Tech HD,@technologytechhd_,https://www.youtube.com/@technologytechhd_,5400,253,5640,41.0,4,0.0,RO,2021-06-11,A,False,False,UClMLGQaKa3auSVsq-kx58nQ
-SwiftBuild,@swiftbuild,https://www.youtube.com/@swiftbuild,4000,24,49397,1093.0,4,0.71,,2024-10-23,A,False,False,UCPwJeJxgpcV_wbd5ffgGdFQ
 Clean & Restore Tech,@cleanrestoretech,https://www.youtube.com/@cleanrestoretech,3370,35,10154,1172,4,0.69,US,2025-05-28,A,False,False,UCijjRXtI8uHgvp9L36CARgA
 Built Marvels,@builtmarvels.official,https://www.youtube.com/@builtmarvels.official,2450,14,28401,730.5,4,0.5,GB,2026-04-29,A,False,False,UCe0rsypsntLbb4mZIAvSFaA
 Renov Master,@renovmaster,https://www.youtube.com/@renovmaster,2110,42,3125,339.0,4,0.5,US,2024-03-14,A,False,False,UCsMocVC9BXTObq48EX8JJ0Q
 The Builders World,@the-builders-world,https://www.youtube.com/@the-builders-world,1530,27,9276,2107,4,0.32,,2026-05-07,A,False,False,UCvlDQKXr6P4LetTw5VXR34Q
 HORIZON TECH ,@techhorizon950,https://www.youtube.com/@techhorizon950,1170,171,490,72.5,4,0.02,US,2025-08-21,A,False,False,UCUoBvgUD-Z4FAvl2FoEbL0g
+FixNation,@fixnation5,https://www.youtube.com/@fixnation5,1100,67,2281,40.0,4,0.77,US,2025-06-03,A,False,False,UChrBuLAmcZzlLbwqCLvb1bg
 Horizon Tech Central,@horizontechcentral,https://www.youtube.com/@horizontechcentral,817,21,96,41,4,0.24,,2024-06-09,A,False,False,UCw5dV763lYKUExihKR24qKQ
-H2 EcoTech,@h2ecotech,https://www.youtube.com/@h2ecotech,184,79,763,6,4,0.93,ES,2024-09-30,A,False,False,UCMb7lnu6VKQfLuHIicpLs6g
 Epic Explore World,@epicexploreworld,https://www.youtube.com/@epicexploreworld,90,22,34,27,4,0.57,US,2024-05-03,A,False,False,UCfhlJdtRorHeYVREuXK7ypg
 TimberLab,@timberlab-o5p,https://www.youtube.com/@timberlab-o5p,84,12,1319,308,4,0.89,US,2026-04-25,A,False,False,UCdYZTzpbwwhJLqbmLphMqEQ
+Quantam Tech HD,@quantamtech,https://www.youtube.com/@quantamtech,24,50,34,18,4,0.84,IN,2015-07-13,A,False,False,UCRXWSWo6b01mLj8GHYLT32g
 The Builder's Stage,@joyelliott,https://www.youtube.com/@joyelliott,6,16,6,4.0,4,1.0,,2026-06-03,A,False,False,UCjXTpheeqkpPcLYqUo4fsbA
+Rebuild & Transform,@ariadnescott,https://www.youtube.com/@ariadnescott,5,16,4,4.0,4,1.0,,2026-06-03,A,False,False,UCn3mN5tieVztts-dmY7fY7A
+ArtisTech,@artistech-pro,https://www.youtube.com/@artistech-pro,4,89,7,13,4,1.0,US,2024-09-20,A,False,False,UC1uVfFnmNWEIh2nCRTx4rLQ
+Project Redline,@ethelberthamilton-e7t,https://www.youtube.com/@ethelberthamilton-e7t,1,14,3,4,4,1.0,,2026-06-03,A,False,False,UC7px48unyIlbt5jbqbifLsA
 zenwood reviews,@zenwoodreviews,https://www.youtube.com/@zenwoodreviews,0,13,2,2.0,4,0.38,,2026-06-09,A,False,False,UCLXGJWStlmyBjJy9zUTrycA
 High speed Snail ,@highspeedsnail01,https://www.youtube.com/@highspeedsnail01,187000,399,1048814,272,3,0.0,US,2025-06-03,A,False,False,UCmrfupI4a2jIQt-rS7PLncg
 Woodworking TV,@woodworkingtv,https://www.youtube.com/@woodworkingtv,145000,41,1457645,609.5,3,0.1,US,2016-08-13,A,False,False,UCTLrbUN8W0S4BDruToEtVQA
@@ -89,37 +95,39 @@ Restoration II,@restorationii,https://www.youtube.com/@restorationii,6030,10,281
 Cabin In the Woods,@cabininthewoods11,https://www.youtube.com/@cabininthewoods11,5280,48,54270,226.0,3,0.88,US,2012-04-13,A,False,False,UCJICUedyvmnErq6ks9Y9_Uw
 Vertigar Bushcraft,@vertigarbushcraft,https://www.youtube.com/@vertigarbushcraft,5170,84,14632,0,3,0,US,2016-05-25,A,False,False,UCyyC2pf1mNLN5o7PZdYJjOg
 PanelPop,@panelpop54,https://www.youtube.com/@panelpop54,4300,36,2193,273.5,3,0.88,US,2020-04-21,A,False,False,UC79Hoy8NUecvGJWa1wUjS6Q
+Spirit Awake,@spiritawake3,https://www.youtube.com/@spiritawake3,2040,25,2385,126.0,3,0.88,US,2024-12-06,A,False,False,UCfRIYdl_wr-OEfQmPZjRv5Q
 Maexology,@maexology,https://www.youtube.com/@maexology,1980,144,1971,45,3,0.52,MY,2022-07-22,A,False,False,UCbjoeS7olhPsqja_XFrNO2g
+Limitless Builds,@limitless-builds1,https://www.youtube.com/@limitless-builds1,1720,6,17629,11470.5,3,1.0,US,2025-10-28,A,False,False,UCgle_7dHelfQqQ7GdXGpogQ
 Show Your Skills,@showyourskills.,https://www.youtube.com/@showyourskills.,1710,67,184,14.0,3,0.73,US,2024-05-12,A,False,False,UC4Z-bGHcZr60Ekl3UO8JVMw
 Steel Bloom,@steel.bloom.builds4011,https://www.youtube.com/@steel.bloom.builds4011,1560,12,45357,16245.5,3,1.0,US,2026-07-12,A,False,False,UCITAPoANKDgRqVXuZ49o6YQ
 Build Mystery,@buildmystery,https://www.youtube.com/@buildmystery,1440,223,1336,299,3,0.12,US,2025-05-23,A,False,False,UCym-9doMHMP6aJ-T6S57FzQ
-FixNation,@fixnation5,https://www.youtube.com/@fixnation5,1100,67,2281,40.0,3,0.77,US,2025-06-03,A,False,False,UChrBuLAmcZzlLbwqCLvb1bg
 BoMTV ,@bomtvkb,https://www.youtube.com/@bomtvkb,1050,4,7267,5397.0,3,1.0,,2026-02-24,A,False,False,UCMK0sMLTbKU4R7-f9rRlpcg
+Mega DIY Projects,@orlajohnson-x2h3w,https://www.youtube.com/@orlajohnson-x2h3w,1030,18,4962,467.5,3,1.0,,2026-06-03,A,False,False,UCsNCLjp9_0U8SfNkXH53UKA
 Wood & Steel Craft,@raepayne-j7g,https://www.youtube.com/@raepayne-j7g,1000,23,6999,1270,3,1.0,,2026-06-03,A,False,False,UCtOn0fRrMi3ZiOrFmBOCitw
+The Build Maker,@thebuildmaker,https://www.youtube.com/@thebuildmaker,529,3,14749,20,3,1.0,NZ,2023-06-29,A,False,False,UC4g7kPMMQsJ0skPAv_5a8hw
 Zenith Build 8,@zenithbuild8_official7956,https://www.youtube.com/@zenithbuild8_official7956,365,8,4437,1294.5,3,1.0,,2026-07-12,A,False,False,UCupXxJz1gThiS-0et06lPpQ
 Terra Constructs,@terra.constructs9248,https://www.youtube.com/@terra.constructs9248,336,12,4655,3425.5,3,1.0,,2026-06-26,A,False,False,UCkO9T9urCayrQIH1ihWfiUA
 Click Star Techno,@clickstartechno,https://www.youtube.com/@clickstartechno,291,49,229,14,3,0.16,KE,2023-07-30,A,False,False,UC8nm2U9rAxmL5vlsppLQcCQ
 Crafted Horizon,@crafted.horizon.builds2427,https://www.youtube.com/@crafted.horizon.builds2427,278,14,2527,1048.0,3,1.0,,2026-06-25,A,False,False,UCEiSN7AGO1YYoNs6NrLA_aw
 Explore Creators ,@explorecreators51,https://www.youtube.com/@explorecreators51,219,29,1554,328,3,0.6,US,2022-07-24,A,False,False,UC2IBl_VAn1P9t8GvSjU98SQ
 DIY UNIQUE CREATIONS,@diycreations68,https://www.youtube.com/@diycreations68,121,39,1204,1071,3,1.0,VN,2024-12-22,A,False,False,UCyBgPG0kReFwz2VI44BCKYA
+The Silent Builder,@vosztinavay,https://www.youtube.com/@vosztinavay,92,10,3617,2009.5,3,1.0,,2026-07-22,A,False,False,UCAyYUvsb1TUsTJFBIpL0Pew
 Forge Stories,@forgestories_fs06,https://www.youtube.com/@forgestories_fs06,56,12,1257,69.5,3,1.0,,2026-07-12,A,False,False,UCOlWtAe6L2QQTak7nYwaStQ
 Crafted Hub,@crafted.hub.official4367,https://www.youtube.com/@crafted.hub.official4367,51,10,1479,33.5,3,1.0,,2026-06-26,A,False,False,UCjheTQ4taUxbr5IgUYrgNNw
-Quantam Tech HD,@quantamtech,https://www.youtube.com/@quantamtech,24,50,34,18,3,0.84,IN,2015-07-13,A,False,False,UCRXWSWo6b01mLj8GHYLT32g
 KevinHD,@kevinhd-f7b,https://www.youtube.com/@kevinhd-f7b,13,5,808,440,3,1.0,,2026-04-07,A,False,False,UC-kg6mWet2yEchDPzFes-YQ
 US Technology,@ustechnology2,https://www.youtube.com/@ustechnology2,12,12,30,17.0,3,0.75,US,2026-04-08,A,False,False,UC663xoFfQ4g5FARMBJcodeQ
 Daily Post,@dailypost1414,https://www.youtube.com/@dailypost1414,9,32,22,14.5,3,0.64,NP,2024-11-11,A,False,False,UCN-G1bm_Fs1-pDB0f3uzqJw
 Aether Labs Tech,@aether_labs_tech,https://www.youtube.com/@aether_labs_tech,5,13,5,4,3,1.0,,2025-08-17,A,False,False,UC2raddKdpSayq1-pX8homrg
 Endresz Bist,@endreszbist,https://www.youtube.com/@endreszbist,4,8,4,3.5,3,1.0,,2026-07-12,A,False,False,UC0K1z6tY1s-NhgrqxxFVU_w
-ArtisTech,@artistech-pro,https://www.youtube.com/@artistech-pro,4,89,7,13,3,1.0,US,2024-09-20,A,False,False,UC1uVfFnmNWEIh2nCRTx4rLQ
 BuildRecap TV,@buildrecaptv,https://www.youtube.com/@buildrecaptv,3,11,14,11,3,0.82,,2017-06-18,A,False,False,UCoTnH7YX1MKrD2dOHkzgAew
 Nova Builds HD,@cyruspowell-t6m2c,https://www.youtube.com/@cyruspowell-t6m2c,2,13,4,3.0,3,1.0,,2026-05-31,A,False,False,UCoB6IVj5Cvl_tX3Nc4eF1nA
 Build Secrets,@buildsecrets,https://www.youtube.com/@buildsecrets,2,9,54,51,3,0.78,US,2025-06-11,A,False,False,UCJ11H9ZXWQSR16qkEiOXyzw
 Rustic Builds,@crafted.dwellings5825,https://www.youtube.com/@crafted.dwellings5825,1,11,3,3,3,0.91,,2026-05-31,A,False,False,UCKNIw6tQPGiGqmiyxCf3fUg
-Project Redline,@ethelberthamilton-e7t,https://www.youtube.com/@ethelberthamilton-e7t,1,14,3,4,3,1.0,,2026-06-03,A,False,False,UC7px48unyIlbt5jbqbifLsA
 Building age 60,@donthaoco7759,https://www.youtube.com/@donthaoco7759,0,3,12,7,3,1.0,,2017-01-12,A,False,False,UCibjGwEwem83Kl5jCRC6RFg
+Verdan Forge,@verdanforge,https://www.youtube.com/@verdanforge,0,14,11,3.0,3,1.0,,2026-03-22,A,False,False,UCckxIAR4u_NoCZDmhIgFNKQ
 Olivia Hunt,@oliviahunt-n3i,https://www.youtube.com/@oliviahunt-n3i,0,10,3,3.0,3,1.0,,2026-05-31,A,False,False,UC7NmwnJVMpekkjAAYT9_4ww
+Wild Forest Homes,@viridianagoncalvez,https://www.youtube.com/@viridianagoncalvez,0,6,7,2,3,1.0,,2026-07-12,A,False,False,UC98sMGYXmi7djCGwZn0uLuQ
 MrDuck104,@mrduck104,https://www.youtube.com/@mrduck104,406000,133,1372540,0,2,0,GB,2021-08-03,A,False,False,UCSvi63VQC_C894IwMaBvJXg
-CarTech ,@cartechus,https://www.youtube.com/@cartechus,193000,180,390897,3234.5,2,0.06,PL,2023-10-03,A,False,False,UCoMli7zprI0dgqwndqxK9ng
 Batel Tech,@batel_tech1,https://www.youtube.com/@batel_tech1,35000,127,285547,0,2,0,US,2008-12-31,A,False,False,UChoXNcKyZo8z4d18cRWynaA
 Origin Techies,@origintechies,https://www.youtube.com/@origintechies,18500,507,9051,986.0,2,0.0,US,2023-08-09,A,False,False,UCMXIqoBC13dPsA6sXkuQaQQ
 Betelhem Bushcraft,@betelhembushcraft_0,https://www.youtube.com/@betelhembushcraft_0,11600,40,151075,533,2,0.67,,2018-03-08,A,False,False,UCbDmqSj7UtjGSyIuq45LNgQ
@@ -131,37 +139,37 @@ THE IDEA BEHIND,@theideabehind,https://www.youtube.com/@theideabehind,5230,270,3
 BuildXplore,@buildxplore0,https://www.youtube.com/@buildxplore0,5090,6,103497,73562.0,2,0.5,,2026-01-05,A,False,False,UCNpZmwcjQZj7XZDHXFabv2Q
 KEPOIN CHANNEL YT,@kepoinchannelyt,https://www.youtube.com/@kepoinchannelyt,4080,1192,557,0,2,0,ID,2022-10-09,A,False,False,UCwIvid2sMn4ZX7BZeh-8llQ
 FixOld,@fix_old,https://www.youtube.com/@fix_old,3650,28,35066,1749.0,2,0.18,,2023-09-01,A,False,False,UC4XWhrJPiEL-E-Zbg3hEhyQ
+LOG CABIN TV ,@logcabintv1,https://www.youtube.com/@logcabintv1,3450,19,49404,34435,2,1.0,,2026-07-15,A,False,False,UCRnjIZrmC5Iz4HOhob-ftlw
 TechnoZoo,@technozoo-g4g,https://www.youtube.com/@technozoo-g4g,3300,12,74553,32535.0,2,0.75,US,2025-09-03,A,False,False,UCq0F4sj8VnNy38Mvb7VV6CA
 奇物妙语,@qiwumiaoyu,https://www.youtube.com/@qiwumiaoyu,3140,81,12146,409.0,2,0.74,,2019-11-22,A,False,False,UCsbC5uPIVAIMxCnkw4f9JgA
 Spiritualrealm,@spiritualrealm101,https://www.youtube.com/@spiritualrealm101,2590,13,14561,21,2,0.77,US,2025-01-09,A,False,False,UCGpsDE9qjHjId9_jCJztASA
 MRWOLF,@mrwolf-kz2kc,https://www.youtube.com/@mrwolf-kz2kc,2530,40,2146,1346,2,0.14,US,2024-05-20,A,False,False,UCYx7WBYc28J5DyVpo7BG4pA
 NEW VICTORY,@newvictory02,https://www.youtube.com/@newvictory02,2340,20,31737,14360.0,2,0.25,VN,2022-07-12,A,False,False,UCBlVkk4F3edcX_9G0UKLqUw
 Lynsey Windon,@lynseywindon,https://www.youtube.com/@lynseywindon,2190,24,14926,170.5,2,0.29,US,2025-10-21,A,False,False,UCeJjbwWvhzdlaQXRu2KCPKA
-Spirit Awake,@spiritawake3,https://www.youtube.com/@spiritawake3,2040,25,2385,126.0,2,0.88,US,2024-12-06,A,False,False,UCfRIYdl_wr-OEfQmPZjRv5Q
-Limitless Builds,@limitless-builds1,https://www.youtube.com/@limitless-builds1,1720,6,17629,11470.5,2,1.0,US,2025-10-28,A,False,False,UCgle_7dHelfQqQ7GdXGpogQ
 TECH REVIEWS,@techreviews-w4e,https://www.youtube.com/@techreviews-w4e,1630,229,1815,212.0,2,0.0,,2025-12-31,A,False,False,UCUJ5J5Zg7SXLqOG7St2lkMQ
 TimberCrafted,@homestead.forge2151,https://www.youtube.com/@homestead.forge2151,1430,15,30670,3194,2,1.0,,2026-06-22,A,False,False,UCusN_A9TRaGrHfwT0sSBvDg
 Timber Trails,@timber.trails.builds6471,https://www.youtube.com/@timber.trails.builds6471,1140,13,27825,6848,2,1.0,,2026-06-26,A,False,False,UCAN0uy-CQxlIVEydauWa8xQ
-Mega DIY Projects,@orlajohnson-x2h3w,https://www.youtube.com/@orlajohnson-x2h3w,1030,18,4962,467.5,2,1.0,,2026-06-03,A,False,False,UCsNCLjp9_0U8SfNkXH53UKA
+Limitless Workshop,@litasaunders-x3d,https://www.youtube.com/@litasaunders-x3d,1100,21,12123,4084,2,1.0,,2026-06-03,A,False,False,UCod7z6Uc-qJhook80bxco3A
 Leo's Animated World,@theq-maker,https://www.youtube.com/@theq-maker,1010,11,9666,2051,2,1.0,,2026-05-31,A,False,False,UCFlXW3mferKAvAfLn4e8b9Q
 Wildcraft Haven,@wildcrafthaven.builds8836,https://www.youtube.com/@wildcrafthaven.builds8836,855,16,2642,983.0,2,1.0,,2026-05-31,A,False,False,UC986TuYAIuVWOwl7gwTuMjw
 mamed bagirov,@mamedbagirov7136,https://www.youtube.com/@mamedbagirov7136,833,331,1673,330,2,0.97,US,2019-11-21,A,False,False,UChOZ_KYYRkFeQlFbJjW6vvg
 Radical Shelter,@radical.shelter.official3922,https://www.youtube.com/@radical.shelter.official3922,773,13,18015,5415,2,1.0,,2026-06-26,A,False,False,UCm9PEBHXn_25xulJ-Lt-7dg
 The Burrow Build,@theburrowbuild,https://www.youtube.com/@theburrowbuild,752,4,44278,4435.0,2,1.0,US,2024-11-25,A,False,False,UCaEItQFIPMrBHzQInJ06hhQ
 Buildra,@buildradiy,https://www.youtube.com/@buildradiy,720,10,2877,257.0,2,0.9,US,2016-06-13,A,False,False,UCruwBAw6ysr7t-kHtpBTPAg
-The Build Maker,@thebuildmaker,https://www.youtube.com/@thebuildmaker,529,3,14749,20,2,1.0,NZ,2023-06-29,A,False,False,UC4g7kPMMQsJ0skPAv_5a8hw
+Punch Forge,@punchforge,https://www.youtube.com/@punchforge,508,2,18274,18274.0,2,1.0,,2025-08-18,A,False,False,UCw1p0HiQUbN7lZn0dmYISfg
 Crafted Foundations,@crafted_foundations_yt1171,https://www.youtube.com/@crafted_foundations_yt1171,306,15,2897,853,2,1.0,,2026-06-25,A,False,False,UCSTPEEPn0BAOwQjrTALyRVw
 Vietnamese farmers 88,@nongdanvietnam88,https://www.youtube.com/@nongdanvietnam88,301,48,1242,556,2,0.21,US,2022-08-03,A,False,False,UCLDIVm2A4cPTwtUjpFXzT2A
 Tech Processing Review,@techprocessingreview,https://www.youtube.com/@techprocessingreview,248,26,460,219,2,0.57,US,2022-06-11,A,False,False,UCvUY4jftqj2jA7pvr1yTpXA
 WildCraft Studio,@wildcraft.studio8426,https://www.youtube.com/@wildcraft.studio8426,107,12,2956,1203.0,2,1.0,,2026-05-31,A,False,False,UCHdAx1YBKnI5ec0iVs7IZIQ
-The Silent Builder,@vosztinavay,https://www.youtube.com/@vosztinavay,92,10,3617,2009.5,2,1.0,,2026-07-22,A,False,False,UCAyYUvsb1TUsTJFBIpL0Pew
 T.T.T,@t.t.t.official,https://www.youtube.com/@t.t.t.official,91,5,5302,6566,2,1.0,,2024-07-01,A,False,False,UCf_nyOEV6OFEIBX1R5op_cg
-ThatJustTech,@thatjusttech,https://www.youtube.com/@thatjusttech,86,100,171,19,2,0.14,ZA,2023-07-08,A,False,False,UCxF7fw-O1Xqo6g9cYI5cBmA
+ThatJustTech,@thatjusttech,https://www.youtube.com/@thatjusttech,86,100,171,22.0,2,0.13,ZA,2023-07-08,A,False,False,UCxF7fw-O1Xqo6g9cYI5cBmA
+4k videos,@amirbajwa6791,https://www.youtube.com/@amirbajwa6791,69,9,10421,26,2,0.6,PK,2021-05-04,A,False,False,UCFTluRFi_dBVb3wtOcOia8Q
 Atlas ,@atlastechhd,https://www.youtube.com/@atlastechhd,63,16,1183,37,2,0.53,AU,2024-09-23,A,False,False,UC4fLMsbYFGEMZK9LmLS2X4Q
 ProyectoEnAccion,@proyectoenaccion,https://www.youtube.com/@proyectoenaccion,60,6,6202,3271.5,2,0.83,,2025-10-25,A,False,False,UCVW7vwmbH_m4iP2J68B9XCA
 Fallen Heroes,@fallenheroes0101,https://www.youtube.com/@fallenheroes0101,56,7,1383,74,2,0.43,,2025-09-28,A,False,False,UC8i71YVm34SLkVUu4HVaBaQ
 Unmapped,@unmappedstories-e2y,https://www.youtube.com/@unmappedstories-e2y,50,0,0,,2,,,2024-08-20,A,False,False,UCLsxJvULxcCXVMvf-8pIm-Q
 SUN Channel,@sunchannel03,https://www.youtube.com/@sunchannel03,42,26,24,43,2,0.89,US,2024-11-09,A,False,False,UCjCsvulOH6411VrXFwYwVBw
+Struxio Docs,@struxiodocs,https://www.youtube.com/@struxiodocs,34,36,467,12.0,2,0.5,BD,2026-03-20,A,False,False,UC9EItc9EJf2_Xi46ByH9Lwg
 New Technology,@newtechnology9150,https://www.youtube.com/@newtechnology9150,32,257,114,0,2,0,GB,2021-11-05,A,False,False,UCa-Ti2BIuP-ugtQ5WIubrcQ
 The Vintage Builder,@thevintagebuilder-q4q,https://www.youtube.com/@thevintagebuilder-q4q,29,4,693,91.5,2,1.0,US,2025-11-08,A,False,False,UCl8ku6iMvAYvpoQQ_jsxnwg
 Supervivencia Real,@supervivenciareal0,https://www.youtube.com/@supervivenciareal0,29,15,639,534,2,0.2,,2022-08-18,A,False,False,UCWyCGYjjprzEeOj2jMtgFlw
@@ -175,25 +183,32 @@ Q44HD,@q44-tv,https://www.youtube.com/@q44-tv,19,24,363,31,2,1.0,MA,2025-02-15,A
 ZONATECH,@zonatechoficial,https://www.youtube.com/@zonatechoficial,18,3,596,522,2,1.0,BR,2024-07-27,A,False,False,UC9ab0rGuhjJ5at0dIX0KsnA
 Entertainment Expresss,@entertainmentexpresss-h1z,https://www.youtube.com/@entertainmentexpresss-h1z,18,37,3,2.0,2,0.84,,2026-07-18,A,False,False,UC_HUGqdCt07uxFHnx-syN5w
 NovaCore HD,@novacorehd,https://www.youtube.com/@novacorehd,14,5,17,12,2,0.8,GB,2024-07-15,A,False,False,UCgiaM4_F1XmYR93XQZwrDnw
+ChronoHD,@chronohd-e7l,https://www.youtube.com/@chronohd-e7l,13,4,909,406.0,2,0.75,,2025-10-30,A,False,False,UCMQA_rdkGL5jNGc3Ltj3sww
 Queen Builds,@queenbuilds,https://www.youtube.com/@queenbuilds,13,6,23,19.5,2,0.83,US,2024-01-12,A,False,False,UCMW11Q8_OxhI4WIYnVF9-ow
 Eonx Lab,@eonxlab,https://www.youtube.com/@eonxlab,10,6,349,64.5,2,0.5,,2026-03-17,A,False,False,UCV-nusPBsArRKnAM86gxUiw
+TechFreezeAdeel,@techfreezeadeel,https://www.youtube.com/@techfreezeadeel,10,38,30,10.0,2,0.7,PK,2023-06-10,A,False,False,UCOT3pvbt_4V3AldBCAgPnTg
 CONTENTS DISCOVERY,@contentsdiscovery,https://www.youtube.com/@contentsdiscovery,9,21,34,9.5,2,0.7,TR,2023-09-16,A,False,False,UCNpY-hcPt-hcGrj8vKfzGCA
 BuildWise,@buildwiseyt,https://www.youtube.com/@buildwiseyt,8,2,6,6.5,2,1.0,DE,2015-10-30,A,False,False,UC0v0b0xYwHQo5hwvLxiIHIQ
 Structure Mechanics,@structuremechanics,https://www.youtube.com/@structuremechanics,8,12,393,77.0,2,1.0,,2026-08-23,A,False,False,UC9jcmVJI7-aH7DbLVrW5ZCQ
 BI HD,@bihd-v6u,https://www.youtube.com/@bihd-v6u,7,6,197,41.0,2,1.0,,2026-03-25,A,False,False,UC6JmZ0vz1HgXej5zu3qHMjg
 Survive the Wild,@survivethewild330,https://www.youtube.com/@survivethewild330,6,9,6,6,2,1.0,,2026-06-03,A,False,False,UCFIgu6yuLX3Nqf7mAtGmGxg
-Rebuild & Transform,@ariadnescott,https://www.youtube.com/@ariadnescott,5,16,4,4.0,2,1.0,,2026-06-03,A,False,False,UCn3mN5tieVztts-dmY7fY7A
 Houseline Project,@houselineproject,https://www.youtube.com/@houselineproject,5,7,19,15,2,1.0,CO,2025-04-20,A,False,False,UC_7pqBG4a_FKct6w8DtEw8w
 HybridBeast-X,@hybridbeast-ex,https://www.youtube.com/@hybridbeast-ex,3,4,23,23.0,2,1.0,US,2020-01-30,A,False,False,UCdGilJEWzqy4UBfyFewkj3A
+TerraForge Collective,@terraforge.collective3472,https://www.youtube.com/@terraforge.collective3472,3,9,2,2,2,1.0,,2026-07-12,A,False,False,UCqmsXddD6U4NS5A0o1cmvtA
 CONSTRUCTION OF SURVIVITY ,@techengineer-y00,https://www.youtube.com/@techengineer-y00,2,7,42,8,2,0.86,US,2026-06-08,A,False,False,UC9l989_B1itluLaEcn2nSZg
 Mr.RESTORIX,@mr.restorix,https://www.youtube.com/@mr.restorix,2,6,34,22.0,2,1.0,US,2025-08-06,A,False,False,UClNxodAFq8sMjEZimdXrp5w
+Cabin Makers DIY,@cabinmakersdiy,https://www.youtube.com/@cabinmakersdiy,1,7,16,10,2,1.0,US,2016-09-08,A,False,False,UCYhvQCyxQQAr3PjaoRpODww
 Change of house,@changeofhouse,https://www.youtube.com/@changeofhouse,1,8,9,5,2,0.88,PT,2025-11-08,A,False,False,UCDmUyBbikucskFSlmyzaEdA
 ArkitekaYT,@arkitekayt,https://www.youtube.com/@arkitekayt,1,3,12,13,2,1.0,,2026-03-03,A,False,False,UCdHCwJr5-jkJeauTxOKZlUg
 Buildcraft,@buildcraft_tv,https://www.youtube.com/@buildcraft_tv,1,6,8,8.0,2,1.0,US,2026-06-07,A,False,False,UCnNg7ndvLR1In7wekMacpHw
-Verdan Forge,@verdanforge,https://www.youtube.com/@verdanforge,0,14,11,3.0,2,1.0,,2026-03-22,A,False,False,UCckxIAR4u_NoCZDmhIgFNKQ
+ROYAL TV,@royaltv-y4f,https://www.youtube.com/@royaltv-y4f,1,2,8,8.0,2,1.0,US,2026-08-18,A,False,False,UCV5UVW9T1r3cqHSRkSnw6_A
+Zenith Build,@zenithbuild.official7987,https://www.youtube.com/@zenithbuild.official7987,1,9,3,2,2,1.0,,2026-07-12,A,False,False,UC5hd13fVYbH5QtoamoaUGsw
 Heavy Hertz,@heavyhertz-c4h,https://www.youtube.com/@heavyhertz-c4h,0,5,2,2,2,0.6,US,2026-05-07,A,False,False,UCxlEl7g1oFkcPIJeqtSNFvQ
+Camille Sparkes,@camillesparkes,https://www.youtube.com/@camillesparkes,0,11,1,1.0,2,1.0,,2026-05-31,A,False,False,UC38waCN1LSlNgmQ8dItdXrQ
 Epic Makers Gold,@epicmakers-mm1,https://www.youtube.com/@epicmakers-mm1,0,12,3,2.0,2,1.0,,2026-07-12,A,False,False,UC7DgsC78ZCCaLe4sHFS6y6Q
 Latifah Coleman,@latifahcoleman-k1x,https://www.youtube.com/@latifahcoleman-k1x,0,10,3,2,2,1.0,,2026-05-31,A,False,False,UCD1lqJl7bD3Dvo_xaoUgmbQ
 Method Craft,@method.craft.builds,https://www.youtube.com/@method.craft.builds,0,10,2,2,2,1.0,,2026-07-12,A,False,False,UCQA0s8sOsBeERmtMjk94Kqg
-Wild Forest Homes,@viridianagoncalvez,https://www.youtube.com/@viridianagoncalvez,0,6,7,2,2,1.0,,2026-07-12,A,False,False,UC98sMGYXmi7djCGwZn0uLuQ
 NOVABRAIN,@novabrain-g8z7c,https://www.youtube.com/@novabrain-g8z7c,0,3,6,5,2,1.0,,2026-05-24,A,False,False,UCCmQY2CEQ2PNchetCDoYWIQ
+The Builder's Journey,@josemilsonballoni,https://www.youtube.com/@josemilsonballoni,0,9,8,1.0,2,1.0,,2026-07-22,A,False,False,UCLCxX7G0yQOwvbqBn-WVyYQ
+Shift Builders,@shiftbuilders,https://www.youtube.com/@shiftbuilders,0,10,6,8,2,1.0,,2026-07-22,A,False,False,UCL4_rreXvFbL8x1CGcowM-w
+Crafted Wild,@craftedwild-h,https://www.youtube.com/@craftedwild-h,0,7,19,6,2,1.0,US,2025-09-14,A,False,False,UCSqqkMyfFQJinOTxLunOhPA
