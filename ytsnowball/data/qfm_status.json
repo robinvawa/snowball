@@ -369,6 +369,16 @@
   "records": 1,
   "match": "cid"
  },
+ "asbjornolsenbergbushcraft": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "L",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "ASBJORN OLSEN-BERG BUSHCRAFT",
+  "records": 1,
+  "match": "aprox"
+ },
  "ateliermavi": {
   "status": "Granted",
   "bucket": "licencia",
@@ -1839,6 +1849,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "exposetechnologyskills": {
+  "status": "Uncontactable",
+  "bucket": "sin respuesta",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Expose Technology Skills",
+  "records": 1,
+  "match": "aprox"
+ },
  "fabricatusueno": {
   "status": "Granted",
   "bucket": "licencia",
@@ -2486,6 +2506,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "JerryRigEverything",
+  "records": 1,
+  "match": "aprox"
+ },
+ "jimmydiresta": {
+  "status": "Declined",
+  "bucket": "rechazado",
+  "score": "M",
+  "granted": "2025-02-20",
+  "decline_reason": "Monetary Offer",
+  "hs_name": "JIMMYDIRESTA",
   "records": 1,
   "match": "aprox"
  },

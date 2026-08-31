@@ -290,7 +290,7 @@
 
 <section id="tab-vs" hidden>
   <h2>El ecosistema frente a Quantum Makers</h2>
-  <p class="lede">Los 140 distribuidores juntos, comparados con vuestro canal.
+  <p class="lede">Los __N_DIST__ distribuidores juntos, comparados con vuestro canal.
   Todo sobre los mismos criterios: vídeos de más de 3 minutos, dentro de vuestro
   espacio de contenido, y con las views <b>siempre proyectadas a perpetuidad</b>
   para que la comparación no dependa de cuándo publicó cada uno.</p>
@@ -298,9 +298,9 @@
   <h3 class="sub-h">Escala</h3>
   <div class="vs" id="vsTable"></div>
   <p class="lede">La comparación de medianas es la que cuenta: vuestro vídeo
-  típico proyecta <b id="ratioViews"></b> veces lo que el suyo. Sumados los 140
-  canales no llegan a una décima parte de vuestro total, y eso publicando cinco
-  veces más vídeos.</p>
+  típico proyecta <b id="ratioViews"></b> veces lo que el suyo. Sumados los
+  __N_DIST__ canales juntan el <b id="shareViews"></b> de vuestro total de views,
+  y eso publicando <b id="ratioVids"></b> veces más vídeos.</p>
 
   <h3 class="sub-h">Solapamiento de creadores fuente</h3>
   <div class="split">
@@ -625,7 +625,7 @@ wire('tV','bV',V,colsV,(r,s)=>{
     ['Duración típica', C.d_median_dur, C.q_median_dur, s=>Math.floor(s/60)+'m'+String(s%60).padStart(2,'0')],
     ['Creadores fuente', C.d_creators, C.q_creators, kfmt],
   ];
-  let h='<div class="row"><div class="head">Los 140 distribuidores</div>'
+  let h='<div class="row"><div class="head">Los __N_DIST__ distribuidores</div>'
        +'<div class="lbl"></div><div class="head us">Quantum Makers</div></div>';
   for(const [lbl,them,us,fmt] of rows){
     const mx=Math.max(them,us)||1;
@@ -638,6 +638,8 @@ wire('tV','bV',V,colsV,(r,s)=>{
   document.getElementById('vsTable').innerHTML=h;
   const set=(id,val)=>{const e=document.getElementById(id); if(e) e.textContent=val;};
   set('ratioViews', Math.round(C.q_median_views/Math.max(1,C.d_median_views)).toLocaleString('es-ES'));
+  set('shareViews', Math.round(100*C.d_views/Math.max(1,C.q_views))+' %');
+  set('ratioVids', (C.d_videos/Math.max(1,C.q_videos)).toFixed(1).replace('.',','));
   set('onlyThem', C.only_theirs); set('shared', C.shared_creators); set('onlyUs', C.only_ours);
   set('ovOurs', C.overlap_of_ours); set('ovTheirs', C.overlap_of_theirs);
   set('leadTot', C.total_lead); set('followTot', C.total_follow);
