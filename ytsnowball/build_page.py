@@ -337,6 +337,10 @@ def main():
     today = dt.date.today()
     dist, pool = report.main()
     vids = metrics.main(today)
+    # Créditos ocultos en descripciones: resuelve e inyecta antes de que nada
+    # más lea los vídeos, con la procedencia en v["credit_src"].
+    import credits
+    credits.apply(vids)
 
     ours_n = next((p["distributors"] for p in pool
                    if re.sub(r"[^a-z0-9]", "", p["creator"].lower())
@@ -353,6 +357,7 @@ def main():
         "ag": v["age_days"], "cf": v["confidence"], "sc": v["scope"],
         "sr": v["scope_reason"], "xw": v["xd_winners"], "xd": v["xd_distributors"],
         "sk": v["interest"], "cr": (v["source_handles_title"] or [""])[0],
+        "crs": v.get("credit_src", ""),
         "ex": (round(v["perpetuity_views"] * (1 - 1 / v["perp_outlier"]))
                if v["perp_outlier"] > 1 else 0),
     } for v in vids if v["scope"] != "out"], ensure_ascii=False)

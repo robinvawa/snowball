@@ -572,7 +572,8 @@ const colsV=[
   r=>'<td class="num" style="color:'+(r.po>=5?'var(--signal)':'inherit')+'">x'+(r.po>=100?Math.round(r.po):r.po.toFixed(1))+'</td>',
   r=>'<td class="num">'+(r.xd?('<b>'+r.xw+'</b>/'+r.xd):'—')+'</td>',
   r=>'<td class="num">'+r.ag+' d</td>',
-  r=>'<td><span class="chip '+r.cf+'">'+r.cf+'</span>'+(r.cr?'':' <span class="chip unsure">solo desc.</span>')+'</td>',
+  r=>'<td><span class="chip '+r.cf+'">'+r.cf+'</span>'
+     +(r.crs?' <span class="chip unsure">crédito desc'+(r.crs==='desc-unico'?' ≈':'')+'</span>':(r.cr?'':' <span class="chip unsure">sin crédito</span>'))+'</td>',
 ];
 const colsD=[
   r=>'<td class="name"><a href="'+r.u+'" target="_blank" rel="noopener">'+r.t+'</a><span class="h">'+(r.h||'')+'</span></td>',

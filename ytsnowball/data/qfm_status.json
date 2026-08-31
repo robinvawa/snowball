@@ -319,6 +319,16 @@
   "records": 1,
   "match": "aprox"
  },
+ "arebaloni": {
+  "status": "Granted",
+  "bucket": "licencia",
+  "score": "",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "ARE BALONI",
+  "records": 1,
+  "match": "aprox"
+ },
  "aromanch": {
   "status": "Granted",
   "bucket": "licencia",
@@ -426,6 +436,16 @@
   "granted": "2025-07-11",
   "decline_reason": "",
   "hs_name": "AXES GARAGE",
+  "records": 1,
+  "match": "aprox"
+ },
+ "backwoodssolitude": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "BACKWOODS SOLITUDE",
   "records": 1,
   "match": "aprox"
  },
@@ -2979,6 +2999,16 @@
   "records": 1,
   "match": "cid"
  },
+ "mateostabio": {
+  "status": "Contacted",
+  "bucket": "en curso",
+  "score": "M",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "MATEO STABIO",
+  "records": 1,
+  "match": "aprox"
+ },
  "mattandmouse": {
   "status": "Contacted",
   "bucket": "en curso",
@@ -3036,6 +3066,16 @@
   "granted": "",
   "decline_reason": "",
   "hs_name": "Mayilai Creatives",
+  "records": 1,
+  "match": "aprox"
+ },
+ "mbjoernstroem": {
+  "status": "Unresponsive",
+  "bucket": "sin respuesta",
+  "score": "XL",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "M. BJOERNSTROEM",
   "records": 1,
   "match": "aprox"
  },
@@ -5109,6 +5149,16 @@
   "records": 1,
   "match": "cid"
  },
+ "tristarhomestead": {
+  "status": "En BD sin estado",
+  "bucket": "en bd",
+  "score": "XS",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "Tri Star Homestead",
+  "records": 1,
+  "match": "aprox"
+ },
  "truckschannelrazborgruz": {
   "status": "Declined",
   "bucket": "rechazado",
@@ -5538,6 +5588,16 @@
   "hs_name": "WOOD JUNKIE",
   "records": 1,
   "match": "cid"
+ },
+ "woodnessgoodness": {
+  "status": "Connected",
+  "bucket": "en curso",
+  "score": "L",
+  "granted": "",
+  "decline_reason": "",
+  "hs_name": "WOODNESS GOODNESS",
+  "records": 1,
+  "match": "aprox"
  },
  "woodsimprovisation": {
   "status": "Unresponsive",
