@@ -30,10 +30,16 @@ def main():
     except Exception:
         vids = []
     if vids:
+        # Dos niveles de snapshot: el último baja a penúltimo y el estado
+        # actual pasa a ser el último. La pestaña "Desde el último refresh"
+        # ofrece ambas ventanas.
+        prev = os.path.join(DATA, "views_prev.json")
+        if os.path.exists(prev):
+            shutil.copy(prev, os.path.join(DATA, "views_prev2.json"))
         stamp = dt.date.fromtimestamp(os.path.getmtime(fv)).isoformat()
         json.dump({"date": stamp,
                    "views": {v["video_id"]: v["views"] for v in vids}},
-                  open(os.path.join(DATA, "views_prev.json"), "w"))
+                  open(prev, "w"))
         print("snapshot previo guardado: %d vídeos, datos del %s"
               % (len(vids), stamp))
 

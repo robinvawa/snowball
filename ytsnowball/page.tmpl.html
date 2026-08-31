@@ -75,17 +75,24 @@
 
 <section id="tab-delta" hidden>
   <h2>Desde el último refresh <span class="count rowcount"></span></h2>
-  <p class="lede">Lo que se ha movido entre el snapshot del <b>__DLDATE__</b> y la
-  actualización actual. A diferencia del resto del dashboard, aquí no hay
-  proyección ninguna: son <b>views contadas</b> en la ventana. La columna que
-  ordena es el <b>crecimiento atribuible</b> — las views nuevas del vídeo menos lo
-  que ha ganado un vídeo mediano de ese mismo canal en la misma ventana — para que
-  el goteo de fondo de un canal grande no parezca despunte.</p>
+  <p class="lede">Lo que se ha movido desde un snapshot anterior hasta la
+  actualización actual, con dos ventanas a elegir: desde el <b>último</b> refresh
+  (__DLDATE__) o desde el <b>penúltimo</b> (__DL2DATE__). A diferencia del resto
+  del dashboard, aquí no hay proyección ninguna: son <b>views contadas</b> en la
+  ventana. La columna que ordena es el <b>crecimiento atribuible</b> — las views
+  nuevas del vídeo menos lo que ha ganado un vídeo mediano de ese mismo canal en
+  la misma ventana — para que el goteo de fondo de un canal grande no parezca
+  despunte. La ventana corta detecta antes; la larga mide mejor.</p>
   <p class="lede"><b>Nuevo</b> marca los vídeos subidos después del snapshot: en
   esos, todas sus views son de la ventana. Un vídeo nuevo arriba en esta tabla es
   la señal más fresca que tiene el dashboard.</p>
   <div class="controls">
     <input type="search" placeholder="Buscar título, canal o creador…" aria-label="Buscar movimiento">
+    <span class="seglabel">Ventana</span>
+    <div class="seg" data-group="ven" role="group" aria-label="Elegir ventana de comparación">
+      <button data-seg="w1" aria-pressed="true">Desde el último (__DLDATE__)</button>
+      <button data-seg="w2" aria-pressed="false">Desde el penúltimo (__DL2DATE__)</button>
+    </div>
     <div class="seg" data-group="tp" role="group" aria-label="Filtrar por tipo">
       <button data-seg="all" aria-pressed="true">Todo</button>
       <button data-seg="new" aria-pressed="false">Solo vídeos nuevos</button>
@@ -727,6 +734,7 @@ const colsL=[
   r=>'<td>'+(r.nw?'<span class="chip alta">nuevo</span>':'<span class="chip media">previo</span>')+'</td>',
 ];
 wire('tL','bL',L,colsL,(r,s)=>{
+  if(r.w !== (s.seg.ven==='w2'?2:1)) return false;
   if(s.q && !(r.t+' '+r.ch+' '+(r.cr||'')).toLowerCase().includes(s.q)) return false;
   if(s.seg.tp==='new' && !r.nw) return false;
   if(s.seg.tp==='old' && r.nw) return false;
