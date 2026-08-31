@@ -42,7 +42,7 @@ def rank_creators(videos, already_searched):
             for k in ranked if k not in already_searched]
 
 
-def run(videos, max_searches=40):
+def run(videos, max_searches=40, attr=None):
     state_path = os.path.join(DATA, "snowball_state.json")
     try:
         state = json.load(open(state_path))
@@ -54,6 +54,11 @@ def run(videos, max_searches=40):
         hits[cid] = rec
 
     todo = rank_creators(videos, searched)
+    # Con el ranking v2 disponible, la cola se ordena por views atribuibles:
+    # buscar primero a los creadores mas valiosos, que son cuyas coberturas
+    # (conocidas y por descubrir) mas importan.
+    if attr:
+        todo.sort(key=lambda t: -attr.get(t[0], 0))
     print("Candidate source creators not yet searched: %d" % len(todo))
 
     done = 0
@@ -104,6 +109,20 @@ def run(videos, max_searches=40):
 
 if __name__ == "__main__":
     n = int(sys.argv[1]) if len(sys.argv) > 1 else 40
+    # Pool completo: catalogos enteros + creditos de descripcion resueltos,
+    # en vez de las muestras de 50 videos de la primera era.
+    scored = os.path.join(DATA, "scored_videos.json")
+    if os.path.exists(scored):
+        vids = [v for v in json.load(open(scored)) if v.get("scope") != "out"]
+        for v in vids:
+            v["outlier"] = v.get("perp_outlier", 0)
+        try:
+            attr = {c["key"]: c["attr_views"] for c in json.load(
+                open(os.path.join(DATA, "creator_odds.json")))["creators"]}
+        except Exception:
+            attr = None
+        run(vids, n, attr)
+        raise SystemExit
     vids = json.load(open(os.path.join(DATA, "seed_videos.json")))
     disc = os.path.join(DATA, "discovered_videos.json")
     if os.path.exists(disc):  # iteration 2+: rank over the expanded pool
