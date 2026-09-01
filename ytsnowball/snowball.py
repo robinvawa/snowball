@@ -1,10 +1,12 @@
 """Snowball: search each source-creator handle, collect the channels that
 covered it. A channel covering 2+ pool creators is a distributor."""
 import collections
+import datetime as dt
 import json
 import os
 import re
 import sys
+import time
 
 import extract
 import yt
@@ -15,6 +17,7 @@ DATA = os.path.join(HERE, "data")
 # Our own channel must never end up in the distributor list.
 OWN = {"quantum makers", "quantummakers"}
 
+RECHECK_DAYS = 14
 DAILY_QUOTA = 10000
 RESERVE = 1200  # keep room for the cheap channel/video lookups afterwards
 
@@ -49,6 +52,7 @@ def run(videos, max_searches=40, attr=None):
     except Exception:
         state = {"searched": [], "hits": {}}
     searched = set(state["searched"])
+    searched_at = state.get("searched_at", {})
     hits = collections.defaultdict(dict)
     for cid, rec in state["hits"].items():
         hits[cid] = rec
@@ -61,20 +65,48 @@ def run(videos, max_searches=40, attr=None):
         todo.sort(key=lambda t: -attr.get(t[0], 0))
     print("Candidate source creators not yet searched: %d" % len(todo))
 
+    # Cola de re-búsqueda: un creador buscado hace >= RECHECK_DAYS puede tener
+    # distribuidores NUEVOS cubriéndolo desde entonces, y esa es la única vía
+    # por la que un canal recién nacido entra al mapa. Solo se consume cuando
+    # la cola de creadores nunca buscados se ha agotado, más antiguos primero
+    # y a igual fecha los de más views atribuibles.
+    label = {}
+    for v in videos:
+        for h in v["source_handles_title"]:
+            label.setdefault(norm(h), h)
+    cutoff = (dt.date.today() - dt.timedelta(days=RECHECK_DAYS)).isoformat()
+    stale = [k for k in searched
+             if searched_at.get(k, "2026-08-11") <= cutoff and k in label]
+    stale.sort(key=lambda k: (searched_at.get(k, "2026-08-11"),
+                              -(attr or {}).get(k, 0)))
+    # Nuevos y re-búsquedas compiten en la misma cola por views atribuibles:
+    # re-buscar a un creador top al mes rinde más que estrenar al creador
+    # número 800 de la cola. Sin ranking de valor, los nuevos van primero.
+    queue = [(k, h, n, o, False) for k, h, n, o in todo] + \
+            [(k, label[k], 0, 0.0, True) for k in stale]
+    if attr:
+        queue.sort(key=lambda t: -attr.get(t[0], 0))
+    if stale:
+        print("Re-search queue (last searched >= %dd ago): %d"
+              % (RECHECK_DAYS, len(stale)))
+
     done = 0
-    for key, handle, ncov, outlier in todo:
-        if done >= max_searches:
+    stop = False
+    for key, handle, ncov, outlier, fresh in queue:
+        if done >= max_searches or stop:
             break
         if yt.quota_used() > DAILY_QUOTA - RESERVE - 100:
             print("\n!! Quota guard hit, stopping searches.")
             break
         try:
-            items = yt.search('"%s"' % handle, max_results=50)
+            items = yt.search('"%s"' % handle, max_results=50, fresh=fresh)
         except yt.QuotaExceeded:
             print("\n!! API reports quota exhausted.")
+            stop = True
             break
         done += 1
         searched.add(key)
+        searched_at[key] = time.strftime("%Y-%m-%d")
         new = 0
         for it in items:
             sn = it["snippet"]
@@ -100,7 +132,8 @@ def run(videos, max_searches=40, attr=None):
         print("  [%2d] @%-26s covered_by=%d best_x=%-6.1f -> %2d new links (quota %d)"
               % (done, handle[:26], ncov, outlier, new, yt.quota_used()))
 
-    state = {"searched": sorted(searched), "hits": dict(hits)}
+    state = {"searched": sorted(searched), "searched_at": searched_at,
+             "hits": dict(hits)}
     json.dump(state, open(state_path, "w"), indent=1)
     print("\nSearches this run: %d | quota used today: %d" % (done, yt.quota_used()))
     print("Channels seen: %d" % len(hits))

@@ -139,8 +139,10 @@ def videos(video_ids):
     return out
 
 
-def search(query, max_results=25, **extra):
-    """Keyword search. EXPENSIVE: 100 units per call."""
-    r = call("search", part="snippet", q=query, type="video",
+def search(query, max_results=25, fresh=False, **extra):
+    """Keyword search. EXPENSIVE: 100 units per call. fresh=True bypasses the
+    disk cache — needed to RE-search a creator, where the point is precisely
+    seeing what changed since the cached snapshot."""
+    r = call("search", cache=not fresh, part="snippet", q=query, type="video",
              maxResults=max_results, **extra)
     return r.get("items", [])
