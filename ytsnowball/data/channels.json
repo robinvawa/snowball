@@ -10,7 +10,7 @@
   "avg_views": 1293410,
   "country": "KE",
   "published": "2012-01-29",
-  "creators_covered": 45,
+  "creators_covered": 46,
   "creators": [
    "mustaqimmuhammadhatta",
    "slothconstruction",
@@ -56,10 +56,11 @@
    "loginnature8516",
    "mikesdreambuilds",
    "electricsupercar",
-   "flmangarage"
+   "flmangarage",
+   "asceticloner"
   ],
   "tier": "A",
-  "why": "covers 45 pool creators",
+  "why": "covers 46 pool creators",
   "is_seed": true,
   "examples": [
    {
@@ -168,7 +169,7 @@
   "avg_views": 111661,
   "country": "US",
   "published": "2025-10-19",
-  "creators_covered": 28,
+  "creators_covered": 29,
   "creators": [
    "wolfpupfab",
    "slothconstruction",
@@ -197,10 +198,11 @@
    "sunfishbudget",
    "lifeinthesiberianforest1",
    "deborahpaullagrange31",
-   "shredpile"
+   "shredpile",
+   "renovacile"
   ],
   "tier": "A",
-  "why": "covers 28 pool creators",
+  "why": "covers 29 pool creators",
   "is_seed": true,
   "examples": [
    {
@@ -219,6 +221,69 @@
   "harvested": 50,
   "attribution_rate": 0.98,
   "median_views": 95467.0,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCM1AYi7BlMXGlm3mFwO_s1w",
+  "title": "KLIFS TECH",
+  "handle": "@klifstech",
+  "url": "https://www.youtube.com/@klifstech",
+  "subs": 71600,
+  "videos": 482,
+  "total_views": 16534177,
+  "avg_views": 34303,
+  "country": "US",
+  "published": "2021-07-24",
+  "creators_covered": 27,
+  "creators": [
+   "letsbuildahouse",
+   "mustaqimmuhammadhatta",
+   "dmitrylukindiy",
+   "slothconstruction",
+   "yudaikawase",
+   "aloshalynov",
+   "mrho",
+   "roughstyle",
+   "weandnature",
+   "frengenengineering",
+   "myoffgridstory",
+   "buildersblueprint",
+   "andrewryanpov",
+   "bushcraftua1",
+   "luxonbushcraft",
+   "livedontwatch",
+   "artsportartsport",
+   "tehnolexa",
+   "nasatchannel",
+   "murattuncer",
+   "homemademadness",
+   "alexbushcraftmyworld",
+   "mlgkontejneri3283",
+   "menyatudialam",
+   "denniskoburger",
+   "flmangarage",
+   "asceticloner"
+  ],
+  "tier": "A",
+  "why": "covers 27 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "UyqJn95mV3Q",
+    "title": "He Builts a Huge House with his Family with a few $1,000s in only 500 Days. By@LetsBuildAHouse"
+   },
+   {
+    "video_id": "r1Xo-Qu3wsc",
+    "title": "He Built an Amazing Boat From a 5,000 Liter Water Tank by @MustaqimMuhammadHatta"
+   },
+   {
+    "video_id": "M8FOZclnuOs",
+    "title": "He Builts a Huge House Alone With a Few $1,000s in Only 500 Days. By @DmitryLukinDIY"
+   }
+  ],
+  "harvested": 50,
+  "attribution_rate": 0.66,
+  "median_views": 3903.5,
   "brand_lookalike": false
  },
  {
@@ -281,68 +346,6 @@
   "harvested": 50,
   "attribution_rate": 0.96,
   "median_views": 3163.0,
-  "brand_lookalike": false
- },
- {
-  "channel_id": "UCM1AYi7BlMXGlm3mFwO_s1w",
-  "title": "KLIFS TECH",
-  "handle": "@klifstech",
-  "url": "https://www.youtube.com/@klifstech",
-  "subs": 71600,
-  "videos": 482,
-  "total_views": 16534177,
-  "avg_views": 34303,
-  "country": "US",
-  "published": "2021-07-24",
-  "creators_covered": 26,
-  "creators": [
-   "letsbuildahouse",
-   "mustaqimmuhammadhatta",
-   "dmitrylukindiy",
-   "slothconstruction",
-   "yudaikawase",
-   "aloshalynov",
-   "mrho",
-   "roughstyle",
-   "weandnature",
-   "frengenengineering",
-   "myoffgridstory",
-   "buildersblueprint",
-   "andrewryanpov",
-   "bushcraftua1",
-   "luxonbushcraft",
-   "livedontwatch",
-   "artsportartsport",
-   "tehnolexa",
-   "nasatchannel",
-   "murattuncer",
-   "homemademadness",
-   "alexbushcraftmyworld",
-   "mlgkontejneri3283",
-   "menyatudialam",
-   "denniskoburger",
-   "flmangarage"
-  ],
-  "tier": "A",
-  "why": "covers 26 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "UyqJn95mV3Q",
-    "title": "He Builts a Huge House with his Family with a few $1,000s in only 500 Days. By@LetsBuildAHouse"
-   },
-   {
-    "video_id": "r1Xo-Qu3wsc",
-    "title": "He Built an Amazing Boat From a 5,000 Liter Water Tank by @MustaqimMuhammadHatta"
-   },
-   {
-    "video_id": "M8FOZclnuOs",
-    "title": "He Builts a Huge House Alone With a Few $1,000s in Only 500 Days. By @DmitryLukinDIY"
-   }
-  ],
-  "harvested": 50,
-  "attribution_rate": 0.66,
-  "median_views": 3903.5,
   "brand_lookalike": false
  },
  {
@@ -466,7 +469,7 @@
   "avg_views": 87090,
   "country": "US",
   "published": "2020-10-28",
-  "creators_covered": 15,
+  "creators_covered": 16,
   "creators": [
    "letsbuildahouse",
    "slothconstruction",
@@ -482,10 +485,11 @@
    "luxonbushcraft",
    "nickandmala",
    "thepasturedhomestead",
-   "lifeinthesiberianforest1"
+   "lifeinthesiberianforest1",
+   "thompsonscabin"
   ],
   "tier": "A",
-  "why": "covers 15 pool creators",
+  "why": "covers 16 pool creators",
   "is_seed": false,
   "examples": [
    {
@@ -618,7 +622,7 @@
   "avg_views": 89828,
   "country": "US",
   "published": "2026-04-25",
-  "creators_covered": 13,
+  "creators_covered": 14,
   "creators": [
    "letsbuildahouse",
    "wolfpupfab",
@@ -632,10 +636,11 @@
    "carpenteranxu",
    "naturalloghouse",
    "thepasturedhomestead",
-   "shredpile"
+   "shredpile",
+   "thompsonscabin"
   ],
   "tier": "A",
-  "why": "covers 13 pool creators",
+  "why": "covers 14 pool creators",
   "is_seed": false,
   "examples": [
    {
@@ -705,6 +710,102 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCyQXx9LyvFYCgt71eqdEPjQ",
+  "title": "Smart Fox",
+  "handle": "@smartfoxamazing",
+  "url": "https://www.youtube.com/@smartfoxamazing",
+  "subs": 85200,
+  "videos": 114,
+  "total_views": 24716770,
+  "avg_views": 216814,
+  "country": "",
+  "published": "2023-11-02",
+  "creators_covered": 12,
+  "creators": [
+   "montanahaven",
+   "enancinar",
+   "growinginfrance",
+   "myoffgridstory",
+   "bushcraftua1",
+   "villaaroldi",
+   "wildhammer",
+   "bushcraftleo",
+   "ladyfieldfarm",
+   "rausaufsland",
+   "thebeardedcarpenter",
+   "woodwood1"
+  ],
+  "tier": "A",
+  "why": "covers 12 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "Inadxb-8hz0",
+    "title": "This Alaska Home Build Will Blow Your Mind  by \u2068@MontanaHaven\u2069"
+   },
+   {
+    "video_id": "zmazUTi0Yr4",
+    "title": "A Man Turns an Old Mercedes Bus into a Cozy Home on Wheels | Timelapse by @enancinar"
+   },
+   {
+    "video_id": "skR97JR_Hag",
+    "title": "Couple Brings 150-Year-Old Abandoned French House Back to Life! by @growinginfrance"
+   }
+  ],
+  "harvested": 49,
+  "attribution_rate": 0.8,
+  "median_views": 4500,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCAEDJDDqa-zIdLF42IAGdxQ",
+  "title": "Maker World",
+  "handle": "@makerworld-official",
+  "url": "https://www.youtube.com/@makerworld-official",
+  "subs": 21300,
+  "videos": 47,
+  "total_views": 7701013,
+  "avg_views": 163851,
+  "country": "",
+  "published": "2025-09-22",
+  "creators_covered": 12,
+  "creators": [
+   "letsbuildahouse",
+   "wolfpupfab",
+   "worzallabrothers",
+   "roughstyle",
+   "demasilogcabin",
+   "thisismyalaska",
+   "myoffgridstory",
+   "lifeonthemoose",
+   "serkanbilgin27",
+   "mattjacobs1",
+   "lechantierdesmax",
+   "thompsonscabin"
+  ],
+  "tier": "A",
+  "why": "covers 12 pool creators",
+  "is_seed": true,
+  "examples": [
+   {
+    "video_id": "Jj8Mja1Gk3k",
+    "title": "Family Builds a Dream Luxurious House | Start to Finish Full Process by   @LetsBuildAHouse  \u200b"
+   },
+   {
+    "video_id": "2LO686TJdhE",
+    "title": "He Builds a Hidden Underground Bunker No One Will Find | Start to Finish by  @Wolfpupfab  \u200b"
+   },
+   {
+    "video_id": "JrFvpeB2Eb8",
+    "title": "Two Brothers Turned 100-Year Abandoned SILO Into a Luxury Family Space | @Worzalla_Brothers"
+   }
+  ],
+  "harvested": 46,
+  "attribution_rate": 0.87,
+  "median_views": 42124.0,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UCEyX6-d8pFnqo31naWirgEg",
   "title": "Quantum Build Studio",
   "handle": "@quantumbuildstudio",
@@ -753,50 +854,50 @@
   "brand_lookalike": true
  },
  {
-  "channel_id": "UCAEDJDDqa-zIdLF42IAGdxQ",
-  "title": "Maker World",
-  "handle": "@makerworld-official",
-  "url": "https://www.youtube.com/@makerworld-official",
-  "subs": 21300,
-  "videos": 47,
-  "total_views": 7701013,
-  "avg_views": 163851,
+  "channel_id": "UCtwZFBGLkcjJhpR7OC6bZPw",
+  "title": "Life Rhythm TV",
+  "handle": "@liferhythmtv",
+  "url": "https://www.youtube.com/@liferhythmtv",
+  "subs": 10200,
+  "videos": 31,
+  "total_views": 2365608,
+  "avg_views": 76310,
   "country": "",
-  "published": "2025-09-22",
+  "published": "2026-03-28",
   "creators_covered": 11,
   "creators": [
-   "letsbuildahouse",
-   "wolfpupfab",
-   "worzallabrothers",
-   "roughstyle",
-   "demasilogcabin",
-   "thisismyalaska",
-   "myoffgridstory",
-   "lifeonthemoose",
-   "serkanbilgin27",
-   "mattjacobs1",
-   "lechantierdesmax"
+   "lifeanywhere",
+   "araujocaiaque",
+   "bushcraftua1",
+   "livedontwatch",
+   "haisupercar",
+   "carrestorationsusa",
+   "homemademadness",
+   "ateliermavi",
+   "adrianwoodworm",
+   "deborahpaullagrange31",
+   "thompsonscabin"
   ],
   "tier": "A",
   "why": "covers 11 pool creators",
-  "is_seed": true,
+  "is_seed": false,
   "examples": [
    {
-    "video_id": "Jj8Mja1Gk3k",
-    "title": "Family Builds a Dream Luxurious House | Start to Finish Full Process by   @LetsBuildAHouse  \u200b"
+    "video_id": "Erk25KYzxaA",
+    "title": "Man Spends 2 Years Converting a Bus Into His Dream Home | performed by@lifeanywhere"
    },
    {
-    "video_id": "2LO686TJdhE",
-    "title": "He Builds a Hidden Underground Bunker No One Will Find | Start to Finish by  @Wolfpupfab  \u200b"
+    "video_id": "Y6bCGVhYORY",
+    "title": "Man Spends 7 Days Building a Dream Boat From Plastic Water Tanks | performed by @araujocaiaque"
    },
    {
-    "video_id": "JrFvpeB2Eb8",
-    "title": "Two Brothers Turned 100-Year Abandoned SILO Into a Luxury Family Space | @Worzalla_Brothers"
+    "video_id": "ZdtIIaWg8A0",
+    "title": "Man Builds a Two-Room Underground Bunker in His Backyard | From start to finish @bushcraftua1"
    }
   ],
-  "harvested": 46,
-  "attribution_rate": 0.87,
-  "median_views": 42124.0,
+  "harvested": 31,
+  "attribution_rate": 0.97,
+  "median_views": 15619,
   "brand_lookalike": false
  },
  {
@@ -844,6 +945,53 @@
   "harvested": 50,
   "attribution_rate": 0.24,
   "median_views": 265.5,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCFHG4aDDFXYtPOqX9TIORsw",
+  "title": "HITECH",
+  "handle": "@hitech22-m2u",
+  "url": "https://www.youtube.com/@hitech22-m2u",
+  "subs": 207,
+  "videos": 31,
+  "total_views": 46708,
+  "avg_views": 1507,
+  "country": "CA",
+  "published": "2025-10-25",
+  "creators_covered": 11,
+  "creators": [
+   "slothconstruction",
+   "bjornbrenton",
+   "bochihut",
+   "myoffgridstory",
+   "projectswithchristinejesse",
+   "bushcraftua1",
+   "buildinginnature",
+   "villaaroldi",
+   "norusarubushcraft",
+   "paullivesdifferent",
+   "thompsonscabin"
+  ],
+  "tier": "A",
+  "why": "covers 11 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "1KZs4-ZQsDQ",
+    "title": "They built a modern wooden house in the middle of the forest | by @slothconstruction"
+   },
+   {
+    "video_id": "gUe3oB2PnQ4",
+    "title": "Alone, He Built a Cozy Wooden Cabin Deep in the Wilderness | by @BjornBRenton"
+   },
+   {
+    "video_id": "sFn17HZgsXo",
+    "title": "An Elderly Craftsman Builds a Traditional Japanese-Style Yurt |from start to finish @Bochi-hut"
+   }
+  ],
+  "harvested": 31,
+  "attribution_rate": 0.74,
+  "median_views": 83,
   "brand_lookalike": false
  },
  {
@@ -940,49 +1088,49 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCyQXx9LyvFYCgt71eqdEPjQ",
-  "title": "Smart Fox",
-  "handle": "@smartfoxamazing",
-  "url": "https://www.youtube.com/@smartfoxamazing",
-  "subs": 85200,
-  "videos": 114,
-  "total_views": 24716770,
-  "avg_views": 216814,
-  "country": "",
-  "published": "2023-11-02",
+  "channel_id": "UC3EnRkFH1foTeapIY6ixijQ",
+  "title": "Gear Tech HD",
+  "handle": "@geartechhd",
+  "url": "https://www.youtube.com/@geartechhd",
+  "subs": 476000,
+  "videos": 535,
+  "total_views": 124087168,
+  "avg_views": 231939,
+  "country": "US",
+  "published": "2019-07-04",
   "creators_covered": 10,
   "creators": [
-   "montanahaven",
    "enancinar",
-   "growinginfrance",
-   "myoffgridstory",
-   "bushcraftua1",
-   "villaaroldi",
-   "wildhammer",
-   "bushcraftleo",
-   "ladyfieldfarm",
-   "rausaufsland"
+   "buildersblueprint",
+   "septemberflow",
+   "boxworks1001",
+   "truckschannelrazborgruz",
+   "caobaminh1994",
+   "vasyl54",
+   "flmangarage",
+   "modelshipbuildertanaka",
+   "deathtollracing"
   ],
   "tier": "A",
   "why": "covers 10 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "Inadxb-8hz0",
-    "title": "This Alaska Home Build Will Blow Your Mind  by \u2068@MontanaHaven\u2069"
+    "video_id": "bwpQWD5uSKo",
+    "title": "MAN Transforms a BUS Into a AMAZING LUXURY MOTORHOME From START to FINISH by @enancinar"
    },
    {
-    "video_id": "zmazUTi0Yr4",
-    "title": "A Man Turns an Old Mercedes Bus into a Cozy Home on Wheels | Timelapse by @enancinar"
+    "video_id": "oiLCXBdqN_0",
+    "title": "COUPLE TRANSFORMS a Trailer Into a LUXURY MOBILE HOME | Start to Finish by @buildersblueprint"
    },
    {
-    "video_id": "skR97JR_Hag",
-    "title": "Couple Brings 150-Year-Old Abandoned French House Back to Life! by @growinginfrance"
+    "video_id": "zfxhVRi176g",
+    "title": "MAN Builds an AMAZING $7,000 SCALE CAR with REAL Working Engine &amp; Air Suspension | @septemberflow"
    }
   ],
-  "harvested": 49,
-  "attribution_rate": 0.8,
-  "median_views": 4500,
+  "harvested": 9,
+  "attribution_rate": 0.22,
+  "median_views": 28111,
   "brand_lookalike": false
  },
  {
@@ -1032,49 +1180,49 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCtwZFBGLkcjJhpR7OC6bZPw",
-  "title": "Life Rhythm TV",
-  "handle": "@liferhythmtv",
-  "url": "https://www.youtube.com/@liferhythmtv",
-  "subs": 10200,
-  "videos": 31,
-  "total_views": 2365608,
-  "avg_views": 76310,
-  "country": "",
-  "published": "2026-03-28",
+  "channel_id": "UCQYetX_9k4Sl-r-HOLVvKnA",
+  "title": "World Build",
+  "handle": "@worldbuild668",
+  "url": "https://www.youtube.com/@worldbuild668",
+  "subs": 43500,
+  "videos": 27,
+  "total_views": 11575213,
+  "avg_views": 428712,
+  "country": "VN",
+  "published": "2024-02-27",
   "creators_covered": 10,
   "creators": [
-   "lifeanywhere",
-   "araujocaiaque",
-   "bushcraftua1",
-   "livedontwatch",
-   "haisupercar",
-   "carrestorationsusa",
-   "homemademadness",
-   "ateliermavi",
+   "dmitrylukindiy",
+   "slothconstruction",
+   "bjornbrenton",
+   "worzallabrothers",
+   "grumpytoadcreations",
+   "naturalloghouse",
+   "mattjacobs1",
    "adrianwoodworm",
-   "deborahpaullagrange31"
+   "nialldivers",
+   "woodwood1"
   ],
   "tier": "A",
   "why": "covers 10 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "Erk25KYzxaA",
-    "title": "Man Spends 2 Years Converting a Bus Into His Dream Home | performed by@lifeanywhere"
+    "video_id": "YAxVNVacypA",
+    "title": "Man Spent 398 Days Building His Dream Home Instead of Paying $245,000 | by @DmitryLukinDIY"
    },
    {
-    "video_id": "Y6bCGVhYORY",
-    "title": "Man Spends 7 Days Building a Dream Boat From Plastic Water Tanks | performed by @araujocaiaque"
+    "video_id": "KJOBmTJrYqc",
+    "title": "From Barren Land to a Luxury Log Cabin in Just 120 Days | Start to Finish by @slothconstruction"
    },
    {
-    "video_id": "ZdtIIaWg8A0",
-    "title": "Man Builds a Two-Room Underground Bunker in His Backyard | From start to finish @bushcraftua1"
+    "video_id": "7-NCOGnZjKE",
+    "title": "Man Spent Two Years Building HUGE Wooden House for his Family | Start to Finish by @bjornbrenton"
    }
   ],
-  "harvested": 31,
-  "attribution_rate": 0.97,
-  "median_views": 15619,
+  "harvested": 27,
+  "attribution_rate": 0.52,
+  "median_views": 93104,
   "brand_lookalike": false
  },
  {
@@ -1170,52 +1318,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCFHG4aDDFXYtPOqX9TIORsw",
-  "title": "HITECH",
-  "handle": "@hitech22-m2u",
-  "url": "https://www.youtube.com/@hitech22-m2u",
-  "subs": 207,
-  "videos": 31,
-  "total_views": 46708,
-  "avg_views": 1507,
-  "country": "CA",
-  "published": "2025-10-25",
-  "creators_covered": 10,
-  "creators": [
-   "slothconstruction",
-   "bjornbrenton",
-   "bochihut",
-   "myoffgridstory",
-   "projectswithchristinejesse",
-   "bushcraftua1",
-   "buildinginnature",
-   "villaaroldi",
-   "norusarubushcraft",
-   "paullivesdifferent"
-  ],
-  "tier": "A",
-  "why": "covers 10 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "1KZs4-ZQsDQ",
-    "title": "They built a modern wooden house in the middle of the forest | by @slothconstruction"
-   },
-   {
-    "video_id": "gUe3oB2PnQ4",
-    "title": "Alone, He Built a Cozy Wooden Cabin Deep in the Wilderness | by @BjornBRenton"
-   },
-   {
-    "video_id": "sFn17HZgsXo",
-    "title": "An Elderly Craftsman Builds a Traditional Japanese-Style Yurt |from start to finish @Bochi-hut"
-   }
-  ],
-  "harvested": 31,
-  "attribution_rate": 0.74,
-  "median_views": 83,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UCuasWfU-0UElH2NhE0WE3yA",
   "title": "Makers TV",
   "handle": "@makersvt",
@@ -1306,91 +1408,92 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UC3EnRkFH1foTeapIY6ixijQ",
-  "title": "Gear Tech HD",
-  "handle": "@geartechhd",
-  "url": "https://www.youtube.com/@geartechhd",
-  "subs": 476000,
-  "videos": 535,
-  "total_views": 124087168,
-  "avg_views": 231939,
+  "channel_id": "UCSwsVggYgOy-XLDAYlZjc2A",
+  "title": "Cabin Maker",
+  "handle": "@cabinmaker-qq",
+  "url": "https://www.youtube.com/@cabinmaker-qq",
+  "subs": 770,
+  "videos": 18,
+  "total_views": 111148,
+  "avg_views": 6175,
   "country": "US",
-  "published": "2019-07-04",
-  "creators_covered": 8,
+  "published": "2025-08-15",
+  "creators_covered": 9,
   "creators": [
-   "enancinar",
-   "buildersblueprint",
-   "septemberflow",
-   "boxworks1001",
-   "truckschannelrazborgruz",
-   "caobaminh1994",
-   "vasyl54",
-   "flmangarage"
+   "wolfpupfab",
+   "worzallabrothers",
+   "demasilogcabin",
+   "normalguydoesitall",
+   "projectswithchristinejesse",
+   "grumpytoadcreations",
+   "nickandmala",
+   "nikrijavec47",
+   "thompsonscabin"
   ],
   "tier": "A",
-  "why": "covers 8 pool creators",
+  "why": "covers 9 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "bwpQWD5uSKo",
-    "title": "MAN Transforms a BUS Into a AMAZING LUXURY MOTORHOME From START to FINISH by @enancinar"
+    "video_id": "f0QLUjSUh3o",
+    "title": "Man Builds DIY Wood Cabin an Underground Survival Bunker No One Will Ever Find by \u202a@Wolfpupfab\u202c"
    },
    {
-    "video_id": "oiLCXBdqN_0",
-    "title": "COUPLE TRANSFORMS a Trailer Into a LUXURY MOBILE HOME | Start to Finish by @buildersblueprint"
+    "video_id": "3RL_zUjdkqI",
+    "title": "How We Built a Luxury Family Home Inside a 100-Year-Old Silo | \u2068@Worzalla_Brothers\u2069"
    },
    {
-    "video_id": "zfxhVRi176g",
-    "title": "MAN Builds an AMAZING $7,000 SCALE CAR with REAL Working Engine &amp; Air Suspension | @septemberflow"
+    "video_id": "P-owYnTmGhg",
+    "title": "Man Builds Incredible DIY Log Cabin - Start to Finish @DemasiLogCabin"
    }
   ],
-  "harvested": 9,
-  "attribution_rate": 0.22,
-  "median_views": 28111,
+  "harvested": 18,
+  "attribution_rate": 0.89,
+  "median_views": 2877.5,
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCQYetX_9k4Sl-r-HOLVvKnA",
-  "title": "World Build",
-  "handle": "@worldbuild668",
-  "url": "https://www.youtube.com/@worldbuild668",
-  "subs": 43500,
-  "videos": 27,
-  "total_views": 11575213,
-  "avg_views": 428712,
+  "channel_id": "UCtl0Uvp569dHqjZGYwiVj_g",
+  "title": "Innovative Tech World",
+  "handle": "@innovativetechworld668",
+  "url": "https://www.youtube.com/@innovativetechworld668",
+  "subs": 42600,
+  "videos": 190,
+  "total_views": 10166595,
+  "avg_views": 53508,
   "country": "VN",
-  "published": "2024-02-27",
+  "published": "2023-02-14",
   "creators_covered": 8,
   "creators": [
-   "dmitrylukindiy",
-   "slothconstruction",
    "bjornbrenton",
-   "worzallabrothers",
+   "montanahaven",
    "grumpytoadcreations",
+   "luxonbushcraft",
    "naturalloghouse",
-   "mattjacobs1",
-   "adrianwoodworm"
+   "trieuthihoa",
+   "shredpile",
+   "nialldivers"
   ],
   "tier": "A",
   "why": "covers 8 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "YAxVNVacypA",
-    "title": "Man Spent 398 Days Building His Dream Home Instead of Paying $245,000 | by @DmitryLukinDIY"
+    "video_id": "tP-ZypV2WPk",
+    "title": "From Trees to a Stunning Dream Wooden House in 265 Days | From Start to Finish By @bjornbrenton"
    },
    {
-    "video_id": "KJOBmTJrYqc",
-    "title": "From Barren Land to a Luxury Log Cabin in Just 120 Days | Start to Finish by @slothconstruction"
+    "video_id": "JIpzT6-wHNs",
+    "title": "A Family&#39;s Dream Log Home Comes to Life in the Alaska Forest | Built in 560 Days By @MontanaHaven"
    },
    {
-    "video_id": "7-NCOGnZjKE",
-    "title": "Man Spent Two Years Building HUGE Wooden House for his Family | Start to Finish by @bjornbrenton"
+    "video_id": "gzmHI9x00wk",
+    "title": "From Barren Land to a Stunning $900,000 Log Cabin | Complete 295-Day Build By @GrumpyToadCreations"
    }
   ],
-  "harvested": 27,
-  "attribution_rate": 0.52,
-  "median_views": 93104,
+  "harvested": 50,
+  "attribution_rate": 0.36,
+  "median_views": 28136.0,
   "brand_lookalike": false
  },
  {
@@ -1526,50 +1629,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCSwsVggYgOy-XLDAYlZjc2A",
-  "title": "Cabin Maker",
-  "handle": "@cabinmaker-qq",
-  "url": "https://www.youtube.com/@cabinmaker-qq",
-  "subs": 770,
-  "videos": 18,
-  "total_views": 111148,
-  "avg_views": 6175,
-  "country": "US",
-  "published": "2025-08-15",
-  "creators_covered": 8,
-  "creators": [
-   "wolfpupfab",
-   "worzallabrothers",
-   "demasilogcabin",
-   "normalguydoesitall",
-   "projectswithchristinejesse",
-   "grumpytoadcreations",
-   "nickandmala",
-   "nikrijavec47"
-  ],
-  "tier": "A",
-  "why": "covers 8 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "f0QLUjSUh3o",
-    "title": "Man Builds DIY Wood Cabin an Underground Survival Bunker No One Will Ever Find by \u202a@Wolfpupfab\u202c"
-   },
-   {
-    "video_id": "3RL_zUjdkqI",
-    "title": "How We Built a Luxury Family Home Inside a 100-Year-Old Silo | \u2068@Worzalla_Brothers\u2069"
-   },
-   {
-    "video_id": "P-owYnTmGhg",
-    "title": "Man Builds Incredible DIY Log Cabin - Start to Finish @DemasiLogCabin"
-   }
-  ],
-  "harvested": 18,
-  "attribution_rate": 0.89,
-  "median_views": 2877.5,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UCZqGixeDUeClt1mYAbuwAFw",
   "title": "Maker World Studio",
   "handle": "@makerworldstudio",
@@ -1614,49 +1673,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCtl0Uvp569dHqjZGYwiVj_g",
-  "title": "Innovative Tech World",
-  "handle": "@innovativetechworld668",
-  "url": "https://www.youtube.com/@innovativetechworld668",
-  "subs": 42600,
-  "videos": 190,
-  "total_views": 10166595,
-  "avg_views": 53508,
-  "country": "VN",
-  "published": "2023-02-14",
-  "creators_covered": 7,
-  "creators": [
-   "bjornbrenton",
-   "montanahaven",
-   "grumpytoadcreations",
-   "luxonbushcraft",
-   "naturalloghouse",
-   "trieuthihoa",
-   "shredpile"
-  ],
-  "tier": "A",
-  "why": "covers 7 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "tP-ZypV2WPk",
-    "title": "From Trees to a Stunning Dream Wooden House in 265 Days | From Start to Finish By @bjornbrenton"
-   },
-   {
-    "video_id": "JIpzT6-wHNs",
-    "title": "A Family&#39;s Dream Log Home Comes to Life in the Alaska Forest | Built in 560 Days By @MontanaHaven"
-   },
-   {
-    "video_id": "gzmHI9x00wk",
-    "title": "From Barren Land to a Stunning $900,000 Log Cabin | Complete 295-Day Build By @GrumpyToadCreations"
-   }
-  ],
-  "harvested": 50,
-  "attribution_rate": 0.36,
-  "median_views": 28136.0,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UClP6MqOgde5KYIvIrN7sk-Q",
   "title": "Betelhem Tech",
   "handle": "@betelhemtech100",
@@ -1697,6 +1713,49 @@
   "harvested": 0,
   "attribution_rate": 0,
   "median_views": 0,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCulNoCax-WC3wyipqhn6LBg",
+  "title": "Rustic Roots Build",
+  "handle": "@rusticrootsbuild",
+  "url": "https://www.youtube.com/@rusticrootsbuild",
+  "subs": 13800,
+  "videos": 44,
+  "total_views": 1768214,
+  "avg_views": 40187,
+  "country": "US",
+  "published": "2024-05-23",
+  "creators_covered": 7,
+  "creators": [
+   "worzallabrothers",
+   "roughstyle",
+   "lifeonthemoose",
+   "nickandmala",
+   "artsportartsport",
+   "thepasturedhomestead",
+   "thompsonscabin"
+  ],
+  "tier": "A",
+  "why": "covers 7 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "x06XpgYio9I",
+    "title": "Two Brothers Transform a 100-Year-Old Abandoned SILO Into a Luxury Family Space @Worzalla_Brothers\u200b"
+   },
+   {
+    "video_id": "ksqLdva1Elg",
+    "title": "Man Builds a Small Wooden Cabin From Start to Finish | Complete DIY Cabin Build @RoughStyle\u200b"
+   },
+   {
+    "video_id": "gR7cARVUDyc",
+    "title": "Single Dad Builds an INCREDIBLE Dream Cabin Alone in the Forest | Start to Finish @LifeontheMoose"
+   }
+  ],
+  "harvested": 42,
+  "attribution_rate": 0.4,
+  "median_views": 4808.0,
   "brand_lookalike": false
  },
  {
@@ -2001,6 +2060,48 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCoMli7zprI0dgqwndqxK9ng",
+  "title": "CarTech ",
+  "handle": "@cartechus",
+  "url": "https://www.youtube.com/@cartechus",
+  "subs": 193000,
+  "videos": 180,
+  "total_views": 70361476,
+  "avg_views": 390897,
+  "country": "PL",
+  "published": "2023-10-03",
+  "creators_covered": 6,
+  "creators": [
+   "enancinar",
+   "truckschannelrazborgruz",
+   "tussik01",
+   "vasyl54",
+   "electricsupercar",
+   "pedroadventuresofficial"
+  ],
+  "tier": "A",
+  "why": "covers 6 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "l4PijxpZXuY",
+    "title": "DIY Turns BUS into Amazing Luxurious Motor Home from Start to Finish | by @enancinar"
+   },
+   {
+    "video_id": "U82m29YL4uA",
+    "title": "Man Fully Assembles Mercedes TRUCK ENGINE Perfectly | Start to Finish by @trucks_channel_razborgruz"
+   },
+   {
+    "video_id": "ZvDgfTK_3mQ",
+    "title": "Totally Destroyed BMW Car Repaired by Professional Mechanic | by @tussik01"
+   }
+  ],
+  "harvested": 50,
+  "attribution_rate": 0.06,
+  "median_views": 3234.5,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UCtm7ZpwnAoFlk9G1dP-Fm_g",
   "title": "Techno Fusion HD",
   "handle": "@technofusionhd",
@@ -2082,48 +2183,6 @@
   "harvested": 29,
   "attribution_rate": 0.79,
   "median_views": 68165,
-  "brand_lookalike": false
- },
- {
-  "channel_id": "UCulNoCax-WC3wyipqhn6LBg",
-  "title": "Rustic Roots Build",
-  "handle": "@rusticrootsbuild",
-  "url": "https://www.youtube.com/@rusticrootsbuild",
-  "subs": 13800,
-  "videos": 44,
-  "total_views": 1768214,
-  "avg_views": 40187,
-  "country": "US",
-  "published": "2024-05-23",
-  "creators_covered": 6,
-  "creators": [
-   "worzallabrothers",
-   "roughstyle",
-   "lifeonthemoose",
-   "nickandmala",
-   "artsportartsport",
-   "thepasturedhomestead"
-  ],
-  "tier": "A",
-  "why": "covers 6 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "x06XpgYio9I",
-    "title": "Two Brothers Transform a 100-Year-Old Abandoned SILO Into a Luxury Family Space @Worzalla_Brothers\u200b"
-   },
-   {
-    "video_id": "ksqLdva1Elg",
-    "title": "Man Builds a Small Wooden Cabin From Start to Finish | Complete DIY Cabin Build @RoughStyle\u200b"
-   },
-   {
-    "video_id": "gR7cARVUDyc",
-    "title": "Single Dad Builds an INCREDIBLE Dream Cabin Alone in the Forest | Start to Finish @LifeontheMoose"
-   }
-  ],
-  "harvested": 42,
-  "attribution_rate": 0.4,
-  "median_views": 4808.0,
   "brand_lookalike": false
  },
  {
@@ -2505,47 +2564,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCoMli7zprI0dgqwndqxK9ng",
-  "title": "CarTech ",
-  "handle": "@cartechus",
-  "url": "https://www.youtube.com/@cartechus",
-  "subs": 193000,
-  "videos": 180,
-  "total_views": 70361476,
-  "avg_views": 390897,
-  "country": "PL",
-  "published": "2023-10-03",
-  "creators_covered": 5,
-  "creators": [
-   "enancinar",
-   "truckschannelrazborgruz",
-   "tussik01",
-   "vasyl54",
-   "electricsupercar"
-  ],
-  "tier": "A",
-  "why": "covers 5 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "l4PijxpZXuY",
-    "title": "DIY Turns BUS into Amazing Luxurious Motor Home from Start to Finish | by @enancinar"
-   },
-   {
-    "video_id": "U82m29YL4uA",
-    "title": "Man Fully Assembles Mercedes TRUCK ENGINE Perfectly | Start to Finish by @trucks_channel_razborgruz"
-   },
-   {
-    "video_id": "ZvDgfTK_3mQ",
-    "title": "Totally Destroyed BMW Car Repaired by Professional Mechanic | by @tussik01"
-   }
-  ],
-  "harvested": 50,
-  "attribution_rate": 0.06,
-  "median_views": 3234.5,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UCpCij8uQ8ezE9YavV93o5bQ",
   "title": "Farm Tastic",
   "handle": "@farmtastic97",
@@ -2625,6 +2643,47 @@
   "harvested": 24,
   "attribution_rate": 0.71,
   "median_views": 1093.0,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCe0rsypsntLbb4mZIAvSFaA",
+  "title": "Built Marvels",
+  "handle": "@builtmarvels.official",
+  "url": "https://www.youtube.com/@builtmarvels.official",
+  "subs": 2450,
+  "videos": 14,
+  "total_views": 397618,
+  "avg_views": 28401,
+  "country": "GB",
+  "published": "2026-04-29",
+  "creators_covered": 5,
+  "creators": [
+   "dmitrylukindiy",
+   "bjornbrenton",
+   "mattjacobs1",
+   "theoutsidercabin",
+   "thompsonscabin"
+  ],
+  "tier": "A",
+  "why": "covers 5 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "7WCmAMU7xFo",
+    "title": "Man Transforms Riverside Wasteland into a DREAM HOME in 1.5 Years | @DmitryLukinDIY"
+   },
+   {
+    "video_id": "chKjm5LMrZA",
+    "title": "Man Builds a LUXURY Wooden Mansion From Scratch in 511 Days | by @DmitryLukinDIY"
+   },
+   {
+    "video_id": "nRKwxQwZyfg",
+    "title": "Young Man Builds a Dream Log Cabin in the Woods in 328 Days | Start to Finish by @bjornbrenton"
+   }
+  ],
+  "harvested": 14,
+  "attribution_rate": 0.5,
+  "median_views": 730.5,
   "brand_lookalike": false
  },
  {
@@ -2792,6 +2851,47 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCn3mN5tieVztts-dmY7fY7A",
+  "title": "Rebuild & Transform",
+  "handle": "@ariadnescott",
+  "url": "https://www.youtube.com/@ariadnescott",
+  "subs": 5,
+  "videos": 16,
+  "total_views": 69,
+  "avg_views": 4,
+  "country": "",
+  "published": "2026-06-03",
+  "creators_covered": 5,
+  "creators": [
+   "lesnoycraft8607",
+   "restorationtools6868",
+   "norusarubushcraft",
+   "polissyabushcraft",
+   "neotech4k2025"
+  ],
+  "tier": "A",
+  "why": "covers 5 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "YaAvrvDwQks",
+    "title": "Carving a Hidden Dugout Cabin &amp; Earthen Oven by Hand | by @lesnoy_craft8607"
+   },
+   {
+    "video_id": "96pVgdf4yok",
+    "title": "One Man Restored a Completely Rusted Road Roller | by @RestorationTools6868"
+   },
+   {
+    "video_id": "Jo9DqrJx-RI",
+    "title": "45 Days Building a Log Cabin Inside a Cave | by @norusarubushcraft"
+   }
+  ],
+  "harvested": 16,
+  "attribution_rate": 1.0,
+  "median_views": 4.0,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UC2jAy9LJLQdInPDML4BYwzA",
   "title": "Machine stage",
   "handle": "@machinestage",
@@ -2829,6 +2929,46 @@
   "harvested": 50,
   "attribution_rate": 0.24,
   "median_views": 63808.5,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UChjaPpSm9QcrQq1_xhoTYnA",
+  "title": "BIGMACHINE",
+  "handle": "@bigmachinehd",
+  "url": "https://www.youtube.com/@bigmachinehd",
+  "subs": 104000,
+  "videos": 45,
+  "total_views": 11391526,
+  "avg_views": 253145,
+  "country": "US",
+  "published": "2015-04-10",
+  "creators_covered": 4,
+  "creators": [
+   "enancinar",
+   "septemberflow",
+   "nickandmaela",
+   "asceticloner"
+  ],
+  "tier": "A",
+  "why": "covers 4 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "zUtvXcMCYDM",
+    "title": "Man turns wrecked bus into luxury caravan! Made by @enancinar"
+   },
+   {
+    "video_id": "79G_IvgtXL4",
+    "title": "Man Spends $25,000 Building RC Lamborghini with Real V12 Engine! Start to finish! @septemberflow \u200b"
+   },
+   {
+    "video_id": "CXgThT-51qQ",
+    "title": "This Guy Built a $15,000 RC Audi with a Real Engine! From Start to Finish @septemberflow"
+   }
+  ],
+  "harvested": 44,
+  "attribution_rate": 0.48,
+  "median_views": 51907.5,
   "brand_lookalike": false
  },
  {
@@ -2992,6 +3132,46 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCXctZ1Gr49tRSmsJFbHFGpA",
+  "title": "an tinh",
+  "handle": "@antinh9725",
+  "url": "https://www.youtube.com/@antinh9725",
+  "subs": 6800,
+  "videos": 125,
+  "total_views": 2543890,
+  "avg_views": 20351,
+  "country": "",
+  "published": "2018-08-15",
+  "creators_covered": 4,
+  "creators": [
+   "ramizinthewild",
+   "mattjacobs1",
+   "theoutsidercabin",
+   "asceticloner"
+  ],
+  "tier": "A",
+  "why": "covers 4 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "FpajkqNJXBQ",
+    "title": "A Transparent Treehouse - A Survival Challenge | By @ramizinthewild"
+   },
+   {
+    "video_id": "a99ALGhWUhU",
+    "title": "Constructing a foundation and fireplace after a flood washed them away | By @matt.jacobs1"
+   },
+   {
+    "video_id": "U12Ps-Ga-zQ",
+    "title": "Dismantling a cabin in the depths of a harsh winter | By @TheOutsiderCabin"
+   }
+  ],
+  "harvested": 1,
+  "attribution_rate": 1.0,
+  "median_views": 133,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UClMLGQaKa3auSVsq-kx58nQ",
   "title": "Technology Tech HD",
   "handle": "@technologytechhd_",
@@ -3069,46 +3249,6 @@
   "harvested": 35,
   "attribution_rate": 0.69,
   "median_views": 1172,
-  "brand_lookalike": false
- },
- {
-  "channel_id": "UCe0rsypsntLbb4mZIAvSFaA",
-  "title": "Built Marvels",
-  "handle": "@builtmarvels.official",
-  "url": "https://www.youtube.com/@builtmarvels.official",
-  "subs": 2450,
-  "videos": 14,
-  "total_views": 397618,
-  "avg_views": 28401,
-  "country": "GB",
-  "published": "2026-04-29",
-  "creators_covered": 4,
-  "creators": [
-   "dmitrylukindiy",
-   "bjornbrenton",
-   "mattjacobs1",
-   "theoutsidercabin"
-  ],
-  "tier": "A",
-  "why": "covers 4 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "7WCmAMU7xFo",
-    "title": "Man Transforms Riverside Wasteland into a DREAM HOME in 1.5 Years | @DmitryLukinDIY"
-   },
-   {
-    "video_id": "chKjm5LMrZA",
-    "title": "Man Builds a LUXURY Wooden Mansion From Scratch in 511 Days | by @DmitryLukinDIY"
-   },
-   {
-    "video_id": "nRKwxQwZyfg",
-    "title": "Young Man Builds a Dream Log Cabin in the Woods in 328 Days | Start to Finish by @bjornbrenton"
-   }
-  ],
-  "harvested": 14,
-  "attribution_rate": 0.5,
-  "median_views": 730.5,
   "brand_lookalike": false
  },
  {
@@ -3472,46 +3612,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCn3mN5tieVztts-dmY7fY7A",
-  "title": "Rebuild & Transform",
-  "handle": "@ariadnescott",
-  "url": "https://www.youtube.com/@ariadnescott",
-  "subs": 5,
-  "videos": 16,
-  "total_views": 69,
-  "avg_views": 4,
-  "country": "",
-  "published": "2026-06-03",
-  "creators_covered": 4,
-  "creators": [
-   "lesnoycraft8607",
-   "restorationtools6868",
-   "norusarubushcraft",
-   "polissyabushcraft"
-  ],
-  "tier": "A",
-  "why": "covers 4 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "YaAvrvDwQks",
-    "title": "Carving a Hidden Dugout Cabin &amp; Earthen Oven by Hand | by @lesnoy_craft8607"
-   },
-   {
-    "video_id": "96pVgdf4yok",
-    "title": "One Man Restored a Completely Rusted Road Roller | by @RestorationTools6868"
-   },
-   {
-    "video_id": "Jo9DqrJx-RI",
-    "title": "45 Days Building a Log Cabin Inside a Cave | by @norusarubushcraft"
-   }
-  ],
-  "harvested": 16,
-  "attribution_rate": 1.0,
-  "median_views": 4.0,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UC1uVfFnmNWEIh2nCRTx4rLQ",
   "title": "ArtisTech",
   "handle": "@artistech-pro",
@@ -3707,45 +3807,6 @@
   "harvested": 40,
   "attribution_rate": 0.1,
   "median_views": 609.5,
-  "brand_lookalike": false
- },
- {
-  "channel_id": "UChjaPpSm9QcrQq1_xhoTYnA",
-  "title": "BIGMACHINE",
-  "handle": "@bigmachinehd",
-  "url": "https://www.youtube.com/@bigmachinehd",
-  "subs": 104000,
-  "videos": 45,
-  "total_views": 11391526,
-  "avg_views": 253145,
-  "country": "US",
-  "published": "2015-04-10",
-  "creators_covered": 3,
-  "creators": [
-   "enancinar",
-   "septemberflow",
-   "nickandmaela"
-  ],
-  "tier": "A",
-  "why": "covers 3 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "zUtvXcMCYDM",
-    "title": "Man turns wrecked bus into luxury caravan! Made by @enancinar"
-   },
-   {
-    "video_id": "79G_IvgtXL4",
-    "title": "Man Spends $25,000 Building RC Lamborghini with Real V12 Engine! Start to finish! @septemberflow \u200b"
-   },
-   {
-    "video_id": "CXgThT-51qQ",
-    "title": "This Guy Built a $15,000 RC Audi with a Real Engine! From Start to Finish @septemberflow"
-   }
-  ],
-  "harvested": 44,
-  "attribution_rate": 0.48,
-  "median_views": 51907.5,
   "brand_lookalike": false
  },
  {
@@ -4022,42 +4083,42 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCXctZ1Gr49tRSmsJFbHFGpA",
-  "title": "an tinh",
-  "handle": "@antinh9725",
-  "url": "https://www.youtube.com/@antinh9725",
-  "subs": 6800,
-  "videos": 125,
-  "total_views": 2543890,
-  "avg_views": 20351,
+  "channel_id": "UCbDmqSj7UtjGSyIuq45LNgQ",
+  "title": "Betelhem Bushcraft",
+  "handle": "@betelhembushcraft_0",
+  "url": "https://www.youtube.com/@betelhembushcraft_0",
+  "subs": 11600,
+  "videos": 40,
+  "total_views": 6042996,
+  "avg_views": 151075,
   "country": "",
-  "published": "2018-08-15",
+  "published": "2018-03-08",
   "creators_covered": 3,
   "creators": [
-   "ramizinthewild",
-   "mattjacobs1",
-   "theoutsidercabin"
+   "bushcraftua1",
+   "lifeinthesiberianforest1",
+   "asceticloner"
   ],
   "tier": "A",
   "why": "covers 3 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "FpajkqNJXBQ",
-    "title": "A Transparent Treehouse - A Survival Challenge | By @ramizinthewild"
+    "video_id": "wmVwCRYGnSg",
+    "title": "Escaping Strange Sounds in a Camper Van \ud83d\ude90 A Terrifying Night  By @bushcraftua1"
    },
    {
-    "video_id": "a99ALGhWUhU",
-    "title": "Constructing a foundation and fireplace after a flood washed them away | By @matt.jacobs1"
+    "video_id": "4u4LvIKzYcM",
+    "title": "Experience the Winter in a Siberian Wooden House \u2744\ufe0f  By @lifeinthesiberianforest1"
    },
    {
-    "video_id": "U12Ps-Ga-zQ",
-    "title": "Dismantling a cabin in the depths of a harsh winter | By @TheOutsiderCabin"
+    "video_id": "aX5J8D17X_Q",
+    "title": "Building a Winter Shelter \u2014 Turning the Deep Forest into a Home  By @AsceticLoner"
    }
   ],
-  "harvested": 1,
-  "attribution_rate": 1.0,
-  "median_views": 133,
+  "harvested": 3,
+  "attribution_rate": 0.67,
+  "median_views": 533,
   "brand_lookalike": false
  },
  {
@@ -4214,6 +4275,84 @@
   "harvested": 26,
   "attribution_rate": 0.88,
   "median_views": 273.5,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCRnjIZrmC5Iz4HOhob-ftlw",
+  "title": "LOG CABIN TV ",
+  "handle": "@logcabintv1",
+  "url": "https://www.youtube.com/@logcabintv1",
+  "subs": 3450,
+  "videos": 19,
+  "total_views": 938679,
+  "avg_views": 49404,
+  "country": "",
+  "published": "2026-07-15",
+  "creators_covered": 3,
+  "creators": [
+   "rrbuildings",
+   "mikesdreambuilds",
+   "renovacile"
+  ],
+  "tier": "A",
+  "why": "covers 3 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "W-HRNqZbxN4",
+    "title": "Man Builds a Massive Factory Workshop in Just 1 Month | from beginning to end@RRBuildings"
+   },
+   {
+    "video_id": "ud-cV9uzaYE",
+    "title": "Couple transforms fire-damaged million-dollar mansion into their dream home | by@mikesdreambuilds"
+   },
+   {
+    "video_id": "9sIAQCmc_ng",
+    "title": "Couple spends 3 years renovating an abandoned French house into their dream home | by@Renovacile"
+   }
+  ],
+  "harvested": 19,
+  "attribution_rate": 1.0,
+  "median_views": 34435,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UClTaWNhAoPH1QDisJeSUyIw",
+  "title": "Build Master",
+  "handle": "@build_masterofficial",
+  "url": "https://www.youtube.com/@build_masterofficial",
+  "subs": 2270,
+  "videos": 9,
+  "total_views": 453174,
+  "avg_views": 50353,
+  "country": "US",
+  "published": "2026-03-26",
+  "creators_covered": 3,
+  "creators": [
+   "lesnoycraft8607",
+   "thompsonscabin",
+   "thebeardedcarpenter"
+  ],
+  "tier": "A",
+  "why": "covers 3 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "KWgKONq9qs8",
+    "title": "Man Builds a Luxury Off-Grid House Alone in the Forest | Full Build by @lesnoy_craft8607"
+   },
+   {
+    "video_id": "Zg2sfWKLEy4",
+    "title": "Man Builds Stunning Off-Grid Cabin Alone with EZ Log Cabin Kit | Full Build by \u202a@thompsonscabin"
+   },
+   {
+    "video_id": "AAe9w_3kwO4",
+    "title": "Old Man Builds His Dream Log Cabin Alone in the Wilderness | Start to Finish @TheBeardedCarpenter"
+   }
+  ],
+  "harvested": 7,
+  "attribution_rate": 0.57,
+  "median_views": 8634,
   "brand_lookalike": false
  },
  {
@@ -4448,6 +4587,45 @@
   "harvested": 25,
   "attribution_rate": 0.12,
   "median_views": 299,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCusN_A9TRaGrHfwT0sSBvDg",
+  "title": "TimberCrafted",
+  "handle": "@homestead.forge2151",
+  "url": "https://www.youtube.com/@homestead.forge2151",
+  "subs": 1430,
+  "videos": 15,
+  "total_views": 460044,
+  "avg_views": 30670,
+  "country": "",
+  "published": "2026-06-22",
+  "creators_covered": 3,
+  "creators": [
+   "kbuild",
+   "artsportartsport",
+   "neotech4k2025"
+  ],
+  "tier": "A",
+  "why": "covers 3 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "ck2WGJCaUQc",
+    "title": "From Mud Pit to Multi-Million Dollar Mega-Mansion | by @kbuild"
+   },
+   {
+    "video_id": "RrZBTP4gQqM",
+    "title": "365 Days Alone: Building a Cliffside Log Cabin Before Winter | by @ArtSportArtSport"
+   },
+   {
+    "video_id": "44gTgssy3Ms",
+    "title": "Dragged from the Mud: Full Custom Ambulance Restoration | by @Neotech4K2025"
+   }
+  ],
+  "harvested": 15,
+  "attribution_rate": 1.0,
+  "median_views": 3194,
   "brand_lookalike": false
  },
  {
@@ -4760,6 +4938,45 @@
   "harvested": 14,
   "attribution_rate": 1.0,
   "median_views": 1048.0,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCvUY4jftqj2jA7pvr1yTpXA",
+  "title": "Tech Processing Review",
+  "handle": "@techprocessingreview",
+  "url": "https://www.youtube.com/@techprocessingreview",
+  "subs": 248,
+  "videos": 26,
+  "total_views": 11973,
+  "avg_views": 460,
+  "country": "US",
+  "published": "2022-06-11",
+  "creators_covered": 3,
+  "creators": [
+   "wildhammer",
+   "murattuncer",
+   "liumutou"
+  ],
+  "tier": "A",
+  "why": "covers 3 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "ye3AzNmOKEQ",
+    "title": "Ultimate TREE HOUSE Construction | Build in the Wild Forest | 3 Months Time-Lapse! @Wild_Hammer"
+   },
+   {
+    "video_id": "HwOnMLRcezk",
+    "title": "Amazing DIY Campervan Conversion | Man Builds it from Start to Finish @murattuncer"
+   },
+   {
+    "video_id": "OzdC0gFjaJ8",
+    "title": "Building FERRARI &amp; TANK Insanely Realistic Metal RC Vehicles | Remote Control Models | by @LiuMutou"
+   }
+  ],
+  "harvested": 23,
+  "attribution_rate": 0.57,
+  "median_views": 219,
   "brand_lookalike": false
  },
  {
@@ -5192,6 +5409,45 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCqmsXddD6U4NS5A0o1cmvtA",
+  "title": "TerraForge Collective",
+  "handle": "@terraforge.collective3472",
+  "url": "https://www.youtube.com/@terraforge.collective3472",
+  "subs": 3,
+  "videos": 9,
+  "total_views": 19,
+  "avg_views": 2,
+  "country": "",
+  "published": "2026-07-12",
+  "creators_covered": 3,
+  "creators": [
+   "artsportartsport",
+   "norusarubushcraft",
+   "woodwood1"
+  ],
+  "tier": "A",
+  "why": "covers 3 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "bZYG8LMrXsU",
+    "title": "1 Year Building an Off-Grid Log Cabin from Scratch | by @ArtSportArtSport"
+   },
+   {
+    "video_id": "VhnZjTALBmc",
+    "title": "Building a Solo Bushcraft Cliff House Deep in the Jungle | by @norusarubushcraft"
+   },
+   {
+    "video_id": "akciKR84EAQ",
+    "title": "Building a 2-Story Forest Shelter With Zero Metal Brackets | by @woodwood1"
+   }
+  ],
+  "harvested": 9,
+  "attribution_rate": 1.0,
+  "median_views": 2,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UCoB6IVj5Cvl_tX3Nc4eF1nA",
   "title": "Nova Builds HD",
   "handle": "@cyruspowell-t6m2c",
@@ -5575,40 +5831,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCbDmqSj7UtjGSyIuq45LNgQ",
-  "title": "Betelhem Bushcraft",
-  "handle": "@betelhembushcraft_0",
-  "url": "https://www.youtube.com/@betelhembushcraft_0",
-  "subs": 11600,
-  "videos": 40,
-  "total_views": 6042996,
-  "avg_views": 151075,
-  "country": "",
-  "published": "2018-03-08",
-  "creators_covered": 2,
-  "creators": [
-   "bushcraftua1",
-   "lifeinthesiberianforest1"
-  ],
-  "tier": "A",
-  "why": "covers 2 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "wmVwCRYGnSg",
-    "title": "Escaping Strange Sounds in a Camper Van \ud83d\ude90 A Terrifying Night  By @bushcraftua1"
-   },
-   {
-    "video_id": "4u4LvIKzYcM",
-    "title": "Experience the Winter in a Siberian Wooden House \u2744\ufe0f  By @lifeinthesiberianforest1"
-   }
-  ],
-  "harvested": 3,
-  "attribution_rate": 0.67,
-  "median_views": 533,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UCEuQ2yQPJ26Zhs33qasY-cg",
   "title": "Home Renov",
   "handle": "@homerenov",
@@ -5881,40 +6103,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCRnjIZrmC5Iz4HOhob-ftlw",
-  "title": "LOG CABIN TV ",
-  "handle": "@logcabintv1",
-  "url": "https://www.youtube.com/@logcabintv1",
-  "subs": 3450,
-  "videos": 19,
-  "total_views": 938679,
-  "avg_views": 49404,
-  "country": "",
-  "published": "2026-07-15",
-  "creators_covered": 2,
-  "creators": [
-   "rrbuildings",
-   "mikesdreambuilds"
-  ],
-  "tier": "A",
-  "why": "covers 2 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "W-HRNqZbxN4",
-    "title": "Man Builds a Massive Factory Workshop in Just 1 Month | from beginning to end@RRBuildings"
-   },
-   {
-    "video_id": "ud-cV9uzaYE",
-    "title": "Couple transforms fire-damaged million-dollar mansion into their dream home | by@mikesdreambuilds"
-   }
-  ],
-  "harvested": 19,
-  "attribution_rate": 1.0,
-  "median_views": 34435,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UCq0F4sj8VnNy38Mvb7VV6CA",
   "title": "TechnoZoo",
   "handle": "@technozoo-g4g",
@@ -6157,37 +6345,41 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCusN_A9TRaGrHfwT0sSBvDg",
-  "title": "TimberCrafted",
-  "handle": "@homestead.forge2151",
-  "url": "https://www.youtube.com/@homestead.forge2151",
-  "subs": 1430,
-  "videos": 15,
-  "total_views": 460044,
-  "avg_views": 30670,
+  "channel_id": "UCpnA5uuvag1ZOKEQKql1LWQ",
+  "title": "GadgetsUnbox",
+  "handle": "@gadgetsunbox1488",
+  "url": "https://www.youtube.com/@gadgetsunbox1488",
+  "subs": 1260,
+  "videos": 2080,
+  "total_views": 2508527,
+  "avg_views": 1206,
   "country": "",
-  "published": "2026-06-22",
+  "published": "2021-09-11",
   "creators_covered": 2,
   "creators": [
-   "kbuild",
-   "artsportartsport"
+   "rrbuildings",
+   "nample"
   ],
   "tier": "A",
   "why": "covers 2 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "ck2WGJCaUQc",
-    "title": "From Mud Pit to Multi-Million Dollar Mega-Mansion | by @kbuild"
+    "video_id": "OLCNZB1OHr0",
+    "title": "\u201c@rrbuildings This a simple trick that is easily implemented any time you are installing trims wi"
    },
    {
-    "video_id": "RrZBTP4gQqM",
-    "title": "365 Days Alone: Building a Cliffside Log Cabin Before Winter | by @ArtSportArtSport"
+    "video_id": "RkT68RfA3Vo",
+    "title": "\u201cFollow \ud83d\udca5@techs tube                                                     \ud83d\udca5\ud83d\udca5Source @nample \ud83d\udca5\ud83d\udca5"
+   },
+   {
+    "video_id": "b3RoJdUznZM",
+    "title": "\u201c\ud83c\udf39Source @nample \ud83c\udf39  \ud83d\udd25\ud83d\udd25\ud83d\udd25 Follow us at @gadgetools  to see more"
    }
   ],
-  "harvested": 15,
-  "attribution_rate": 1.0,
-  "median_views": 3194,
+  "harvested": 0,
+  "attribution_rate": 0,
+  "median_views": 0,
   "brand_lookalike": false
  },
  {
@@ -6260,6 +6452,40 @@
   "harvested": 21,
   "attribution_rate": 1.0,
   "median_views": 4084,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UCL9l1Mdcl07TlhrI_6HZdiQ",
+  "title": "Timber Land",
+  "handle": "@timberland-h7h",
+  "url": "https://www.youtube.com/@timberland-h7h",
+  "subs": 1100,
+  "videos": 14,
+  "total_views": 34604,
+  "avg_views": 2472,
+  "country": "US",
+  "published": "2026-05-15",
+  "creators_covered": 2,
+  "creators": [
+   "serkanbilgin27",
+   "thompsonscabin"
+  ],
+  "tier": "A",
+  "why": "covers 2 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "cpLWA0Yw8D0",
+    "title": "Man Builds an Amazing Wooden Tiny House with Rooftop Terrace | Start to Finish @serkanbilgin27"
+   },
+   {
+    "video_id": "odU-qftrgNw",
+    "title": "Man Builds Incredible Off-Grid Cabin Alone in Just 3 Days | Start to Finish @thompsonscabin"
+   }
+  ],
+  "harvested": 14,
+  "attribution_rate": 0.5,
+  "median_views": 470.5,
   "brand_lookalike": false
  },
  {
@@ -6437,6 +6663,40 @@
   "brand_lookalike": false
  },
  {
+  "channel_id": "UCkPEDVewXPONtW03JkYwWIA",
+  "title": "Guru Gaming",
+  "handle": "@gurugaming-id",
+  "url": "https://www.youtube.com/@gurugaming-id",
+  "subs": 749,
+  "videos": 270,
+  "total_views": 159513,
+  "avg_views": 591,
+  "country": "ID",
+  "published": "2022-01-23",
+  "creators_covered": 2,
+  "creators": [
+   "dashingaxe",
+   "liumutou"
+  ],
+  "tier": "A",
+  "why": "covers 2 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "41oKPvZfR8w",
+    "title": "Membangun BUGATTI Kustom Menggunakan 3 Mobil Bekas | @DashingAxe"
+   },
+   {
+    "video_id": "0cbyK8OX05Y",
+    "title": "Building Metal Ferrari 250 GTO With Real Mechanisms   Start to Finish Build by @LiuMutou"
+   }
+  ],
+  "harvested": 2,
+  "attribution_rate": 0.0,
+  "median_views": 3.0,
+  "brand_lookalike": false
+ },
+ {
   "channel_id": "UCruwBAw6ysr7t-kHtpBTPAg",
   "title": "Buildra",
   "handle": "@buildradiy",
@@ -6577,37 +6837,37 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCvUY4jftqj2jA7pvr1yTpXA",
-  "title": "Tech Processing Review",
-  "handle": "@techprocessingreview",
-  "url": "https://www.youtube.com/@techprocessingreview",
-  "subs": 248,
-  "videos": 26,
-  "total_views": 11973,
-  "avg_views": 460,
+  "channel_id": "UCOr5c68B5F8j7GX8XHv8EnA",
+  "title": "UNLOCKED",
+  "handle": "@unlocked-official",
+  "url": "https://www.youtube.com/@unlocked-official",
+  "subs": 108,
+  "videos": 3,
+  "total_views": 35229,
+  "avg_views": 11743,
   "country": "US",
-  "published": "2022-06-11",
+  "published": "2025-02-27",
   "creators_covered": 2,
   "creators": [
-   "wildhammer",
-   "murattuncer"
+   "mustaqimmuhammadhatta",
+   "liumutou"
   ],
   "tier": "A",
   "why": "covers 2 pool creators",
   "is_seed": false,
   "examples": [
    {
-    "video_id": "ye3AzNmOKEQ",
-    "title": "Ultimate TREE HOUSE Construction | Build in the Wild Forest | 3 Months Time-Lapse! @Wild_Hammer"
+    "video_id": "RrK8SNWEmxA",
+    "title": "Man Turns 5,000 Liter Water Tank into Amazing Boat | Start to Finish by \u202a@MustaqimMuhammadHatta"
    },
    {
-    "video_id": "HwOnMLRcezk",
-    "title": "Amazing DIY Campervan Conversion | Man Builds it from Start to Finish @murattuncer"
+    "video_id": "PqtEEwNc7MY",
+    "title": "150 Days To Build Insane V8 RC Off-Road Vehicle | Full Build by @LiuMutou"
    }
   ],
-  "harvested": 23,
-  "attribution_rate": 0.57,
-  "median_views": 219,
+  "harvested": 3,
+  "attribution_rate": 1.0,
+  "median_views": 1625,
   "brand_lookalike": false
  },
  {
@@ -6707,9 +6967,9 @@
     "title": "See How This Family Builds Cheap House From Earthbags  | Start to Finish by \u202a@CaseyYoungblood\u202c"
    }
   ],
-  "harvested": 30,
-  "attribution_rate": 0.13,
-  "median_views": 22.0,
+  "harvested": 29,
+  "attribution_rate": 0.14,
+  "median_views": 19,
   "brand_lookalike": false
  },
  {
@@ -7771,40 +8031,6 @@
   "brand_lookalike": false
  },
  {
-  "channel_id": "UCqmsXddD6U4NS5A0o1cmvtA",
-  "title": "TerraForge Collective",
-  "handle": "@terraforge.collective3472",
-  "url": "https://www.youtube.com/@terraforge.collective3472",
-  "subs": 3,
-  "videos": 9,
-  "total_views": 19,
-  "avg_views": 2,
-  "country": "",
-  "published": "2026-07-12",
-  "creators_covered": 2,
-  "creators": [
-   "artsportartsport",
-   "norusarubushcraft"
-  ],
-  "tier": "A",
-  "why": "covers 2 pool creators",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "bZYG8LMrXsU",
-    "title": "1 Year Building an Off-Grid Log Cabin from Scratch | by @ArtSportArtSport"
-   },
-   {
-    "video_id": "VhnZjTALBmc",
-    "title": "Building a Solo Bushcraft Cliff House Deep in the Jungle | by @norusarubushcraft"
-   }
-  ],
-  "harvested": 9,
-  "attribution_rate": 1.0,
-  "median_views": 2,
-  "brand_lookalike": false
- },
- {
   "channel_id": "UC9l989_B1itluLaEcn2nSZg",
   "title": "CONSTRUCTION OF SURVIVITY ",
   "handle": "@techengineer-y00",
@@ -8006,6 +8232,40 @@
   "harvested": 6,
   "attribution_rate": 1.0,
   "median_views": 8.0,
+  "brand_lookalike": false
+ },
+ {
+  "channel_id": "UChBg8fO_XXIkhlPFr2l1RkQ",
+  "title": "TV technology",
+  "handle": "@tvtechnology-s6t",
+  "url": "https://www.youtube.com/@tvtechnology-s6t",
+  "subs": 1,
+  "videos": 3,
+  "total_views": 140,
+  "avg_views": 47,
+  "country": "US",
+  "published": "2024-08-21",
+  "creators_covered": 2,
+  "creators": [
+   "serkanbilgin27",
+   "woodwood1"
+  ],
+  "tier": "A",
+  "why": "covers 2 pool creators",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "_4CDazubIcI",
+    "title": "The young man built a wooden house on the mountain by himself @serkanbilgin27"
+   },
+   {
+    "video_id": "s2GH1vkDqf4",
+    "title": "The carpenter builds wooden houses in Korean style from start to finish @woodwood1"
+   }
+  ],
+  "harvested": 3,
+  "attribution_rate": 0.67,
+  "median_views": 22,
   "brand_lookalike": false
  },
  {
@@ -8529,6 +8789,39 @@
    {
     "video_id": "p1YZenOEOjo",
     "title": "40-Yr Contractor Learns Barndominum Construction w/ @RRBuildings"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCLO9n5sEoTKsDFMfqCPHt9A",
+  "title": "Nate Petroski",
+  "handle": "@narrowayhomestead",
+  "url": "https://www.youtube.com/@narrowayhomestead",
+  "subs": 1720000,
+  "videos": 5930,
+  "total_views": 1715277643,
+  "avg_views": 289254,
+  "country": "US",
+  "published": "2019-05-21",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "YkWkr5Fgi00",
+    "title": "Solar power system overview #narrowayhomestead #homesteadtoktok #offgridlife #solar #solarpower"
+   },
+   {
+    "video_id": "YqaS50xIRBU",
+    "title": "I use Woodrich Timber Oil on the homestead #narrowayhomestead #offgridlife #woodstain #woodrich"
+   },
+   {
+    "video_id": "yCC5UAQtALY",
+    "title": "Part 1  #Narrowayhomestead #homesteadtoktok #offgridlife #narrowayouthouse #outhouse"
    }
   ]
  },
@@ -9345,7 +9638,7 @@
   "url": "https://www.youtube.com/@primitiveyummycooking7193",
   "subs": 256000,
   "videos": 183,
-  "total_views": 40847902,
+  "total_views": 40847971,
   "avg_views": 223213,
   "country": "US",
   "published": "2018-06-03",
@@ -9464,6 +9757,35 @@
   ]
  },
  {
+  "channel_id": "UCQnKO-OcnmeYi4KbVkZeulw",
+  "title": "Violas Akzent Ranch",
+  "handle": "@violas_akzent_ranch",
+  "url": "https://www.youtube.com/@violas_akzent_ranch",
+  "subs": 230000,
+  "videos": 219,
+  "total_views": 42133497,
+  "avg_views": 192390,
+  "country": "",
+  "published": "2022-08-25",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "hvAGdvg2TM0",
+    "title": "Girl building off grid porch #cabinlife #homestead #offgridcabin #offgridlife #homesteading"
+   },
+   {
+    "video_id": "4MokOhovHv0",
+    "title": "#cabinlife #homestead #offgridcabin #offgridlife #diyhomeimprovement #homesteading"
+   }
+  ]
+ },
+ {
   "channel_id": "UC3dc-rblU34e6AhSWHInPMg",
   "title": "Milwaukee Tool",
   "handle": "@milwaukeetool",
@@ -9485,6 +9807,39 @@
    {
     "video_id": "h4tB2_-JShs",
     "title": "M18\u2122 FUEL Roofing Nailer | 2909 Video Credit: @rrbuildings"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCwfZpvjUKJbH8AbOW3HiCoA",
+  "title": "Crazy jungle adventures ",
+  "handle": "@crazyjungleadventure",
+  "url": "https://www.youtube.com/@crazyjungleadventure",
+  "subs": 211000,
+  "videos": 2199,
+  "total_views": 165170781,
+  "avg_views": 75112,
+  "country": "US",
+  "published": "2025-02-18",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "7idDvUTrUv8",
+    "title": "Off-grid living without power or running water #offgridlife #homesteading"
+   },
+   {
+    "video_id": "E-V_iJTNWb8",
+    "title": "We all need chicken soup ##offgridlife #growyourownfood"
+   },
+   {
+    "video_id": "upzDzJqaMDA",
+    "title": "Shelling corn \ud83c\udf3d by hand #offgridlife"
    }
   ]
  },
@@ -9603,8 +9958,8 @@
   "url": "https://www.youtube.com/@primitiverelaxing474",
   "subs": 150000,
   "videos": 96,
-  "total_views": 52668677,
-  "avg_views": 548632,
+  "total_views": 52670029,
+  "avg_views": 548646,
   "country": "US",
   "published": "2016-09-08",
   "creators_covered": 1,
@@ -9643,6 +9998,56 @@
    {
     "video_id": "guRh4fuuWyc",
     "title": "What happened to Luxon Bushcraft Wife? Luxon Bushcraft Dog | Tattoo"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCeFbH3moaDvzQ6aAPOLQhDQ",
+  "title": "CHOIRBOYZ!!",
+  "handle": "@imscabyourenot",
+  "url": "https://www.youtube.com/@imscabyourenot",
+  "subs": 139000,
+  "videos": 13147,
+  "total_views": 93968500,
+  "avg_views": 7148,
+  "country": "US",
+  "published": "2014-02-15",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "0QP2J6SEa_Y",
+    "title": "OFF GRID KNIVES #shorts #knifereview #offgrid #offgridlife"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCnVqWBOBKLlkT2Ts5bpnwgQ",
+  "title": "Jungle OutdoorBoys",
+  "handle": "@nicholsboys",
+  "url": "https://www.youtube.com/@nicholsboys",
+  "subs": 137000,
+  "videos": 562,
+  "total_views": 106252952,
+  "avg_views": 189062,
+  "country": "US",
+  "published": "2025-10-17",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "BXoDAcEMh0s",
+    "title": "Harvesting and drying fresh parsley  #harvest  #growyourownfood #offgridlife"
    }
   ]
  },
@@ -9726,6 +10131,39 @@
    {
     "video_id": "DVtF7E8zj6w",
     "title": "Silver Wolf Log Lodge  - Meadowlark Log Homes"
+   }
+  ]
+ },
+ {
+  "channel_id": "UC0D_YLQoyULFtMeWMS_Bh2Q",
+  "title": "Mark Hogben",
+  "handle": "@mark_hogben",
+  "url": "https://www.youtube.com/@mark_hogben",
+  "subs": 118000,
+  "videos": 600,
+  "total_views": 21699804,
+  "avg_views": 36166,
+  "country": "",
+  "published": "2011-03-10",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "qCetKvbik48",
+    "title": "off-grid morning routine #offgridlife #offgrid #offgridcabin #offgridliving"
+   },
+   {
+    "video_id": "CQumanYWigE",
+    "title": "#watersystem #waterfromthelake #lakewater #offgridlife #offgrid #offgridliving #offgridcabin"
+   },
+   {
+    "video_id": "phJ7-D5Z0ss",
+    "title": "Waiting for the ice #offgridlife #offgrid #offgridliving"
    }
   ]
  },
@@ -10183,6 +10621,31 @@
   ]
  },
  {
+  "channel_id": "UCaHJ0I3Tz2W70JpxCADRlzA",
+  "title": "theinfinitecup",
+  "handle": "@theinfinitecup",
+  "url": "https://www.youtube.com/@theinfinitecup",
+  "subs": 82900,
+  "videos": 698,
+  "total_views": 6514034,
+  "avg_views": 9332,
+  "country": "US",
+  "published": "2017-03-04",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "CYUOX-H6_yo",
+    "title": "How much I spend every month to live OFF GRID.  \u2026 #offgrid #offgridliving #offgridlife #offgridpower"
+   }
+  ]
+ },
+ {
   "channel_id": "UClDye0T4xTEq46sA5evq9fA",
   "title": "\u00c0 gauche",
   "handle": "@agauche",
@@ -10395,6 +10858,31 @@
   ]
  },
  {
+  "channel_id": "UColTUF-CKmLipwQIpMgpqvQ",
+  "title": "My Wild Holm",
+  "handle": "@mywildholm",
+  "url": "https://www.youtube.com/@mywildholm",
+  "subs": 49900,
+  "videos": 416,
+  "total_views": 3981192,
+  "avg_views": 9570,
+  "country": "CA",
+  "published": "2022-04-23",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "nqvJ_U_EurQ",
+    "title": "We Bought a Remote Island \u2014 No Turning Back | Off Grid Life"
+   }
+  ]
+ },
+ {
   "channel_id": "UC8Xaf8ox-mVF4T9akhpfncQ",
   "title": "Maker World Shorts",
   "handle": "@makerworldshorts",
@@ -10603,10 +11091,10 @@
   "title": "Tri\u1ec7u Th\u1ecb Hoa ",
   "handle": "@trieuthihoa22",
   "url": "https://www.youtube.com/@trieuthihoa22",
-  "subs": 39000,
-  "videos": 106,
-  "total_views": 12273571,
-  "avg_views": 115788,
+  "subs": 39100,
+  "videos": 107,
+  "total_views": 12288169,
+  "avg_views": 114843,
   "country": "US",
   "published": "2022-06-07",
   "creators_covered": 1,
@@ -10638,8 +11126,8 @@
   "url": "https://www.youtube.com/@modernpeople123",
   "subs": 37600,
   "videos": 25,
-  "total_views": 6549398,
-  "avg_views": 261976,
+  "total_views": 6549485,
+  "avg_views": 261979,
   "country": "US",
   "published": "2023-03-08",
   "creators_covered": 1,
@@ -10653,6 +11141,31 @@
    {
     "video_id": "KpBLeiO45Og",
     "title": "Talented woman builds a SEA-Crossing BOAT from steel and cement in 169 days | By @trieuthihoa"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCdWysCA6JTj52bLj4bin57Q",
+  "title": "WTI",
+  "handle": "@wtipov",
+  "url": "https://www.youtube.com/@wtipov",
+  "subs": 36700,
+  "videos": 36044,
+  "total_views": 30935201,
+  "avg_views": 858,
+  "country": "US",
+  "published": "2016-12-15",
+  "creators_covered": 1,
+  "creators": [
+   "lifestylescreens"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "_YiVtC0cWO0",
+    "title": "Our Point of View on Lifestyle Screens 7&#39; Garage Door Screen"
    }
   ]
  },
@@ -10761,6 +11274,31 @@
    {
     "video_id": "DQ9niaEPu-4",
     "title": "Man Makes Amazing Boat But Using Wooden Pegs | Start to Finish by \u202a @MustaqimMuhammadHatta"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCOp_6qrQ1h0TzSDTFlWQ22g",
+  "title": "Montana wolf Trapper  Paul Antczak ",
+  "handle": "@montanawolftrapper8666",
+  "url": "https://www.youtube.com/@montanawolftrapper8666",
+  "subs": 33700,
+  "videos": 781,
+  "total_views": 8201467,
+  "avg_views": 10501,
+  "country": "US",
+  "published": "2012-06-21",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "fqNqdJDa_TU",
+    "title": "Sunday funday #mountainmen #offgrid #historychannel #offgridlife #offgridliving"
    }
   ]
  },
@@ -10929,8 +11467,8 @@
   "url": "https://www.youtube.com/@flmangarage",
   "subs": 27800,
   "videos": 252,
-  "total_views": 3265403,
-  "avg_views": 12958,
+  "total_views": 3267515,
+  "avg_views": 12966,
   "country": "",
   "published": "2007-10-31",
   "creators_covered": 1,
@@ -10948,14 +11486,39 @@
   ]
  },
  {
+  "channel_id": "UCD1y8J9x0F4PEht0QQ7ftoQ",
+  "title": "ROTHENBERGER",
+  "handle": "@rothenberger",
+  "url": "https://www.youtube.com/@rothenberger",
+  "subs": 26800,
+  "videos": 348,
+  "total_views": 7745343,
+  "avg_views": 22257,
+  "country": "",
+  "published": "2012-03-28",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "fpVr8sKoPds",
+    "title": "The new #romax NANO in action - tested by nample"
+   }
+  ]
+ },
+ {
   "channel_id": "UCGituS1N8z4pkRy9OolfrYw",
   "title": "Jake Rosenfeld",
   "handle": "@shredpile",
   "url": "https://www.youtube.com/@shredpile",
   "subs": 26200,
-  "videos": 144,
-  "total_views": 4379737,
-  "avg_views": 30415,
+  "videos": 143,
+  "total_views": 4381010,
+  "avg_views": 30636,
   "country": "US",
   "published": "2010-03-10",
   "creators_covered": 1,
@@ -11085,6 +11648,31 @@
    {
     "video_id": "pliM797QESo",
     "title": "How I spent 180 days building a powerful electric bicycle from scratch? | by @Nasatchannel"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCQw-rMuySYoFVZX-wKsRlPg",
+  "title": " Barbie Lumber",
+  "handle": "@lumberbarb",
+  "url": "https://www.youtube.com/@lumberbarb",
+  "subs": 24200,
+  "videos": 513,
+  "total_views": 35198404,
+  "avg_views": 68613,
+  "country": "US",
+  "published": "2025-09-30",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "UaHfIIdUrK0",
+    "title": "Sorry not sorry #offgrid #wood #offgridlife #trees #Woodworking"
    }
   ]
  },
@@ -11310,6 +11898,31 @@
    {
     "video_id": "ad4nzgPfGmw",
     "title": "ON TRANSFORME LE VIEUX PIGEONNIER EN G\u00ceTE partie 8 (chantiers crois\u00e9s @deborahpaullagrange31) -EP23-"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCc8h7ajq7FbV_oipkN2zwsw",
+  "title": "Off Grid & Growing",
+  "handle": "@offgridgrowing",
+  "url": "https://www.youtube.com/@offgridgrowing",
+  "subs": 19500,
+  "videos": 230,
+  "total_views": 2105206,
+  "avg_views": 9153,
+  "country": "US",
+  "published": "2020-11-22",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "Kv0U6k1UQfI",
+    "title": "How we started our Off Grid Journey landstruck.com #offgridliving #alternativeliving #offgridlife"
    }
   ]
  },
@@ -11543,6 +12156,56 @@
    {
     "video_id": "mslzi1SkaP4",
     "title": "Don&#39;t try this at home \ud83e\udd23\ud83d\udca5\ud83e\udd23 #shorts @sanygiri @TheOutsiderCabin @MSIVlogs @CountingMiles"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCwM0mXM69nniZ_HGdCeRL5w",
+  "title": "Going Off Grid",
+  "handle": "@goingoffgridaus",
+  "url": "https://www.youtube.com/@goingoffgridaus",
+  "subs": 15900,
+  "videos": 202,
+  "total_views": 1382482,
+  "avg_views": 6844,
+  "country": "AU",
+  "published": "2023-03-28",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "XgbiUPLZ0s4",
+    "title": "Putting the #uhi #tractor to work! #offgrid #rainwater #offgridlife #construction #homesteading"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCz6yk6jOlrHI9TTS8B-vb7Q",
+  "title": "DREWS LENS",
+  "handle": "@drewslens",
+  "url": "https://www.youtube.com/@drewslens",
+  "subs": 15400,
+  "videos": 415,
+  "total_views": 2302151,
+  "avg_views": 5547,
+  "country": "US",
+  "published": "2018-08-19",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "RJWjwlumry4",
+    "title": "Show and Tell (Log cabin) @SimpleLifeReclaimed @BobbleheadHomestead @TheBeardedCarpenter"
    }
   ]
  },
@@ -12009,6 +12672,31 @@
   ]
  },
  {
+  "channel_id": "UCfsuft5YNUBHK6dBgvptftg",
+  "title": "Lemoult'e Batteries",
+  "handle": "@lemoultebatteries",
+  "url": "https://www.youtube.com/@lemoultebatteries",
+  "subs": 10300,
+  "videos": 48,
+  "total_views": 554710,
+  "avg_views": 11556,
+  "country": "FR",
+  "published": "2023-04-23",
+  "creators_covered": 1,
+  "creators": [
+   "renovacile"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "nfSv45OBVsY",
+    "title": "Installation de @renovacile, superbe rencontre, merci \u00e0 vous \ud83d\ude4f"
+   }
+  ]
+ },
+ {
   "channel_id": "UCrlDAsv4KBhKdl91E0Vsadg",
   "title": "TKT-TV\u4e00\u8cab\u9053\u9053\u89aa\u793e\u6703\u670d\u52d9\u7db2\u8def\u96fb\u8996\u53f0",
   "handle": "@tkt-tv1",
@@ -12073,8 +12761,8 @@
   "url": "https://www.youtube.com/@kidfamily268",
   "subs": 8690,
   "videos": 865,
-  "total_views": 5309703,
-  "avg_views": 6138,
+  "total_views": 5311225,
+  "avg_views": 6140,
   "country": "VN",
   "published": "2023-10-11",
   "creators_covered": 1,
@@ -12208,6 +12896,31 @@
   ]
  },
  {
+  "channel_id": "UCf-JPjnF3GwUaBHSRy3vzhQ",
+  "title": "Just Jason Keto",
+  "handle": "@justjasonketo",
+  "url": "https://www.youtube.com/@justjasonketo",
+  "subs": 8300,
+  "videos": 911,
+  "total_views": 835006,
+  "avg_views": 917,
+  "country": "CA",
+  "published": "2021-02-09",
+  "creators_covered": 1,
+  "creators": [
+   "thompsonscabin"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "dX7vMDC-4ws",
+    "title": "Homestead Hangout Episode 2 With @mattandmouse @lorettaandjasonoffgrid@thompsonscabin"
+   }
+  ]
+ },
+ {
   "channel_id": "UC7LrsNQsVg7Nt7k0_zyE3xQ",
   "title": "Ciencias Sociales Historia Geografia",
   "handle": "@cienciassocialeshistoriage5038",
@@ -12321,9 +13034,9 @@
   "handle": "@budi4256",
   "url": "https://www.youtube.com/@budi4256",
   "subs": 7230,
-  "videos": 123,
-  "total_views": 966948,
-  "avg_views": 7861,
+  "videos": 124,
+  "total_views": 966956,
+  "avg_views": 7798,
   "country": "ID",
   "published": "2012-06-13",
   "creators_covered": 1,
@@ -12715,6 +13428,31 @@
   ]
  },
  {
+  "channel_id": "UCndayFU3bSvH24j1DeG7BUQ",
+  "title": "WildForge Table ",
+  "handle": "@wildforgetable",
+  "url": "https://www.youtube.com/@wildforgetable",
+  "subs": 5990,
+  "videos": 6,
+  "total_views": 113719,
+  "avg_views": 18953,
+  "country": "US",
+  "published": "2023-09-12",
+  "creators_covered": 1,
+  "creators": [
+   "thompsonscabin"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "RDpShXW14sc",
+    "title": "Building an Off-Grid Dream Home From Foundation to Finished Roof @thompsonscabin  @QuantumMakers"
+   }
+  ]
+ },
+ {
   "channel_id": "UCzPhdj79g7juASC1BjTayXg",
   "title": "Les Jumelles de la Mine de Fer ",
   "handle": "@lesjumellesdelamine",
@@ -12815,6 +13553,31 @@
   ]
  },
  {
+  "channel_id": "UCjiNNZc4RsNQZwIqajAUHgw",
+  "title": "Ivey's Family Factotum",
+  "handle": "@iveysfamilyfactotum",
+  "url": "https://www.youtube.com/@iveysfamilyfactotum",
+  "subs": 4910,
+  "videos": 1001,
+  "total_views": 987876,
+  "avg_views": 987,
+  "country": "US",
+  "published": "2014-03-16",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "sPNpAiCPatw",
+    "title": "Bridge Build Part 5 | Getting SUPPLIES from @TheBeardedCarpenter  | Visiting a local sawmill"
+   }
+  ]
+ },
+ {
   "channel_id": "UCJ--rbtVB03Jj4_NAjTu-zA",
   "title": "TechByte",
   "handle": "@techbyte-1",
@@ -12861,6 +13624,35 @@
    {
     "video_id": "I65mtd41dhw",
     "title": "8082043457 #investment #house  #dubai @CHAUHANPROPERTYWALAPVTLTD @nikospropertyshow @DSInterior"
+   }
+  ]
+ },
+ {
+  "channel_id": "UClTu2k5XTyu1Sp5tt3uvG8Q",
+  "title": "\uc2a4\ud1a4",
+  "handle": "@istonei",
+  "url": "https://www.youtube.com/@istonei",
+  "subs": 4690,
+  "videos": 205,
+  "total_views": 2639325,
+  "avg_views": 12875,
+  "country": "",
+  "published": "2016-01-06",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "iS2PtFSE958",
+    "title": "Nample s vs Fluno"
+   },
+   {
+    "video_id": "71vvKeD4lKs",
+    "title": "Nample s vs luno"
    }
   ]
  },
@@ -12986,6 +13778,60 @@
    {
     "video_id": "ZL_XZley0Q0",
     "title": "The Pastured Homestead Income from Youtube Update 2025"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCJ6WAJcgO9_hBuSdqT3IhGw",
+  "title": "Tree Haven",
+  "handle": "@treehaven",
+  "url": "https://www.youtube.com/@treehaven",
+  "subs": 3980,
+  "videos": 428,
+  "total_views": 534373,
+  "avg_views": 1249,
+  "country": "",
+  "published": "2022-01-30",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "Ts-O0IfK-ms",
+    "title": "The Bearded Carpenter Movie Trailer. @TheBeardedCarpenter @woodlandmills Sawmill HM126"
+   },
+   {
+    "video_id": "ibglfs-XMe4",
+    "title": "Sawing Logs with a Log Home Legend.Sawmill work on a @woodlandmills HM126 with @TheBeardedCarpenter"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCo4AJJYv5k_tuZgwnmNm-pQ",
+  "title": "Makerist",
+  "handle": "@the_makerist",
+  "url": "https://www.youtube.com/@the_makerist",
+  "subs": 3920,
+  "videos": 5,
+  "total_views": 167,
+  "avg_views": 33,
+  "country": "BD",
+  "published": "2018-09-23",
+  "creators_covered": 1,
+  "creators": [
+   "woodwood1"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "flCRzCdHRGM",
+    "title": "Man Builds an Incredible Traditional Korean Hanok House from Start to Finish | Build by@woodwood1"
    }
   ]
  },
@@ -13348,6 +14194,39 @@
   ]
  },
  {
+  "channel_id": "UCHHPa8ajPcmkPytaO8bRuhg",
+  "title": "Luke & Dakota Off-Grid",
+  "handle": "@lukeanddakotaoffgrid",
+  "url": "https://www.youtube.com/@lukeanddakotaoffgrid",
+  "subs": 2870,
+  "videos": 210,
+  "total_views": 2242914,
+  "avg_views": 10681,
+  "country": "US",
+  "published": "2025-01-19",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "nbDcY6Q5_VY",
+    "title": "We live off-grid because it\u2019s cool! #OffGrid #OffGridLiving #OffGridHomestead #OffGridLife"
+   },
+   {
+    "video_id": "bDESNewj_DQ",
+    "title": "My off-grid morning routine \ud83e\udd20 #OffGrid #OffGridLife #MorningRoutine"
+   },
+   {
+    "video_id": "HGznS-sZaFc",
+    "title": "Off-grid living with extraterrestrials \ud83d\udc7d #OffGrid #OffGridLife #AiArt #Aliens #Homesteadlife"
+   }
+  ]
+ },
+ {
   "channel_id": "UCelB8RcdksEBLptyOAEwubw",
   "title": "Celima Trebol",
   "handle": "@celimatrebol1964",
@@ -13452,6 +14331,39 @@
   ]
  },
  {
+  "channel_id": "UCPSnYTE4jjGYE7AG6nMNROg",
+  "title": "Advanced Screenworks",
+  "handle": "@lifestylescreens",
+  "url": "https://www.youtube.com/@lifestylescreens",
+  "subs": 2720,
+  "videos": 57,
+  "total_views": 2282766,
+  "avg_views": 40049,
+  "country": "",
+  "published": "2011-12-01",
+  "creators_covered": 1,
+  "creators": [
+   "lifestylescreens"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "yn1-NsCfW8Q",
+    "title": "Track Assembly Installation: Lifestyle Screens garage door screen"
+   },
+   {
+    "video_id": "RKLMIo-ZuGE",
+    "title": "Lifestyle Screens Garage Door Screens: Frame Assembly"
+   },
+   {
+    "video_id": "pAyUZyS6tRA",
+    "title": "Live the Lifestyle! Lifestyle Screens garage screen www.LifestyleScreens.com"
+   }
+  ]
+ },
+ {
   "channel_id": "UCQLMIJ_-nxbY-Z443bohl4w",
   "title": "SRIJAN INTERIORS DESIGN  SAMEER MANDAL ",
   "handle": "@srijaninteriorsdesign7328",
@@ -13510,6 +14422,39 @@
   ]
  },
  {
+  "channel_id": "UCq_J4_icz80b-bf7B63jUeQ",
+  "title": "Matt and Mouse",
+  "handle": "@mattandmouse",
+  "url": "https://www.youtube.com/@mattandmouse",
+  "subs": 2590,
+  "videos": 244,
+  "total_views": 458007,
+  "avg_views": 1877,
+  "country": "CA",
+  "published": "2021-11-08",
+  "creators_covered": 1,
+  "creators": [
+   "thompsonscabin"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "zulXbHahChU",
+    "title": "Q&amp;A with @thompsonscabin - what\u2019s your favourite movie Thompson? - @lorettaandjasonoffgrid"
+   },
+   {
+    "video_id": "DXHSiZZXnX0",
+    "title": "Questions for @thompsonscabin ?? Let me know in the comments \ud83d\ude42"
+   },
+   {
+    "video_id": "2vvAidGlx3w",
+    "title": "@lorettaandjasonoffgrid Sophie love just for you! \ud83d\udc36\ud83d\udc3e\ud83e\uddb4 - @thompsonscabin"
+   }
+  ]
+ },
+ {
   "channel_id": "UChYm5sychrKbs4mdYwrAlfg",
   "title": "DANOSA",
   "handle": "@danosaweb",
@@ -13531,6 +14476,31 @@
    {
     "video_id": "Agv0CXk91NE",
     "title": "DANOSA. M\u00e1s de 50 a\u00f1os construyendo juntos"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCVrpLWtx6thxWXCNE6zFh1Q",
+  "title": "Raw Build",
+  "handle": "@rawbuild-cabin",
+  "url": "https://www.youtube.com/@rawbuild-cabin",
+  "subs": 2520,
+  "videos": 9,
+  "total_views": 356862,
+  "avg_views": 39651,
+  "country": "VN",
+  "published": "2025-09-28",
+  "creators_covered": 1,
+  "creators": [
+   "trieuthihoa"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "yhysxbDXcJQ",
+    "title": "Pregnant girl faces a massive flood! She and husband turn a drum into a lake house | by @trieuthihoa"
    }
   ]
  },
@@ -13610,31 +14580,6 @@
   ]
  },
  {
-  "channel_id": "UCVrpLWtx6thxWXCNE6zFh1Q",
-  "title": "Raw Build",
-  "handle": "@rawbuild-cabin",
-  "url": "https://www.youtube.com/@rawbuild-cabin",
-  "subs": 2390,
-  "videos": 8,
-  "total_views": 337704,
-  "avg_views": 42213,
-  "country": "VN",
-  "published": "2025-09-28",
-  "creators_covered": 1,
-  "creators": [
-   "trieuthihoa"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "yhysxbDXcJQ",
-    "title": "Pregnant girl faces a massive flood! She and husband turn a drum into a lake house | by @trieuthihoa"
-   }
-  ]
- },
- {
   "channel_id": "UCmW1W5QYH-XGyt1aCk-WkFQ",
   "title": "Velvet Moto.Official ",
   "handle": "@velvetmoto.official",
@@ -13685,31 +14630,6 @@
    {
     "video_id": "RjihpOHAB3Y",
     "title": "Construyendo Juntos - GCCF Study Jams Tercera Sesi\u00f3n"
-   }
-  ]
- },
- {
-  "channel_id": "UClTaWNhAoPH1QDisJeSUyIw",
-  "title": "Build Master",
-  "handle": "@build_masterofficial",
-  "url": "https://www.youtube.com/@build_masterofficial",
-  "subs": 2270,
-  "videos": 9,
-  "total_views": 453174,
-  "avg_views": 50353,
-  "country": "US",
-  "published": "2026-03-26",
-  "creators_covered": 1,
-  "creators": [
-   "lesnoycraft8607"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "KWgKONq9qs8",
-    "title": "Man Builds a Luxury Off-Grid House Alone in the Forest | Full Build by @lesnoy_craft8607"
    }
   ]
  },
@@ -13807,8 +14727,8 @@
   "url": "https://www.youtube.com/@wildru-cabin",
   "subs": 2140,
   "videos": 11,
-  "total_views": 57271,
-  "avg_views": 5206,
+  "total_views": 58068,
+  "avg_views": 5279,
   "country": "US",
   "published": "2025-09-17",
   "creators_covered": 1,
@@ -13947,6 +14867,39 @@
    {
     "video_id": "WxnHuQx-az8",
     "title": "\u6c5f\u6238\u5ddd\u4e71\u6b69\u300e\u6307\u8f2a\u300fver.roughstyle"
+   }
+  ]
+ },
+ {
+  "channel_id": "UC7GRh9bLawg91z7FAHbCwQQ",
+  "title": "GaRaGe MaN TeDdY \ud83e\uddf8",
+  "handle": "@garagemanteddy",
+  "url": "https://www.youtube.com/@garagemanteddy",
+  "subs": 1980,
+  "videos": 102,
+  "total_views": 1063911,
+  "avg_views": 10430,
+  "country": "US",
+  "published": "2021-07-09",
+  "creators_covered": 1,
+  "creators": [
+   "lifestylescreens"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "U1w6ny4dfUg",
+    "title": "Beautiful Retractable garage door screen install @LifestyleScreens"
+   },
+   {
+    "video_id": "KqMx-m-PYJQ",
+    "title": "Lifestyle 16x7 white frame white retractable garage door screen @LifestyleScreens"
+   },
+   {
+    "video_id": "dekdFD1zIGo",
+    "title": "Lifestyle garage screen door 16x7 sandstone frame @LifestyleScreens#beautiful  #explore"
    }
   ]
  },
@@ -14342,6 +15295,31 @@
   ]
  },
  {
+  "channel_id": "UCXX1HKnGjNTHbmL_7MAZmtA",
+  "title": "ROTHENBERGER DE",
+  "handle": "@rothenberger-de",
+  "url": "https://www.youtube.com/@rothenberger-de",
+  "subs": 1390,
+  "videos": 246,
+  "total_views": 1172240,
+  "avg_views": 4765,
+  "country": "DE",
+  "published": "2023-03-01",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "98CALiGSwsQ",
+    "title": "nample testet die #romax NANO"
+   }
+  ]
+ },
+ {
   "channel_id": "UCque-kF3mgUVIuY_yyxIvmg",
   "title": "Explore Everything81",
   "handle": "@exploreeverything-i5u",
@@ -14463,31 +15441,6 @@
    {
     "video_id": "F8gXsWC7ILQ",
     "title": "Part.1 Man Turning an Old Bus Into the Ultimate Family Motorhome @lifeanywhere"
-   }
-  ]
- },
- {
-  "channel_id": "UCpnA5uuvag1ZOKEQKql1LWQ",
-  "title": "GadgetsUnbox",
-  "handle": "@gadgetsunbox1488",
-  "url": "https://www.youtube.com/@gadgetsunbox1488",
-  "subs": 1260,
-  "videos": 2080,
-  "total_views": 2508527,
-  "avg_views": 1206,
-  "country": "",
-  "published": "2021-09-11",
-  "creators_covered": 1,
-  "creators": [
-   "rrbuildings"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "OLCNZB1OHr0",
-    "title": "\u201c@rrbuildings This a simple trick that is easily implemented any time you are installing trims wi"
    }
   ]
  },
@@ -14667,31 +15620,6 @@
   ]
  },
  {
-  "channel_id": "UCL9l1Mdcl07TlhrI_6HZdiQ",
-  "title": "Timber Land",
-  "handle": "@timberland-h7h",
-  "url": "https://www.youtube.com/@timberland-h7h",
-  "subs": 1100,
-  "videos": 14,
-  "total_views": 34604,
-  "avg_views": 2472,
-  "country": "US",
-  "published": "2026-05-15",
-  "creators_covered": 1,
-  "creators": [
-   "serkanbilgin27"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "cpLWA0Yw8D0",
-    "title": "Man Builds an Amazing Wooden Tiny House with Rooftop Terrace | Start to Finish @serkanbilgin27"
-   }
-  ]
- },
- {
   "channel_id": "UCyhTqc1yFM4nBCJsYxqv_UQ",
   "title": "JonnaJonnaJonna",
   "handle": "@jonnajonnajonna",
@@ -14846,6 +15774,64 @@
    {
     "video_id": "UNRBNDy7jX8",
     "title": "Man Builds Amazing Lamborghini From Start to Finish By @haisupercar #lamborghini #lamborghinihuracan"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCmz8mcTP1zQ5f8jDrIVx8Xg",
+  "title": "Craig's cabin charity",
+  "handle": "@craigscabin",
+  "url": "https://www.youtube.com/@craigscabin",
+  "subs": 1010,
+  "videos": 440,
+  "total_views": 316854,
+  "avg_views": 720,
+  "country": "GB",
+  "published": "2015-01-08",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "xT32t3BWtEE",
+    "title": "Check out and support \u200e@TheBeardedCarpenter\u00a0  (Link and about information in description)"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCUYHODOR4osdP0O0pE6J2lw",
+  "title": "advancedscreenworks",
+  "handle": "@advancedscreenworks",
+  "url": "https://www.youtube.com/@advancedscreenworks",
+  "subs": 1000,
+  "videos": 11,
+  "total_views": 3925715,
+  "avg_views": 356883,
+  "country": "",
+  "published": "2009-12-20",
+  "creators_covered": 1,
+  "creators": [
+   "lifestylescreens"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "cHmL2NqeQXw",
+    "title": "Lifestyle Screens garage screen: www.LifestyleScreens.com"
+   },
+   {
+    "video_id": "rlV38nqgkjE",
+    "title": "Ultimate Garage Screen (Patented) www.LifestyleScreens.com"
+   },
+   {
+    "video_id": "MQ2zDkC-fEQ",
+    "title": "Lifestyle Screens garage screen News Clip www.LifestyleScreens.com"
    }
   ]
  },
@@ -15195,6 +16181,35 @@
   ]
  },
  {
+  "channel_id": "UCps3JVyzD7NtMGix6OBLPBA",
+  "title": "Installateur TV (Installateur TV)",
+  "handle": "@installateurtv1759",
+  "url": "https://www.youtube.com/@installateurtv1759",
+  "subs": 808,
+  "videos": 247,
+  "total_views": 259103,
+  "avg_views": 1049,
+  "country": "",
+  "published": "2018-02-08",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "y7k2M7xoXjU",
+    "title": "KEA Working Pad by BA-Bachler | Anwendungsvideo nample"
+   },
+   {
+    "video_id": "6t6iXXHGXxU",
+    "title": "SOS Leckpumpe 2.0 - Video by nample"
+   }
+  ]
+ },
+ {
   "channel_id": "UCvwxBRNUcyMxBZdqQY-LV3g",
   "title": "Bigdog yash",
   "handle": "@bigdog.yash01",
@@ -15366,31 +16381,6 @@
    {
     "video_id": "lReyuIBCafY",
     "title": "Modern Cabin in the Woods \u2014 Dream Home Vibes! @GodsDailyMiracles777 @TheOutsiderCabin"
-   }
-  ]
- },
- {
-  "channel_id": "UCkPEDVewXPONtW03JkYwWIA",
-  "title": "Guru Gaming",
-  "handle": "@gurugaming-id",
-  "url": "https://www.youtube.com/@gurugaming-id",
-  "subs": 749,
-  "videos": 270,
-  "total_views": 159513,
-  "avg_views": 591,
-  "country": "ID",
-  "published": "2022-01-23",
-  "creators_covered": 1,
-  "creators": [
-   "dashingaxe"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "41oKPvZfR8w",
-    "title": "Membangun BUGATTI Kustom Menggunakan 3 Mobil Bekas | @DashingAxe"
    }
   ]
  },
@@ -16044,6 +17034,35 @@
   ]
  },
  {
+  "channel_id": "UCv29vTdvbi7nLS4MQIFFNXg",
+  "title": "PINKTECH\ud83d\udd25\ud83d\udca5",
+  "handle": "@pinktech7386",
+  "url": "https://www.youtube.com/@pinktech7386",
+  "subs": 521,
+  "videos": 421,
+  "total_views": 1071407,
+  "avg_views": 2545,
+  "country": "US",
+  "published": "2021-08-18",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "3Auii6tnWf0",
+    "title": "Hair trap and plug combo! \ud83d\ude2e\ud83d\udc4f\ud83c\udffc\ud83d\udca5\ud83d\udcaf(via @nample)"
+   },
+   {
+    "video_id": "0wudF2BRgP0",
+    "title": "Mounting leveling tool! \ud83e\udd29\ud83d\udd25 (via @nample)"
+   }
+  ]
+ },
+ {
   "channel_id": "UCUVWu7pjf6dd2a-BRm5TNwQ",
   "title": "FOSDEH",
   "handle": "@fosdeh",
@@ -16452,6 +17471,31 @@
   ]
  },
  {
+  "channel_id": "UCAMcPg2mDxBnK5DGJxZimRg",
+  "title": "FIX MR",
+  "handle": "@fixmr9639",
+  "url": "https://www.youtube.com/@fixmr9639",
+  "subs": 362,
+  "videos": 535,
+  "total_views": 278738,
+  "avg_views": 521,
+  "country": "",
+  "published": "2021-05-12",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "8AqqV-E3olw",
+    "title": "\u00a0Multi-functional cutting system! \ud83d\udd25\ud83d\ude2f (via\u00a0@nample)"
+   }
+  ]
+ },
+ {
   "channel_id": "UC-wD5M-pPxjksyQr5SY70Tg",
   "title": "Trading Idea Club",
   "handle": "@ketantrading91",
@@ -16577,6 +17621,31 @@
   ]
  },
  {
+  "channel_id": "UCWIUzUISMz-GlHtjduJPq1A",
+  "title": "Cyber BOX",
+  "handle": "@cyberbox3717",
+  "url": "https://www.youtube.com/@cyberbox3717",
+  "subs": 343,
+  "videos": 1670,
+  "total_views": 338719,
+  "avg_views": 203,
+  "country": "",
+  "published": "2015-07-11",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "f6rDAWoYNp8",
+    "title": "\u201cthey look really amazing\ud83d\ude0d Follow \ud83d\udc49@industrial gadgets for more                   Via @nample"
+   }
+  ]
+ },
+ {
   "channel_id": "UCRiVzmprEkxdEkNwvqNoFlQ",
   "title": "Tutanium",
   "handle": "@tutaniumus",
@@ -16681,6 +17750,39 @@
    {
     "video_id": "RdQQw1gTyrs",
     "title": "Using a Sturdi Wall Plus for a Post Frame Building  #rrbuildings #polebarn"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCZrN3CyjJgeQMmnKLU0TPHg",
+  "title": "Mike's Garage Door Screens",
+  "handle": "@mikesgaragedoorscreens",
+  "url": "https://www.youtube.com/@mikesgaragedoorscreens",
+  "subs": 309,
+  "videos": 25,
+  "total_views": 105503,
+  "avg_views": 4220,
+  "country": "",
+  "published": "2020-02-28",
+  "creators_covered": 1,
+  "creators": [
+   "lifestylescreens"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "XuVrYAoUALQ",
+    "title": "Lifestylescreens. Brown frame/ black super screen mesh.."
+   },
+   {
+    "video_id": "wiI6ZYqKBJ8",
+    "title": "Lifestylescreens by premier garage door screens.com llc"
+   },
+   {
+    "video_id": "aIH_Z88hq10",
+    "title": "lifestylescreens by premier garage door screens. witb upgrade pca still water -110 middle screen"
    }
   ]
  },
@@ -16989,6 +18091,31 @@
    {
     "video_id": "ZnRqAVdkWPc",
     "title": "Man built an amazing boat with chicken net and fiberglass | @bkscreative"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCJgcerAe_mZGnN4h0Vt-aZw",
+  "title": "Lamp 5766",
+  "handle": "@lamp57-66",
+  "url": "https://www.youtube.com/@lamp57-66",
+  "subs": 270,
+  "videos": 131,
+  "total_views": 30885,
+  "avg_views": 236,
+  "country": "",
+  "published": "2013-06-15",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "tf08NU8HKuM",
+    "title": "Joint with Nample"
    }
   ]
  },
@@ -17380,6 +18507,39 @@
   ]
  },
  {
+  "channel_id": "UChbPPpb8ME2HnlLxxO2tz8g",
+  "title": "EX75",
+  "handle": "@ex-zc1km",
+  "url": "https://www.youtube.com/@ex-zc1km",
+  "subs": 231,
+  "videos": 36,
+  "total_views": 25952,
+  "avg_views": 721,
+  "country": "",
+  "published": "2016-11-28",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "XtMmDW86OAU",
+    "title": "Doors entry (2)(hosted by Nample)"
+   },
+   {
+    "video_id": "APCdENuzCVU",
+    "title": "occ collab (hosted by Nample)"
+   },
+   {
+    "video_id": "qO8FHwcmhPo",
+    "title": "Doors entry (1)(hosted by Nample)"
+   }
+  ]
+ },
+ {
   "channel_id": "UCT8_zNzwQEoMEQDFqCEUgdA",
   "title": "Viking Dwellings",
   "handle": "@viking.dwellings.official3369",
@@ -17526,6 +18686,31 @@
    {
     "video_id": "vqLRqr4LEIw",
     "title": "27 ao\u00fbt 2023 @kimouldbraham @LeChantierdesMax"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCeYV4T9HwXqfKdkCeL0Pq6w",
+  "title": "TechShorts01",
+  "handle": "@techshorts0113",
+  "url": "https://www.youtube.com/@techshorts0113",
+  "subs": 192,
+  "videos": 1240,
+  "total_views": 451041,
+  "avg_views": 364,
+  "country": "",
+  "published": "2022-04-11",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "rK6fiac59P0",
+    "title": "Smooth! @nample"
    }
   ]
  },
@@ -17934,6 +19119,31 @@
    {
     "video_id": "CIcMitRFbts",
     "title": "Building Secret Tree House in the Middle of the Forest | Start to Finish by \u202a@ArtSportArtSport"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCoBpf5w71F9N2xdduoL_GsA",
+  "title": "Girl Off Grid",
+  "handle": "@girloffgrid-dl6td",
+  "url": "https://www.youtube.com/@girloffgrid-dl6td",
+  "subs": 149,
+  "videos": 34,
+  "total_views": 24140,
+  "avg_views": 710,
+  "country": "",
+  "published": "2023-03-08",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "j9YuqMs5r9g",
+    "title": "Puppy Love \u2764\ufe0f \u2600\ufe0f #tinyhomes #containerhome #mountains #offgridlife #offgridliving #puppylove"
    }
   ]
  },
@@ -18438,31 +19648,6 @@
   ]
  },
  {
-  "channel_id": "UCOr5c68B5F8j7GX8XHv8EnA",
-  "title": "UNLOCKED",
-  "handle": "@unlocked-official",
-  "url": "https://www.youtube.com/@unlocked-official",
-  "subs": 108,
-  "videos": 3,
-  "total_views": 35229,
-  "avg_views": 11743,
-  "country": "US",
-  "published": "2025-02-27",
-  "creators_covered": 1,
-  "creators": [
-   "mustaqimmuhammadhatta"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "RrK8SNWEmxA",
-    "title": "Man Turns 5,000 Liter Water Tank into Amazing Boat | Start to Finish by \u202a@MustaqimMuhammadHatta"
-   }
-  ]
- },
- {
   "channel_id": "UCkgJf9JGa9fQTVUrwwcauAA",
   "title": "Tech Review Gh",
   "handle": "@techreviewgh",
@@ -18484,6 +19669,56 @@
    {
     "video_id": "MnkloW_xhBU",
     "title": "Container House by @FabricaTuSueno"
+   }
+  ]
+ },
+ {
+  "channel_id": "UClGypFRoh4mtxLoKx09ireQ",
+  "title": "Tech Cyber",
+  "handle": "@techcyber2723",
+  "url": "https://www.youtube.com/@techcyber2723",
+  "subs": 105,
+  "videos": 206,
+  "total_views": 140373,
+  "avg_views": 681,
+  "country": "",
+  "published": "2021-07-15",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "JviN2irbWcY",
+    "title": "\u201c\ud83d\udc4d\ud83d\udc4dFollow \ud83d\udc49@innovations city for more                   Source @nample      DM for credit or rem"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCafBMbAj0inKafyJuuJqPKA",
+  "title": "Hairy DIY",
+  "handle": "@true.ghost.stories",
+  "url": "https://www.youtube.com/@true.ghost.stories",
+  "subs": 100,
+  "videos": 6,
+  "total_views": 4483,
+  "avg_views": 747,
+  "country": "US",
+  "published": "2023-11-23",
+  "creators_covered": 1,
+  "creators": [
+   "nialldivers"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "0uWC6Og2anY",
+    "title": "Man builds two-story house from old car tires | Low-Cost Housing @nialldivers"
    }
   ]
  },
@@ -18667,6 +19902,31 @@
   ]
  },
  {
+  "channel_id": "UCEM2P2nFE8qJPOU2qYz9J7w",
+  "title": "Seer 365",
+  "handle": "@gyde365",
+  "url": "https://www.youtube.com/@gyde365",
+  "subs": 82,
+  "videos": 112,
+  "total_views": 8133,
+  "avg_views": 73,
+  "country": "GB",
+  "published": "2022-11-10",
+  "creators_covered": 1,
+  "creators": [
+   "1billiontech"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "LZAWhV9fm_Q",
+    "title": "Offshore Magic: Transforming Dynamics 365 Projects with 1BillionTech"
+   }
+  ]
+ },
+ {
   "channel_id": "UCormzToVlEEKXtZqnqxjXqQ",
   "title": "Fil",
   "handle": "@fil-d5z",
@@ -18713,6 +19973,31 @@
    {
     "video_id": "snJlEVMTQTg",
     "title": "How I Chiseled a Giant Rock Into a Warm Survival Shelter in 7 Days @norusarubushcraft"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCEEnJP4deLkG_mkvAn8sDUQ",
+  "title": "Mwinvictus",
+  "handle": "@mwinvictus907",
+  "url": "https://www.youtube.com/@mwinvictus907",
+  "subs": 78,
+  "videos": 55,
+  "total_views": 74561,
+  "avg_views": 1356,
+  "country": "",
+  "published": "2016-08-08",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "dBv9V9Y6p44",
+    "title": "Off-grid propane hack #offgridliving #offgridlife #offgridhomestead #offgrid #homestead"
    }
   ]
  },
@@ -19424,6 +20709,31 @@
   ]
  },
  {
+  "channel_id": "UCZR5WyXMbKw7a9-uof35L-Q",
+  "title": "Off Grid Aussies",
+  "handle": "@offgridaussies.",
+  "url": "https://www.youtube.com/@offgridaussies.",
+  "subs": 41,
+  "videos": 25,
+  "total_views": 8972,
+  "avg_views": 359,
+  "country": "AU",
+  "published": "2020-05-02",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "klmJx_iVAgY",
+    "title": "Modern Day Caveman  #shorts #offgrid #offgridliving #offgridlife"
+   }
+  ]
+ },
+ {
   "channel_id": "UC5h2hhb5sHv3S1Uu2fA310Q",
   "title": "Irina Garz\u00f3n - Finanzas con Prop\u00f3sito",
   "handle": "@irinagarzonfp",
@@ -19852,6 +21162,31 @@
   ]
  },
  {
+  "channel_id": "UCx96Okokuk0vdLwMAlGcyDw",
+  "title": "Off Grid Fix",
+  "handle": "@offgridfix",
+  "url": "https://www.youtube.com/@offgridfix",
+  "subs": 32,
+  "videos": 6,
+  "total_views": 41627,
+  "avg_views": 6938,
+  "country": "",
+  "published": "2023-09-03",
+  "creators_covered": 1,
+  "creators": [
+   "offgridlife"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "vT2wReVVrv4",
+    "title": "Roof mounted hoist for off-grid! #diy #repair #offgrid #offgridliving #offgridlife #harborfrieght"
+   }
+  ]
+ },
+ {
   "channel_id": "UCb-Lpca_CGixbRyBN_xzX-g",
   "title": "Endless Creativity",
   "handle": "@endlesscreativity1102",
@@ -19873,6 +21208,31 @@
    {
     "video_id": "LB1CECqN_0U",
     "title": "Building an incredibly impressive shelter out of wood and stone by @lesnoy_craft8607"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCndQdbzliDCwJEVqHJD0fsA",
+  "title": "flip\uc548\uac1c\uc19c",
+  "handle": "@flip9314",
+  "url": "https://www.youtube.com/@flip9314",
+  "subs": 29,
+  "videos": 59,
+  "total_views": 5591,
+  "avg_views": 95,
+  "country": "",
+  "published": "2013-06-09",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "HoL2dbSMom0",
+    "title": "nample s \ub2d8 \ud569\uc791 \ub0b4 \ud30c\ud2b8"
    }
   ]
  },
@@ -20507,8 +21867,8 @@
   "url": "https://www.youtube.com/@wildshelterz",
   "subs": 20,
   "videos": 8,
-  "total_views": 5416,
-  "avg_views": 677,
+  "total_views": 5473,
+  "avg_views": 684,
   "country": "",
   "published": "2013-08-04",
   "creators_covered": 1,
@@ -21038,6 +22398,35 @@
   ]
  },
  {
+  "channel_id": "UCP-94I9N7udn5bQSv-NZkDg",
+  "title": "Forge & Fable",
+  "handle": "@forge.and.fable5021",
+  "url": "https://www.youtube.com/@forge.and.fable5021",
+  "subs": 11,
+  "videos": 11,
+  "total_views": 1781,
+  "avg_views": 162,
+  "country": "",
+  "published": "2026-06-25",
+  "creators_covered": 1,
+  "creators": [
+   "neotech4k2025"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "0Nu6QFMfRoo",
+    "title": "Digging up and restoring a completely buried sedan | by @Neotech4K2025"
+   },
+   {
+    "video_id": "INOY6jmLLjU",
+    "title": "Abandoned Scrap to Working Machine: Complete Solo Rebuild | by @Neotech4K2025"
+   }
+  ]
+ },
+ {
   "channel_id": "UCo5UtIdQTosEChV0l8g7wjw",
   "title": "Death Knighthood",
   "handle": "@deathknighthood5671",
@@ -21409,6 +22798,31 @@
    {
     "video_id": "oPN6PZ0AvxA",
     "title": "#reels Video\ud83c\udfa5 carpenter@tehnolexa"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCaQc-ga9s89WaiDnupLO8Dw",
+  "title": "FFF KING",
+  "handle": "@abhinav-zo4lm",
+  "url": "https://www.youtube.com/@abhinav-zo4lm",
+  "subs": 8,
+  "videos": 10,
+  "total_views": 418,
+  "avg_views": 42,
+  "country": "",
+  "published": "2012-12-15",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "emS9Z3BzCfE",
+    "title": "nample agebejease in ahyudere"
    }
   ]
  },
@@ -22042,6 +23456,31 @@
    {
     "video_id": "7oXrQCDryMM",
     "title": "He built his own Lamborghini | @haisupercar"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCEi3VOEbmwng9_O270_aTUg",
+  "title": "Crafted Structures",
+  "handle": "@crafted.structures.offici2237",
+  "url": "https://www.youtube.com/@crafted.structures.offici2237",
+  "subs": 4,
+  "videos": 9,
+  "total_views": 51,
+  "avg_views": 6,
+  "country": "",
+  "published": "2026-06-25",
+  "creators_covered": 1,
+  "creators": [
+   "neotech4k2025"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "-RWXCr3XK18",
+    "title": "Buried in Mud: Complete Classic Ambulance Restoration | by @Neotech4K2025"
    }
   ]
  },
@@ -23045,6 +24484,31 @@
   ]
  },
  {
+  "channel_id": "UCxuF1nODidie6iJz03s56-Q",
+  "title": "Makelab",
+  "handle": "@makelab_diy",
+  "url": "https://www.youtube.com/@makelab_diy",
+  "subs": 2,
+  "videos": 3,
+  "total_views": 63,
+  "avg_views": 21,
+  "country": "",
+  "published": "2025-03-28",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "h4aPvlGFDKM",
+    "title": "Man Builds an AMAZING Sawmill Shed | Step by Step Guide by @TheBeardedCarpenter"
+   }
+  ]
+ },
+ {
   "channel_id": "UCmsTx-gpW7CQ_KlGANgjYPw",
   "title": "Katherine Calero",
   "handle": "@kat.calero",
@@ -23270,31 +24734,6 @@
    {
     "video_id": "Q5Gb79lvagY",
     "title": "Man Builds 2-Room Log CABIN Underground | Start to Finish by @bushcraftua1"
-   }
-  ]
- },
- {
-  "channel_id": "UChBg8fO_XXIkhlPFr2l1RkQ",
-  "title": "TV technology",
-  "handle": "@tvtechnology-s6t",
-  "url": "https://www.youtube.com/@tvtechnology-s6t",
-  "subs": 1,
-  "videos": 3,
-  "total_views": 140,
-  "avg_views": 47,
-  "country": "US",
-  "published": "2024-08-21",
-  "creators_covered": 1,
-  "creators": [
-   "serkanbilgin27"
-  ],
-  "tier": "B",
-  "why": "1 pool creator, active channel",
-  "is_seed": false,
-  "examples": [
-   {
-    "video_id": "_4CDazubIcI",
-    "title": "The young man built a wooden house on the mountain by himself @serkanbilgin27"
    }
   ]
  },
@@ -23570,6 +25009,81 @@
    {
     "video_id": "utNs66B6Z6k",
     "title": "@SurvivalBuilder @lambinhTuoitre @camping@bushcraftskills23#shorts #subscribe"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCj5aCE1H1loUXgVAA3kX7bg",
+  "title": "LogCraft TV24H",
+  "handle": "@logcrafttv",
+  "url": "https://www.youtube.com/@logcrafttv",
+  "subs": 1,
+  "videos": 2,
+  "total_views": 12,
+  "avg_views": 6,
+  "country": "US",
+  "published": "2026-08-14",
+  "creators_covered": 1,
+  "creators": [
+   "thebeardedcarpenter"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "JOrkbg7zC7I",
+    "title": "A Man Survived 100 Days Building A Wilderness Cabin Alone@TheBeardedCarpenter"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCX4QcosCJUVUIIvj2ZXI7xQ",
+  "title": "KK DIY PROJECT",
+  "handle": "@kkdiyproject",
+  "url": "https://www.youtube.com/@kkdiyproject",
+  "subs": 1,
+  "videos": 2,
+  "total_views": 25,
+  "avg_views": 12,
+  "country": "TH",
+  "published": "2025-11-25",
+  "creators_covered": 1,
+  "creators": [
+   "liumutou"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "oSoHerNksUk",
+    "title": "He Built an Unstoppable RC Beast in 150 Days \u2013 Pure Genius!  @LiuMutou"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCkCUEfg3RFHLRiGcn9lZc8g",
+  "title": "Titan Ground Crew",
+  "handle": "@titangroundcrew",
+  "url": "https://www.youtube.com/@titangroundcrew",
+  "subs": 1,
+  "videos": 8,
+  "total_views": 34,
+  "avg_views": 4,
+  "country": "",
+  "published": "2026-07-12",
+  "creators_covered": 1,
+  "creators": [
+   "neotech4k2025"
+  ],
+  "tier": "B",
+  "why": "1 pool creator, active channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "UD6EAcP4EaA",
+    "title": "Excavated from a Trench: Abandoned Van to Ambulance Build | by @Neotech4K2025"
    }
   ]
  },
@@ -25144,6 +26658,56 @@
    {
     "video_id": "ABBD7WNXAk4",
     "title": "trieuthihoa 670417 bai 3"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCHLPGQRYSMA-GVcEdLFkdwA",
+  "title": "Nampal Singh",
+  "handle": "@nampalsingh4679",
+  "url": "https://www.youtube.com/@nampalsingh4679",
+  "subs": 0,
+  "videos": 1,
+  "total_views": 5,
+  "avg_views": 5,
+  "country": "",
+  "published": "2017-02-06",
+  "creators_covered": 1,
+  "creators": [
+   "nample"
+  ],
+  "tier": "C",
+  "why": "1 pool creator, thin channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "JTeosPvp7s8",
+    "title": "Nample Singh"
+   }
+  ]
+ },
+ {
+  "channel_id": "UCzG9SuOc2zqpZoaHAx_Yd9g",
+  "title": "Samrat Ruidas",
+  "handle": "@samratruidas-s1f",
+  "url": "https://www.youtube.com/@samratruidas-s1f",
+  "subs": 0,
+  "videos": 5,
+  "total_views": 41,
+  "avg_views": 8,
+  "country": "",
+  "published": "2024-07-03",
+  "creators_covered": 1,
+  "creators": [
+   "1billiontech"
+  ],
+  "tier": "C",
+  "why": "1 pool creator, thin channel",
+  "is_seed": false,
+  "examples": [
+   {
+    "video_id": "sCYnQTfH1Vc",
+    "title": "$1,000,000,000 Futuristic Technology\ud83d\ude33Future Is Here!#shorts #shortfeed #FuturisticTech #1BillionTech"
    }
   ]
  }

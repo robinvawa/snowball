@@ -1,5 +1,6 @@
 {
  "searched": [
+  "1billiontech",
   "adrianwoodworm",
   "advoko",
   "alexbushcraftmyworld",
@@ -8,6 +9,7 @@
   "anvswild",
   "araujocaiaque",
   "artsportartsport",
+  "asceticloner",
   "astraofrouustra",
   "ateliermavi",
   "atlassurvivalshelters",
@@ -29,6 +31,7 @@
   "chasingfreedomhomestead",
   "construyendojuntos",
   "dashingaxe",
+  "deathtollracing",
   "deborahpaullagrange31",
   "demasilogcabin",
   "denniskoburger",
@@ -72,22 +75,29 @@
   "lifeanywhere",
   "lifeinthesiberianforest1",
   "lifeonthemoose",
+  "lifestylescreens",
+  "liumutou",
   "livedontwatch",
   "loginnature8516",
   "luxonbushcraft",
   "mattjacobs1",
+  "mbtbautechnik",
   "meadowlarkloghomes",
   "menyatudialam",
   "mikesdreambuilds",
   "mlgkontejneri3283",
+  "modelshipbuildertanaka",
   "montanahaven",
   "mrho",
   "mrwildnature",
   "murattuncer",
   "mustaqimmuhammadhatta",
   "myoffgridstory",
+  "nample",
   "nasatchannel",
   "naturalloghouse",
+  "neotech4k2025",
+  "nialldivers",
   "nickandmaela",
   "nickandmala",
   "nikospropertyshow",
@@ -95,14 +105,18 @@
   "normalguydoesitall",
   "northtoalaska2022",
   "norusarubushcraft",
+  "offgridlife",
+  "ohorongocementnamibia8812",
   "outbackmike",
   "paullivesdifferent",
+  "pedroadventuresofficial",
   "polissyabushcraft",
   "projectswithchristinejesse",
   "ramizinthewild",
   "rausaufsland",
   "rcactionhomemade",
   "rcplayground",
+  "renovacile",
   "restorationtools6868",
   "restoratorman",
   "roughstyle",
@@ -112,6 +126,7 @@
   "serkanbilgin27",
   "shredpile",
   "slothconstruction",
+  "solowildstv",
   "steepinthewoods",
   "sukhbirskill",
   "sunfishbudget",
@@ -119,11 +134,13 @@
   "tehnolexa",
   "thanhinnt",
   "thanhsuperboat",
+  "thebeardedcarpenter",
   "themodernhomeproject",
   "theoutsidercabin",
   "thepasturedhomestead",
   "thequinta",
   "thisismyalaska",
+  "thompsonscabin",
   "tickcreekranch",
   "trieuthihoa",
   "truckschannelrazborgruz",
@@ -138,6 +155,7 @@
   "wolfpupfab",
   "woodjunkieyt",
   "woodsandwonderscabin",
+  "woodwood1",
   "worzallabrothers",
   "yudaikawase"
  ],
@@ -569,7 +587,8 @@
     "lifeonthemoose",
     "serkanbilgin27",
     "mattjacobs1",
-    "lechantierdesmax"
+    "lechantierdesmax",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -653,7 +672,8 @@
     "mlgkontejneri3283",
     "menyatudialam",
     "denniskoburger",
-    "flmangarage"
+    "flmangarage",
+    "asceticloner"
    ],
    "examples": [
     {
@@ -794,7 +814,8 @@
     "luxonbushcraft",
     "nickandmala",
     "thepasturedhomestead",
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -970,7 +991,8 @@
     "carpenteranxu",
     "naturalloghouse",
     "thepasturedhomestead",
-    "shredpile"
+    "shredpile",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -1087,7 +1109,8 @@
     "loginnature8516",
     "mikesdreambuilds",
     "electricsupercar",
-    "flmangarage"
+    "flmangarage",
+    "asceticloner"
    ],
    "examples": [
     {
@@ -1198,12 +1221,17 @@
   "UCOr5c68B5F8j7GX8XHv8EnA": {
    "channel_title": "UNLOCKED",
    "creators": [
-    "mustaqimmuhammadhatta"
+    "mustaqimmuhammadhatta",
+    "liumutou"
    ],
    "examples": [
     {
      "video_id": "RrK8SNWEmxA",
      "title": "Man Turns 5,000 Liter Water Tank into Amazing Boat | Start to Finish by \u202a@MustaqimMuhammadHatta"
+    },
+    {
+     "video_id": "PqtEEwNc7MY",
+     "title": "150 Days To Build Insane V8 RC Off-Road Vehicle | Full Build by @LiuMutou"
     }
    ]
   },
@@ -1291,7 +1319,8 @@
     "dmitrylukindiy",
     "bjornbrenton",
     "mattjacobs1",
-    "theoutsidercabin"
+    "theoutsidercabin",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -1504,7 +1533,9 @@
     "grumpytoadcreations",
     "naturalloghouse",
     "mattjacobs1",
-    "adrianwoodworm"
+    "adrianwoodworm",
+    "nialldivers",
+    "woodwood1"
    ],
    "examples": [
     {
@@ -2250,7 +2281,8 @@
     "projectswithchristinejesse",
     "grumpytoadcreations",
     "nickandmala",
-    "nikrijavec47"
+    "nikrijavec47",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -2365,7 +2397,8 @@
     "sunfishbudget",
     "lifeinthesiberianforest1",
     "deborahpaullagrange31",
-    "shredpile"
+    "shredpile",
+    "renovacile"
    ],
    "examples": [
     {
@@ -2483,7 +2516,8 @@
     "buildinginnature",
     "villaaroldi",
     "norusarubushcraft",
-    "paullivesdifferent"
+    "paullivesdifferent",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -2819,7 +2853,8 @@
    "channel_title": "TimberCrafted",
    "creators": [
     "kbuild",
-    "artsportartsport"
+    "artsportartsport",
+    "neotech4k2025"
    ],
    "examples": [
     {
@@ -2829,6 +2864,10 @@
     {
      "video_id": "RrZBTP4gQqM",
      "title": "365 Days Alone: Building a Cliffside Log Cabin Before Winter | by @ArtSportArtSport"
+    },
+    {
+     "video_id": "44gTgssy3Ms",
+     "title": "Dragged from the Mud: Full Custom Ambulance Restoration | by @Neotech4K2025"
     }
    ]
   },
@@ -3384,7 +3423,8 @@
     "homemademadness",
     "ateliermavi",
     "adrianwoodworm",
-    "deborahpaullagrange31"
+    "deborahpaullagrange31",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -3525,7 +3565,8 @@
     "luxonbushcraft",
     "naturalloghouse",
     "trieuthihoa",
-    "shredpile"
+    "shredpile",
+    "nialldivers"
    ],
    "examples": [
     {
@@ -4043,7 +4084,8 @@
     "lifeonthemoose",
     "nickandmala",
     "artsportartsport",
-    "thepasturedhomestead"
+    "thepasturedhomestead",
+    "thompsonscabin"
    ],
    "examples": [
     {
@@ -4131,7 +4173,9 @@
     "wildhammer",
     "bushcraftleo",
     "ladyfieldfarm",
-    "rausaufsland"
+    "rausaufsland",
+    "thebeardedcarpenter",
+    "woodwood1"
    ],
    "examples": [
     {
@@ -5432,7 +5476,8 @@
     "truckschannelrazborgruz",
     "tussik01",
     "vasyl54",
-    "electricsupercar"
+    "electricsupercar",
+    "pedroadventuresofficial"
    ],
    "examples": [
     {
@@ -5466,7 +5511,8 @@
    "creators": [
     "enancinar",
     "septemberflow",
-    "nickandmaela"
+    "nickandmaela",
+    "asceticloner"
    ],
    "examples": [
     {
@@ -5529,7 +5575,9 @@
     "truckschannelrazborgruz",
     "caobaminh1994",
     "vasyl54",
-    "flmangarage"
+    "flmangarage",
+    "modelshipbuildertanaka",
+    "deathtollracing"
    ],
    "examples": [
     {
@@ -5688,7 +5736,8 @@
    "channel_title": "LOG CABIN TV ",
    "creators": [
     "rrbuildings",
-    "mikesdreambuilds"
+    "mikesdreambuilds",
+    "renovacile"
    ],
    "examples": [
     {
@@ -5698,6 +5747,10 @@
     {
      "video_id": "ud-cV9uzaYE",
      "title": "Couple transforms fire-damaged million-dollar mansion into their dream home | by@mikesdreambuilds"
+    },
+    {
+     "video_id": "9sIAQCmc_ng",
+     "title": "Couple spends 3 years renovating an abandoned French house into their dream home | by@Renovacile"
     }
    ]
   },
@@ -5728,12 +5781,21 @@
   "UCpnA5uuvag1ZOKEQKql1LWQ": {
    "channel_title": "GadgetsUnbox",
    "creators": [
-    "rrbuildings"
+    "rrbuildings",
+    "nample"
    ],
    "examples": [
     {
      "video_id": "OLCNZB1OHr0",
      "title": "\u201c@rrbuildings This a simple trick that is easily implemented any time you are installing trims wi"
+    },
+    {
+     "video_id": "RkT68RfA3Vo",
+     "title": "\u201cFollow \ud83d\udca5@techs tube                                                     \ud83d\udca5\ud83d\udca5Source @nample \ud83d\udca5\ud83d\udca5"
+    },
+    {
+     "video_id": "b3RoJdUznZM",
+     "title": "\u201c\ud83c\udf39Source @nample \ud83c\udf39  \ud83d\udd25\ud83d\udd25\ud83d\udd25 Follow us at @gadgetools  to see more"
     }
    ]
   },
@@ -6135,7 +6197,8 @@
     "lesnoycraft8607",
     "restorationtools6868",
     "norusarubushcraft",
-    "polissyabushcraft"
+    "polissyabushcraft",
+    "neotech4k2025"
    ],
    "examples": [
     {
@@ -6262,12 +6325,22 @@
   "UClTaWNhAoPH1QDisJeSUyIw": {
    "channel_title": "Build Master",
    "creators": [
-    "lesnoycraft8607"
+    "lesnoycraft8607",
+    "thompsonscabin",
+    "thebeardedcarpenter"
    ],
    "examples": [
     {
      "video_id": "KWgKONq9qs8",
      "title": "Man Builds a Luxury Off-Grid House Alone in the Forest | Full Build by @lesnoy_craft8607"
+    },
+    {
+     "video_id": "Zg2sfWKLEy4",
+     "title": "Man Builds Stunning Off-Grid Cabin Alone with EZ Log Cabin Kit | Full Build by \u202a@thompsonscabin"
+    },
+    {
+     "video_id": "AAe9w_3kwO4",
+     "title": "Old Man Builds His Dream Log Cabin Alone in the Wilderness | Start to Finish @TheBeardedCarpenter"
     }
    ]
   },
@@ -6980,7 +7053,8 @@
    "creators": [
     "ramizinthewild",
     "mattjacobs1",
-    "theoutsidercabin"
+    "theoutsidercabin",
+    "asceticloner"
    ],
    "examples": [
     {
@@ -7272,12 +7346,17 @@
   "UCkPEDVewXPONtW03JkYwWIA": {
    "channel_title": "Guru Gaming",
    "creators": [
-    "dashingaxe"
+    "dashingaxe",
+    "liumutou"
    ],
    "examples": [
     {
      "video_id": "41oKPvZfR8w",
      "title": "Membangun BUGATTI Kustom Menggunakan 3 Mobil Bekas | @DashingAxe"
+    },
+    {
+     "video_id": "0cbyK8OX05Y",
+     "title": "Building Metal Ferrari 250 GTO With Real Mechanisms   Start to Finish Build by @LiuMutou"
     }
    ]
   },
@@ -7985,7 +8064,8 @@
    "channel_title": "Betelhem Bushcraft",
    "creators": [
     "bushcraftua1",
-    "lifeinthesiberianforest1"
+    "lifeinthesiberianforest1",
+    "asceticloner"
    ],
    "examples": [
     {
@@ -7995,6 +8075,10 @@
     {
      "video_id": "4u4LvIKzYcM",
      "title": "Experience the Winter in a Siberian Wooden House \u2744\ufe0f  By @lifeinthesiberianforest1"
+    },
+    {
+     "video_id": "aX5J8D17X_Q",
+     "title": "Building a Winter Shelter \u2014 Turning the Deep Forest into a Home  By @AsceticLoner"
     }
    ]
   },
@@ -8534,12 +8618,17 @@
   "UChBg8fO_XXIkhlPFr2l1RkQ": {
    "channel_title": "TV technology",
    "creators": [
-    "serkanbilgin27"
+    "serkanbilgin27",
+    "woodwood1"
    ],
    "examples": [
     {
      "video_id": "_4CDazubIcI",
      "title": "The young man built a wooden house on the mountain by himself @serkanbilgin27"
+    },
+    {
+     "video_id": "s2GH1vkDqf4",
+     "title": "The carpenter builds wooden houses in Korean style from start to finish @woodwood1"
     }
    ]
   },
@@ -8596,12 +8685,17 @@
   "UCL9l1Mdcl07TlhrI_6HZdiQ": {
    "channel_title": "Timber Land",
    "creators": [
-    "serkanbilgin27"
+    "serkanbilgin27",
+    "thompsonscabin"
    ],
    "examples": [
     {
      "video_id": "cpLWA0Yw8D0",
      "title": "Man Builds an Amazing Wooden Tiny House with Rooftop Terrace | Start to Finish @serkanbilgin27"
+    },
+    {
+     "video_id": "odU-qftrgNw",
+     "title": "Man Builds Incredible Off-Grid Cabin Alone in Just 3 Days | Start to Finish @thompsonscabin"
     }
    ]
   },
@@ -9055,7 +9149,8 @@
    "channel_title": "TerraForge Collective",
    "creators": [
     "artsportartsport",
-    "norusarubushcraft"
+    "norusarubushcraft",
+    "woodwood1"
    ],
    "examples": [
     {
@@ -9065,6 +9160,10 @@
     {
      "video_id": "VhnZjTALBmc",
      "title": "Building a Solo Bushcraft Cliff House Deep in the Jungle | by @norusarubushcraft"
+    },
+    {
+     "video_id": "akciKR84EAQ",
+     "title": "Building a 2-Story Forest Shelter With Zero Metal Brackets | by @woodwood1"
     }
    ]
   },
@@ -9678,7 +9777,8 @@
    "channel_title": "Tech Processing Review",
    "creators": [
     "wildhammer",
-    "murattuncer"
+    "murattuncer",
+    "liumutou"
    ],
    "examples": [
     {
@@ -9688,6 +9788,10 @@
     {
      "video_id": "HwOnMLRcezk",
      "title": "Amazing DIY Campervan Conversion | Man Builds it from Start to Finish @murattuncer"
+    },
+    {
+     "video_id": "OzdC0gFjaJ8",
+     "title": "Building FERRARI &amp; TANK Insanely Realistic Metal RC Vehicles | Remote Control Models | by @LiuMutou"
     }
    ]
   },
@@ -13348,6 +13452,758 @@
     {
      "video_id": "cfa2d4Cn4Ak",
      "title": "1966 C10 on a Tahoe frame full build on YouTube No rush to sell 28k OBO email flmangarage@gmail.com"
+    }
+   ]
+  },
+  "UCPSnYTE4jjGYE7AG6nMNROg": {
+   "channel_title": "Advanced Screenworks",
+   "creators": [
+    "lifestylescreens"
+   ],
+   "examples": [
+    {
+     "video_id": "yn1-NsCfW8Q",
+     "title": "Track Assembly Installation: Lifestyle Screens garage door screen"
+    },
+    {
+     "video_id": "RKLMIo-ZuGE",
+     "title": "Lifestyle Screens Garage Door Screens: Frame Assembly"
+    },
+    {
+     "video_id": "pAyUZyS6tRA",
+     "title": "Live the Lifestyle! Lifestyle Screens garage screen www.LifestyleScreens.com"
+    }
+   ]
+  },
+  "UCZrN3CyjJgeQMmnKLU0TPHg": {
+   "channel_title": "Mike's Garage Door Screens",
+   "creators": [
+    "lifestylescreens"
+   ],
+   "examples": [
+    {
+     "video_id": "XuVrYAoUALQ",
+     "title": "Lifestylescreens. Brown frame/ black super screen mesh.."
+    },
+    {
+     "video_id": "wiI6ZYqKBJ8",
+     "title": "Lifestylescreens by premier garage door screens.com llc"
+    },
+    {
+     "video_id": "aIH_Z88hq10",
+     "title": "lifestylescreens by premier garage door screens. witb upgrade pca still water -110 middle screen"
+    }
+   ]
+  },
+  "UC7GRh9bLawg91z7FAHbCwQQ": {
+   "channel_title": "GaRaGe MaN TeDdY \ud83e\uddf8",
+   "creators": [
+    "lifestylescreens"
+   ],
+   "examples": [
+    {
+     "video_id": "U1w6ny4dfUg",
+     "title": "Beautiful Retractable garage door screen install @LifestyleScreens"
+    },
+    {
+     "video_id": "KqMx-m-PYJQ",
+     "title": "Lifestyle 16x7 white frame white retractable garage door screen @LifestyleScreens"
+    },
+    {
+     "video_id": "dekdFD1zIGo",
+     "title": "Lifestyle garage screen door 16x7 sandstone frame @LifestyleScreens#beautiful  #explore"
+    }
+   ]
+  },
+  "UCUYHODOR4osdP0O0pE6J2lw": {
+   "channel_title": "advancedscreenworks",
+   "creators": [
+    "lifestylescreens"
+   ],
+   "examples": [
+    {
+     "video_id": "cHmL2NqeQXw",
+     "title": "Lifestyle Screens garage screen: www.LifestyleScreens.com"
+    },
+    {
+     "video_id": "rlV38nqgkjE",
+     "title": "Ultimate Garage Screen (Patented) www.LifestyleScreens.com"
+    },
+    {
+     "video_id": "MQ2zDkC-fEQ",
+     "title": "Lifestyle Screens garage screen News Clip www.LifestyleScreens.com"
+    }
+   ]
+  },
+  "UCdWysCA6JTj52bLj4bin57Q": {
+   "channel_title": "WTI",
+   "creators": [
+    "lifestylescreens"
+   ],
+   "examples": [
+    {
+     "video_id": "_YiVtC0cWO0",
+     "title": "Our Point of View on Lifestyle Screens 7&#39; Garage Door Screen"
+    }
+   ]
+  },
+  "UCfsuft5YNUBHK6dBgvptftg": {
+   "channel_title": "Lemoult'e Batteries",
+   "creators": [
+    "renovacile"
+   ],
+   "examples": [
+    {
+     "video_id": "nfSv45OBVsY",
+     "title": "Installation de @renovacile, superbe rencontre, merci \u00e0 vous \ud83d\ude4f"
+    }
+   ]
+  },
+  "UCaQc-ga9s89WaiDnupLO8Dw": {
+   "channel_title": "FFF KING",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "emS9Z3BzCfE",
+     "title": "nample agebejease in ahyudere"
+    }
+   ]
+  },
+  "UCps3JVyzD7NtMGix6OBLPBA": {
+   "channel_title": "Installateur TV (Installateur TV)",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "y7k2M7xoXjU",
+     "title": "KEA Working Pad by BA-Bachler | Anwendungsvideo nample"
+    },
+    {
+     "video_id": "6t6iXXHGXxU",
+     "title": "SOS Leckpumpe 2.0 - Video by nample"
+    }
+   ]
+  },
+  "UCXX1HKnGjNTHbmL_7MAZmtA": {
+   "channel_title": "ROTHENBERGER DE",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "98CALiGSwsQ",
+     "title": "nample testet die #romax NANO"
+    }
+   ]
+  },
+  "UCWIUzUISMz-GlHtjduJPq1A": {
+   "channel_title": "Cyber BOX",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "f6rDAWoYNp8",
+     "title": "\u201cthey look really amazing\ud83d\ude0d Follow \ud83d\udc49@industrial gadgets for more                   Via @nample"
+    }
+   ]
+  },
+  "UClTu2k5XTyu1Sp5tt3uvG8Q": {
+   "channel_title": "\uc2a4\ud1a4",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "iS2PtFSE958",
+     "title": "Nample s vs Fluno"
+    },
+    {
+     "video_id": "71vvKeD4lKs",
+     "title": "Nample s vs luno"
+    }
+   ]
+  },
+  "UChbPPpb8ME2HnlLxxO2tz8g": {
+   "channel_title": "EX75",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "XtMmDW86OAU",
+     "title": "Doors entry (2)(hosted by Nample)"
+    },
+    {
+     "video_id": "APCdENuzCVU",
+     "title": "occ collab (hosted by Nample)"
+    },
+    {
+     "video_id": "qO8FHwcmhPo",
+     "title": "Doors entry (1)(hosted by Nample)"
+    }
+   ]
+  },
+  "UCv29vTdvbi7nLS4MQIFFNXg": {
+   "channel_title": "PINKTECH\ud83d\udd25\ud83d\udca5",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "3Auii6tnWf0",
+     "title": "Hair trap and plug combo! \ud83d\ude2e\ud83d\udc4f\ud83c\udffc\ud83d\udca5\ud83d\udcaf(via @nample)"
+    },
+    {
+     "video_id": "0wudF2BRgP0",
+     "title": "Mounting leveling tool! \ud83e\udd29\ud83d\udd25 (via @nample)"
+    }
+   ]
+  },
+  "UCeYV4T9HwXqfKdkCeL0Pq6w": {
+   "channel_title": "TechShorts01",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "rK6fiac59P0",
+     "title": "Smooth! @nample"
+    }
+   ]
+  },
+  "UCJgcerAe_mZGnN4h0Vt-aZw": {
+   "channel_title": "Lamp 5766",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "tf08NU8HKuM",
+     "title": "Joint with Nample"
+    }
+   ]
+  },
+  "UCndQdbzliDCwJEVqHJD0fsA": {
+   "channel_title": "flip\uc548\uac1c\uc19c",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "HoL2dbSMom0",
+     "title": "nample s \ub2d8 \ud569\uc791 \ub0b4 \ud30c\ud2b8"
+    }
+   ]
+  },
+  "UCD1y8J9x0F4PEht0QQ7ftoQ": {
+   "channel_title": "ROTHENBERGER",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "fpVr8sKoPds",
+     "title": "The new #romax NANO in action - tested by nample"
+    }
+   ]
+  },
+  "UClGypFRoh4mtxLoKx09ireQ": {
+   "channel_title": "Tech Cyber",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "JviN2irbWcY",
+     "title": "\u201c\ud83d\udc4d\ud83d\udc4dFollow \ud83d\udc49@innovations city for more                   Source @nample      DM for credit or rem"
+    }
+   ]
+  },
+  "UCAMcPg2mDxBnK5DGJxZimRg": {
+   "channel_title": "FIX MR",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "8AqqV-E3olw",
+     "title": "\u00a0Multi-functional cutting system! \ud83d\udd25\ud83d\ude2f (via\u00a0@nample)"
+    }
+   ]
+  },
+  "UCHLPGQRYSMA-GVcEdLFkdwA": {
+   "channel_title": "Nampal Singh",
+   "creators": [
+    "nample"
+   ],
+   "examples": [
+    {
+     "video_id": "JTeosPvp7s8",
+     "title": "Nample Singh"
+    }
+   ]
+  },
+  "UCwfZpvjUKJbH8AbOW3HiCoA": {
+   "channel_title": "Crazy jungle adventures ",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "7idDvUTrUv8",
+     "title": "Off-grid living without power or running water #offgridlife #homesteading"
+    },
+    {
+     "video_id": "E-V_iJTNWb8",
+     "title": "We all need chicken soup ##offgridlife #growyourownfood"
+    },
+    {
+     "video_id": "upzDzJqaMDA",
+     "title": "Shelling corn \ud83c\udf3d by hand #offgridlife"
+    }
+   ]
+  },
+  "UCwM0mXM69nniZ_HGdCeRL5w": {
+   "channel_title": "Going Off Grid",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "XgbiUPLZ0s4",
+     "title": "Putting the #uhi #tractor to work! #offgrid #rainwater #offgridlife #construction #homesteading"
+    }
+   ]
+  },
+  "UCHHPa8ajPcmkPytaO8bRuhg": {
+   "channel_title": "Luke & Dakota Off-Grid",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "nbDcY6Q5_VY",
+     "title": "We live off-grid because it\u2019s cool! #OffGrid #OffGridLiving #OffGridHomestead #OffGridLife"
+    },
+    {
+     "video_id": "bDESNewj_DQ",
+     "title": "My off-grid morning routine \ud83e\udd20 #OffGrid #OffGridLife #MorningRoutine"
+    },
+    {
+     "video_id": "HGznS-sZaFc",
+     "title": "Off-grid living with extraterrestrials \ud83d\udc7d #OffGrid #OffGridLife #AiArt #Aliens #Homesteadlife"
+    }
+   ]
+  },
+  "UColTUF-CKmLipwQIpMgpqvQ": {
+   "channel_title": "My Wild Holm",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "nqvJ_U_EurQ",
+     "title": "We Bought a Remote Island \u2014 No Turning Back | Off Grid Life"
+    }
+   ]
+  },
+  "UCZR5WyXMbKw7a9-uof35L-Q": {
+   "channel_title": "Off Grid Aussies",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "klmJx_iVAgY",
+     "title": "Modern Day Caveman  #shorts #offgrid #offgridliving #offgridlife"
+    }
+   ]
+  },
+  "UCaHJ0I3Tz2W70JpxCADRlzA": {
+   "channel_title": "theinfinitecup",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "CYUOX-H6_yo",
+     "title": "How much I spend every month to live OFF GRID.  \u2026 #offgrid #offgridliving #offgridlife #offgridpower"
+    }
+   ]
+  },
+  "UCLO9n5sEoTKsDFMfqCPHt9A": {
+   "channel_title": "Nate Petroski",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "YkWkr5Fgi00",
+     "title": "Solar power system overview #narrowayhomestead #homesteadtoktok #offgridlife #solar #solarpower"
+    },
+    {
+     "video_id": "YqaS50xIRBU",
+     "title": "I use Woodrich Timber Oil on the homestead #narrowayhomestead #offgridlife #woodstain #woodrich"
+    },
+    {
+     "video_id": "yCC5UAQtALY",
+     "title": "Part 1  #Narrowayhomestead #homesteadtoktok #offgridlife #narrowayouthouse #outhouse"
+    }
+   ]
+  },
+  "UCQw-rMuySYoFVZX-wKsRlPg": {
+   "channel_title": " Barbie Lumber",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "UaHfIIdUrK0",
+     "title": "Sorry not sorry #offgrid #wood #offgridlife #trees #Woodworking"
+    }
+   ]
+  },
+  "UC0D_YLQoyULFtMeWMS_Bh2Q": {
+   "channel_title": "Mark Hogben",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "qCetKvbik48",
+     "title": "off-grid morning routine #offgridlife #offgrid #offgridcabin #offgridliving"
+    },
+    {
+     "video_id": "CQumanYWigE",
+     "title": "#watersystem #waterfromthelake #lakewater #offgridlife #offgrid #offgridliving #offgridcabin"
+    },
+    {
+     "video_id": "phJ7-D5Z0ss",
+     "title": "Waiting for the ice #offgridlife #offgrid #offgridliving"
+    }
+   ]
+  },
+  "UCx96Okokuk0vdLwMAlGcyDw": {
+   "channel_title": "Off Grid Fix",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "vT2wReVVrv4",
+     "title": "Roof mounted hoist for off-grid! #diy #repair #offgrid #offgridliving #offgridlife #harborfrieght"
+    }
+   ]
+  },
+  "UCc8h7ajq7FbV_oipkN2zwsw": {
+   "channel_title": "Off Grid & Growing",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "Kv0U6k1UQfI",
+     "title": "How we started our Off Grid Journey landstruck.com #offgridliving #alternativeliving #offgridlife"
+    }
+   ]
+  },
+  "UCnVqWBOBKLlkT2Ts5bpnwgQ": {
+   "channel_title": "Jungle OutdoorBoys",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "BXoDAcEMh0s",
+     "title": "Harvesting and drying fresh parsley  #harvest  #growyourownfood #offgridlife"
+    }
+   ]
+  },
+  "UCEEnJP4deLkG_mkvAn8sDUQ": {
+   "channel_title": "Mwinvictus",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "dBv9V9Y6p44",
+     "title": "Off-grid propane hack #offgridliving #offgridlife #offgridhomestead #offgrid #homestead"
+    }
+   ]
+  },
+  "UCQnKO-OcnmeYi4KbVkZeulw": {
+   "channel_title": "Violas Akzent Ranch",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "hvAGdvg2TM0",
+     "title": "Girl building off grid porch #cabinlife #homestead #offgridcabin #offgridlife #homesteading"
+    },
+    {
+     "video_id": "4MokOhovHv0",
+     "title": "#cabinlife #homestead #offgridcabin #offgridlife #diyhomeimprovement #homesteading"
+    }
+   ]
+  },
+  "UCOp_6qrQ1h0TzSDTFlWQ22g": {
+   "channel_title": "Montana wolf Trapper  Paul Antczak ",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "fqNqdJDa_TU",
+     "title": "Sunday funday #mountainmen #offgrid #historychannel #offgridlife #offgridliving"
+    }
+   ]
+  },
+  "UCoBpf5w71F9N2xdduoL_GsA": {
+   "channel_title": "Girl Off Grid",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "j9YuqMs5r9g",
+     "title": "Puppy Love \u2764\ufe0f \u2600\ufe0f #tinyhomes #containerhome #mountains #offgridlife #offgridliving #puppylove"
+    }
+   ]
+  },
+  "UCeFbH3moaDvzQ6aAPOLQhDQ": {
+   "channel_title": "CHOIRBOYZ!!",
+   "creators": [
+    "offgridlife"
+   ],
+   "examples": [
+    {
+     "video_id": "0QP2J6SEa_Y",
+     "title": "OFF GRID KNIVES #shorts #knifereview #offgrid #offgridlife"
+    }
+   ]
+  },
+  "UCndayFU3bSvH24j1DeG7BUQ": {
+   "channel_title": "WildForge Table ",
+   "creators": [
+    "thompsonscabin"
+   ],
+   "examples": [
+    {
+     "video_id": "RDpShXW14sc",
+     "title": "Building an Off-Grid Dream Home From Foundation to Finished Roof @thompsonscabin  @QuantumMakers"
+    }
+   ]
+  },
+  "UCq_J4_icz80b-bf7B63jUeQ": {
+   "channel_title": "Matt and Mouse",
+   "creators": [
+    "thompsonscabin"
+   ],
+   "examples": [
+    {
+     "video_id": "zulXbHahChU",
+     "title": "Q&amp;A with @thompsonscabin - what\u2019s your favourite movie Thompson? - @lorettaandjasonoffgrid"
+    },
+    {
+     "video_id": "DXHSiZZXnX0",
+     "title": "Questions for @thompsonscabin ?? Let me know in the comments \ud83d\ude42"
+    },
+    {
+     "video_id": "2vvAidGlx3w",
+     "title": "@lorettaandjasonoffgrid Sophie love just for you! \ud83d\udc36\ud83d\udc3e\ud83e\uddb4 - @thompsonscabin"
+    }
+   ]
+  },
+  "UCf-JPjnF3GwUaBHSRy3vzhQ": {
+   "channel_title": "Just Jason Keto",
+   "creators": [
+    "thompsonscabin"
+   ],
+   "examples": [
+    {
+     "video_id": "dX7vMDC-4ws",
+     "title": "Homestead Hangout Episode 2 With @mattandmouse @lorettaandjasonoffgrid@thompsonscabin"
+    }
+   ]
+  },
+  "UCafBMbAj0inKafyJuuJqPKA": {
+   "channel_title": "Hairy DIY",
+   "creators": [
+    "nialldivers"
+   ],
+   "examples": [
+    {
+     "video_id": "0uWC6Og2anY",
+     "title": "Man builds two-story house from old car tires | Low-Cost Housing @nialldivers"
+    }
+   ]
+  },
+  "UCmz8mcTP1zQ5f8jDrIVx8Xg": {
+   "channel_title": "Craig's cabin charity",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "xT32t3BWtEE",
+     "title": "Check out and support \u200e@TheBeardedCarpenter\u00a0  (Link and about information in description)"
+    }
+   ]
+  },
+  "UCxuF1nODidie6iJz03s56-Q": {
+   "channel_title": "Makelab",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "h4aPvlGFDKM",
+     "title": "Man Builds an AMAZING Sawmill Shed | Step by Step Guide by @TheBeardedCarpenter"
+    }
+   ]
+  },
+  "UCj5aCE1H1loUXgVAA3kX7bg": {
+   "channel_title": "LogCraft TV24H",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "JOrkbg7zC7I",
+     "title": "A Man Survived 100 Days Building A Wilderness Cabin Alone@TheBeardedCarpenter"
+    }
+   ]
+  },
+  "UCJ6WAJcgO9_hBuSdqT3IhGw": {
+   "channel_title": "Tree Haven",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "Ts-O0IfK-ms",
+     "title": "The Bearded Carpenter Movie Trailer. @TheBeardedCarpenter @woodlandmills Sawmill HM126"
+    },
+    {
+     "video_id": "ibglfs-XMe4",
+     "title": "Sawing Logs with a Log Home Legend.Sawmill work on a @woodlandmills HM126 with @TheBeardedCarpenter"
+    }
+   ]
+  },
+  "UCz6yk6jOlrHI9TTS8B-vb7Q": {
+   "channel_title": "DREWS LENS",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "RJWjwlumry4",
+     "title": "Show and Tell (Log cabin) @SimpleLifeReclaimed @BobbleheadHomestead @TheBeardedCarpenter"
+    }
+   ]
+  },
+  "UCjiNNZc4RsNQZwIqajAUHgw": {
+   "channel_title": "Ivey's Family Factotum",
+   "creators": [
+    "thebeardedcarpenter"
+   ],
+   "examples": [
+    {
+     "video_id": "sPNpAiCPatw",
+     "title": "Bridge Build Part 5 | Getting SUPPLIES from @TheBeardedCarpenter  | Visiting a local sawmill"
+    }
+   ]
+  },
+  "UCX4QcosCJUVUIIvj2ZXI7xQ": {
+   "channel_title": "KK DIY PROJECT",
+   "creators": [
+    "liumutou"
+   ],
+   "examples": [
+    {
+     "video_id": "oSoHerNksUk",
+     "title": "He Built an Unstoppable RC Beast in 150 Days \u2013 Pure Genius!  @LiuMutou"
+    }
+   ]
+  },
+  "UCEM2P2nFE8qJPOU2qYz9J7w": {
+   "channel_title": "Seer 365",
+   "creators": [
+    "1billiontech"
+   ],
+   "examples": [
+    {
+     "video_id": "LZAWhV9fm_Q",
+     "title": "Offshore Magic: Transforming Dynamics 365 Projects with 1BillionTech"
+    }
+   ]
+  },
+  "UCzG9SuOc2zqpZoaHAx_Yd9g": {
+   "channel_title": "Samrat Ruidas",
+   "creators": [
+    "1billiontech"
+   ],
+   "examples": [
+    {
+     "video_id": "sCYnQTfH1Vc",
+     "title": "$1,000,000,000 Futuristic Technology\ud83d\ude33Future Is Here!#shorts #shortfeed #FuturisticTech #1BillionTech"
+    }
+   ]
+  },
+  "UCo4AJJYv5k_tuZgwnmNm-pQ": {
+   "channel_title": "Makerist",
+   "creators": [
+    "woodwood1"
+   ],
+   "examples": [
+    {
+     "video_id": "flCRzCdHRGM",
+     "title": "Man Builds an Incredible Traditional Korean Hanok House from Start to Finish | Build by@woodwood1"
+    }
+   ]
+  },
+  "UCkCUEfg3RFHLRiGcn9lZc8g": {
+   "channel_title": "Titan Ground Crew",
+   "creators": [
+    "neotech4k2025"
+   ],
+   "examples": [
+    {
+     "video_id": "UD6EAcP4EaA",
+     "title": "Excavated from a Trench: Abandoned Van to Ambulance Build | by @Neotech4K2025"
+    }
+   ]
+  },
+  "UCP-94I9N7udn5bQSv-NZkDg": {
+   "channel_title": "Forge & Fable",
+   "creators": [
+    "neotech4k2025"
+   ],
+   "examples": [
+    {
+     "video_id": "0Nu6QFMfRoo",
+     "title": "Digging up and restoring a completely buried sedan | by @Neotech4K2025"
+    },
+    {
+     "video_id": "INOY6jmLLjU",
+     "title": "Abandoned Scrap to Working Machine: Complete Solo Rebuild | by @Neotech4K2025"
+    }
+   ]
+  },
+  "UCEi3VOEbmwng9_O270_aTUg": {
+   "channel_title": "Crafted Structures",
+   "creators": [
+    "neotech4k2025"
+   ],
+   "examples": [
+    {
+     "video_id": "-RWXCr3XK18",
+     "title": "Buried in Mud: Complete Classic Ambulance Restoration | by @Neotech4K2025"
     }
    ]
   }

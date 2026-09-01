@@ -7479,5 +7479,146 @@
   ],
   "attribution": 1.0,
   "median_secs": 790
+ },
+ "UClTaWNhAoPH1QDisJeSUyIw": {
+  "n": 7,
+  "n_in_scope": 7,
+  "perp_median_in": 39894,
+  "n_reported": 9,
+  "shorts_excluded": 2,
+  "views": 459416,
+  "perp_total": 2622737,
+  "perp_mean": 374677,
+  "perp_median": 39894,
+  "perp_90d": 374677,
+  "perp_90d_median": 39894,
+  "n_90d": 7,
+  "n_90d_raw": 7,
+  "recent_window": [
+   12,
+   150
+  ],
+  "creators": [
+   "lesnoycraft8607",
+   "thebeardedcarpenter",
+   "thompsonscabin",
+   "worzallabrothers"
+  ],
+  "attribution": 0.57,
+  "median_secs": 1704
+ },
+ "UCpnA5uuvag1ZOKEQKql1LWQ": {
+  "n": 0
+ },
+ "UCL9l1Mdcl07TlhrI_6HZdiQ": {
+  "n": 12,
+  "n_in_scope": 12,
+  "perp_median_in": 12598,
+  "n_reported": 14,
+  "shorts_excluded": 2,
+  "views": 48366,
+  "perp_total": 519323,
+  "perp_mean": 43277,
+  "perp_median": 12598,
+  "perp_90d": 5676,
+  "perp_90d_median": 741,
+  "n_90d": 6,
+  "n_90d_raw": 12,
+  "recent_window": [
+   12,
+   150
+  ],
+  "creators": [
+   "buildinginnature",
+   "ericlecarreleur",
+   "mattjacobs1",
+   "serkanbilgin27",
+   "thompsonscabin",
+   "woodsandwonderscabin"
+  ],
+  "attribution": 0.58,
+  "median_secs": 1367
+ },
+ "UCkPEDVewXPONtW03JkYwWIA": {
+  "n": 138,
+  "n_in_scope": 8,
+  "perp_median_in": 98,
+  "n_reported": 270,
+  "shorts_excluded": 132,
+  "views": 49648,
+  "perp_total": 50293,
+  "perp_mean": 364,
+  "perp_median": 335,
+  "perp_90d": null,
+  "perp_90d_median": null,
+  "n_90d": 0,
+  "n_90d_raw": 0,
+  "recent_window": [
+   12,
+   150
+  ],
+  "creators": [
+   "bonbonscalemodel",
+   "boxlapse",
+   "dashingaxe",
+   "himalayanhoney",
+   "liumutou",
+   "motorizing",
+   "ouroborosarq192",
+   "woodwolf"
+  ],
+  "attribution": 0.06,
+  "median_secs": 1390
+ },
+ "UCOr5c68B5F8j7GX8XHv8EnA": {
+  "n": 3,
+  "n_in_scope": 3,
+  "perp_median_in": 2307,
+  "n_reported": 3,
+  "shorts_excluded": 0,
+  "views": 35231,
+  "perp_total": 49489,
+  "perp_mean": 16496,
+  "perp_median": 2307,
+  "perp_90d": null,
+  "perp_90d_median": null,
+  "n_90d": 0,
+  "n_90d_raw": 0,
+  "recent_window": [
+   12,
+   150
+  ],
+  "creators": [
+   "advoko",
+   "liumutou",
+   "mustaqimmuhammadhatta"
+  ],
+  "attribution": 1.0,
+  "median_secs": 1023
+ },
+ "UChBg8fO_XXIkhlPFr2l1RkQ": {
+  "n": 3,
+  "n_in_scope": 3,
+  "perp_median_in": 25,
+  "n_reported": 3,
+  "shorts_excluded": 0,
+  "views": 140,
+  "perp_total": 157,
+  "perp_mean": 52,
+  "perp_median": 25,
+  "perp_90d": null,
+  "perp_90d_median": null,
+  "n_90d": 0,
+  "n_90d_raw": 0,
+  "recent_window": [
+   12,
+   150
+  ],
+  "creators": [
+   "serkanbilgin27",
+   "woodwood1"
+  ],
+  "attribution": 0.67,
+  "median_secs": 1911
  }
 }
